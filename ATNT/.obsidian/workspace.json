@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "a77a6e1a3fa4446c",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3cd382f9c1c07ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d3476dcefbc024d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 Project/Java.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "487be521a63f4785",
+    "type": "split",
+    "children": [
+      {
+        "id": "10fd1e43eedb1811",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61a8612997e8d250",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cb650bccba9ed72c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8883ae1421f3db8f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd48fdb54df879d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "81469929e4efa8ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e163d9883b7df5c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1 Project/Java.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b23211b58ca29ad8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1 Project/Java.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "67102a5372f1150c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4649e2ec10b039bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1 Project/Java.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "2d3476dcefbc024d",
+  "lastOpenFiles": [
+    "1 Project/Git.md",
+    "CS-Interview-study/자료구조,알고리즘",
+    "Side Project/Calorie Map.md",
+    "Side Project/TODO list.md",
+    "Side Project/ShoppingMall.md",
+    "Side Project/MBTI TEST.md",
+    "Side Project/HomePage.md",
+    "Side Project",
+    "1 Project/Java.md",
+    "1 Project/Clean Coding.md",
+    "2 Area/JAVA Version.md",
+    "1 Project/Weekly Schedule.md",
+    "ITInfraStructure/template/챕터 템플릿",
+    "ITInfraStructure/template",
+    "ITInfraStructure/README.md",
+    "ITInfraStructure",
+    "operatingsystem/회의/20231224.md",
+    "operatingsystem/회의",
+    "operatingsystem/template/챕터 템플릿.md",
+    "operatingsystem/template",
+    "operatingsystem/ch09/09-2 운영체제의 큰 그림.md",
+    "operatingsystem/ch09/09-2 운영체제의 큰 그림.html",
+    "operatingsystem/ch09/09-1 운영체제를 알아야 하는 이유.md",
+    "operatingsystem/ch09/09-1 운영체제를 알아야 하는 이유.html",
+    "operatingsystem/ch09/09-2 운영체제의 큰 그림 - 동욱 1.md",
+    "operatingsystem/ch09/09-1 운영체제를 알아야 하는 이유 - 동욱 1.md",
+    "operatingsystem/ch09",
+    "operatingsystem/ch08/입출력장치.md",
+    "operatingsystem/ch08/08-2 다양한 입출력 방법.md",
+    "operatingsystem/ch08/08-2 다양한 입출력 방법 - 동욱.md",
+    "operatingsystem/ch08/08-1 장치 컨트롤러와 장치 드라이버.md",
+    "operatingsystem/ch07/보조기억장치.md",
+    "operatingsystem/ch07/07-2 RAID의 정의와 종류.md",
+    "operatingsystem/ch07/07-1 다양한 보조기억장치.md",
+    "operatingsystem/image/chapter3/컴퓨터의명령어이해.jpg",
+    "operatingsystem/image/chapter3/컴파일과인터프리터.jpeg",
+    "operatingsystem/image/chapter3/언어별이동.jpg",
+    "operatingsystem/image/chapter3/기계어_어셈블리어.jpeg",
+    "operatingsystem/image/chapter3/어셈블리어.jpeg",
+    "operatingsystem/image/chapter3/N주소명령어.jpeg",
+    "operatingsystem/image/chapter2/유니코드-UTF8.jpeg",
+    "operatingsystem/image/chapter14/가상메모리-9.jpeg",
+    "operatingsystem/image/chapter14/가상메모리-8.jpeg",
+    "operatingsystem/image/chapter14/가상메모리-7.png",
+    "operatingsystem/ch15/15-2 파일 시스템.md"
+  ]
+}
