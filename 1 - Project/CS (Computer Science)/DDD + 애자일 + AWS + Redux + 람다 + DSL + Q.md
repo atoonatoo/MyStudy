@@ -4,6 +4,18 @@ created:
 ---
 # **README**
 
+
+- 목요일 8시 
+	- 요구사항 분석서, ERD 
+	- 기술 공부 미리하고 오기
+	- 유튜브 API 미리 공부
+	- 오가니제이션 미리 공부
+	- 브랜치 전략 미리 공부
+- 요구사항분석
+	- 
+- ERD 
+	- 
+
 - 우테코 리포지토리 
 	- https://github.com/woowacourse-teams
 - 애자일 방법론 채택한 우테코 리포지토리
@@ -16,7 +28,6 @@ created:
 - Git PR, Issue 관리
 	 - https://velog.io/@pgmjun/Github-%ED%98%91%EC%97%85-%EC%9D%B4%EA%B2%83%EB%A7%8C%EC%9D%80-%EC%95%8C%EC%9E%90-Issue-PR
 - Slack 관리
-	- 
 - Notion 관리
 	- https://www.youtube.com/watch?v=L83l3zE_1PA
 
@@ -71,7 +82,7 @@ created:
 			    - 팀원 C: Git Organization
 			    - 팀원 A: Notion
 			    - 팀원 B: Slack
-##### 안건 3 노션과 GitOganigation만 2명이서 격주로 관리
+##### 채택 안건 3 노션과 GitOganigation만 2명이서 격주로 관리
 
 
 
