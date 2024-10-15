@@ -11,8 +11,12 @@
             "id": "49f5d0d1db607ecc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md"
+              }
             }
           }
         ]
@@ -130,14 +138,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false,
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "49f5d0d1db607ecc",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "1 - Project/Programing Project/Portfolio Project/Techie/Orientation.md",
+    "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
+    "1 - Project/Programing Project/Portfolio Project/Techie",
+    "1 - Project/0 Main/0 - Main.md",
+    "2 - Area/Obsidian.md"
+  ]
 }
