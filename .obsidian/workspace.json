@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
+                "file": "1 - Project/0 Main/BookMark.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
+                "file": "1 - Project/0 Main/BookMark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
+                "file": "1 - Project/0 Main/BookMark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md"
+                "file": "1 - Project/0 Main/BookMark.md"
               }
             }
           }
@@ -138,7 +138,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -146,15 +146,18 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "49f5d0d1db607ecc",
   "lastOpenFiles": [
-    "1 - Project/Programing Project/Portfolio Project/Techie/Orientation.md",
-    "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
-    "1 - Project/Programing Project/Portfolio Project/Techie",
     "1 - Project/0 Main/0 - Main.md",
+    "1 - Project/0 Main/BookMark.md",
+    "1 - Project/0 Main/Tip.md",
+    "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
+    "1 - Project/Programing Project/Portfolio Project/Techie/Orientation.md",
+    "1 - Project/Programing Project/Portfolio Project/Techie",
     "2 - Area/Obsidian.md"
   ]
 }
