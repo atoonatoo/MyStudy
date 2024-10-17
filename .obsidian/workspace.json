@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Project/0 Main/BookMark.md",
+                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Project/0 Main/BookMark.md",
+                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Project/0 Main/BookMark.md",
+                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Project/0 Main/BookMark.md"
+                "file": "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md"
               }
             }
           }
@@ -152,11 +152,15 @@
   },
   "active": "49f5d0d1db607ecc",
   "lastOpenFiles": [
+    "1 - Project/Programing Project/Portfolio Project/Techie/Orientation.md",
+    "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
+    "1 - Project/Programing Project/Side Project/ShoppingMall.md",
+    "1 - Project/Programing Project/Portfolio Project/skillstory Project.md",
+    "1 - Project/Programing Project/Portfolio Project/Study_commuity.md",
     "1 - Project/0 Main/0 - Main.md",
     "1 - Project/0 Main/BookMark.md",
+    "1 - Project/0 Main/Site Link.md",
     "1 - Project/0 Main/Tip.md",
-    "1 - Project/Programing Project/Portfolio Project/Techie/Conference.md",
-    "1 - Project/Programing Project/Portfolio Project/Techie/Orientation.md",
     "1 - Project/Programing Project/Portfolio Project/Techie",
     "2 - Area/Obsidian.md"
   ]
