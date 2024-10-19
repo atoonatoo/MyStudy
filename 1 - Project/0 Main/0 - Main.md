@@ -31,7 +31,6 @@ updated: 2024-09-20
 - [ ] 이력서 준비
 ## 📚Calendar
 
-
 ---
 # 📚**Information
 
