@@ -40,6 +40,37 @@ https://velog.io/@hkh1213/%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%94%A9%EC%9D%98
 - (https://velog.io/@josworks27/%EC%9B%B9-%EC%84%9C%EB%B2%84Server%EC%9D%98-%EA%B8%B0%EC%B4%88-%EA%B0%9C%EB%85%90)[https://velog.io/@josworks27/웹-서버Server의-기초-개념](https://velog.io/@josworks27/%EC%9B%B9-%EC%84%9C%EB%B2%84Server%EC%9D%98-%EA%B8%B0%EC%B4%88-%EA%B0%9C%EB%85%90)
 
 
+### 📚 3. Site Link
+
+#### **YOUTUBE
+- AWS 쉽게 배포하는 방법
+	- https://www.youtube.com/watch?v=cOUhREAWJNw
+- 
+#### 우테코 Youtube
+- Build와 배포란?
+	- https://www.youtube.com/watch?v=4LBMCHFLLpg
+#### Bootstrap
+- typescript bootstrap
+	-  https://tailwindui.com/components/application-ui/navigation/vertical-navigation
+#### Git Repository 
+##### Git Repogitory 모범 사례
+- https://github.com/woowacourse-teams/2022-pickpick
+- https://github.com/yeon-06/woowacourse-archive
+- https://github.com/orgs/woowacourse-teams/projects/52
+-  https://minha0220.tistory.com/72
+- 좋은 README 및 기술 스텍 사용 참고
+	- https://github.com/midaslmg94/wing-project-msa
+##### MSA 아키텍처 수행한 Git Repository Team
+- https://github.com/mannazo
+- https://github.com/orgs/lawmate-site/repositories 
+
+
+ ##### **기술 개발 블로그**
+- MSA 프로젝트 생성 참고 - https://memodayoungee.tistory.com/157
+
+---
+
+---
 #### CS
 - MVN Repository
 	- 그래들, 메이븐 등의 의존성 버전 업데이트 
