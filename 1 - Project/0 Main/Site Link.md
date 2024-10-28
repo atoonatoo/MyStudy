@@ -71,6 +71,9 @@ https://velog.io/@hkh1213/%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%94%A9%EC%9D%98
 ---
 
 ---
+#### Trouble Shooting
+- git repository에 git ignore  .idea 추가해야하는 이유 및 과정
+	- https://pixx.tistory.com/384
 #### CS
 - MVN Repository
 	- 그래들, 메이븐 등의 의존성 버전 업데이트 
