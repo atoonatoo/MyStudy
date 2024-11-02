@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "Employment"
             }
+          },
+          {
+            "id": "0e8281633f5d463f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,11 +178,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a4ca1b9d0c516067",
+  "active": "0e8281633f5d463f",
   "lastOpenFiles": [
+    "1 - Project/0 Main/Employment.md",
     "1 - Project/0 Main/0 TodoList.md",
     "1 - Project/0 Main/Annotation Study Method.md",
-    "1 - Project/0 Main/Employment.md",
     "1 - Project/0 Main/Mentoring.md",
     "ATNT/1 Project/Trouble Shooting.md",
     "1 - Project/0 Main/Study List.md",
