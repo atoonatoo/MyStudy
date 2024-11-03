@@ -31,8 +31,7 @@
               "title": "새 탭"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +177,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0e8281633f5d463f",
+  "active": "a4ca1b9d0c516067",
   "lastOpenFiles": [
     "1 - Project/0 Main/Employment.md",
     "1 - Project/0 Main/0 TodoList.md",
