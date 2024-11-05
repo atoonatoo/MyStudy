@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bfd0cf9ae737f16c",
+        "id": "7de3c0ae7c20f7fb",
         "type": "tabs",
         "children": [
           {
-            "id": "a4ca1b9d0c516067",
+            "id": "82de2614147f537f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -167,12 +166,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a4ca1b9d0c516067",
+  "active": "b85ca5c06d88fbdf",
   "lastOpenFiles": [
-    "Pasted image 20241104140921.png",
-    "Pasted image 20241104140847.png",
-    "0 - Main/0 Main/Employment.md",
+    "6 - Files/Image/Pasted image 20241104140847.png",
+    "무제 파일.md",
+    "6 - Files/Image/Pasted image 20241104163108.png",
+    "6 - Files/Image/Pasted image 20241104140921.png",
     "1 - Project/Spring Security.md",
+    "0 - Main/0 Main/Employment.md",
     "0 - Main",
     "0 - Main/0 Main/0 TodoList.md",
     "0 - Main/0 Main/Annotation Study Method.md",
@@ -184,7 +185,6 @@
     "0 - Main/0 Main/Document.md",
     "0 - Main/Programing Project/Portfolio Project/Techie/Code.md",
     "0 - Main/0 Main/Recommended Information.md",
-    "무제 파일.md",
     "0 - Main/Life/My Profile.md",
     "0 - Main/Life/골드 거래 사기 대처법.md",
     "0 - Main/0 Main/History.md",

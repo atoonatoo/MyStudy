@@ -4,9 +4,11 @@ created:
 ---
 # **README**
 
-
+- 참고 자료 - 개발자 유미 Security 강의
+	- https://www.youtube.com/playlist?list=PLJkjrxxiBSFCcOjy0AAVGNtIa08VLk1EJ
 ### Intro
-- 공부 전 
+- 시작하기 전..
+  
 	팀프로젝트를 진행하며 회원을 담당하게 되었다.
 	MSA 프로젝트를 진행하기 때문에 CORS 에러를 해결하는 과정해서 더 중요한 사실을 놓쳤다는걸 꺠달았다. 로그인 후 응답 값을 JSON으로 반드시 변환해야 하는데, 시큐리티의 formlogin 방식은  html로 반환 된다. 여러 가지 시행 착오를 겪었고, 다음과 같은 사실을 인지했다.
 	1. JSON 객체로 반환하기 위해선 formlogin을 비활성화 해야한다.
@@ -16,7 +18,11 @@ created:
 	
 	그렇게 다음과 같은 글 작성은 내가 시큐리티를 공부하기 위해 유튜브, 인강을 보여 학습하고 올바르게 이해를 돕기 위해 기록하는 과정이다.
 
+# Spring Security 
 
+1. **실습 목표 
+	- Spring Security를 활용하여 
+1. 
 ### Spring Security
 
 - **1. 실습 목표**
@@ -102,14 +108,29 @@ created:
 - **4. POSTMAN **
 	
 	- API 서버는 웹서버와 달리 서버측으로 요청을 보낼 수 있는 페이지가 존재하지 않기 때문에 요청을 보낼 API 클라이언트가 필요하다.
-	  
-	- 
 	
-- **3.**
+- **5. DB 설정**
 	
-- **3.**
+- **6. 회원가입 로직 구현**
 	
-- **3.**
+	- lifeCycle
+		- POST : join > (dto) > joinController > (dto) > joinService > User > UserRepository > DB(User)
+		  
+	- JoinDTO
+		- 
+	
+- **7. 로그인 필터 구현**
+	
+	- UsernamePasswordAuthenticationFilter
+	- AuthenticationMananger
+	
+	- 로그인 로직 구현 목표
+		- 아이디, 비밀번호 검증을 위한 커스텀 필터 작성
+		- DB에 저장되어 있는 회원 정보를 기반으로 검증할 로직 작성
+		- 로그인 성공시 JWT를 반환할 success 핸들러 생성
+		- 커스텀 필터 SecurityConfig
+		  
+	- 로그인 모식도![[Pasted image 20241104163108.png]]
 	
 - **3.**
 	
