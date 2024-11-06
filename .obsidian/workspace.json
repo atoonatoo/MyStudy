@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7de3c0ae7c20f7fb",
+        "id": "edf44a48d14610a0",
         "type": "tabs",
         "children": [
           {
-            "id": "82de2614147f537f",
+            "id": "5000dd8e6c8ec31d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Project/Spring Security.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Spring Security"
+              "title": "새 탭"
             }
           }
         ]
@@ -166,13 +162,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b85ca5c06d88fbdf",
+  "active": "5000dd8e6c8ec31d",
   "lastOpenFiles": [
+    "0 - Main/Naver Cloud BitCamp 13/네이버 클라우드 비트 캠프.md",
+    "1 - Project/Spring Security.md",
     "6 - Files/Image/Pasted image 20241104140847.png",
     "무제 파일.md",
     "6 - Files/Image/Pasted image 20241104163108.png",
     "6 - Files/Image/Pasted image 20241104140921.png",
-    "1 - Project/Spring Security.md",
     "0 - Main/0 Main/Employment.md",
     "0 - Main",
     "0 - Main/0 Main/0 TodoList.md",
