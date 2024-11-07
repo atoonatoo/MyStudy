@@ -11,7 +11,7 @@ updated: 2024-09-14
 - [[Context Swiching]]
 - [[ATNT/ATNT/2 Area/Meta Data]]
 - [[Process]]
-- [[Kernel]]
+- [[ATNT/2 Area/Kernel]]
 ---
 
 ##### 제목 : PCB | Process Control Back 

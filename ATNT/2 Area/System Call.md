@@ -9,7 +9,7 @@ updated: 2024-09-14
 
 - [[Operation System]]
 - [[Interrupt]]
-- [[Kernel]]
+- [[ATNT/2 Area/Kernel]]
 ---
 
 ##### 제목 : 
