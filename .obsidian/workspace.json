@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "edf44a48d14610a0",
+        "id": "4df99575167cb85b",
         "type": "tabs",
         "children": [
           {
-            "id": "5000dd8e6c8ec31d",
+            "id": "192fe953d4f05e7e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0 - Main/CS (Computer Science)/A CS/Array.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Array"
             }
           }
         ]
@@ -162,8 +166,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5000dd8e6c8ec31d",
+  "active": "192fe953d4f05e7e",
   "lastOpenFiles": [
+    "0 - Main/CS (Computer Science)/A CS/5대 CS.md",
+    "0 - Main/CS (Computer Science)/D list/Dependency Injection.md",
+    "0 - Main/CS (Computer Science)/A CS/Jar (Java ARchive).md",
+    "0 - Main/CS (Computer Science)/A CS/War (Web Arichive).md",
+    "0 - Main/CS (Computer Science)/A CS/DDD + 애자일 + AWS + Redux + 람다 + DSL + Q.md",
     "0 - Main/Naver Cloud BitCamp 13/네이버 클라우드 비트 캠프.md",
     "1 - Project/Spring Security.md",
     "6 - Files/Image/Pasted image 20241104140847.png",
@@ -189,11 +198,6 @@
     "0 - Main/0 Main/1 Board.md",
     "0 - Main/0 Main/Tip.md",
     "5 - Templete/기본 양식 문서.md",
-    "0 - Main/Programing Project/Portfolio Project/Techie/Conference.md",
-    "0 - Main/Programing Project/Portfolio Project/Techie/Orientation.md",
-    "0 - Main/Programing Project/Side Project/ShoppingMall.md",
-    "0 - Main/Programing Project/Portfolio Project/skillstory Project.md",
-    "0 - Main/Programing Project/Portfolio Project/Study_commuity.md",
     "0 - Main/Programing Project/Portfolio Project/Techie"
   ]
 }
