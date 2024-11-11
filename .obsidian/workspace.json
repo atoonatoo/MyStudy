@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4df99575167cb85b",
+        "id": "84e028393140cc60",
         "type": "tabs",
         "children": [
           {
-            "id": "192fe953d4f05e7e",
+            "id": "848b8e998a78ef92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ATNT/1 Project/Trouble Shooting.md",
+                "file": "0 - Main/1 CS/CPU.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trouble Shooting"
+              "title": "CPU"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "taskkill",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,20 +166,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "192fe953d4f05e7e",
+  "active": "848b8e998a78ef92",
   "lastOpenFiles": [
-    "0 - Main/CS (Computer Science)/A CS/Kernel Mode.md",
+    "Excalidraw/Drawing 2024-11-11 17.12.03.excalidraw.md",
+    "0 - Main/1 CS/CPU.md",
+    "0 - Main/1 CS/Jenkins.md",
+    "4 - Archive",
+    "3 - Resouce",
+    "0 - Main/1 CS/5대 CS.md",
+    "0 - Main/1 CS/Complete",
+    "0 - Main/1 CS",
+    "0 - Main/Candidate/Candidate",
+    "0 - Main/1 CS/Candidate/기계어.md",
+    "0 - Main/1 CS/Candidate/application.properties.md",
+    "0 - Main/1 CS/Candidate/Array.md",
+    "ATNT/1 Project/Trouble Shooting.md",
+    "0 - Main/1 CS/Candidate/Kernel Mode.md",
     "Excalidraw",
-    "0 - Main/CS (Computer Science)/A CS/5대 CS.md",
     "2 - Area/Studty/Study - Reading.md",
     "2 - Area/Studty/Study - Mentoring.md",
     "2 - Area/Studty/Study - Interview.md",
-    "0 - Main/CS (Computer Science)/A CS/Array.md",
-    "0 - Main/CS (Computer Science)/D list/Dependency Injection.md",
-    "0 - Main/CS (Computer Science)/A CS/Jar (Java ARchive).md",
-    "0 - Main/CS (Computer Science)/A CS/War (Web Arichive).md",
-    "0 - Main/CS (Computer Science)/A CS/DDD + 애자일 + AWS + Redux + 람다 + DSL + Q.md",
-    "0 - Main/Naver Cloud BitCamp 13/네이버 클라우드 비트 캠프.md",
+    "0 - Main/1 CS/Candidate/Dependency Injection.md",
+    "0 - Main/1 CS/Candidate/Jar (Java ARchive).md",
+    "0 - Main/1 CS/Candidate/War (Web Arichive).md",
+    "0 - Main/1 CS/Candidate/DDD + 애자일 + AWS + Redux + 람다 + DSL + Q.md",
+    "2 - Area/Naver Cloud BitCamp 13/네이버 클라우드 비트 캠프.md",
     "1 - Project/Spring Security.md",
     "6 - Files/Image/Pasted image 20241104140847.png",
     "무제 파일.md",
@@ -191,14 +201,9 @@
     "0 - Main/0 Main/0 TodoList.md",
     "0 - Main/0 Main/Annotation Study Method.md",
     "0 - Main/0 Main/Mentoring.md",
-    "ATNT/1 Project/Trouble Shooting.md",
     "0 - Main/0 Main/Study List.md",
     "0 - Main/0 Main/Site Link.md",
     "0 - Main/0 Main/0 Main.md",
-    "0 - Main/0 Main/Document.md",
-    "0 - Main/Programing Project/Portfolio Project/Techie/Code.md",
-    "0 - Main/0 Main/Recommended Information.md",
-    "0 - Main/Life/My Profile.md",
-    "0 - Main/Programing Project/Portfolio Project/Techie"
+    "0 - Main/3 Programing Project/Portfolio Project/Techie"
   ]
 }
