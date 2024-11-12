@@ -41,7 +41,6 @@ https://velog.io/@hkh1213/%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%94%A9%EC%9D%98
 
 
 ### 📚 3. Site Link
-
 #### **YOUTUBE
 - AWS 쉽게 배포하는 방법
 	- https://www.youtube.com/watch?v=cOUhREAWJNw
@@ -69,7 +68,12 @@ https://velog.io/@hkh1213/%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%94%A9%EC%9D%98
 - MSA 프로젝트 생성 참고 - https://memodayoungee.tistory.com/157
 
 ---
+### 유튜브
 
+- 운영체제 혼자 공부하는 컴퓨터 구조 + 운영체제
+	- https://www.youtube.com/watch?v=bls_GjX-4U8&list=PLVsNizTWUw7FCS83JhC1vflK8OcLRG0Hl
+	  
+- 
 ---
 #### Trouble Shooting
 - git repository에 git ignore  .idea 추가해야하는 이유 및 과정
