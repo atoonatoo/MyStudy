@@ -23,6 +23,9 @@ created:
 - [ ] CS - 네트워크
 - [ ] CS - 자료구조
 - [ ] CS - 알고리즘
+- [ ] Notion - Postman 사용법
+- [ ] Notion - Mysql 명령어
+- [ ] Notion - 예외처리 종류
 - [ ] 채용 정보
 - [ ] 자기소개서
 - [ ] 사이트 별 구직 프로필 작성
