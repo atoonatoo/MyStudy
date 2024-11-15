@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - Main/1 CS/Algolism.md",
+                "file": "0 - Main/0 Main/PROMPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algolism"
+              "title": "PROMPT"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "yarn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,16 +189,19 @@
   },
   "active": "848b8e998a78ef92",
   "lastOpenFiles": [
+    "0 - Main/0 Main/0 Main.md",
+    "0 - Main/0 Main/PROMPT.md",
     "0 - Main/1 CS/컴퓨터 구조.md",
-    "0 - Main/1 CS/Algolism.md",
     "0 - Main/1 CS/0과 1로 숫자나 문자 데이터를 표현하는 방법.md",
-    "0 - Main/1 CS/입출력장치.md",
-    "0 - Main/1 CS/보조기억장치.md",
+    "0 - Main/1 CS/5대 CS.md",
     "0 - Main/1 CS/주기억장치.md",
+    "0 - Main/1 CS/보조기억장치.md",
+    "Pasted image 20241113103953.png",
+    "0 - Main/1 CS/Algolism.md",
     "0 - Main/1 CS/중앙처리장치.md",
+    "0 - Main/1 CS/입출력장치.md",
     "0 - Main/0 Main/Document.md",
     "0 - Main/0 Main/BookMark.md",
-    "0 - Main/1 CS/5대 CS.md",
     "0 - Main/1 CS/CPU.md",
     "0 - Main/1 CS/Complete/컴퓨터 구조를 알아야하는 이유.md",
     "0 - Main/0 Main/LINK.md",
@@ -219,8 +222,6 @@
     "2 - Area/Studty/Study - Reading.md",
     "2 - Area/Studty/Study - Mentoring.md",
     "2 - Area/Studty/Study - Interview.md",
-    "0 - Main/1 CS/Candidate/Dependency Injection.md",
-    "0 - Main/1 CS/Candidate/Jar (Java ARchive).md",
     "6 - Files/Image/Pasted image 20241104140847.png",
     "6 - Files/Image/Pasted image 20241104163108.png",
     "6 - Files/Image/Pasted image 20241104140921.png",
