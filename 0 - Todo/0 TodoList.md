@@ -12,10 +12,10 @@ created:
 
 - 프로젝트
 - [x] PlayList 재생목록 생성
-- [ ] PlayList 재생목록 삭제
-- [ ] PlayList 재생목록 수정
-- [ ] PlayList 재생목록 전체 조회
-- [ ] PlayList 재생목록별 영상조회
+- [x] PlayList 재생목록 삭제
+- [x] PlayList 재생목록 수정
+- [x] PlayList 재생목록 전체 조회
+- [x] PlayList 재생목록별 영상조회
 - [x] GPT response 에러 해결
 - [ ] GPT 버전 업그레이드
 - [ ] GPT 전용 AI 만들기
