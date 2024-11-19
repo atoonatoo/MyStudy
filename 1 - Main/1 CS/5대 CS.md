@@ -53,7 +53,7 @@ created:
 
 ## 1. 알고리즘 및 자료구조
 ### 1.1 기본 자료구조
-- [[Array]]
+- [[1 - Main/1 CS/Candidate/Array]]
 - [[Linked List]]
 - [[Stack]]
 - [[Queue]]

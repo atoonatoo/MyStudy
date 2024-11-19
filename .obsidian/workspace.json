@@ -10,32 +10,35 @@
           {
             "id": "25cd13a5b3c65786",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Main/1 CS/big-O.md",
+                "file": "1 - Main/0 Main/SPAC.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "big-O"
+              "title": "SPAC"
             }
           },
           {
-            "id": "cda82da51132344a",
+            "id": "7be2f5555507ce88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Main/1 CS/Algolism.md",
+                "file": "ATNT/1 Project/Trouble Shooting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algolism"
+              "title": "Trouble Shooting"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "taskkill",
+                "query": "taskk",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +90,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,11 +205,17 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "25cd13a5b3c65786",
+  "active": "7be2f5555507ce88",
   "lastOpenFiles": [
-    "1 - Main/1 CS/Algolism.md",
+    "1 - Main/1 CS/SI vs IT vs 비IT.md",
+    "1 - Main/1 CS/Array.md",
+    "1 - Main/0 Main/SPAC.md",
     "1 - Main/1 CS/! CS LoadMap.md",
-    "1 - Main/1 CS/big-O.md",
+    "1 - Main/1 CS/Linked List.md",
+    "1 - Main/1 CS/Complete/big-O.md",
+    "Pasted image 20241119145728.png",
+    "1 - Main/1 CS/Algolism.md",
+    "Pasted image 20241119140620.png",
     "Sorting Algorithms.md",
     "Stack.md",
     "ATNT/1 Project/Trouble Shooting.md",
@@ -227,11 +237,7 @@
     "1 - Main/1 CS/컴퓨터 구조.md",
     "1 - Main/1 CS/0과 1로 숫자나 문자 데이터를 표현하는 방법.md",
     "1 - Main/1 CS/5대 CS.md",
-    "1 - Main/1 CS/주기억장치.md",
-    "1 - Main/1 CS/보조기억장치.md",
     "Pasted image 20241113103953.png",
-    "1 - Main/1 CS/중앙처리장치.md",
-    "1 - Main/1 CS/입출력장치.md",
     "4 - Archive",
     "3 - Resouce",
     "1 - Main/1 CS/Complete",

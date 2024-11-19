@@ -12,5 +12,5 @@ created:
 
 # 자료구조 목차
 
-- [[Array]]
+- [[1 - Main/1 CS/Candidate/Array]]
 - 

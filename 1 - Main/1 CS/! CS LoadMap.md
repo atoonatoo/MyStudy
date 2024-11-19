@@ -29,7 +29,7 @@ created:
 	- [[Stack]]
 	- [[Queue]]
 	- [[Linked List]]
-	- [[Array]]
+	- [[1 - Main/1 CS/Candidate/Array]]
 	- [[Tree]]
 	- [[Heap]]
 	- [[Graph]]
@@ -85,6 +85,7 @@ created:
 	데이터를 어떤 식으로 정렬을 빠르게 할지에 대해 사용한다.
 	
 - **알고리즘 리스트**
+	- [[big-O]]
 	- [[Sorting Algorithms]] 
 	- [[Bubble Sort]] 
 	- [[Selection Sort]] 
