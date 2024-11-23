@@ -257,6 +257,7 @@ created:
 	- leaf (리프) - 트리의 가장 하위의 노드
 	  
 - 노드는 하나의 객체로 표현된다.
+	  
 - 일반적으로 두개의 속성을 지니게된다.
 	1. 데이터
 	2. children - 자식 노드들의 참조 정보를 저장하는 공간
@@ -278,36 +279,49 @@ created:
 - 이진트리 vs 이진 탐색 트리
 	- 이진트리 조건
 		- 노드의 값 노드의 데이터 크기와 상관없이 구성
-	- 이진 탐색 트리 조건
-		1. 왼쪽 자식 노드 값 < 부모 노드 값
-		2. 부모 노드 값 < 오른쪽 자식 노드 값
+	- **이진 탐색 트리 조건**
+		1. **왼쪽 자식 노드 값 < 부모 노드 값**
+		2. ***부모 노드 값 < 오른쪽 자식 노드 값**
 	   
+- 이진 트리의 최소값
+	- root 기준 트리의 가장 왼쪽에 존재
+	  
+- 이진 트리의 최대값
+	- root 기준 트리의 가장 오른쪽에 존재
+	  
 - tree traversal (트리 순회)
-  
+	  
 	- in-order traversal (중위 순회)
 		- 더이상 자식 노드가 없을 떄까지 순회 후 없을 경우 방문처리
-		- left > visit > right
+		- `left > visit > right`
 		- DFS 사용 순회 O(n)
-			1. 왼쪽 sub tree 순회
-			2. node 방문
-			3. 오른쪽 sub tree 순화
+			1. 재귀적으로 왼쪽 sub tree 순회
+			2. 현재 node 방문 (ex 값 출력)
+			3. 재귀적으로 오른쪽 sub tree 순화
 		
 	- pre-order traversal (전위 순회)
 		- 노드에 방문을 먼저 해준 후에 방문 처리를 먼저한다.
-		- visit > left > right
+		- `visit > left > right`
 		- DFS 사용 순회 O(n)
-			1. node 방문
-			2. 왼쪽 sub tree 순회
-			3. 오른쪽 sub tree 순회
+			1. 현재 node 방문 (ex 값 출력)
+			2. 재귀적으로 왼쪽 sub tree 순회
+			3. 재귀적으로 오른쪽 sub tree 순회
 		
 	- post-order traversal (후위 순회)
 		- 더이상 자식 노드가 없을 떄까지 순회 후 없을 경우 방문처리
-		- left > right >visit
+		- `left > right > visit`
 		- DFS 사용 순회 O(n)
-			1. 왼쪽 sub tree 순회
-			2. 오른쪽 sub tree 순회
-			3. node 방문
+			1. 재귀적으로 왼쪽 sub tree 순회
+			2. 재귀적으로 오른쪽 sub tree 순회
+			3. 현재 node 방문 (ex 값 출력)
 	
+- successor (후임자)
+	- 해당 노드보다 값이 큰 노드들 중에서 가장 값이 작은 노드
+	
+- predecessor (선임자)
+	- 해당 노드보다 값이 작은 노드들 중에서 가장 값이 큰 노드
+	  
+	  
 ##### **힙 (Heap)**  
 
 - **완전이진트리를 기본으로 한 자료 구조이다.**
@@ -383,8 +397,7 @@ created:
 	  
 - 사용 언어의 Heap 구현 여부
 
-##### **이진 탐색 트리 (Binary Search Tree, BST)**  
-- 
+
 - 종류
 
 ---
