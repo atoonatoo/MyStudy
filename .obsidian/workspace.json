@@ -4,41 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fc0c83109fbf5000",
+        "id": "864d863b3a8a45d7",
         "type": "tabs",
         "children": [
           {
-            "id": "25cd13a5b3c65786",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Main/0 Main/SPAC.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "SPAC"
-            }
-          },
-          {
-            "id": "dba93c5354ebdddc",
+            "id": "d37d51e7f48be330",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Main/1 CS/Data Structure.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Data Structure"
+              "title": "새 탭"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,11 +184,11 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "dba93c5354ebdddc",
+  "active": "d37d51e7f48be330",
   "lastOpenFiles": [
     "1 - Main/0 Main/SPAC.md",
-    "Priority Queue.md",
     "1 - Main/1 CS/Data Structure.md",
+    "Priority Queue.md",
     "1 - Main/1 CS/@Anotation.md",
     "무제 파일.md",
     "1 - Main/1 CS/Complete/big-O.md",
