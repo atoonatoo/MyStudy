@@ -25,15 +25,16 @@ created:
 	3. 실제 예제
 	4. 많이 사용되는 스택 큐 트리는 코드 구현까지 가능하도록 숙련되어야한다.
 	   
-- **자료구조 리스트**
+- **[[Data Structure]]**
 	- [[Stack]]
 	- [[Queue]]
-	- [[Linked List]]
-	- [[1 - Main/1 CS/Candidate/Array]]
+	- [[1 - Main/1 CS/Linked List]]
+	- [[Array]]
 	- [[Tree]]
 	- [[Heap]]
 	- [[Graph]]
 	- [[Hash Table]]
+	- [[1 - Main/1 CS/Array|Array]]
 
 ---
 ## 운영체제
