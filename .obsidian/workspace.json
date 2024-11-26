@@ -49,8 +49,7 @@
               "title": "Linked List"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,11 +215,11 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "637ebe45286bcb7f",
+  "active": "d37d51e7f48be330",
   "lastOpenFiles": [
     "1 - Main/1 CS/Candidate/Array.md",
-    "1 - Main/1 CS/Data Structure.md",
     "1 - Main/1 CS/Complete/Linked List.md",
+    "1 - Main/1 CS/Data Structure.md",
     "1 - Main/1 CS/Linked List.md",
     "1 - Main/1 CS/! CS LoadMap.md",
     "1 - Main/1 CS/Candidate/Data Structure.md",
