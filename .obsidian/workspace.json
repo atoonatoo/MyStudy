@@ -22,34 +22,21 @@
             }
           },
           {
-            "id": "6ac76e21eeb7aef3",
+            "id": "25c658b818176f99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Main/1 CS/Candidate/Array.md",
+                "file": "0 - Todo/0 morning study/1. Data Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Array"
-            }
-          },
-          {
-            "id": "637ebe45286bcb7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Main/1 CS/Complete/Linked List.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linked List"
+              "title": "1. Data Structure"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,13 +202,21 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "d37d51e7f48be330",
+  "active": "25c658b818176f99",
   "lastOpenFiles": [
+    "1 - Main/1 CS/Data Structure.md",
+    "1 - Main/0 Main/BookMark.md",
+    "1 - Main/0 Main/PROMPT.md",
+    "0 - Todo/1 Board.md",
+    "0 - Todo/0 morning study/1. Data Structure.md",
+    "1 - Main/0 Main/LINK.md",
+    "1 - Main/1 CS/Algolism.md",
+    "0 - Todo/0 morning study",
+    "0 - Todo/2 morning study.md",
+    "1 - Main/1 CS/! CS LoadMap.md",
     "1 - Main/1 CS/Candidate/Array.md",
     "1 - Main/1 CS/Complete/Linked List.md",
-    "1 - Main/1 CS/Data Structure.md",
     "1 - Main/1 CS/Linked List.md",
-    "1 - Main/1 CS/! CS LoadMap.md",
     "1 - Main/1 CS/Candidate/Data Structure.md",
     "1 - Main/1 CS/Array.md",
     "1 - Main/1 CS/0과 1로 숫자나 문자 데이터를 표현하는 방법.md",
@@ -236,13 +231,6 @@
     "1 - Main/1 CS/Complete/big-O.md",
     "ATNT/1 Project/Spring Legacy.md",
     "1 - Main/0 Main/Document.md",
-    "ATNT/1 Project/Trouble Shooting.md",
-    "ATNT/2 Area/IP.md",
-    "ATNT/2 Area/Server.md",
-    "ATNT/2 Area/Stream.md",
-    "ATNT/2 Area/Weekly Schedule.md",
-    "ATNT/2 Area/Web Server.md",
-    "ATNT/2 Area/POJO.md",
     "Pasted image 20241119145728.png",
     "Pasted image 20241119140620.png",
     "Pasted image 20241115124747.png",

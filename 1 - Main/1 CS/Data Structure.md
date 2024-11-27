@@ -64,10 +64,9 @@ created:
 - [[Hash Table]]
 - [[Heap]]
 - [[Binary Search Tree, BST]]
-- 
+- [[Sorting]]
 
 ---
-
 ##### **스택 (Stack)**  
 
 - **데이터를 쌓아올리는 구조 방식**
@@ -374,7 +373,6 @@ created:
 ---
 
 
----
 ### 자료구조 비교 정리
 
 |자료구조|특징|주요 연산 시간 복잡도|

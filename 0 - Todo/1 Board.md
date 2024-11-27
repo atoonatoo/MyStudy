@@ -1,6 +1,47 @@
 ---
 created:
 ---
+---
+```java
+
+@GetMapping("/{playlistId}")  
+public ResponseEntity<PlaylistResponse.Details> getPlaylistDetails(  
+        @AuthenticationPrincipal UserDetailsCustom userDetails,  
+        @PathVariable Long playlistId) {  
+    PlaylistResponse.Details playlistResponse = playlistService.getPlaylistDetails(playlistId, userDetails);  
+    return ResponseEntity.ok(playlistResponse);  
+}
+
+
+
+@Override  
+public PlaylistResponse.Details getPlaylistDetails(Long playlistId, UserDetailsCustom userDetails) {  
+    User user = userService.getUserFromSecurityContext(userDetails);  
+  
+    Playlist playlist = playlistRepository.findById(playlistId)  
+            .orElseThrow(PlaylistNotFoundException::new);  
+  
+    PlaylistResponse.Details response = modelMapper.map(playlist, PlaylistResponse.Details.class);  
+  
+    List<PlaylistResponse.PlaylistDetails> videos = playlist.getPlaylistVideos().stream()  
+            .map(playlistVideo -> modelMapper.map(playlistVideo.getVideo(), PlaylistResponse.PlaylistDetails.class))  
+            .collect(Collectors.toList());  
+    response.setVideos(videos);  
+  
+    return response;  
+}
+```
+
+
+
+
+1. playlist 조회에서 다수의 영상에서 하나의 영상을 들어가기위해선 userId의 참조가 필요하다. 
+2. 즉, playlist get 에서도 PathVariable userId를 사용해야한다는 것이다.
+3. 하지만 조금 생각을 돌이켜보자, playlist에서 다수의 영상을 찾을 것이라면 videoId를 참조하는게 맞지 userId를 참조하는건 이상하지않은가?
+4. 즉 내가 선택할 수 있는 방법은 두 가지이다.
+5. 1번째 playlist get에서 userId를 참조하는 PathVariable를 추가한다.
+6. 2번째 playlistDetails get에서 userId를 참조하는 PathVariable를 제거한다.
+
 
 ---
 
