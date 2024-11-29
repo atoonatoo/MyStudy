@@ -2,7 +2,6 @@
 created:
 ---
 ---
-
 # Data Structure
 
 ## **1. 자료구조를 사용하는 이유**
