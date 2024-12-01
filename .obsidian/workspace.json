@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - CS/Info.md",
+                "file": "1 - Project/2 Quick Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Info"
+              "title": "2 Quick Notes"
             }
           }
         ]
@@ -187,17 +187,17 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "b85ca5c06d88fbdf",
+  "active": "bf7be1c63f2190a1",
   "lastOpenFiles": [
+    "1 - Project/1 Notebook Archive.md",
+    "0 - CS/Info.md",
     "1 - Project/0 MAIN.md",
     "2 - Area/CS LoadMap.md",
     "1 - Project/2 Quick Notes.md",
-    "1 - Project/1 Notebook Archive.md",
     "1 - Project/1 CS/1 LoadMap/! CS LoadMap.md",
     "1 - Project/1 CS/1 LoadMap/5대 CS.md",
     "1 - Project/1 CS/1 LoadMap/! CS LIST.md",
     "2 - Area/Annotation Study Method.md",
-    "0 - CS/Info.md",
     "2 - Area/Coding Test.md",
     "1 - Project/! TodoList.md",
     "2 - Area/Program Project.md",
