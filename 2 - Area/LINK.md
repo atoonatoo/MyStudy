@@ -4,6 +4,8 @@
 
 ---
 #### 정리
+- AWS 502 에러
+	- https://choo.oopy.io/0563a1cd-17b0-4513-9e59-49f0bd89834b
 - AWS Elastic Beanstalk 에러
 	- https://billtech.tistory.com/23?utm_source=chatgpt.com
 - AWS Elastic Beanstalk 배포

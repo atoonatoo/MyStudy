@@ -17,7 +17,7 @@ created:
 - [[CS 목록 - 0%]]
 - [[CS 목록 - 70%]]
 - [[CS 목록 - 100%]]
-- [[네이버 클라우드 비트 캠프]]
+- [[Naver Cloud Bit Camp]]
 - [[Trouble Shooting]]
 - [[기초 100 제]]
 - [[Tip]]
