@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b2f88de0719b58b0",
+        "id": "b343f068e9d8d824",
         "type": "tabs",
         "children": [
           {
-            "id": "921e4a87f862a859",
+            "id": "72f5c316ff4f8cfe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0 - CS/1 Study/Algolism.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Algolism"
+              "title": "새 탭"
             }
           }
         ]
@@ -77,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -188,17 +183,20 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "921e4a87f862a859",
+  "active": "72f5c316ff4f8cfe",
   "lastOpenFiles": [
+    "1 - Project/0 BookMarK.md",
+    "2 - Area/Mentoring.md",
+    "2 - Area/LINK.md",
+    "0 - CS/1 Study/AWS.md",
+    "2 - Area/PROMPT.md",
+    "0 - CS/0 Morning study/1. Data Structure.md",
+    "0 - CS/1 Study/Algolism.md",
     "2 - Area/CS LoadMap.md",
     "0 - CS/1 Study/Data Structure.md",
-    "0 - CS/1 Study/Algolism.md",
     "[CS LoadMap.md",
-    "1 - Project/0 BookMarK.md",
     "0 - CS/Info.md",
-    "2 - Area/Mentoring.md",
     "2 - Area/Employment.md",
-    "2 - Area/LINK.md",
     "2 - Area/Quick Notes.md",
     "4 - Archive/Naver Cloud Bit Camp.md",
     "2 - Area/Notebook Archive.md",
@@ -209,14 +207,11 @@
     "6 - ATNT/1 Project/8 TO DO LIST.md",
     "5 - Templete/기본 양식 문서.md",
     "0 - CS/0 Morning study/2..md",
-    "0 - CS/0 Morning study/1. Data Structure.md",
     "1 - Project/1 CS/1 LoadMap/! CS LoadMap.md",
     "1 - Project/1 CS/1 LoadMap/5대 CS.md",
     "1 - Project/1 CS/1 LoadMap/! CS LIST.md",
     "2 - Area/Annotation Study Method.md",
     "2 - Area/Coding Test.md",
-    "1 - Project/! TodoList.md",
-    "2 - Area/Program Project.md",
     "10 - Image/Pasted image 20241119145728.png",
     "10 - Image/Pasted image 20241119140620.png",
     "0 - CS/4 Master",
