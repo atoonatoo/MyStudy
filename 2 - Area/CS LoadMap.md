@@ -5,7 +5,7 @@ updated:
 ---
 
 - [[Data Structure]]
-- [[Algolism]]
+- [[Data Struacture & Algolism]]
 
 ---
 
@@ -143,7 +143,7 @@ updated:
 ---
 ## 알고리즘
 
-- **[[Algolism]]**
+- **[[Data Struacture & Algolism]]**
 	문제를 해결하는 어떤 방식과 순서를 타입화 시켜 놓은 것
 	
 	정렬 시리즈를 다 알아두는 것이 좋다.

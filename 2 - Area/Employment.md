@@ -2,14 +2,20 @@
 created:
 ---
 ---
-# **README**
 
-## Study
+##### 이력서 & 채용 정보 리스트
+
+- Resume
+	- https://www.notion.so/Atoo-153b93b7d02480d28e9bdd2a48748527
+- Job description
+	- https://www.notion.so/153b93b7d0248071bf69fa82a40533b0
+
+##### Study
 
 - 내가 코드를 작성할 때 이해하면서 배우려면?
 	- 주석 공부법를 해야한다.
 - 
-## List
+##### List
 
 - CI 툴(Jenkins, Github Actions 등)을 통한 파이프라인 구축/운영 경험이 있는 분을 찾아요.
 	-  github action?
@@ -17,7 +23,7 @@ created:
 - 개발자 직군 종류
 	- https://www.youtube.com/watch?v=qMu05OFnhrI
 
-## my company
+##### my company
 
 - 1순위 : 성장가능성
 - 2순위 : 대기업
@@ -128,7 +134,7 @@ created:
 	  이 회사의 모든 엔지니어들을 팔로우하고 그 엔지니어들의 각각의 이직하면
 	  그 회사들을 이직 리스트로 만들고 따라서 지원해보는게 좋은 방법이라고 생각할 수 있다.
 	- A 시니어 개발자 (우테코) -> OOO 회사로 이직 -> THEVC로 그 회사를 검색 -> 어떤 회사인지, 재무적인 부분도 판단할 수 있다.
-## GPT
+##### GPT
 - mycompany의 내용들을 토대로 솔루션을 제공해줘
 - cs, 코딩 테스트, 채용회사 서칭, 포트폴리오 프로젝트 코딩, 노트 정리를 하루에 9시간안에 다 해야 한다면? 적절하게 시간을 배분해줘
 - 성장가능성이 높은 기업이란 구체적으로 내가 남들에게 자신있게 설명할 수 있도록 알려줘
@@ -137,7 +143,7 @@ created:
 - SI VS 비IT VS IT VS 서비스 기업이란?
 
 
-### IT 대기업이 요구하는 인재
+##### IT 대기업이 요구하는 인재
 
 - 참고 영상 - https://www.youtube.com/watch?v=OhSlSl_C2OM
   
