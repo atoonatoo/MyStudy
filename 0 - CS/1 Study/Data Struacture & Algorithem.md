@@ -1460,8 +1460,193 @@ public class BFSExample {
 ---
 ##### 벨먼-포드 알고리즘
 
+- 그래프의 최단 경로를 찾는 알고리즘
+- 최단 경로 문제는 시작점과 끝점이 지정되어 있고,
+- 간선에 비용이 부여된 가중 그래프가 주어졌을때, 
+- 시작점과 끝점까지의 경로 중 비용의 합이 가장 작은 것을 찾는 문제
+	
+- 시간복잡도
+	- O(VE)
+	
+- **동작 원리:**
+	
+1. 벨먼-포드 알고리즘은 **모든 간선**을 반복적으로 확인하여 최단 경로를 계산한다.
+2. **그래프에 음의 가중치가 포함되어 있을 때** 사용할 수 있으며, 음수 사이클을 탐지할 수 있다.
+3. **초기화**:
+    - 시작점의 거리는 0, 나머지 노드의 거리는 무한대(∞)로 설정한다.
+4. **간선 순회**:
+    - 모든 간선을 반복하면서, 경로를 갱신한다.
+5. **음수 사이클 탐지**:
+    - 마지막 단계에서 경로가 더 갱신될 수 있다면, 음수 사이클이 존재한다고 판단한다.
+	
+**알고리즘 흐름:**
+	
+- 1. 모든 간선에 대해 `Relaxation`을 반복하여 최단 경로를 구한다.
+- 2. 음수 사이클이 존재하면 이를 탐지한다.
+	
+- 예제 코드
+```java
+import java.util.Arrays;
+
+class BellmanFord {
+    static final int INF = Integer.MAX_VALUE;
+    
+    public static void bellmanFord(int[][] graph, int V, int start) {
+        int[] dist = new int[V];
+        Arrays.fill(dist, INF);
+        dist[start] = 0;
+        
+        // V-1번 반복
+        for (int i = 1; i < V; i++) {
+            for (int u = 0; u < V; u++) {
+                for (int v = 0; v < V; v++) {
+                    if (graph[u][v] != INF && dist[u] != INF && dist[u] +
+                     graph[u][v] < dist[v]) {
+                        dist[v] = dist[u] + graph[u][v];
+                    }
+                }
+            }
+        }
+        
+        // 음수 사이클 체크
+        for (int u = 0; u < V; u++) {
+            for (int v = 0; v < V; v++) {
+                if (graph[u][v] != INF && dist[u] != INF && dist[u] + 
+                graph[u][v] < dist[v]) {
+                    System.out.println("그래프에 음수 사이클이 존재합니다.");
+                    return;
+                }
+            }
+        }
+        
+        // 결과 출력
+        System.out.println("최단 경로:");
+        for (int i = 0; i < V; i++) {
+            System.out.println("노드 " + i + "까지의 최단 거리: " + 
+            (dist[i] == INF ? "INF" : dist[i]));
+        }
+    }
+	
+    public static void main(String[] args) {
+        int V = 5; // 정점 수
+        int[][] graph = new int[V][V];
+        
+        // 그래프 초기화 (INF는 연결되지 않은 간선)
+        for (int[] row : graph) {
+            Arrays.fill(row, INF);
+        }
+        
+        // 간선 추가 (u, v, weight)
+        graph[0][1] = 6;
+        graph[0][2] = 7;
+        graph[1][2] = 8;
+        graph[1][3] = 5;
+        graph[2][3] = -3;
+        graph[3][4] = 2;
+        
+        bellmanFord(graph, V, 0);  // 시작 정점 0
+    }
+}
+```
+
+- 학습 자료
+	- https://www.youtube.com/watch?v=Ppimbaxm8d8
+
+---
 ##### 다익스트라 알고리즘
 
+**동작 원리:**
+
+1. **다익스트라 알고리즘**은 **가중치가 양수인 그래프**에서 최단 경로를 구하는 알고리즘입니다.
+2. **우선순위 큐** (최소 힙)을 사용하여 가장 짧은 거리를 가진 정점을 빠르게 찾습니다.
+3. **초기화**:
+    - 시작점의 거리는 0, 나머지 노드의 거리는 무한대로 설정합니다.
+4. **경로 갱신**:
+    - 방문하지 않은 인접 정점들의 거리를 갱신하고, 우선순위 큐에 삽입합니다.
+	
+- **알고리즘 흐름:**
+	
+- 1. 각 정점에 대해 최소 거리를 갱신합니다.
+- 2. 큐에서 가장 가까운 노드를 선택하고, 그 인접 노드를 갱신합니다.
+	
+- 시간복잡도
+	- O(N2)
+	 
+- 예제 코드
+```java
+import java.util.*;
+
+class Dijkstra {
+    static final int INF = Integer.MAX_VALUE;
+    
+    public static void dijkstra(int[][] graph, int V, int start) {
+        int[] dist = new int[V];
+        Arrays.fill(dist, INF);
+        dist[start] = 0;
+        
+        // 우선순위 큐 (최소 힙)
+        PriorityQueue<int[]> pq = 
+        new PriorityQueue<>(Comparator.comparingInt(a -> a[1]));
+        pq.add(new int[]{start, 0});
+        
+        while (!pq.isEmpty()) {
+            int[] current = pq.poll();
+            int u = current[0];
+            int currentDist = current[1];
+            
+            if (currentDist > dist[u]) continue;
+            
+            for (int v = 0; v < V; v++) {
+                if (graph[u][v] != INF && dist[u] + graph[u][v] < dist[v]) {
+                    dist[v] = dist[u] + graph[u][v];
+                    pq.add(new int[]{v, dist[v]});
+                }
+            }
+        }
+        
+        // 결과 출력
+        System.out.println("최단 경로:");
+        for (int i = 0; i < V; i++) {
+            System.out.println("노드 " + i + "까지의 최단 거리: " + 
+            (dist[i] == INF ? "INF" : dist[i]));
+        }
+    }
+	
+    public static void main(String[] args) {
+        int V = 5; // 정점 수
+        int[][] graph = new int[V][V];
+        
+        // 그래프 초기화 (INF는 연결되지 않은 간선)
+        for (int[] row : graph) {
+            Arrays.fill(row, INF);
+        }
+        
+        // 간선 추가 (u, v, weight)
+        graph[0][1] = 6;
+        graph[0][2] = 7;
+        graph[1][2] = 8;
+        graph[1][3] = 5;
+        graph[2][3] = -3;
+        graph[3][4] = 2;
+        
+        dijkstra(graph, V, 0);  // 시작 정점 0
+    }
+}
+```
+
+- 벨먼-포드 vs 다익스트라 차이점
+	
+	1. **벨먼-포드 알고리즘**:
+	    - **음수 가중치**를 다룰 수 있다.
+	    - **모든 간선을 반복**해서 체크하므로 계산이 더 느림.
+	    - 음수 사이클을 탐지할 수 있음.
+	      
+	2. **다익스트라 알고리즘**:
+	    - **음수 가중치**가 있을 경우 동작하지 않음.
+	    - **우선순위 큐**를 사용하여 최단 경로를 빠르게 구할 수 있음.
+	    - **빠르게 실행**되며, 시간 복잡도가 벨먼-포드보다 유리함.
+
+---
 ##### A*
 
 ##### 크루스칼 알고리즘
