@@ -57,7 +57,7 @@ created:
 	    - 적합한 자료 구조 선택은 알고리즘 효율성, 메모리 사용, 실행 시간을 최적화할 수 있다.
 
 ---
-### **2. 자료 구조 종류**
+##### **2. 자료 구조 종류**
 
 - [[Linked List]]
 - [[Array]]
@@ -1032,7 +1032,7 @@ public class HeapSort {
 
 ---
 
-##### 선형탐색
+##### 선형검색트리
 
 - 배열에서 데이터를 찾는 알고리즘
 - 이진탐색과 달리 데이터의 순서가 뒤죽박죽 나열된 경우도 적용
@@ -1040,25 +1040,183 @@ public class HeapSort {
 - 데이터의 처음부터 선대로 비교를 반복한다.
 - 따라서 데이터가 배열의 끝에 있거나 없는 경우에는 비교 횟수가 많아져서 시간이 오래 걸린다.
 - 시간복잡도 - O(n)
+- 예시 - 순서없이 막 꽂힌 책장
+- 선형 시간 복잡도
+	- input이 많을 수록 수행하는 시간도 증가한다.
+	
+- 예제 코드
+```java
+class LinearSearchTree {
 
-##### 이진탐색
+    private class Node {
+        int value;
+        Node next;
+		
+        Node(int value) {
+            this.value = value;
+            this.next = null;
+        }
+    }
+	
+    private Node head;
+	
+    public void insert(int value) {
+        Node newNode = new Node(value);
+        if (head == null) {
+            head = newNode;
+        } else {
+            Node current = head;
+            while (current.next != null) {
+                current = current.next;
+            }
+            current.next = newNode;
+        }
+    }
+	
+    public boolean search(int value) {
+        Node current = head;
+        while (current != null) {
+            if (current.value == value) {
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
+	
+    public void display() {
+        Node current = head;
+        while (current != null) {
+            System.out.print(current.value + " -> ");
+            current = current.next;
+        }
+        System.out.println("null");
+    }
+}
+
+public class LinearSearchTreeDemo {
+    public static void main(String[] args) {
+        LinearSearchTree tree = new LinearSearchTree();
+        tree.insert(10);
+        tree.insert(20);
+        tree.insert(30);
+		
+        tree.display();
+		
+        System.out.println("Search 20: " + tree.search(20));
+        System.out.println("Search 40: " + tree.search(40));
+    }
+}
+```
+##### 이진검색트리
+
 - 데이터가 정렬된 경우에만 적용
 - 이진 탐색은 배열이 정렬된 것을 이용하여 탐색 범위를 매번 절반싹 줄여 나간다.
 - 그리고 탐색 범위의 데이터가 1개가 되었을 때 탐색을 종료
 - n개가 있던 데이터를 절반씩 줄이는 조작을 O log(n2)번 반복하면, 데이터가 1개가 된다.
 - 즉, 이진 탐색에서는 `배열의 정중앙에 있는 수와 비교하여 탐색 범위를 절반으로 줄이는` 작업을 log(n2)회 반복하면 데이터를 찾을 수 있다. 
 - 찾지 못한 경우에는 데이터가 없다고 결론 내릴 수 있다.
-- 따라서 계산 시간은 O(log n)
+  
+- 빅오표기법
+	- O(log n)
+	  
+- 예시 - 순서있게 잘 정리된 도서관 책장
+	
+- 예제 코드
+```java
+class BinarySearchTree {
+    private class Node {
+        int value;
+        Node left, right;
+		
+        Node(int value) {
+            this.value = value;
+            left = right = null;
+        }
+    }
+	
+    private Node root;
+	
+    public void insert(int value) {
+        root = insertRec(root, value);
+    }
+	
+    private Node insertRec(Node root, int value) {
+        if (root == null) {
+            root = new Node(value);
+            return root;
+        }
+        if (value < root.value) {
+            root.left = insertRec(root.left, value);
+        } else if (value > root.value) {
+            root.right = insertRec(root.right, value);
+        }
+        return root;
+    }
+	
+    public boolean search(int value) {
+        return searchRec(root, value);
+    }
+	
+    private boolean searchRec(Node root, int value) {
+        if (root == null) {
+            return false;
+        }
+        if (root.value == value) {
+            return true;
+        }
+        if (value < root.value) {
+            return searchRec(root.left, value);
+        }
+        return searchRec(root.right, value);
+    }
+	
+    public void inorder() {
+        inorderRec(root);
+    }
+	
+    private void inorderRec(Node root) {
+        if (root != null) {
+            inorderRec(root.left);
+            System.out.print(root.value + " ");
+            inorderRec(root.right);
+        }
+    }
+}
+
+public class BinarySearchTreeDemo {
+    public static void main(String[] args) {
+        BinarySearchTree tree = new BinarySearchTree();
+        tree.insert(50);
+        tree.insert(30);
+        tree.insert(70);
+        tree.insert(20);
+        tree.insert(40);
+        tree.insert(60);
+        tree.insert(80);
+		
+        System.out.print("Inorder Traversal: ");
+        tree.inorder();
+        System.out.println();
+		
+        System.out.println("Search 40: " + tree.search(40));
+        System.out.println("Search 90: " + tree.search(90));
+    }
+}
+```
 
 
 ##### 그래프
+
 - 용어
 	- 노드
-		- 
+		- 정점(Vertex) 이라고도 한다.
+		- 그래프에서 특정 객체나 위치를 나타내는 단위.
+		- 노드는 데이터 또는 정보를 나타낼 수 있으며, 노드 간의 관계(간선)를 통해 연결된다.
 	- 간선
-		- 
-	- 그래프
-	- 
+		- 노드와 노드를 연결하는 선(선분)으로, 노드 간의 관계를 표현.
+		- 방향에 따라 두 가지 유형으로 나뉜다.
+		  
 - 그래프의 다양한 표현
 	- 파티에 참석한 대인관계
 	- 지하철 노선도
@@ -1070,3 +1228,270 @@ public class HeapSort {
 	- 간선에 할당된 값을 간선의 `무게`나 `비용`이라고 부른다.
 	- 간선에 비용이 없으면 정점 간 연결 여부만 표현할 수 있다.
 	- 비용이 있으면 연결 강도를 표현하는 것이 가능
+	  
+- 방향성 그래프
+	- 간선에 방향성을 부여한다.
+	- 웹페이지의 링크도 방향성이 부여되기 때문에 방향성 그래프라고 표현하면 편리하다.
+	- 반대로 방향이 없는 그래프를 무방향 그래프라고 한다.
+	- 방향선 그래프는 간선에 비용을 부여할 수 있다.
+	  
+- 그래프를 사용하면 무엇이 편리한가?
+	- 네트워크의 통신 시간이 가장 짧은 경로를 찾는 문제
+	- 노선도에서 이동 시간이 가장 짧은 경로를 찾는 문제
+	- 노선도에서 운임이 가장 작은 경로를 찾는 문제 등
+	- 다양한 대상을 그래프라는 하나의 도구로 표현할 수 있기에 다양한 실생활 문제를 해결하는데 사용 가능하다.
+	  
+- 결론
+	- 그래프에 대한 기본적인 문제를 살펴 볼 예정
+	- 그래프 탐색은 한 정점에서 시작하여 간선을 타고 그래프를 탐색하며 목표를 찾는 문제
+	- 탐색 순서에 따라 너비 우선 탐색, 깊이 우선 탐색으로 나뉜다.
+	- 최단 경로 문제는 지정한 두 정점 s와 t를 연결하는 경로 중 간선의 비용 합이 가장 작은 것을 찾는 문제 등
+	- 최소 신장 트리 문제는 그래프의 모든 정점이 연결되도록 간선을 선택할 때 선택된 간선의 비용 합이 최소가 되도록 하는 문제
+	- 매칭 문제는 그래프에서 간선을 선택하여 정점의 쌍을 만드는 문제
+	- 사람과 작업 관계를 표현한 이분 그래프에서 가능한 많은 쌍을 만드는 알고리즘을 소개할 예정
+
+
+##### 너비 우선 탐색
+
+- 그래프를 탐색하는 알고리즘이다.
+	  
+- 가정
+	1. 정점(시작점)이 맨 위에 있다.
+	2. 그래프의 전체구조는 모른다.
+	   
+- 목적
+	- 시작점에서 간선을 따라가며 정점을 탐색하여 지정한 정점(목표)이 목표인지 여부를 판단할 수 있다.
+	  
+-  **너비 우선 탐색의 동작 구조**
+	
+	1. **시작 노드를 큐(Queue)에 추가하고 방문 처리한다.**
+	    - 탐색을 시작할 초기 노드를 큐에 넣고, 해당 노드를 "방문 처리"한다.
+	    - 방문 처리란, 해당 노드를 이미 방문한 것으로 표시하여 중복 탐색을 방지하는 작업을 의미한다.
+	      
+	2. **큐에서 노드를 하나 꺼내고 해당 노드의 인접 노드들을 확인한다.**
+	    - 큐의 맨 앞에서 노드를 꺼낸다.
+	    - 꺼낸 노드와 연결된 인접 노드들을 확인하며, 방문하지 않은 노드들을 찾아낸다.
+	      
+	3. **방문하지 않은 인접 노드를 큐에 추가하고 방문 처리한다.**
+	    - 확인된 인접 노드 중 아직 방문하지 않은 노드들을 큐에 넣고, 방문 처리한다.
+	      
+	4. **큐가 빌 때까지 2~3 단계를 반복한다.**
+	    - 모든 노드를 방문할 때까지 위 과정을 반복하며 탐색한다.
+	
+- **BFS의 특징**
+	- 너비 우선 탐색은 **노드의 깊이를 기준으로 탐색**한다.
+	- 먼저 시작 노드와 가까운 노드를 모두 방문한 뒤, 그다음 깊이로 넘어간다.
+	- 일반적으로 큐(Queue)를 이용하여 구현된다.
+	  
+-  BFS 탐색 순서:
+	
+	- 시작 노드: A
+		
+	1. **A를 큐에 추가하고 방문 처리.**
+	    
+	    - 큐 상태: [A]
+	2. **큐에서 A를 꺼내고 인접 노드 B, C를 추가.**
+	    
+	    - 큐 상태: [B, C]
+	    - 방문 처리: A → B, C
+	3. **큐에서 B를 꺼내고 인접 노드 D를 추가.**
+	    
+	    - 큐 상태: [C, D]
+	    - 방문 처리: A → B → D
+	4. **큐에서 C를 꺼내고 인접 노드 E를 추가.**
+	    
+	    - 큐 상태: [D, E]
+	    - 방문 처리: A → B → C → E
+	5. **큐에서 D를 꺼내지만, D에는 인접 노드가 없으므로 그대로 넘어감.**
+	    
+	    - 큐 상태: [E]
+	6. **큐에서 E를 꺼내고, 더 이상 탐색할 노드가 없으므로 종료.**
+	    
+	    - 큐 상태: []
+	
+-  **BFS 구현 (자바 코드)**
+```java
+import java.util.*;
+
+public class BFSExample {
+    public static void main(String[] args) {
+        // 그래프 초기화
+        Map<String, List<String>> graph = new HashMap<>();
+        graph.put("A", Arrays.asList("B", "C"));
+        graph.put("B", Arrays.asList("D"));
+        graph.put("C", Arrays.asList("E"));
+        graph.put("D", new ArrayList<>());
+        graph.put("E", new ArrayList<>());
+
+        bfs(graph, "A");
+    }
+
+    public static void bfs(Map<String, List<String>> graph, String start) {
+        Queue<String> queue = new LinkedList<>();
+        Set<String> visited = new HashSet<>();
+
+        queue.add(start);
+        visited.add(start);
+
+        while (!queue.isEmpty()) {
+            String node = queue.poll();
+            System.out.print(node + " "); // 현재 노드 출력
+
+            for (String neighbor : graph.get(node)) {
+                if (!visited.contains(neighbor)) {
+                    queue.add(neighbor);
+                    visited.add(neighbor);
+                }
+            }
+        }
+    }
+}
+
+```
+
+---
+##### 깊이 우선 탐색
+
+- 그래프를 탐색하는 알고리즘이다.
+	
+- 하나의 길을 선택하여 갈 수 있는 만큼 진행하다가 더 이상 진행할 수 없으면 되돌아가서 다음 후보 경로를 탐색한다.
+	  
+-  **가정**
+	1. **정점(시작점)이 맨 위에 있다.**  
+	    시작점부터 탐색을 시작한다.
+	    
+	2. **그래프의 전체 구조는 모른다.**  
+	    그래프의 모든 정점과 간선을 탐색하며 구조를 알아간다.
+	
+-  **목적**
+	- 시작점에서 **한 경로를 끝까지 탐색**하며 정점을 방문한다.
+	- **지정한 정점(목표)**에 도달했는지 여부를 판단할 수 있다.
+	
+-  **주요 특징**
+	- 깊이 우선 탐색은 경로를 **최대한 깊이** 탐색한 후, 돌아와 다른 경로를 탐색한다.
+	- 스택(또는 재귀)을 활용하여 탐색 과정을 관리한다.
+	
+-  **너비 우선 탐색의 동작 구조**
+	
+	1. **시작 노드를 큐(Queue)에 추가하고 방문 처리한다.**
+	    - 탐색을 시작할 초기 노드를 큐에 넣고, 해당 노드를 "방문 처리"한다.
+	    - 방문 처리란, 해당 노드를 이미 방문한 것으로 표시하여 중복 탐색을 방지하는 작업을 의미한다.
+	      
+	2. **큐에서 노드를 하나 꺼내고 해당 노드의 인접 노드들을 확인한다.**
+	    - 큐의 맨 앞에서 노드를 꺼낸다.
+	    - 꺼낸 노드와 연결된 인접 노드들을 확인하며, 방문하지 않은 노드들을 찾아낸다.
+	      
+	3. **방문하지 않은 인접 노드를 큐에 추가하고 방문 처리한다.**
+	    - 확인된 인접 노드 중 아직 방문하지 않은 노드들을 큐에 넣고, 방문 처리한다.
+	      
+	4. **큐가 빌 때까지 2~3 단계를 반복한다.**
+	    - 모든 노드를 방문할 때까지 위 과정을 반복하며 탐색한다.
+	
+-  **BFS의 특징**
+	- 너비 우선 탐색은 **노드의 깊이를 기준으로 탐색**한다.
+	- 먼저 시작 노드와 가까운 노드를 모두 방문한 뒤, 그다음 깊이로 넘어간다.
+	- 일반적으로 큐(Queue)를 이용하여 구현된다.
+	
+- **BFS 탐색 순서**
+	  
+	- 시작 노드: A
+	
+	1. **A를 큐에 추가하고 방문 처리.**
+	    - 큐 상태: [A]
+	      
+	2. **큐에서 A를 꺼내고 인접 노드 B, C를 추가.**
+	    - 큐 상태: [B, C]
+	    - 방문 처리: A → B, C
+	      
+	3. **큐에서 B를 꺼내고 인접 노드 D를 추가.**
+	    - 큐 상태: [C, D]
+	    - 방문 처리: A → B → D
+	      
+	4. **큐에서 C를 꺼내고 인접 노드 E를 추가.**
+	    - 큐 상태: [D, E]
+	    - 방문 처리: A → B → C → E
+	      
+	5. **큐에서 D를 꺼내지만, D에는 인접 노드가 없으므로 그대로 넘어감.**
+	    - 큐 상태: [E]
+	      
+	6. **큐에서 E를 꺼내고, 더 이상 탐색할 노드가 없으므로 종료.**
+	    - 큐 상태: []
+	
+- 예제 코드
+```java
+import java.util.*;
+
+public class BFSExample {
+    public static void main(String[] args) {
+        // 그래프 초기화
+        Map<String, List<String>> graph = new HashMap<>();
+        graph.put("A", Arrays.asList("B", "C"));
+        graph.put("B", Arrays.asList("D"));
+        graph.put("C", Arrays.asList("E"));
+        graph.put("D", new ArrayList<>());
+        graph.put("E", new ArrayList<>());
+
+        bfs(graph, "A");
+    }
+
+    public static void bfs(Map<String, List<String>> graph, String start) {
+        Queue<String> queue = new LinkedList<>();
+        Set<String> visited = new HashSet<>();
+
+        queue.add(start);
+        visited.add(start);
+
+        while (!queue.isEmpty()) {
+            String node = queue.poll();
+            System.out.print(node + " "); // 현재 노드 출력
+
+            for (String neighbor : graph.get(node)) {
+                if (!visited.contains(neighbor)) {
+                    queue.add(neighbor);
+                    visited.add(neighbor);
+                }
+            }
+        }
+    }
+}
+
+```
+
+---
+##### 벨먼-포드 알고리즘
+
+##### 다익스트라 알고리즘
+
+##### A*
+
+##### 크루스칼 알고리즘
+
+##### 프림 알고리즘
+
+##### 매칭 알고리즘
+
+##### 보안 알고리즘
+
+##### 암호의 기본
+##### 해시 함수
+##### 대칭키 암호 방식
+##### 공개키 암호 방식
+##### 하이브리드 암호 방식
+##### 디퍼-헬먼 키 교환법
+##### 메시지 인증 코드
+##### 디지털 서명
+##### 디지털 인증서
+##### 클러스터링이란?
+##### k-평균 알고리즘
+##### 데이터 압축과 부호화
+##### 런 렝스 부호화
+##### 유일 복호 가능 부호
+##### 순시 부호
+##### 하프만 코드
+##### 유클리드 호제법
+
+##### 소수판별법
+##### 문자열 매칭
+##### 커누스-모리스-프랫 알고리즘
+##### 페이지랭크
+##### 하노이의 탑

@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,10 +218,11 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "42381c784391746c",
+  "active": "36c89bfe6fb43e74",
   "lastOpenFiles": [
-    "0 - CS/1 Study/Data Structure.md",
     "0 - CS/1 Study/Data Struacture & Algolism.md",
+    "0 - CS/3 Complete/Linked List.md",
+    "0 - CS/1 Study/Data Structure.md",
     "2 - Area/Notebook Archive.md",
     "1 - Project/0 BookMarK.md",
     "0 - CS/0 Morning study/2. Merge Sort, Quick Sort, Heap Sort.md",
@@ -246,7 +247,6 @@
     "6 - ATNT/1 Project/8 TO DO LIST.md",
     "5 - Templete/기본 양식 문서.md",
     "1 - Project/1 CS/1 LoadMap/! CS LoadMap.md",
-    "1 - Project/1 CS/1 LoadMap/5대 CS.md",
     "10 - Image/Pasted image 20241119145728.png",
     "10 - Image/Pasted image 20241119140620.png",
     "0 - CS/4 Master",
