@@ -3,7 +3,7 @@
 ----
 ##### 연결 문서
 
-- [[Operation System]]
+- [[6 - ATNT/2 Area/Operation System]]
 - [[RAM]]
 - [[보조 기억 장치]]
 ---

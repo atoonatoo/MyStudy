@@ -8,7 +8,7 @@ updated: 2024-09-14
 ##### 연결 문서
 
 
-- [[Operation System]]
+- [[6 - ATNT/2 Area/Operation System]]
 - [[System Call]]
 ---
 

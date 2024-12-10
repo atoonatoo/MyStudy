@@ -3,15 +3,14 @@ created:
 updated:
 ---
 ---
-
 - [[Data Structure]]
-- [[Data Struacture & Algorithem]]
-
+- [[Algorithem]]
+- [[Operating System]]
+- [[Network]]
+- [[0 - CS/1 list/Design Pattern|Design Pattern]]
+- [[0 - CS/1 list/DataBase|DataBase]]
 ---
-
-# **README**
-
-# 그림으로 보는 자료구조 알고리즘 목차
+### 그림으로 보는 자료구조 알고리즘 목차
 
 - **1장 데이터 구조**
     
@@ -69,9 +68,9 @@ updated:
     - 8-4 큐스-모리스-프렛 알고리즘
     - 8-5 페이지랭크
     - 8-6 하노이의 탑
-# **1. CS 로드맵**
+### **CS 로드맵**
 
-## 자료구조
+##### 자료구조
 
 - **자료구조의 의의**
 	우리가 사용하는 컴퓨터의 공간은 한정적이다.
@@ -101,7 +100,7 @@ updated:
 	- [[1 - Main/1 CS/Array|Array]]
 
 ---
-## 운영체제
+##### 운영체제
 
 - **운영체제의 의의**
 	컴퓨터라는 기계를 사용자가 직접 상호작용할 수 있도록 도와주는 시스템
@@ -121,7 +120,7 @@ updated:
 	이러한 운영체제의 동작 원리를 알아야 내가 만든 프로그램이 어떤 식으로 돌아가는지를 알 수 있다.
 	
 	- **운영체제 리스트**
-		- [[0 - CS/1 Study/CPU]] 
+		- [[0 - CS/2 Study/CPU]] 
 		- [[CPU Architecture]] 
 		- [[CPU Scheduling Algorithms]] 
 		- [[FCFS]] 
@@ -141,9 +140,9 @@ updated:
 		- [[LRU]]
 
 ---
-## 알고리즘
+##### 알고리즘
 
-- **[[Data Struacture & Algorithem]]**
+- **[[Algorithem]]**
 	문제를 해결하는 어떤 방식과 순서를 타입화 시켜 놓은 것
 	
 	정렬 시리즈를 다 알아두는 것이 좋다.
@@ -164,7 +163,7 @@ updated:
 	- [[Dijkstra's Algorithm]]
 
 ---
-## 디자인패턴
+##### 디자인패턴
 
 - **디자인 패턴의 의의**
 	폴더 구조를 어떻게 짜야하는지? 파일의 구조를 어떻게 짜야하는지?
@@ -227,7 +226,7 @@ updated:
 	- [[FP]]
 
 ---
-## 네트워크
+##### 네트워크
 
 - **네트워크의 의의**
 	
@@ -250,7 +249,7 @@ updated:
 	- [[Load Balancers]]
 
 ---
-## 데이터베이스
+##### 데이터베이스
 
 - **데이터베이스의 의의**
 	  
@@ -285,7 +284,7 @@ updated:
 
 
 ---
-# **2. 5대 CS**
+# **5대 CS**
 
 ### 1. **알고리즘 및 자료구조**
 

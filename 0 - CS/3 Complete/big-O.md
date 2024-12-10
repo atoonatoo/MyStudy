@@ -2,8 +2,10 @@
 created:
 ---
 ---
-# **README**
-
+- [[Data Structure]]
+- [[Algorithem]]
+- 
+---
 ### big O 표기법
 
 - 알고리즘의 성능을 나타내는 표기법
@@ -325,3 +327,8 @@ public class BigOExample {
 ### JS에서 유용한 함수들의 시간복잡도
 
 ![[Pasted image 20241119145728.png]]
+
+---
+##### 출처
+- 
+---

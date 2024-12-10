@@ -2,10 +2,10 @@
 created:
 ---
 ---
-# **README**
-
-- 참고 자료 - 개발자 유미 Security 강의
-	- https://www.youtube.com/playlist?list=PLJkjrxxiBSFCcOjy0AAVGNtIa08VLk1EJ
+- 
+- 
+- 
+---
 ### Intro
 - 시작하기 전..
   
@@ -131,4 +131,10 @@ created:
 		- 커스텀 필터 SecurityConfig
 		  
 	- 로그인 모식도![[Pasted image 20241104163108.png]]
-	
+
+---
+##### 참고 자료 
+- 개발자 유미 Security 강의
+	- https://www.youtube.com/playlist?list=PLJkjrxxiBSFCcOjy0AAVGNtIa08VLk1EJ
+
+---
