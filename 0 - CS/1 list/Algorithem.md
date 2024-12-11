@@ -17,10 +17,6 @@ created:
 - [[]]
 - [[]]
 ---
-# Algorithm
-
-
-
 ##### 삽입 정렬 Insertion Sort
 
 - **시간 복잡도**
@@ -63,7 +59,7 @@ public class InsertionSort {
             arr[j + 1] = key; // key를 적절한 위치에 삽입
         }
     }
-
+	
     public static void main(String[] args) {
         int[] numbers = {3, 1, 4, 1, 5, 9, 2, 6, 5};
         System.out.println("정렬 전:");
