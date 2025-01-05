@@ -5,6 +5,27 @@ created:
 
 # 깁스하는동안 정리
 
+
+
+- CPU 스케줄링 
+	- https://deious.tistory.com/290
+- CPU 작동 원리
+	- https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md
+- 프로세스 VS 스레드 개념
+	- https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%E2%9A%94%EF%B8%8F-%EC%93%B0%EB%A0%88%EB%93%9C-%EC%B0%A8%EC%9D%B4
+- CPU 스케줄링 기술면접
+	- https://allhoneytip.com/cpu-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81%EC%9D%80-%EC%9A%B4%EC%98%81-%EC%B2%B4%EC%A0%9C%EC%97%90%EC%84%9C-%EC%A4%91%EC%9A%94%ED%95%9C-%EA%B0%9C%EB%85%90%EC%9C%BC%EB%A1%9C-%ED%94%84%EB%A1%9C%EC%84%B8/
+- 프로세스 
+	- https://tlatmsrud.tistory.com/150#google_vignette
+- 운영체제
+	- https://suhyunsim.github.io/2023-03-14/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8
+- 커널모드
+	- https://hongong.hanbit.co.kr/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EB%9E%80-%EC%BB%A4%EB%84%90%EC%9D%98-%EA%B0%9C%EB%85%90-%EC%9D%91%EC%9A%A9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%8B%A4%ED%96%89%EC%9D%84-%EC%9C%84%ED%95%9C/
+- 운영체제 기술면접
+	- https://velog.io/@min9288/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C
+- 
+
+
 소스코드
 
 
