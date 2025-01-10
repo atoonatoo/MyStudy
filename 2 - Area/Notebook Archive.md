@@ -6,6 +6,10 @@ created:
 # 깁스하는동안 정리
 
 
+- CS 기술 면접
+	- 운영체제
+		- https://velog.io/@min9288/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C
+		- 
 
 - CPU 스케줄링 
 	- https://deious.tistory.com/290
@@ -26,7 +30,10 @@ created:
 - 유튜브 api 저작권
 	- https://developers.google.com/youtube/terms/api-services-terms-of-service
 - CI /CD란
-	- 
+	- https://www.youtube.com/watch?v=0Emq5FypiMM
+- github actions
+	- https://www.youtube.com/watch?v=iLqGzEkusIw
+- 
 
 
 소스코드
