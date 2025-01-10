@@ -23,7 +23,10 @@ created:
 	- https://hongong.hanbit.co.kr/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EB%9E%80-%EC%BB%A4%EB%84%90%EC%9D%98-%EA%B0%9C%EB%85%90-%EC%9D%91%EC%9A%A9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%8B%A4%ED%96%89%EC%9D%84-%EC%9C%84%ED%95%9C/
 - 운영체제 기술면접
 	- https://velog.io/@min9288/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C
-- 
+- 유튜브 api 저작권
+	- https://developers.google.com/youtube/terms/api-services-terms-of-service
+- CI /CD란
+	- 
 
 
 소스코드
