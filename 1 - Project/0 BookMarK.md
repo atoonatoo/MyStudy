@@ -22,7 +22,7 @@ updated: 2024-09-20
 15. **[[Coding Test]]** - 코딩 테스트 관리
 16. **[[Annotation Study Method]]** - 어노테이션 학습 관리
 17. **[[History]]** - 월간 기록
-
+18. [[Write Templete]] - 글 작성 양식
 ---
 # **Weekly Tasks**
 
