@@ -3,6 +3,13 @@ created: 2024-06-21
 updated: 2024-09-20
 ---
 ---
+# **Challange**
+
+1. [ ] 커뮤니티 댓글 curd 구현
+2. [ ] 리프레시 토큰 구현
+3. [ ] 쿠키 보안 문제 해결
+
+---
 # **BookMarK List**
 
 1. [[Quick Notes]] - 임시로 적을 메모장

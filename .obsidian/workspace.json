@@ -37,8 +37,7 @@
               "title": "Write Templete"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,10 +203,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c407b1208501c421",
+  "active": "36c89bfe6fb43e74",
   "lastOpenFiles": [
-    "1 - Project/0 BookMarK.md",
     "Write Templete.md",
+    "1 - Project/0 BookMarK.md",
     "2 - Area/Study List.md",
     "깊이 우선 탐색.md",
     "0 - CS/0 Morning study/2. Merge Sort, Quick Sort, Heap Sort.md",
