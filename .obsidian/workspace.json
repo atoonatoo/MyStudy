@@ -22,20 +22,6 @@
               "icon": "lucide-file",
               "title": "0 BookMarK"
             }
-          },
-          {
-            "id": "c407b1208501c421",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Write Templete.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Write Templete"
-            }
           }
         ]
       }
@@ -203,12 +189,12 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "36c89bfe6fb43e74",
+  "active": "b85ca5c06d88fbdf",
   "lastOpenFiles": [
-    "Write Templete.md",
+    "0 - CS/2 Study/Write Templete.md",
     "1 - Project/0 BookMarK.md",
     "2 - Area/Study List.md",
-    "깊이 우선 탐색.md",
+    "0 - CS/2 Study/깊이 우선 탐색.md",
     "0 - CS/0 Morning study/2. Merge Sort, Quick Sort, Heap Sort.md",
     "5 - Templete/CS Templete.md",
     "0 - CS/1 list/Design Pattern.md",
@@ -219,13 +205,13 @@
     "0 - CS/1 list/Authentication Architecture.md",
     "0 - CS/1 list/Algorithem.md",
     "5 - Templete/Note Templete.md",
-    "다이나믹 프로그래밍.md",
-    "그리드 알고리즘.md",
-    "다익스트라 알고리즘.md",
-    "벨먼-포드 알고리즘.md",
-    "너비 우선 탐색.md",
-    "그래프.md",
-    "이진 검색 트리.md",
+    "0 - CS/2 Study/다이나믹 프로그래밍.md",
+    "0 - CS/2 Study/그리드 알고리즘.md",
+    "0 - CS/2 Study/다익스트라 알고리즘.md",
+    "0 - CS/2 Study/벨먼-포드 알고리즘.md",
+    "0 - CS/2 Study/너비 우선 탐색.md",
+    "0 - CS/2 Study/그래프.md",
+    "0 - CS/2 Study/이진 검색 트리.md",
     "0 - CS/3 Complete/Sorting.md",
     "0 - CS/3 Complete/Bubble Sort.md",
     "0 - CS/3 Complete/Selection Sort.md",
