@@ -68,8 +68,6 @@ cpu 알고리즘 스케줄링
 
 프로세스 구조
 
-
-
 ---
 https://www.youtube.com/watch?v=mJpwUPqpxhw
 
