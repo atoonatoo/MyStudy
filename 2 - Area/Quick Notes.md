@@ -11,7 +11,6 @@ created:
 	- rds
 		- username - techie
 		- password - pkkk1130
-
 - myapplication
 	- 엔드포인트 
 		- awseb-e-rmzmzym6sb-stack-awsebrdsdatabase-uwzvzwxywofb.c1eqiuiw2qcq.ap-northeast-2.rds.amazonaws.com

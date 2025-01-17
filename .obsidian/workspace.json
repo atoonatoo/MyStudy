@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - ATNT/1 Project/POJO.md",
+                "file": "2 - Area/Quick Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "POJO"
+              "title": "Quick Notes"
             }
           }
         ],
@@ -206,6 +206,9 @@
   },
   "active": "005cbe36324ea19a",
   "lastOpenFiles": [
+    "1 - Project/0 BookMarK.md",
+    "0 - CS/3 Complete/컴퓨터 구조.md",
+    "0 - CS/2 Study/그래프.md",
     "0 - CS/1 list/Node.js.md",
     "0 - CS/1 list/Network Core.md",
     "6 - ATNT/1 Project/MYSQL.md",
@@ -214,7 +217,6 @@
     "6 - ATNT/1 Project/IQB.md",
     "6 - ATNT/1 Project/CS 목록 - 0%.md",
     "6 - ATNT/1 Project/instance of.md",
-    "1 - Project/0 BookMarK.md",
     "0 - CS/1 list/Git 1.md",
     "0 - CS/1 list/DataBase 1.md",
     "0 - CS/1 list/Class Diagram.md",
@@ -230,8 +232,6 @@
     "0 - CS/1 list/공격받는 네트워크.md",
     "0 - CS/1 list/객체지향 프로그래밍.md",
     "6 - ATNT/1 Project/가상화.md",
-    "2 - Area/다경이.md",
-    "0 - CS/0 Morning study/0. Info.md",
     "99 - Image/Pasted image 20241210191448.png",
     "99 - Image/Pasted image 20241210191423.png",
     "99 - Image/Pasted image 20241210190649.png",
