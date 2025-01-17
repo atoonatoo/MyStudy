@@ -4,16 +4,9 @@
 
 
 ---
-
 ##### POJO 
 - 오래된 자바 방식
 - Plain Old Java Object
-
-
-
-
-
-
 
 
 
