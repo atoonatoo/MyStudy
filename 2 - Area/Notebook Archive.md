@@ -3,6 +3,178 @@ created:
 ---
 ---
 
+### 멘토링
+
+- 복지는 구체적으로 적자.
+- 직장동료 - 검색해봐라 구체적으로 추구하는 가치관을 알수있다.
+- 장작은 장작이다. 리뷰 점수만보자
+- 좋은 기업찾는법 - 기술 블로그가 있는가?
+- 취업해서 경력을 쌓아서 성장해둬야한다.
+- 개발자들은 어떤 사람들이 있는지?
+- 개발문화가 어떤지?
+- 비지니스모델이 어떤지?
+- 가장중요한것은 내가성장할수있는 사람이있는가?
+
+
+### 모노레포 멀티 모듈 프로젝트 만드는법
+
+https://umbum.dev/1177/
+
+- msa 팀프로젝트
+	- https://techblog.lotteon.com/%EB%89%B4%EC%98%A8%EC%9D%B4%EB%93%A4%EC%9D%98-%EC%B2%AB-msa-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%8F%84%EC%A0%84%EA%B8%B0-d336186a7e31
+# Spring Security + JWT 토큰 인증인가 과정
+
+### JWTUtil
+
+```java
+package com.techie.backend.global.security;
+
+import io.jsonwebtoken.Jwts;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
+import java.nio.charset.StandardCharsets;
+import java.util.Date;
+
+@Component
+public class JWTUtil {
+    private final SecretKey secretKey;
+
+    // 생성자: secretKey를 받아 HMAC SHA256 알고리즘에 사용할 SecretKeySpec 객체를 생성
+    public JWTUtil(@Value("${spring.security.jwt.secret}") String secret) {
+        this.secretKey = new SecretKeySpec(secret.getBytes(StandardCharsets.UTF_8),
+                Jwts.SIG.HS256.key().build().getAlgorithm());
+    }
+
+    // JWT 토큰에서 이메일 정보를 추출하여 반환
+    public String getEmail(String token) {
+        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token)
+                .getPayload().get("email", String.class);
+    }
+
+    // JWT 토큰에서 역할(role) 정보를 추출하여 반환
+    public String getRole(String token) {
+        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token)
+                .getPayload().get("role", String.class);
+    }
+
+    // JWT 토큰에서 닉네임 정보를 추출하여 반환
+    public String getNickname(String token) {
+        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token)
+                .getPayload().get("nickname", String.class);
+    }
+
+    // JWT 토큰이 만료되었는지 확인하여, 만료되었다면 true 반환, 그렇지 않으면 false 반환
+    public Boolean isExpired(String token) {
+        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token)
+                .getPayload().getExpiration().before(new Date());
+    }
+
+    // 주어진 사용자 정보를 기반으로 새로운 JWT 토큰 생성
+    public String createJwt(String email, String role, String nickname, Long expiredMs) {
+        return Jwts.builder()
+                .claim("email", email)  // 'email' 클레임에 이메일 정보 추가
+                .claim("role", role)    // 'role' 클레임에 역할 정보 추가
+                .claim("nickname", nickname)  // 'nickname' 클레임에 닉네임 정보 추가
+                .issuedAt(new Date(System.currentTimeMillis()))  // JWT 발급 시간 설정 (현재 시간)
+                .expiration(new Date(System.currentTimeMillis() + expiredMs))  // JWT 만료 시간 설정 (현재 시간 + 만료 시간(expiredMs))
+                .signWith(secretKey)  // 서명에 사용될 비밀 키 설정
+                .compact();  // JWT 토큰을 문자열로 반환
+    }
+
+}
+
+```
+### JWTFilter
+
+```java
+package com.techie.backend.global.security;
+
+import com.techie.backend.user.domain.User;
+import jakarta.servlet.FilterChain;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import lombok.RequiredArgsConstructor;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.web.filter.OncePerRequestFilter;
+
+import java.io.IOException;
+
+@RequiredArgsConstructor
+public class JWTFilter extends OncePerRequestFilter {
+    private final JWTUtil jwtUtil;
+
+    // HTTP 요청을 처리하는 메서드 (JWT 토큰 검증 및 인증 처리)
+    @Override
+    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
+        
+        // 'Authorization' 헤더에서 토큰 정보 가져오기
+        String authorization = request.getHeader("Authorization");
+        
+        // 요청된 URI 확인
+        String path = request.getRequestURI();
+		
+        // 로그인 경로('/login')는 JWT 검증을 건너뛰고 필터링을 계속 진행
+        if ("/login".equals(path)) {
+            filterChain.doFilter(request, response);
+            return;
+        }
+		
+        // Authorization 헤더가 없거나, "Bearer "로 시작하지 않으면 
+        // 필터링을 건너뛰고 계속 진행
+        if (authorization == null || !authorization.startsWith("Bearer ")) {
+            filterChain.doFilter(request, response);
+            return;
+        }
+
+        // 'Bearer ' 뒤의 토큰만 추출
+        String token = authorization.split(" ")[1];
+
+        // 토큰이 만료되었으면 필터링을 건너뛰고 계속 진행
+        if (jwtUtil.isExpired(token)) {
+            filterChain.doFilter(request, response);
+            return;
+        }
+		
+        // 유효한 토큰에서 이메일, 역할, 닉네임 정보 추출
+        String email = jwtUtil.getEmail(token);
+        String role = jwtUtil.getRole(token);
+        String nickname = jwtUtil.getNickname(token);
+		
+        // 추출한 정보를 이용해 사용자(User) 객체 생성
+        User user = User.builder()
+                .email(email)  // 이메일 정보 설정
+                .password("tempPassword")  // 비밀번호는 임시 값 설정 (JWT에는 비밀번호 정보가 없기 때문에 임시로 설정)
+                .nickname(nickname)  // 닉네임 정보 설정
+                .role(role)  // 역할 정보 설정
+                .build();
+		
+        // 사용자 정보로 UserDetailsCustom 객체 생성 
+        // (Spring Security의 사용자 세부 정보)
+        UserDetailsCustom userDetailsCustom = new UserDetailsCustom(user);
+		
+        // 인증 토큰을 생성 (사용자 정보와 권한 정보 포함)
+        Authentication authToken = new UsernamePasswordAuthenticationToken(userDetailsCustom, null, userDetailsCustom.getAuthorities());
+		
+        // SecurityContextHolder에 인증 정보를 저장 
+        (이후 인증이 필요한 부분에서 사용됨)
+        SecurityContextHolder.getContext().setAuthentication(authToken);
+
+        // 필터 체인을 계속 진행하여 다른 필터나 서블릿으로 요청을 전달
+        filterChain.doFilter(request, response);
+    }
+}
+
+```
+
+
+
+
 # 깁스하는동안 정리
 
 
