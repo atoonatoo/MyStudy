@@ -344,7 +344,109 @@ updated:
 ### 1.4 고급 알고리즘
 ### 1.5 복잡도 이론
 
+---
 
+# JAVASCRIPT
+### 1단계: **기초 개념 다지기**
 
+1. **JavaScript 기본 문법**
+    
+    - 변수 선언 (`var`, `let`, `const`)
+    - 데이터 타입 (문자열, 숫자, 배열, 객체 등)
+    - 연산자 (산술, 비교, 논리 등)
+    - 조건문 (`if`, `else`, `switch`)
+    - 반복문 (`for`, `while`, `forEach` 등)
+2. **함수**
+    
+    - 함수 선언 및 호출
+    - 매개변수와 반환값
+    - 화살표 함수 (`=>`)
+    - 콜백 함수의 이해
+3. **DOM 조작**
+    
+    - DOM(Document Object Model)이란?
+    - `document.querySelector`, `getElementById` 등 DOM 요소 선택
+    - DOM 요소 추가/수정/삭제
+    - 이벤트 처리 (`addEventListener`)
 
+---
 
+### 2단계: **심화 학습**
+
+1. **ES6+ 문법**
+    
+    - 템플릿 리터럴
+    - 디스트럭처링 (구조 분해 할당)
+    - 모듈화 (`import`, `export`)
+    - 프로미스 (`Promise`, `async/await`)
+2. **객체와 배열 다루기**
+    
+    - 객체와 배열의 메서드 (`map`, `filter`, `reduce` 등)
+    - 깊은 복사와 얕은 복사
+    - 객체의 속성과 프로토타입
+3. **비동기 프로그래밍**
+    
+    - `setTimeout`과 `setInterval`
+    - AJAX와 Fetch API
+    - 비동기 처리의 원리 (Event Loop, Callback Queue)
+
+---
+
+### 3단계: **프로젝트 경험**
+
+1. **작은 프로젝트**
+    
+    - 간단한 계산기
+    - Todo 리스트
+    - 날씨 정보 가져오기 (OpenWeather API 활용)
+2. **웹 브라우저 API 활용**
+    
+    - 로컬 스토리지와 세션 스토리지
+    - Canvas API를 사용한 간단한 그래픽 작업
+
+---
+
+### 4단계: **프레임워크와 라이브러리**
+
+1. **React.js**
+    
+    - 컴포넌트 기반 설계
+    - 상태 관리 (State, Props, Context API)
+    - React Router로 SPA 구현
+2. **Node.js와 Express.js**
+    
+    - 서버 구축 기본
+    - RESTful API 설계
+    - 데이터베이스 연동 (MongoDB, MySQL 등)
+
+---
+
+### 5단계: **고급 주제**
+
+1. **테스트**
+    
+    - 단위 테스트와 통합 테스트
+    - Jest, Mocha 같은 도구 사용
+2. **성능 최적화**
+    
+    - 코드 최적화 기법
+    - 렌더링 최적화
+    - Webpack, Babel 등의 도구 활용
+3. **타입스크립트**
+    
+    - 자바스크립트에 정적 타입 추가
+    - 타입 안전성 확보
+
+---
+
+### 6단계: **심화 프로젝트**
+
+1. **완성도 있는 프로젝트**
+    
+    - 풀스택 애플리케이션 개발
+    - 배포 (Netlify, Vercel, Heroku 등)
+    - GitHub Actions로 CI/CD 구성
+2. **오픈소스 기여**
+    
+    - GitHub에서 작은 프로젝트 기여
+    - 코드 리뷰와 협업 경험 쌓기

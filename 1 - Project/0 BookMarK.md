@@ -15,7 +15,7 @@ updated: 2024-09-20
 
 1. [[Quick Notes]] - 임시로 적을 메모장
 2. [[Notebook Archive]] - 모든 기록을 저장하고 추후 분류하는 노트
-3. **[[CS LoadMap]]** - CS 로드맵
+3. **[[Learning LoadMap]]** - 학습 로드맵
 4. **[[LINK]]** - 링크 모음
 5. **[[PROMPT]]** - 명령어 모음
 6. **[[Document]]** - 마크다운 모음

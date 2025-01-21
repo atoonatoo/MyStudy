@@ -3,214 +3,63 @@ created:
 ---
 ---
 
-### 모닝 스터디
-
-- 4주차 - https://www.notion.so/gaan/1-4-17efbb391d798062a802fe80407855b1
-- 노코드 로우코드 - https://judy0465.tistory.com/144
-### 멘토링
-
-- 34주차 - https://applicationspring.notion.site/34-18058235526380dab6c4e5394a66c5cd?pvs=4
-	- 복지는 구체적으로 적자.
-	- 직장동료 - 검색해봐라 구체적으로 추구하는 가치관을 알수있다.
-	- 장작은 장작이다. 리뷰 점수만보자
-	- 좋은 기업찾는법 - 기술 블로그가 있는가?
-	- 취업해서 경력을 쌓아서 성장해둬야한다.
-	- 개발자들은 어떤 사람들이 있는지?
-	- 개발문화가 어떤지?
-	- 비지니스모델이 어떤지?
-	- 가장중요한것은 내가성장할수있는 사람이있는가?
-
-
-### 모노레포 멀티 모듈 프로젝트 만드는법
-
-https://umbum.dev/1177/
-
+- TCP / UDP 
+	- https://inpa.tistory.com/entry/NW-%F0%9F%8C%90-%EC%95%84%EC%A7%81%EB%8F%84-%EB%AA%A8%ED%98%B8%ED%95%9C-TCP-UDP-%EA%B0%9C%EB%85%90-%E2%9D%93-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EC%9E%90
+	- 
+- 프로젝트 캐싱적용
+	- https://kerobero.tistory.com/35
+	- https://f-lab.kr/insight/effective-caching-strategies-20240620
+	
+- 모닝 스터디
+	- 4주차 - https://www.notion.so/gaan/1-4-17efbb391d798062a802fe80407855b1
+	- 노코드 로우코드 - https://judy0465.tistory.com/144
+	
+- 멘토링
+	- 34주차 - https://applicationspring.notion.site/34-18058235526380dab6c4e5394a66c5cd?pvs=4
+		- 복지는 구체적으로 적자.
+		- 직장동료 - 검색해봐라 구체적으로 추구하는 가치관을 알수있다.
+		- 장작은 장작이다. 리뷰 점수만보자
+		- 좋은 기업찾는법 - 기술 블로그가 있는가?
+		- 취업해서 경력을 쌓아서 성장해둬야한다.
+		- 개발자들은 어떤 사람들이 있는지?
+		- 개발문화가 어떤지?
+		- 비지니스모델이 어떤지?
+		- 가장중요한것은 내가성장할수있는 사람이있는가?
+	
+- 모노레포 멀티 모듈 프로젝트 만드는법
+	- https://umbum.dev/1177/
+	
 - msa 팀프로젝트
 	- https://techblog.lotteon.com/%EB%89%B4%EC%98%A8%EC%9D%B4%EB%93%A4%EC%9D%98-%EC%B2%AB-msa-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%8F%84%EC%A0%84%EA%B8%B0-d336186a7e31
-# Spring Security + JWT 토큰 인증인가 과정
-
-### JWTUtil
-
-```java
-package com.techie.backend.global.security;
-
-import io.jsonwebtoken.Jwts;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
-import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
-import java.nio.charset.StandardCharsets;
-import java.util.Date;
-
-@Component
-public class JWTUtil {
-    private final SecretKey secretKey;
-
-    // 생성자: secretKey를 받아 HMAC SHA256 알고리즘에 사용할 SecretKeySpec 객체를 생성
-    public JWTUtil(@Value("${spring.security.jwt.secret}") String secret) {
-        this.secretKey = new SecretKeySpec(secret.getBytes(StandardCharsets.UTF_8),
-                Jwts.SIG.HS256.key().build().getAlgorithm());
-    }
-
-    // JWT 토큰에서 이메일 정보를 추출하여 반환
-    public String getEmail(String token) {
-        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token)
-                .getPayload().get("email", String.class);
-    }
-
-    // JWT 토큰에서 역할(role) 정보를 추출하여 반환
-    public String getRole(String token) {
-        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token)
-                .getPayload().get("role", String.class);
-    }
-
-    // JWT 토큰에서 닉네임 정보를 추출하여 반환
-    public String getNickname(String token) {
-        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token)
-                .getPayload().get("nickname", String.class);
-    }
-
-    // JWT 토큰이 만료되었는지 확인하여, 만료되었다면 true 반환, 그렇지 않으면 false 반환
-    public Boolean isExpired(String token) {
-        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token)
-                .getPayload().getExpiration().before(new Date());
-    }
-
-    // 주어진 사용자 정보를 기반으로 새로운 JWT 토큰 생성
-    public String createJwt(String email, String role, String nickname, Long expiredMs) {
-        return Jwts.builder()
-                .claim("email", email)  // 'email' 클레임에 이메일 정보 추가
-                .claim("role", role)    // 'role' 클레임에 역할 정보 추가
-                .claim("nickname", nickname)  // 'nickname' 클레임에 닉네임 정보 추가
-                .issuedAt(new Date(System.currentTimeMillis()))  // JWT 발급 시간 설정 (현재 시간)
-                .expiration(new Date(System.currentTimeMillis() + expiredMs))  // JWT 만료 시간 설정 (현재 시간 + 만료 시간(expiredMs))
-                .signWith(secretKey)  // 서명에 사용될 비밀 키 설정
-                .compact();  // JWT 토큰을 문자열로 반환
-    }
-
-}
-
-```
-### JWTFilter
-
-```java
-package com.techie.backend.global.security;
-
-import com.techie.backend.user.domain.User;
-import jakarta.servlet.FilterChain;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import lombok.RequiredArgsConstructor;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.web.filter.OncePerRequestFilter;
-
-import java.io.IOException;
-
-@RequiredArgsConstructor
-public class JWTFilter extends OncePerRequestFilter {
-    private final JWTUtil jwtUtil;
-
-    // HTTP 요청을 처리하는 메서드 (JWT 토큰 검증 및 인증 처리)
-    @Override
-    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-        
-        // 'Authorization' 헤더에서 토큰 정보 가져오기
-        String authorization = request.getHeader("Authorization");
-        
-        // 요청된 URI 확인
-        String path = request.getRequestURI();
-		
-        // 로그인 경로('/login')는 JWT 검증을 건너뛰고 필터링을 계속 진행
-        if ("/login".equals(path)) {
-            filterChain.doFilter(request, response);
-            return;
-        }
-		
-        // Authorization 헤더가 없거나, "Bearer "로 시작하지 않으면 
-        // 필터링을 건너뛰고 계속 진행
-        if (authorization == null || !authorization.startsWith("Bearer ")) {
-            filterChain.doFilter(request, response);
-            return;
-        }
-
-        // 'Bearer ' 뒤의 토큰만 추출
-        String token = authorization.split(" ")[1];
-
-        // 토큰이 만료되었으면 필터링을 건너뛰고 계속 진행
-        if (jwtUtil.isExpired(token)) {
-            filterChain.doFilter(request, response);
-            return;
-        }
-		
-        // 유효한 토큰에서 이메일, 역할, 닉네임 정보 추출
-        String email = jwtUtil.getEmail(token);
-        String role = jwtUtil.getRole(token);
-        String nickname = jwtUtil.getNickname(token);
-		
-        // 추출한 정보를 이용해 사용자(User) 객체 생성
-        User user = User.builder()
-                .email(email)  // 이메일 정보 설정
-                .password("tempPassword")  // 비밀번호는 임시 값 설정 (JWT에는 비밀번호 정보가 없기 때문에 임시로 설정)
-                .nickname(nickname)  // 닉네임 정보 설정
-                .role(role)  // 역할 정보 설정
-                .build();
-		
-        // 사용자 정보로 UserDetailsCustom 객체 생성 
-        // (Spring Security의 사용자 세부 정보)
-        UserDetailsCustom userDetailsCustom = new UserDetailsCustom(user);
-		
-        // 인증 토큰을 생성 (사용자 정보와 권한 정보 포함)
-        Authentication authToken = new UsernamePasswordAuthenticationToken(userDetailsCustom, null, userDetailsCustom.getAuthorities());
-		
-        // SecurityContextHolder에 인증 정보를 저장 
-        (이후 인증이 필요한 부분에서 사용됨)
-        SecurityContextHolder.getContext().setAuthentication(authToken);
-
-        // 필터 체인을 계속 진행하여 다른 필터나 서블릿으로 요청을 전달
-        filterChain.doFilter(request, response);
-    }
-}
-
-```
-
-
-
-
-# 깁스하는동안 정리
-
-
-- CS 기술 면접
-	- 운영체제
-		- https://velog.io/@min9288/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C
 	
-- CPU 스케줄링 
-	- https://deious.tistory.com/290
-- CPU 작동 원리
-	- https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md
-- 프로세스 VS 스레드 개념
-	- https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%E2%9A%94%EF%B8%8F-%EC%93%B0%EB%A0%88%EB%93%9C-%EC%B0%A8%EC%9D%B4
-- CPU 스케줄링 기술면접
-	- https://allhoneytip.com/cpu-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81%EC%9D%80-%EC%9A%B4%EC%98%81-%EC%B2%B4%EC%A0%9C%EC%97%90%EC%84%9C-%EC%A4%91%EC%9A%94%ED%95%9C-%EA%B0%9C%EB%85%90%EC%9C%BC%EB%A1%9C-%ED%94%84%EB%A1%9C%EC%84%B8/
-- 프로세스 
-	- https://tlatmsrud.tistory.com/150#google_vignette
-- 운영체제
-	- https://suhyunsim.github.io/2023-03-14/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8
-- 커널모드
-	- https://hongong.hanbit.co.kr/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EB%9E%80-%EC%BB%A4%EB%84%90%EC%9D%98-%EA%B0%9C%EB%85%90-%EC%9D%91%EC%9A%A9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%8B%A4%ED%96%89%EC%9D%84-%EC%9C%84%ED%95%9C/
-- 운영체제 기술면접
-	- https://velog.io/@min9288/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C
-- 유튜브 api 저작권
-	- https://developers.google.com/youtube/terms/api-services-terms-of-service
-- CI /CD란
-	- https://www.youtube.com/watch?v=0Emq5FypiMM
-- github actions
-	- https://www.youtube.com/watch?v=iLqGzEkusIw
-- 
-
+- 부상 후 정리
+	
+	- CS 기술 면접
+		- 운영체제
+			- https://velog.io/@min9288/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C
+		
+	- CPU 스케줄링 
+		- https://deious.tistory.com/290
+	- CPU 작동 원리
+		- https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md
+	- 프로세스 VS 스레드 개념
+		- https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%E2%9A%94%EF%B8%8F-%EC%93%B0%EB%A0%88%EB%93%9C-%EC%B0%A8%EC%9D%B4
+	- CPU 스케줄링 기술면접
+		- https://allhoneytip.com/cpu-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81%EC%9D%80-%EC%9A%B4%EC%98%81-%EC%B2%B4%EC%A0%9C%EC%97%90%EC%84%9C-%EC%A4%91%EC%9A%94%ED%95%9C-%EA%B0%9C%EB%85%90%EC%9C%BC%EB%A1%9C-%ED%94%84%EB%A1%9C%EC%84%B8/
+	- 프로세스 
+		- https://tlatmsrud.tistory.com/150#google_vignette
+	- 운영체제
+		- https://suhyunsim.github.io/2023-03-14/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8
+	- 커널모드
+		- https://hongong.hanbit.co.kr/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EB%9E%80-%EC%BB%A4%EB%84%90%EC%9D%98-%EA%B0%9C%EB%85%90-%EC%9D%91%EC%9A%A9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%8B%A4%ED%96%89%EC%9D%84-%EC%9C%84%ED%95%9C/
+	- 운영체제 기술면접
+		- https://velog.io/@min9288/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C
+	- 유튜브 api 저작권
+		- https://developers.google.com/youtube/terms/api-services-terms-of-service
+	- CI /CD란
+		- https://www.youtube.com/watch?v=0Emq5FypiMM
+	- github actions
+		- https://www.youtube.com/watch?v=iLqGzEkusIw
 ---
 시스템 버스 
 클럭

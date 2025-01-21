@@ -2,7 +2,7 @@
 created:
 ---
 ---
-- [[CS LoadMap]]
+- [[Learning LoadMap]]
 - 
 - 
 ---
