@@ -3,22 +3,41 @@
 
 
 ---
-# **링크 분류 및 정리**
+## **1. CS**
 
-## **1. 기술 블로그**
-## **2. 유튜브**
-## **3. 리포지토리**
-## **4. 기술 블로그 게시물**
-## **5. 유튜브 동영상**
-## **6. 기술 면접**
-## **7. ETC**
+##### 블로그 
 
+- **Infa dev**
+	- [프로세스 멀티 스레드](https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%E2%9A%94%EF%B8%8F-%EC%93%B0%EB%A0%88%EB%93%9C-%EC%B0%A8%EC%9D%B4)
+	- [TCP / UDP](https://inpa.tistory.com/entry/NW-%F0%9F%8C%90-%EC%95%84%EC%A7%81%EB%8F%84-%EB%AA%A8%ED%98%B8%ED%95%9C-TCP-UDP-%EA%B0%9C%EB%85%90-%E2%9D%93-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EC%9E%90)
+
+##### **유튜브**
+
+- [cpu 알고리즘 스케줄링 1](https://www.youtube.com/watch?v=w1z6WCyMdhQ)
+- [cpu 알고리즘 스케줄링 2](https://www.youtube.com/watch?v=LgEY4ghpTJI)
+- [컴퓨터 구조와 cpu 작동 원리 - 제어장치 연산장치](https://www.youtube.com/watch?v=mJpwUPqpxhw)
+
+##### 리포지토리
+
+---
+## **2. 기술 면접**
+
+---
+## **3. ETC**
+
+- **워니 개발자**
+	- [이력서 작성법](https://wonny.space/writing/work/engineer-resume)
+	- [실제 합격 이력서](https://wonny-log.notion.site/Wonny-Public-c2f8051bfb574f349406a30d2bc71a45)
+	
 - **다민 블로그**
 	- https://www.jeong-min.com/52-gatsby-blog/
+	  
 - **기록과 정리의 중요성**
     - [기억보다 기록을 (jojoldu 블로그)](https://jojoldu.tistory.com/)
+      
 - **멘토 블로그**
     - [Spring 관련 블로그](https://minkukjo.github.io/framework/2020/12/18/Spring-142/)
+      
 - **AWS 관련 에러 및 설정**
     - [AWS 502 에러 해결](https://choo.oopy.io/0563a1cd-17b0-4513-9e59-49f0bd89834b)
     - [AWS Elastic Beanstalk 에러 해결](https://billtech.tistory.com/23?utm_source=chatgpt.com)

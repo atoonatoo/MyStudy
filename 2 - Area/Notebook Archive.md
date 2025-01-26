@@ -3,32 +3,14 @@ created:
 ---
 ---
 
-- 워니 개발자 이력서 작성법
-	- https://wonny.space/writing/work/engineer-resume
-	  
-- 워니 개발자 실제 합격 이력서
-	- https://wonny-log.notion.site/Wonny-Public-c2f8051bfb574f349406a30d2bc71a45
-	
-- cpu 알고리즘 스케줄링 
-	- https://www.youtube.com/watch?v=w1z6WCyMdhQ
-	- https://www.youtube.com/watch?v=LgEY4ghpTJI
-	
-- 프로세스 멀티 스레드 
-	- https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%E2%9A%94%EF%B8%8F-%EC%93%B0%EB%A0%88%EB%93%9C-%EC%B0%A8%EC%9D%B4
-	
-- 컴퓨터 구조와 cpu 작동 원리 - 제어장치 연산장치
-	- https://www.youtube.com/watch?v=mJpwUPqpxhw
-	  
-- TCP / UDP 
-	- https://inpa.tistory.com/entry/NW-%F0%9F%8C%90-%EC%95%84%EC%A7%81%EB%8F%84-%EB%AA%A8%ED%98%B8%ED%95%9C-TCP-UDP-%EA%B0%9C%EB%85%90-%E2%9D%93-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EC%9E%90
-	- 
 - 프로젝트 캐싱적용
 	- https://kerobero.tistory.com/35
 	- https://f-lab.kr/insight/effective-caching-strategies-20240620
 	
 - 모닝 스터디
-	- 4주차 - https://www.notion.so/gaan/1-4-17efbb391d798062a802fe80407855b1
+	- 1월 4주차 - https://www.notion.so/gaan/1-4-17efbb391d798062a802fe80407855b1
 	- 노코드 로우코드 - https://judy0465.tistory.com/144
+	- Base64 인코딩 - https://judy0465.tistory.com/145
 	
 - 멘토링
 	- 34주차 - https://applicationspring.notion.site/34-18058235526380dab6c4e5394a66c5cd?pvs=4
