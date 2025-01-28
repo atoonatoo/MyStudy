@@ -24,6 +24,20 @@
             }
           },
           {
+            "id": "36163a4c971d06f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0 - CS/2 Study/Write Templete.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Write Templete"
+            }
+          },
+          {
             "id": "ef74c52cbc7b8014",
             "type": "leaf",
             "state": {
@@ -52,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,13 +232,13 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "109c5ef631300734",
+  "active": "36163a4c971d06f6",
   "lastOpenFiles": [
-    "6 - ATNT/2 Area/Operation System.md",
+    "1 - Project/0 BookMarK.md",
     "0 - CS/2 Study/System Bus.md",
+    "6 - ATNT/2 Area/Operation System.md",
     "2 - Area/Notebook Archive.md",
     "2 - Area/LINK.md",
-    "1 - Project/0 BookMarK.md",
     "2 - Area/이력서 원칙.md",
     "2 - Area/Learning LoadMap.md",
     "0 - CS/2 Study/그래프.md",
