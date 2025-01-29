@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -232,13 +232,14 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "36163a4c971d06f6",
+  "active": "109c5ef631300734",
   "lastOpenFiles": [
+    "2 - Area/LINK.md",
+    "0 - CS/2 Study/Write Templete.md",
     "1 - Project/0 BookMarK.md",
     "0 - CS/2 Study/System Bus.md",
     "6 - ATNT/2 Area/Operation System.md",
     "2 - Area/Notebook Archive.md",
-    "2 - Area/LINK.md",
     "2 - Area/이력서 원칙.md",
     "2 - Area/Learning LoadMap.md",
     "0 - CS/2 Study/그래프.md",
@@ -259,7 +260,6 @@
     "0 - CS/1 list/JAVA.md",
     "0 - CS/1 list/Java 1.md",
     "2 - Area/Quick Notes.md",
-    "0 - CS/3 Complete/컴퓨터 구조.md",
     "99 - Image/Pasted image 20241210191448.png",
     "99 - Image/Pasted image 20241210191423.png",
     "99 - Image/Pasted image 20241210190649.png",
