@@ -8,8 +8,14 @@ created:
 	- https://f-lab.kr/insight/effective-caching-strategies-20240620
 	
 - 모닝 스터디
-	- 1월 4주차 - https://www.notion.so/gaan/1-4-17efbb391d798062a802fe80407855b1
-	- 1월 5주차 - https://www.notion.so/gaan/1-5-185fbb391d7980978688c19dfc130f04
+	- 1월 
+		- 4주차 - https://www.notion.so/gaan/1-4-17efbb391d798062a802fe80407855b1
+		- 5주차 - https://www.notion.so/gaan/1-5-185fbb391d7980978688c19dfc130f04
+	- 2월 
+		- 1주차 - 
+		- 2주차 - 
+		- 3주차 - 
+		- 4주차 - 
 	- 노코드 로우코드 - https://judy0465.tistory.com/144
 	- Base64 인코딩 - https://judy0465.tistory.com/145
 	- 바인드 마운트 - https://github.com/djm07073/blog/blob/main/dockers/mount.**md
