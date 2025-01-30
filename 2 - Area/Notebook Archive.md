@@ -12,6 +12,9 @@ created:
 	- 1월 5주차 - https://www.notion.so/gaan/1-5-185fbb391d7980978688c19dfc130f04
 	- 노코드 로우코드 - https://judy0465.tistory.com/144
 	- Base64 인코딩 - https://judy0465.tistory.com/145
+	- 바인드 마운트 - https://github.com/djm07073/blog/blob/main/dockers/mount.**md
+	- 유니언 파일시스템 - https://github.com/djm07073/blog/blob/main/dockers/union_file_system.md
+	- 
 	
 - 멘토링
 	- 34주차 - https://applicationspring.notion.site/34-18058235526380dab6c4e5394a66c5cd?pvs=4
