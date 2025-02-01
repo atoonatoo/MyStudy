@@ -3,6 +3,7 @@ created:
 ---
 ---
 
+- infa dev : 람다 표현식 - https://inpa.tistory.com/entry/%E2%98%95-Lambda-Expression
 - 프로젝트 캐싱적용
 	- https://kerobero.tistory.com/35
 	- https://f-lab.kr/insight/effective-caching-strategies-20240620
