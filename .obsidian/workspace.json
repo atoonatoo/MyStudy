@@ -99,7 +99,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -136,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -233,11 +235,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "markdown-importer:마크다운 형식 가져오기 열기": false,
-      "switcher:퀵 스위처 열기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "markdown-importer:마크다운 형식 불러오기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false,
@@ -251,9 +253,9 @@
     "1 - Project/0 BookMarK.md",
     "0 - CS/2 Study/Write Templete.md",
     "2 - Area/LINK.md",
+    "2 - Area/Notebook Archive.md",
     "0 - CS/2 Study/System Bus.md",
     "6 - ATNT/2 Area/Operation System.md",
-    "2 - Area/Notebook Archive.md",
     "2 - Area/이력서 원칙.md",
     "2 - Area/Learning LoadMap.md",
     "0 - CS/2 Study/그래프.md",
