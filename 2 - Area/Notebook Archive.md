@@ -3,6 +3,13 @@ created:
 ---
 ---
 
+- A급 블로그
+	- 민동현 - https://donghyeon.dev/
+	- Inpa Dev - https://inpa.tistory.com/
+	- 나의 공부 저장소 - https://programforlife.tistory.com/
+	  
+- 스프링부트 Autoconfiguration - https://donghyeon.dev/spring/2020/08/01/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%EC%9D%98-AutoConfiguration%EC%9D%98-%EC%9B%90%EB%A6%AC-%EB%B0%8F-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EA%B8%B0/
+	
 - java
 	- 자바의 특징 및 장점에 대해 설명해 주세요.
 		- 플랫폼 독립성
@@ -209,6 +216,9 @@ created:
 		- 카오스 엔지니어링
 		- 스스로 무기를 만들어라
 		- JPA, MVC를 차라리 써라
+		- 유사한 개념이 있다면 뭐가 다른걸까?, ~
+		- 코드를 봐라
+		- 
 	
 - 모노레포 멀티 모듈 프로젝트 만드는법
 	- https://umbum.dev/1177/
