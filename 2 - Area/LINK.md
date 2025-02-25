@@ -19,6 +19,11 @@
 
 ##### 리포지토리
 
+
+##### 공식 홈페이지
+
+- [Java Reference와 GC](https://d2.naver.com/helloworld/329631)
+
 ---
 ## **2. 기술 면접**
 

@@ -22,18 +22,20 @@ updated: 2024-09-20
 7. **[[Employment]]** - 채용정보 및 취업 관련
 8. **[[Recommended Information]]** - 추천 정보
 9. **[[Tip]]** - 팁 관련
-10. **[[Mentoring]]** - 멘토링 : 회사목록 표 OR 엑셀로 정리 , 이력서 초안 만들어오기 ( 피드백 )
-11. **[[Life]]** - 일상
-12. **[[SPEC]]** - 나의 스펙
-13. **[[Program Project]]** - 프로젝트 관리
-14. **[[Study List]]** - 스터디 관리
-15. **[[Coding Test]]** - 코딩 테스트 관리
-16. **[[Annotation Study Method]]** - 어노테이션 학습 관리
-17. **[[History]]** - 월간 기록
-18. [[Write Templete]] - 글 작성 양식
-19. [[KnowHow]] - 나의 경험, 기록 정리
-20. [[Morning Study]] - 모닝 스터디 관리
-21. [[Mentoring]] - 멘토링 관리
+10. **[[Life]]** - 일상
+11. **[[SPEC]]** - 나의 스펙
+12. **[[Program Project]]** - 프로젝트 관리
+13. **[[Study List]]** - 스터디 관리
+14. **[[Coding Test]]** - 코딩 테스트 관리
+15. **[[Annotation Study Method]]** - 어노테이션 학습 관리
+16. **[[History]]** - 월간 기록
+17. [[Write Templete]] - 글 작성 양식
+18. [[KnowHow]] - 나의 경험, 기록 정리
+19. [[Morning Study]] - 모닝 스터디 관리
+20. [[Mentoring]] - 멘토링 관리
+21. [[analects]] - 저명한 프로그래머들의 어록
+22. [[Helth Note]] - 헬스 정보
+23. [[Study Topics]] - 의문점이나 공부할 예정인 토픽들을 정리
 ---
 # **Weekly Tasks**
 
