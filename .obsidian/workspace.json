@@ -24,6 +24,20 @@
             }
           },
           {
+            "id": "81ae243edc26271f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "analects.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "analects"
+            }
+          },
+          {
             "id": "85be7743dac42309",
             "type": "leaf",
             "state": {
@@ -206,13 +220,14 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "85be7743dac42309",
+  "active": "81ae243edc26271f",
   "lastOpenFiles": [
+    "0 - CS/2 Study/REST API.md",
     "1 - Project/0 BookMarK.md",
+    "analects.md",
     "0 - CS/1 list/객체지향 프로그래밍.md",
     "0 - CS/2 Study/그래프.md",
     "0 - CS/2 Study/SI vs IT vs 비IT.md",
-    "0 - CS/2 Study/REST API.md",
     "Morning Study.md",
     "Study Topics.md",
     "2 - Area/Mentoring.md",
@@ -222,7 +237,6 @@
     "2 - Area/Learning LoadMap.md",
     "2 - Area/SPEC.md",
     "2 - Area/Quick Notes.md",
-    "analects.md",
     "2 - Area/Employment.md",
     "0 - CS/2 Study/Write Templete.md",
     "0 - CS/2 Study/System Bus.md",
