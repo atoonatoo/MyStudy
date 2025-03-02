@@ -30,6 +30,8 @@
 ---
 ## **3. ETC**
 
+- [카카오 뉴인턴에서 정규직 전환 실패에 대한 회고](https://zorba91.tistory.com/286)
+	  
 - **워니 개발자**
 	- [이력서 작성법](https://wonny.space/writing/work/engineer-resume)
 	- [실제 합격 이력서](https://wonny-log.notion.site/Wonny-Public-c2f8051bfb574f349406a30d2bc71a45)

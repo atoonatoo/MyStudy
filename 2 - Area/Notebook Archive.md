@@ -3,6 +3,16 @@ created:
 ---
 ---
 
+- 영어로 검색해보고 그 글을 배워보아라
+- RESTFUL이란?
+	- 로그인, 회원가입은 RESTFUL 할수 없다.
+	- REST에 너무 연연할 필요없다..!
+	- 
+- 좋은회사?
+	- 빡세게 면접보는가?
+	- 빡세게 선별하는 기준이 무엇인가?
+	- 
+
 - A급 블로그
 	- 민동현 - https://donghyeon.dev/
 	- Inpa Dev - https://inpa.tistory.com/

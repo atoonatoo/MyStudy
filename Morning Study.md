@@ -14,7 +14,8 @@ created:
 	- 2주차 - https://gaan.notion.site/2-2-194fbb391d79807aa11dd294914295b8?pvs=4
 	- 3주차 - https://gaan.notion.site/2-3-19bfbb391d7980ffaf10c81b6b028e5e?pvs=4
 	- 4주차 - https://www.notion.so/gaan/2-4-1a2fbb391d79800ca2c6ebf8e37118f9
-	  
+- 3월
+	- 1주차 - https://gaan.notion.site/3-1-1a9fbb391d7980df9250d8f82038da69
 
 ### 학습 주제
 

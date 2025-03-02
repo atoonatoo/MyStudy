@@ -133,6 +133,8 @@ created:
 - [36주차](https://applicationspring.notion.site/36-1875823552638000b45bf863ff06d558)
 - [37주차](https://applicationspring.notion.site/37-19c5823552638071b258f5f8e5af4c90)
 - [38주차](https://applicationspring.notion.site/38-19c58235526380cbba6fcac97bed5419?pvs=4)
+- [39주차](https://applicationspring.notion.site/38-19c58235526380cbba6fcac97bed5419?pvs=4)
+- 
 
 ### 3. **추가 조언 및 목표 설정**
 
