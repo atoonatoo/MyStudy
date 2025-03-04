@@ -3,6 +3,9 @@ created:
 ---
 ---
 
+
+---
+
 - 영어로 검색해보고 그 글을 배워보아라
 - RESTFUL이란?
 	- 로그인, 회원가입은 RESTFUL 할수 없다.
@@ -13,6 +16,7 @@ created:
 	- 빡세게 선별하는 기준이 무엇인가?
 	- 
 
+---
 - A급 블로그
 	- 민동현 - https://donghyeon.dev/
 	- Inpa Dev - https://inpa.tistory.com/
