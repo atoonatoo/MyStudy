@@ -37,8 +37,7 @@
               "title": "Notebook Archive"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,18 +204,18 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "8d68052e2d99da3c",
+  "active": "36c89bfe6fb43e74",
   "lastOpenFiles": [
-    "Simple Word.md",
-    "2 - Area/Quick Notes.md",
+    "2 - Area/LINK.md",
     "1 - Project/0 BookMarK.md",
     "2 - Area/Notebook Archive.md",
+    "2 - Area/Mentoring.md",
+    "Simple Word.md",
+    "2 - Area/Quick Notes.md",
     "2 - Area/다경이.md",
     "2 - Area/Life.md",
     "Morning Study.md",
     "0 - CS/2 Study/REST API.md",
-    "2 - Area/LINK.md",
-    "2 - Area/Mentoring.md",
     "analects.md",
     "0 - CS/1 list/객체지향 프로그래밍.md",
     "0 - CS/2 Study/그래프.md",

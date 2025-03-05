@@ -6,21 +6,10 @@ created:
 
 ---
 
-- 영어로 검색해보고 그 글을 배워보아라
-- RESTFUL이란?
-	- 로그인, 회원가입은 RESTFUL 할수 없다.
-	- REST에 너무 연연할 필요없다..!
-	- 
-- 좋은회사?
-	- 빡세게 면접보는가?
-	- 빡세게 선별하는 기준이 무엇인가?
-	- 
+
 
 ---
-- A급 블로그
-	- 민동현 - https://donghyeon.dev/
-	- Inpa Dev - https://inpa.tistory.com/
-	- 나의 공부 저장소 - https://programforlife.tistory.com/
+
 	  
 - 스프링부트 Autoconfiguration - https://donghyeon.dev/spring/2020/08/01/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%EC%9D%98-AutoConfiguration%EC%9D%98-%EC%9B%90%EB%A6%AC-%EB%B0%8F-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EA%B8%B0/
 	
