@@ -19,7 +19,12 @@
 	- 
 ---
 - **💡블로그**
+	- Infa blog
+		- [lamda 표현식](https://inpa.tistory.com/entry/%E2%98%95-Lambda-Expression)
+		- [infa 프로세스 멀티 스레드](https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%E2%9A%94%EF%B8%8F-%EC%93%B0%EB%A0%88%EB%93%9C-%EC%B0%A8%EC%9D%B4)
+		- [infa TCP / UDP](https://inpa.tistory.com/entry/NW-%F0%9F%8C%90-%EC%95%84%EC%A7%81%EB%8F%84-%EB%AA%A8%ED%98%B8%ED%95%9C-TCP-UDP-%EA%B0%9C%EB%85%90-%E2%9D%93-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EC%9E%90)
 	- 기술 면접 질문 모음
+		- [운영체제 질문 1](https://velog.io/@min9288/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C)
 	    - [면접 질문 모음](https://dev-coco.tistory.com/159)
 	- 워니 개발자 이력서 관리법
 		- [이력서 작성법](https://wonny.space/writing/work/engineer-resume)
@@ -35,13 +40,17 @@
 	- 데이터베이스 정규화 및 ERD
 	    - [데이터베이스 정규화](https://mangkyu.tistory.com/110)
 	    - [스타벅스 ERD 작성 요령](https://velog.io/@jcinsh/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EA%B3%BC%EC%A0%9C)
-	- [infa 프로세스 멀티 스레드](https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%E2%9A%94%EF%B8%8F-%EC%93%B0%EB%A0%88%EB%93%9C-%EC%B0%A8%EC%9D%B4)
-	- [infa TCP / UDP](https://inpa.tistory.com/entry/NW-%F0%9F%8C%90-%EC%95%84%EC%A7%81%EB%8F%84-%EB%AA%A8%ED%98%B8%ED%95%9C-TCP-UDP-%EA%B0%9C%EB%85%90-%E2%9D%93-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EC%9E%90)
 	- [카카오 뉴인턴에서 정규직 전환 실패에 대한 회고](https://zorba91.tistory.com/286)
 	- [기록과 정리의 중요성](https://jojoldu.tistory.com/)
     - [Docker 가이드](https://special-seat-581.notion.site/Docker-f93316d8eb944ce98daa8312039ef72e)
     - [웹 서버의 기초 개념](https://velog.io/@josworks27/%EC%9B%B9-%EC%84%9C%EB%B2%84Server%EC%9D%98-%EA%B8%B0%EC%B4%88-%EA%B0%9C%EB%85%90)
-    - 
+	- [스프링부트 Autoconfiguration 원리 및 만들어보기](https://donghyeon.dev/spring/2020/08/01/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%EC%9D%98-AutoConfiguration%EC%9D%98-%EC%9B%90%EB%A6%AC-%EB%B0%8F-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EA%B8%B0/)
+	- [프로젝트 캐싱 적용하기](https://kerobero.tistory.com/35)
+	- [효율적인 캐싱 전략과 구현 방법](https://f-lab.kr/insight/effective-caching-strategies-20240620)
+	- [모노레포 멀티 모듈 프로젝트 만드는법](https://umbum.dev/1177/)
+	- [MSA 팀프로젝트](https://techblog.lotteon.com/%EB%89%B4%EC%98%A8%EC%9D%B4%EB%93%A4%EC%9D%98-%EC%B2%AB-msa-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%8F%84%EC%A0%84%EA%B8%B0-d336186a7e31)
+	- [webflux](https://gratis-bread-c6b.notion.site/WebFlux-144c300c8414803ca71dec614b966aa2)
+	- 
 ---
 - **💡유튜브**
 	- [cpu 알고리즘 스케줄링 1](https://www.youtube.com/watch?v=w1z6WCyMdhQ)

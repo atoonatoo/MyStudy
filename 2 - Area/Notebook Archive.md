@@ -2,17 +2,6 @@
 created:
 ---
 ---
-
-
----
-
-
-
----
-
-	  
-- 스프링부트 Autoconfiguration - https://donghyeon.dev/spring/2020/08/01/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%EC%9D%98-AutoConfiguration%EC%9D%98-%EC%9B%90%EB%A6%AC-%EB%B0%8F-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EA%B8%B0/
-	
 - java
 	- 자바의 특징 및 장점에 대해 설명해 주세요.
 		- 플랫폼 독립성
@@ -65,7 +54,6 @@ created:
 	- 가비지 컬렉션의 작동 원리와 자바에서의 메모리 관리 방법에 대해 설명해 주세요.
 	- 자바 8에서 도입된 람다 표현식과 스트림 API의 주요 개념과 장점은 무엇인가요?
 	- 불변 객체(Immutable Object)란 무엇이며, 자바에서 불변 객체를 구현하는 방법은 무엇인가요?
-	
 - spring boot
 	- Spring Boot란 무엇이며, 기존 Spring Framework와의 주요 차이점은 무엇인가요?
 	- Spring Boot의 주요 특징과 장점에 대해 설명해 주세요.
@@ -77,7 +65,6 @@ created:
 	- Spring Boot에서 RESTful API를 구축할 때 사용하는 주요 어노테이션과 설계 방법은 무엇인가요?
 	- Spring Boot에서 데이터베이스 연동을 위한 JPA 또는 JDBC 설정 및 활용 방법에 대해 설명해 주세요.
 	- Spring Boot에서 프로파일(Profile) 개념은 무엇이며, 이를 통해 애플리케이션 환경을 어떻게 분리하고 관리할 수 있나요?
-	
 - mysql
 	- MySQL이란 무엇이며, 주요 특징은 무엇인가요?
 	- MySQL의 아키텍처와 내부 동작 방식에 대해 설명해 주세요.
@@ -89,7 +76,6 @@ created:
 	- MySQL의 뷰(View)와 저장 프로시저(Stored Procedure)의 차이점 및 사용 사례는 무엇인가요?
 	- MySQL의 복제(Replication) 기능과 이를 구성하는 방법에 대해 설명해 주세요.
 	- MySQL 성능 최적화를 위한 주요 전략과 도구에는 어떤 것들이 있나요?
-	
 - spring security
 	1. 스프링 시큐리티란 무엇이며, 주요 기능은 무엇인가요?
 	2. 스프링 시큐리티에서 인증(Authentication)과 인가(Authorization)의 차이점은 무엇인가요?
@@ -101,7 +87,6 @@ created:
 	8. 스프링 시큐리티의 메소드 보안(Method Security) 기능과 관련 어노테이션(@PreAuthorize, @PostAuthorize 등)의 사용법은 무엇인가요?
 	9. OAuth2를 활용한 인증 및 인가 구현 시 스프링 시큐리티의 구성 요소와 흐름은 어떻게 되나요?
 	10. 스프링 시큐리티를 적용한 REST API의 보안 설정 시 고려해야 할 주요 사항은 무엇인가요?
-	
 - rest ful api
 	1. RESTful API란 무엇이며, REST 아키텍처의 주요 원칙은 무엇인가요?
 	2. HTTP 메소드(GET, POST, PUT, DELETE 등)가 RESTful API에서 각각 어떤 역할을 하는지 설명해 주세요.
@@ -113,7 +98,6 @@ created:
 	8. RESTful API 보안을 위해 고려해야 할 인증(Authentication) 및 인가(Authorization) 전략은 무엇인가요?
 	9. RESTful API 문서화를 위한 도구(예: Swagger)와 그 활용 방법에 대해 설명해 주세요.
 	10. RESTful API 성능 최적화를 위한 캐싱 전략 및 기법에는 어떤 것들이 있으며, 이를 어떻게 구현할 수 있나요?
-	
 - docker
 	1. **Docker란 무엇이며, 기존 가상 머신과 비교할 때의 장점은 무엇인가요?**
 	2. **Docker 이미지(Image)와 컨테이너(Container)의 차이점은 무엇인가요?**
@@ -125,7 +109,6 @@ created:
 	8. **Docker 컨테이너의 보안 모범 사례와 관련 설정 방법은 무엇인가요?**
 	9. **다중 스테이지 빌드를 활용하여 Docker 이미지 크기를 최적화하는 방법에 대해 설명해 주세요.**
 	10. **Docker의 로그 관리와 모니터링 전략은 무엇이며, 어떤 도구들을 활용할 수 있나요?**
-	
 - aws
 	1. **AWS란 무엇이며, 클라우드 컴퓨팅의 주요 장점은 무엇인가요?**
 	2. **AWS의 주요 서비스(예: EC2, S3, RDS 등)의 기능과 역할에 대해 설명해 주세요.**
@@ -137,7 +120,6 @@ created:
 	8. **AWS Lambda와 서버리스 아키텍처의 주요 장단점 및 활용 사례는 무엇인가요?**
 	9. **AWS RDS의 고가용성(HA) 구성 방법과 백업 전략에 대해 설명해 주세요.**
 	10. **AWS CloudWatch를 이용한 모니터링과 로그 관리는 어떻게 이루어지며, 주요 활용 사례는 무엇인가요?**
-	
 - git
 	1. **Git의 기본 개념과 분산 버전 관리 시스템(DVCS)의 장점은 무엇인가요?**
 	2. **Git과 기존 버전 관리 시스템(SVN 등)과의 주요 차이점은 무엇인가요?**
@@ -149,7 +131,6 @@ created:
 	8. **Git 태그(Tag)의 역할과 버전 관리를 위한 사용 방법은 무엇인가요?**
 	9. **Git의 히스토리 관리(예: log, reflog) 기능과 이를 활용한 문제 해결 방법에 대해 설명해 주세요.**
 	10. **협업 환경에서의 Pull Request(PR) 프로세스와 코드 리뷰의 중요성에 대해 설명해 주세요.**
-	
 - linux
 	1. **Linux 운영체제의 기본 구조와 커널의 역할에 대해 설명해 주세요.**
 	2. **Linux에서 프로세스(Process)와 스레드(Thread)의 차이점은 무엇인가요?**
@@ -161,110 +142,7 @@ created:
 	8. **Linux에서 네트워크 설정 및 문제 해결을 위한 주요 명령어(ifconfig, ip, netstat, ping 등)에 대해 설명해 주세요.**
 	9. **Linux 시스템에서 로그 파일 관리의 기본 위치와 주요 로그 파일(예: /var/log/syslog, /var/log/messages 등)에 대해 설명해 주세요.**
 	10. **Linux 부팅 과정과 관련된 부트로더(예: GRUB) 및 init 시스템(systemd, init.d 등)의 역할에 대해 설명해 주세요.**
-	
 ---
-	
-- infa dev : 람다 표현식 - https://inpa.tistory.com/entry/%E2%98%95-Lambda-Expression
-- 프로젝트 캐싱적용
-	- https://kerobero.tistory.com/35
-	- https://f-lab.kr/insight/effective-caching-strategies-20240620
-	
-
-- 모노레포 멀티 모듈 프로젝트 만드는법
-	- https://umbum.dev/1177/
-	
-- msa 팀프로젝트
-	- https://techblog.lotteon.com/%EB%89%B4%EC%98%A8%EC%9D%B4%EB%93%A4%EC%9D%98-%EC%B2%AB-msa-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%8F%84%EC%A0%84%EA%B8%B0-d336186a7e31
-	
-- 부상 후 정리
-	- CS 기술 면접
-		- 운영체제
-			- https://velog.io/@min9288/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C
-		
-	- CPU 스케줄링 
-		- https://deious.tistory.com/290
-	- CPU 작동 원리
-		- https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md
-	- 프로세스 VS 스레드 개념
-		- https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%E2%9A%94%EF%B8%8F-%EC%93%B0%EB%A0%88%EB%93%9C-%EC%B0%A8%EC%9D%B4
-	- CPU 스케줄링 기술면접
-		- https://allhoneytip.com/cpu-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81%EC%9D%80-%EC%9A%B4%EC%98%81-%EC%B2%B4%EC%A0%9C%EC%97%90%EC%84%9C-%EC%A4%91%EC%9A%94%ED%95%9C-%EA%B0%9C%EB%85%90%EC%9C%BC%EB%A1%9C-%ED%94%84%EB%A1%9C%EC%84%B8/
-	- 프로세스 
-		- https://tlatmsrud.tistory.com/150#google_vignette
-	- 운영체제
-		- https://suhyunsim.github.io/2023-03-14/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8
-	- 커널모드
-		- https://hongong.hanbit.co.kr/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EB%9E%80-%EC%BB%A4%EB%84%90%EC%9D%98-%EA%B0%9C%EB%85%90-%EC%9D%91%EC%9A%A9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%8B%A4%ED%96%89%EC%9D%84-%EC%9C%84%ED%95%9C/
-	- 운영체제 기술면접
-		- https://velog.io/@min9288/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C
-	- 유튜브 api 저작권
-		- https://developers.google.com/youtube/terms/api-services-terms-of-service
-	- CI /CD란
-		- https://www.youtube.com/watch?v=0Emq5FypiMM
-	- github actions
-		- https://www.youtube.com/watch?v=iLqGzEkusIw
-	
-- ModelMapper
-	- 정의 및 역할
-		- **Modelmapper는 자바 객체 간의 데이터를 변환해주는 라이브러리이다.**
-		- 주로 DTO와 Entity 간의 변환 작업을 쉽게 해주는 도구로, 객체 속성 간의 매핑을 자동으로 처리
-		- DTO, Entity의 변환을 자동화하여 코드의 중복을 줄이고 , 유지보수성 향상
-		
-	- 특징
-		- 객체의 필드명을 자동으로 매칭하여 변환
-		- 복잡한 변환 규칙을 설정할 수 있다. 
-		- 조건에 맞는 필드만 매핑할 수 있도록 필터링 기능 제공
-		- `@Mapping` 어노테이션을 사용하여 세부적인 매핑을 지정할 수 있다.
-	
-- big O 표기법 
-	- https://sdolnote.tistory.com/entry/BigOLittleo
-- webflux
-	- https://gratis-bread-c6b.notion.site/WebFlux-144c300c8414803ca71dec614b966aa2
-
----
-
-클럭
-메모리 버퍼레지스터
-메모리 어드레스 레지스터
-cpu 스케줄링
-가장 공정한 cpu 스케줄링
-프로세스 우선순위
-스케줄링 큐
-준비 큐 
-대기 큐
-프로세스 상태 다이어그램
-선점형 비선점형 스케줄링
-cpu 스케줄링 알고리즘
-선입 선처리 스케줄링
-최단 작업 우선 스케줄링 
-라운드 로빈 스케줄링 
-최소 잔여 시간 우선 스케줄링 
-우선순위 스케줄링 
-다단계 큐 스케줄링 
-다단계 피드백 큐 스케줄링
-해시테이블 VS 해시맵
-- 어레이리스트란 어떻게 구조되어있는가
-- 연결 리스트와 어레이리스트의 차이
-- 해시충돌이 많을 때 충돌이 무엇인지, 해결 방법
-- MSA gateway webflux
-- db가 아닌 
-- 유튜브에서 바로 끌고오는 방식
-- 사용자 재생목록에 비디오, 좋아요 등등 만 DB에 저장하는 방식
-- Big O 정의 
-- N을 앞지른다.
-- little o 
-- 코테준비는 파이썬으로 (훨씬 쉽다.)
-- 대용량 데이터 트래픽 
-- 실제 사용자를 받는다.
-- 뭐라도 다른걸 한다.
-- redis 분산락 
-	- redis , MSA, kafka
-- 유저 수를 고려하고 
-- 테스트 툴
-	- jmeter
-	- 프로메테우스
-	- 스카우터
-
 ##### 프로젝트 샘플
 **Assignment - Opener-Market**
 - 해당 과제는 총 6개의 Step으로 구성되어 있습니다.
