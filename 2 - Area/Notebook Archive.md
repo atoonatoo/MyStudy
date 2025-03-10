@@ -143,6 +143,15 @@ created:
 	9. **Linux 시스템에서 로그 파일 관리의 기본 위치와 주요 로그 파일(예: /var/log/syslog, /var/log/messages 등)에 대해 설명해 주세요.**
 	10. **Linux 부팅 과정과 관련된 부트로더(예: GRUB) 및 init 시스템(systemd, init.d 등)의 역할에 대해 설명해 주세요.**
 ---
+
+- 무조건 첫 직장은 서비스 회사로 가야한다.
+- 향후 발전가능성이 있는 회사를 찾아야한다 무조건 쪽빨아먹을수있는 회살 가야한다.
+- https://applicationspring.notion.site/1b158235526380dca53cd3baef3ce103
+	- 김영수님 주목 (잘치는분)
+	- 가장 좋은 회사에 갈 확률이 높은 사람
+	- 깃허브, 기술블로그 등등 다 주목
+- 
+
 ##### 프로젝트 샘플
 **Assignment - Opener-Market**
 - 해당 과제는 총 6개의 Step으로 구성되어 있습니다.
