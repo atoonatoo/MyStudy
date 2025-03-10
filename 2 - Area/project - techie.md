@@ -2,10 +2,21 @@
 created:
 ---
 ---
-# **README**
-# **주간 회의**
 
-## **9/20
+
+- techie
+	- 엔드포인트
+		- awseb-e-dp5bhcd9px-stack-awsebrdsdatabase-lfcgvci26umg.c1eqiuiw2qcq.ap-northeast-2.rds.amazonaws.com
+	- rds
+		- username - techie
+		- password - pkkk1130
+- myapplication
+	- 엔드포인트 
+		- awseb-e-rmzmzym6sb-stack-awsebrdsdatabase-uwzvzwxywofb.c1eqiuiw2qcq.ap-northeast-2.rds.amazonaws.com
+	- rds
+		- username - ebroot 
+		- password - atoo1234
+
 
 1. **자기소개**
    
