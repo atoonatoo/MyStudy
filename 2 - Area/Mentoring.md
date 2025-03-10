@@ -3,11 +3,18 @@ created:
 ---
 ---
 
-- 마인드
+- **링크**
+	- [이력서 예시](https://applicationspring.notion.site/1b158235526380dca53cd3baef3ce103?pvs=4)
+	  
+- **마인드**
 	  
 - **어드바이스**
+	1. 두괄식으로 말하라.
 	  
 - **테크닉 노하우**
+	
+- **추천**
+		1. 책 추천 __ 소프트웨어장인 : 프로그래머 열정을 말하다
 	
 - **자기소개서**
 	
@@ -141,7 +148,7 @@ created:
 - [37주차](https://applicationspring.notion.site/37-19c5823552638071b258f5f8e5af4c90)
 - [38주차](https://applicationspring.notion.site/38-19c58235526380cbba6fcac97bed5419?pvs=4)
 - [39주차](https://applicationspring.notion.site/38-19c58235526380cbba6fcac97bed5419?pvs=4)
-- [40주차]()
+- [40주차](https://applicationspring.notion.site/38-39-19c58235526380cbba6fcac97bed5419?pvs=4)
 
 ### 3. **추가 조언 및 목표 설정**
 
