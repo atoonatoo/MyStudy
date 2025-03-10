@@ -144,8 +144,6 @@ created:
 	10. **Linux 부팅 과정과 관련된 부트로더(예: GRUB) 및 init 시스템(systemd, init.d 등)의 역할에 대해 설명해 주세요.**
 ---
 
-
-
 ##### 프로젝트 샘플
 **Assignment - Opener-Market**
 - 해당 과제는 총 6개의 Step으로 구성되어 있습니다.
