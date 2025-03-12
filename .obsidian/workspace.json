@@ -39,7 +39,8 @@
               "title": "0 BookMarK"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,13 +207,14 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "f90ade9c4b044c0a",
+  "active": "36c89bfe6fb43e74",
   "lastOpenFiles": [
+    "Morning Study.md",
     "1 - Project/0 BookMarK.md",
+    "1 - Project/1 Challange.md",
     "2 - Area/Learning LoadMap.md",
     "OOP.md",
     "Architectural Patterns.md",
-    "1 - Project/1 Challange.md",
     "0 - CS/1 list/Design Pattern.md",
     "0 - CS/1 list/Algorithem.md",
     "0 - CS/1 list/Operating System.md",
@@ -227,7 +229,6 @@
     "Simple Word.md",
     "2 - Area/다경이.md",
     "2 - Area/Life.md",
-    "Morning Study.md",
     "0 - CS/2 Study/REST API.md",
     "analects.md",
     "0 - CS/1 list/객체지향 프로그래밍.md",

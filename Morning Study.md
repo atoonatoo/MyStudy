@@ -17,7 +17,7 @@ created:
 - 3월
 	- 1주차 - https://gaan.notion.site/3-1-1a9fbb391d7980df9250d8f82038da69
 
-### 학습 주제
+- **학습줴**
 
 - 노코드 로우코드 - https://judy0465.tistory.com/144
 - Base64 인코딩 - https://judy0465.tistory.com/145
@@ -25,7 +25,7 @@ created:
 - 유니언 파일시스템 - https://github.com/djm07073/blog/blob/main/dockers/union_file_system.md
 - DB 인덱스 - https://osumaniaddict527.tistory.com/41
 - Amazon OpenSearch Service 구축하기 - https://roomq.tistory.com/36
-
+- CSR과 SCR, SPA와 MPA - https://sysy1127.tistory.com/7
 
 ---
 
