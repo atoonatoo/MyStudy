@@ -38,9 +38,23 @@
               "icon": "lucide-file",
               "title": "0 BookMarK"
             }
+          },
+          {
+            "id": "4951de5ebf57229b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0 - CS/1 list/공격받는 네트워크.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "공격받는 네트워크"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -207,34 +222,34 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "36c89bfe6fb43e74",
+  "active": "4951de5ebf57229b",
   "lastOpenFiles": [
-    "Morning Study.md",
+    "0 - CS/1 list/객체지향 프로그래밍.md",
+    "0 - CS/1 list/Architectural Patterns.md",
+    "3 - Resouce/analects.md",
     "1 - Project/0 BookMarK.md",
+    "2 - Area/Mentoring.md",
+    "2 - Area/PROMPT.md",
+    "2 - Area/Document.md",
+    "2 - Area/Morning Study.md",
+    "2 - Area/Quick Notes.md",
     "1 - Project/1 Challange.md",
+    "2 - Area/Study List.md",
     "2 - Area/Learning LoadMap.md",
-    "OOP.md",
-    "Architectural Patterns.md",
+    "0 - CS/1 list/OOP.md",
     "0 - CS/1 list/Design Pattern.md",
     "0 - CS/1 list/Algorithem.md",
     "0 - CS/1 list/Operating System.md",
     "0 - CS/3 Complete/Data Structure.md",
     "2 - Area/Notebook Archive.md",
-    "2 - Area/Quick Notes.md",
-    "2 - Area/Mentoring.md",
-    "Study Topics.md",
+    "2 - Area/Study Topics.md",
     "2 - Area/project - techie.md",
     "2 - Area/Program Project.md",
     "2 - Area/LINK.md",
-    "Simple Word.md",
+    "2 - Area/Simple Word.md",
     "2 - Area/다경이.md",
     "2 - Area/Life.md",
-    "0 - CS/2 Study/REST API.md",
-    "analects.md",
-    "0 - CS/1 list/객체지향 프로그래밍.md",
-    "0 - CS/2 Study/그래프.md",
-    "0 - CS/2 Study/SI vs IT vs 비IT.md",
-    "Helth Note.md",
+    "0 - CS/3 Complete/REST API.md",
     "99 - Image/Pasted image 20241210191448.png",
     "99 - Image/Pasted image 20241210191423.png",
     "99 - Image/Pasted image 20241210190649.png",
