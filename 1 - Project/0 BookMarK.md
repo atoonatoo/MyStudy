@@ -2,8 +2,6 @@
 created: 2024-06-21
 updated: 2024-09-20
 ---
----
-
 
 ---
 # **BookMarK List**
@@ -32,9 +30,6 @@ updated: 2024-09-20
 22. [[Helth Note]] - 헬스 정보
 23. [[Study Topics]] - 의문점이나 공부할 예정인 토픽들을 정리
 24. [[Simple Word]] - 간략하게 모르는 단어 설명 문서
----
-
-
 ---
 # **Today**
 

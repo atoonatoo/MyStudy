@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,8 +222,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "4951de5ebf57229b",
+  "active": "36c89bfe6fb43e74",
   "lastOpenFiles": [
+    "1 - Project/1 Challange.md",
+    "0 - CS/1 list/공격받는 네트워크.md",
     "0 - CS/1 list/객체지향 프로그래밍.md",
     "0 - CS/1 list/Architectural Patterns.md",
     "3 - Resouce/analects.md",
@@ -233,7 +235,6 @@
     "2 - Area/Document.md",
     "2 - Area/Morning Study.md",
     "2 - Area/Quick Notes.md",
-    "1 - Project/1 Challange.md",
     "2 - Area/Study List.md",
     "2 - Area/Learning LoadMap.md",
     "0 - CS/1 list/OOP.md",
@@ -249,7 +250,6 @@
     "2 - Area/Simple Word.md",
     "2 - Area/다경이.md",
     "2 - Area/Life.md",
-    "0 - CS/3 Complete/REST API.md",
     "99 - Image/Pasted image 20241210191448.png",
     "99 - Image/Pasted image 20241210191423.png",
     "99 - Image/Pasted image 20241210190649.png",
