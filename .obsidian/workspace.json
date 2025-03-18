@@ -53,8 +53,7 @@
               "title": "Notebook Archive"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,12 +220,12 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "60367ab4d3eba697",
+  "active": "f90ade9c4b044c0a",
   "lastOpenFiles": [
     "1 - Project/0 BookMarK.md",
+    "2 - Area/Notebook Archive.md",
     "1 - Project/1 Challange.md",
     "2 - Area/Mentoring.md",
-    "2 - Area/Notebook Archive.md",
     "0 - CS/1 list/공격받는 네트워크.md",
     "0 - CS/1 list/객체지향 프로그래밍.md",
     "0 - CS/1 list/Architectural Patterns.md",
