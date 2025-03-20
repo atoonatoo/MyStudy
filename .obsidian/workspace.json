@@ -38,9 +38,22 @@
               "icon": "lucide-file",
               "title": "0 BookMarK"
             }
+          },
+          {
+            "id": "dc6271743731237f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Area/Notebook Archive.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notebook Archive"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +106,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -208,11 +220,12 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "7ac2a9597da4686e",
+  "active": "f90ade9c4b044c0a",
   "lastOpenFiles": [
+    "스크린샷 2025-03-18 142921.png",
+    "2 - Area/Notebook Archive.md",
     "1 - Project/1 Challange.md",
     "1 - Project/0 BookMarK.md",
-    "2 - Area/Notebook Archive.md",
     "2024-09-20.md",
     "2 - Area/Mentoring.md",
     "0 - CS/1 list/공격받는 네트워크.md",
@@ -235,7 +248,6 @@
     "2 - Area/Program Project.md",
     "2 - Area/LINK.md",
     "2 - Area/Simple Word.md",
-    "2 - Area/다경이.md",
     "99 - Image/Pasted image 20241210191448.png",
     "99 - Image/Pasted image 20241210191423.png",
     "99 - Image/Pasted image 20241210190649.png",
