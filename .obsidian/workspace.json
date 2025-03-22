@@ -53,8 +53,7 @@
               "title": "Notebook Archive"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,7 +220,7 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "dc6271743731237f",
+  "active": "f90ade9c4b044c0a",
   "lastOpenFiles": [
     "1 - Project/0 BookMarK.md",
     "2 - Area/Notebook Archive.md",
