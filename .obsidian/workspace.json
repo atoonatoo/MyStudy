@@ -53,7 +53,8 @@
               "title": "Notebook Archive"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -220,12 +221,12 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "f90ade9c4b044c0a",
+  "active": "dc6271743731237f",
   "lastOpenFiles": [
-    "스크린샷 2025-03-18 142921.png",
+    "1 - Project/0 BookMarK.md",
     "2 - Area/Notebook Archive.md",
     "1 - Project/1 Challange.md",
-    "1 - Project/0 BookMarK.md",
+    "스크린샷 2025-03-18 142921.png",
     "2024-09-20.md",
     "2 - Area/Mentoring.md",
     "0 - CS/1 list/공격받는 네트워크.md",
@@ -259,7 +260,6 @@
     "99 - Image/Pasted image 20241209221422.png",
     "99 - Image/Pasted image 20241209221321.png",
     "99 - Image/Pasted image 20241209220914.png",
-    "99 - Image/Pasted image 20241113103953.png",
     "0 - CS/4 Master",
     "0 - CS/2 Study",
     "1 - Project/1 CS/1 LoadMap",

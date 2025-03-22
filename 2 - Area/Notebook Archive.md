@@ -146,23 +146,28 @@ tags:
 	9. **Linux 시스템에서 로그 파일 관리의 기본 위치와 주요 로그 파일(예: /var/log/syslog, /var/log/messages 등)에 대해 설명해 주세요.**
 	10. **Linux 부팅 과정과 관련된 부트로더(예: GRUB) 및 init 시스템(systemd, init.d 등)의 역할에 대해 설명해 주세요.**
 ---
-#### 📚 1) 프로젝트 정보
-- **네이버 클라우드 로그인 정보
-	- code - camp26
-	- id - camp26
-	- ps - ncloudcamp26!
-- **Server
-	- Server Name - 
-	- 공인 IP - root@223.130.158.202
-	- SSH 보안 키 - Y3%3FHbYu8i
-- **MYSQL DB
-	- username - 
-	- password - 
-- **Docker LogIn
-	- donguk963@gmail.com
-	- ehddnr963!
-- **Docker Repository
-	- atoonatoo/solo-project-repository
+
+1. 프로젝트 정보
+	- 네이버 클라우드 로그인 정보
+		- code - camp26
+		- id - camp26
+		- ps - ncloudcamp26!
+	- server
+		- server name - 
+		- 공인 IP - 
+		- SSH 보안 키 - 
+	- mysql db
+		- username - 
+		- password - 
+	- docker login
+		- donguk963@gmail.com
+		- ehddnr963!
+	- docker repository
+		- atoonatoo/solo-project-repository
+	  
+2.  프로젝트 생성
+
+---
 #### 📚 2) 프로젝트 생성
 - **Spring Boot 프로젝트 생성
 - Spring Stater DI 주입
