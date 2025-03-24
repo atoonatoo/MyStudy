@@ -175,15 +175,14 @@ tags:
 		- atoonatoo/solo-project-repository
 	  
 2.  프로젝트 생성
+	- **Spring Boot 프로젝트 생성
+	- Spring Stater DI 주입
+	- Gradle Build 사용
+	- application.yaml 사용
+	
+3. git repository 생성
 
 ---
-#### 📚 2) 프로젝트 생성
-- **Spring Boot 프로젝트 생성
-- Spring Stater DI 주입
-- Gradle Build 사용
-- application.yaml 사용
-
-#### 📚 3) Git Repository 생성
 #### 📚 4) 프로젝트 + Git 연동
 #### 📚 5) 클라우드 서버 생성
 #### 📚 6) SSH 배포 구성 설정
