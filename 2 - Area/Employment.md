@@ -98,6 +98,7 @@ created:
 - URL 입력 시 내부적으로 처리되는 과정 설명
 - CORS 에러 해결 방법
 - 정규화 개념
+
 - SQL Injection 개념
 - 기본키, 외래키, 후보키의 차이
 - 기본키를 username으로 하면 안 되는 이유

@@ -19,8 +19,8 @@ created:
 	- 3월
 		- 1주차 - https://gaan.notion.site/3-1-1a9fbb391d7980df9250d8f82038da69
 		- 2주차 - https://gaan.notion.site/3-2-1b0fbb391d7980c48ea3fa9eb0553810
-		- 3주차 - 
-		- 4주차 - 
+		- 3주차 - https://www.notion.so/gaan/3-3-1b7fbb391d7980379803db043924d69f
+		- 4주차 - https://www.notion.so/gaan/3-4-1befbb391d7980ed8172ffbde0b886e9
 	- 4월
 		- 1주차 - 
 		- 2주차 - 

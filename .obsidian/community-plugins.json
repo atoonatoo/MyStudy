@@ -5,5 +5,7 @@
   "vscode-editor",
   "obsidian-excalidraw-plugin",
   "obsidian-math-plus",
-  "juggl"
+  "juggl",
+  "obsidian-emoji-toolbar",
+  "emoji-shortcodes"
 ]

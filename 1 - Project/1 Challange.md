@@ -36,7 +36,10 @@ tags:
 ### **프로젝트 일정**
 
 - [x] controller 리팩토링 
-- [ ] service 리팩토링
+- [x] service 리팩토링
+- [x] refresh token 구현
+- [x] security 리팩토링
+- [ ] gpt 리팩토링
 
 
 ---
