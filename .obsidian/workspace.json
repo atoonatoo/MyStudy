@@ -51,8 +51,7 @@
               "title": "Home"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,7 +218,7 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "90704c3739db42e9",
+  "active": "f90ade9c4b044c0a",
   "lastOpenFiles": [
     "1 - Project/0 BookMarK.md",
     "0 - CS/Home.md",
