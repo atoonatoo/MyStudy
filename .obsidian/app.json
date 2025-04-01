@@ -1,7 +1,7 @@
 {
   "spellcheck": false,
   "alwaysUpdateLinks": true,
-  "promptDelete": true,
+  "promptDelete": false,
   "showLineNumber": true,
   "readableLineLength": false,
   "trashOption": "local",

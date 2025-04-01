@@ -14,7 +14,7 @@ created:
 
 # 📚 Project
 - [[4 Obsidian]]
-- [[CS 목록 - 0%]]
+- [[CS]]
 - [[CS 목록 - 70%]]
 - [[CS 목록 - 100%]]
 - [[Naver Cloud Bit Camp]]

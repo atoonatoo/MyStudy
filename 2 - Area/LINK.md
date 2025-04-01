@@ -2,7 +2,7 @@
 작성자 | 김동욱
 
 ---
-- [[0 BookMarK]]
+- [[0 Home]]
 
 ---
 - **💡A급 블로그**
@@ -46,7 +46,8 @@
 	- [모노레포 멀티 모듈 프로젝트 만드는법](https://umbum.dev/1177/)
 	- [MSA 팀프로젝트](https://techblog.lotteon.com/%EB%89%B4%EC%98%A8%EC%9D%B4%EB%93%A4%EC%9D%98-%EC%B2%AB-msa-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%8F%84%EC%A0%84%EA%B8%B0-d336186a7e31)
 	- [webflux](https://gratis-bread-c6b.notion.site/WebFlux-144c300c8414803ca71dec614b966aa2)
-	- 
+	- [스터디 운영 방식 노하우](https://studywithowl.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%8A%A4%ED%84%B0%EB%94%94-%EC%9A%B4%EC%98%81-%EB%B0%A9%EC%8B%9D-%ED%8C%81-feat-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B3%B5%EB%B6%80-%EA%BF%80%ED%8C%81)
+
 ---
 - **💡유튜브**
 	- [cpu 알고리즘 스케줄링 1](https://www.youtube.com/watch?v=w1z6WCyMdhQ)

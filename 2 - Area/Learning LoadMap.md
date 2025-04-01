@@ -7,8 +7,8 @@ updated:
 - [[Algorithem]]
 - [[Operating System]]
 - [[Network]]
-- [[0 - CS/1 list/Design Pattern|Design Pattern]]
-- [[0 - CS/1 list/DataBase|DataBase]]
+- [[1 - Project/4 plan/1 list/Design Pattern|Design Pattern]]
+- [[DataBase|DataBase]]
 ---
 - **그림으로 보는 자료구조 알고리즘 목차**
 	- **1장 데이터 구조**
@@ -73,7 +73,7 @@ updated:
 		- [[Hash Table]]
 		- [[1 - Main/1 CS/Array|Array]]
 	- [[Operating System]]
-		- [[0 - CS/2 Study/CPU]] 
+		- [[1 - Project/4 plan/2 Study/CPU]] 
 		- [[CPU Architecture]] 
 		- [[CPU Scheduling Algorithms]] 
 		- [[FCFS]] 
@@ -104,7 +104,7 @@ updated:
 		- [[Breadth-First Search (BFS)]]
 		- [[Depth-First Search (DFS)]] 
 		- [[Dijkstra's Algorithm]]
-	- [[0 - CS/1 list/Design Pattern|Design Pattern]]
+	- [[1 - Project/4 plan/1 list/Design Pattern|Design Pattern]]
 		- [[Creational Patterns]]
 			1. [[Singleton]]
 			2. [[Factory Method]]
