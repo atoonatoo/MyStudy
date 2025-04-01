@@ -22,5 +22,24 @@
       ],
       "key": "2"
     }
+  ],
+  "app:open-help": [],
+  "insert-template": [
+    {
+      "modifiers": [],
+      "key": "F4"
+    }
+  ],
+  "workspace:close-others": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
   ]
 }

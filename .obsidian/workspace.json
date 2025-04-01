@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c0976b0dd06f3e2c",
+        "id": "cd98d8c609647e72",
         "type": "tabs",
         "children": [
           {
-            "id": "7ae5f12d80022cae",
+            "id": "218394972d4ecdf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Project/1 write/무제.md",
+                "file": "1 - Project/1 write/TCP vs UDP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "TCP vs UDP"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -198,35 +199,35 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "7ae5f12d80022cae",
+  "active": "218394972d4ecdf3",
   "lastOpenFiles": [
-    "1 - Project/1 write/Gpt 사용법 및 노하우.md",
-    "1 - Project/1 write/무제.md",
-    "5 - Media/Templete/Default Templete.md",
-    "5 - Media/Templete/Simple Templete.md",
-    "5 - Media/Templete/Note Templete.md",
-    "1 - Project/0 Todo.md",
-    "1 - Project/0 Home.md",
-    "1 - Project/4 plan/6 대기/Wine - Italian.md",
+    "1 - Project/1 write/객체지향 프로그래밍 (Object-Oriented Programming, OOP).md",
+    "1 - Project/1 write/Data Structure.md",
+    "1 - Project/1 write/Stack.md",
+    "1 - Project/1 write/Linked List.md",
+    "1 - Project/1 write/Queue.md",
+    "1 - Project/1 write/Hash Table.md",
+    "1 - Project/1 write/Tree.md",
+    "1 - Project/1 write/주석 공부법.md",
+    "1 - Project/1 write/Heap.md",
+    "1 - Project/1 write/big-O 표기법.md",
+    "1 - Project/1 write/Bubble Sort.md",
+    "1 - Project/1 write/Selection Sort.md",
+    "1 - Project/1 write/Insertion Sort.md",
+    "1 - Project/1 write/Merge Sort.md",
+    "1 - Project/1 write/Quick Sort.md",
+    "1 - Project/1 write/Heap Sort.md",
+    "1 - Project/1 write/선형검색트리.md",
+    "1 - Project/1 write/이진검색트리.md",
+    "1 - Project/1 write/그래프.md",
+    "1 - Project/1 write/너비 우선 탐색.md",
+    "1 - Project/1 write/깊이 우선 탐색.md",
+    "1 - Project/1 write/벨먼-포드 알고리즘.md",
+    "1 - Project/1 write/Dijkstra Algorithem.md",
+    "1 - Project/1 write/Greedy Algorithm.md",
+    "1 - Project/1 write/Dynamic Programming.md",
+    "1 - Project/1 write/두들링 공부법.md",
     "5 - Media",
-    "1 - Project/4 plan/객체지향 프로그래밍 (2).md",
-    "1 - Project/4 plan/SQL (2).md",
-    "1 - Project/4 plan/Spring (2).md",
-    "1 - Project/4 plan/Runtime (2).md",
-    "1 - Project/4 plan/Rest API (2).md",
-    "1 - Project/4 plan/POJO (2).md",
-    "1 - Project/4 plan/JPA (2).md",
-    "1 - Project/4 plan/JavaScript (2).md",
-    "1 - Project/4 plan/Java (3).md",
-    "1 - Project/4 plan/Java 1 (2).md",
-    "1 - Project/4 plan/Git (2).md",
-    "1 - Project/4 plan/Design Pattern (2).md",
-    "1 - Project/4 plan/CPU (2).md",
-    "1 - Project/4 plan/AWS (2).md",
-    "1 - Project/4 plan/프로그래밍 툴 설치 가이드.md",
-    "1 - Project/4 plan/프로그래밍 초기 세팅.md",
-    "1 - Project/4 plan/프로그래밍 언어.md",
-    "1 - Project/4 plan/클래스의 구성.md",
     "1 - Project/4 plan/혼자 공부하는 컴퓨터구조 + 운영체제/ch15",
     "1 - Project/4 plan/혼자 공부하는 컴퓨터구조 + 운영체제/ch14",
     "1 - Project/4 plan/혼자 공부하는 컴퓨터구조 + 운영체제/ch10",

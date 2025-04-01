@@ -2,7 +2,7 @@
 created:
 ---
 ---
-- [[Data Structure]]
+- [[1 - Project/4 plan/Data Structure]]
 - [[Algorithem]]
 - 
 ---

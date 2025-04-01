@@ -7,5 +7,6 @@
   "trashOption": "local",
   "newFileLocation": "folder",
   "newFileFolderPath": "! - New",
-  "attachmentFolderPath": "! - New"
+  "attachmentFolderPath": "! - New",
+  "newLinkFormat": "shortest"
 }

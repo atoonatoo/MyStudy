@@ -3,7 +3,7 @@ created:
 updated:
 ---
 ---
-- [[Data Structure]]
+- [[1 - Project/4 plan/Data Structure]]
 - [[Algorithem]]
 - [[Operating System]]
 - [[Network]]
@@ -62,15 +62,15 @@ updated:
 	    - 8-6 하노이의 탑
 ---
 - **CS 로드맵**
-	- **[[Data Structure]]**
-		- [[Stack]]
-		- [[Queue]]
-		- [[Linked List]]
+	- **[[1 - Project/4 plan/Data Structure]]**
+		- [[1 - Project/4 plan/Stack]]
+		- [[1 - Project/4 plan/Queue]]
+		- [[1 - Project/4 plan/Linked List]]
 		- [[Array]]
-		- [[Tree]]
-		- [[Heap]]
+		- [[1 - Project/4 plan/Tree]]
+		- [[1 - Project/4 plan/Heap]]
 		- [[Graph]]
-		- [[Hash Table]]
+		- [[1 - Project/4 plan/Hash Table]]
 		- [[1 - Main/1 CS/Array|Array]]
 	- [[Operating System]]
 		- [[1 - Project/4 plan/2 Study/CPU]] 
@@ -94,12 +94,12 @@ updated:
 	- **[[Algorithem]]**
 		- [[big-O]]
 		- [[Sorting Algorithms]] 
-		- [[Bubble Sort]] 
-		- [[Selection Sort]] 
-		- [[Insertion Sort]] 
-		- [[Heap Sort]] 
-		- [[Merge Sort]] 
-		- [[Quick Sort]] 
+		- [[1 - Project/4 plan/Bubble Sort]] 
+		- [[1 - Project/4 plan/Selection Sort]] 
+		- [[1 - Project/4 plan/Insertion Sort]] 
+		- [[1 - Project/4 plan/Heap Sort]] 
+		- [[1 - Project/4 plan/Merge Sort]] 
+		- [[1 - Project/4 plan/Quick Sort]] 
 		- [[Search Algorithms]] 
 		- [[Breadth-First Search (BFS)]]
 		- [[Depth-First Search (DFS)]] 
@@ -233,9 +233,9 @@ updated:
 	-  1.1 기본 자료구조
 		- [[Array]]
 		- [[1 - Main/1 CS/Linked List]]
-		- [[Stack]]
-		- [[Queue]]
-		- [[Hash Table]]
+		- [[1 - Project/4 plan/Stack]]
+		- [[1 - Project/4 plan/Queue]]
+		- [[1 - Project/4 plan/Hash Table]]
 	- 1.2 트리와 그래프
 	- 1.3 정렬 및 탐색 알고리즘
 	- 1.4 고급 알고리즘

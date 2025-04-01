@@ -6,13 +6,13 @@ created:
 - 
 - 
 ---
-- [[Linked List]]
+- [[1 - Project/4 plan/Linked List]]
 - [[Array]]
-- [[Stack]]
-- [[Queue]]
-- [[Hash Table]]
-- [[Heap]]
-- [[Tree]]
+- [[1 - Project/4 plan/Stack]]
+- [[1 - Project/4 plan/Queue]]
+- [[1 - Project/4 plan/Hash Table]]
+- [[1 - Project/4 plan/Heap]]
+- [[1 - Project/4 plan/Tree]]
 ---
 - **자료구조의 의의**
 	우리가 사용하는 컴퓨터의 공간은 한정적이다.
