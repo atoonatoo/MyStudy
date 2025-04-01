@@ -7,7 +7,7 @@ created:
 - 
 ---
 ##### 생성 패턴 (Creational Pattern)
-- [[Singleton]]
+- [[SingleTon]]
 - [[Factory Method]]
 - [[Abstract Factory]]
 - [[Builder]]

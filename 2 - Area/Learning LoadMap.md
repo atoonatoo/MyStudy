@@ -3,7 +3,7 @@ created:
 updated:
 ---
 ---
-- [[1 - Project/4 plan/Data Structure]]
+- [[1 - Project/4 wait/Data Structure]]
 - [[Algorithem]]
 - [[Operating System]]
 - [[Network]]
@@ -62,15 +62,15 @@ updated:
 	    - 8-6 하노이의 탑
 ---
 - **CS 로드맵**
-	- **[[1 - Project/4 plan/Data Structure]]**
-		- [[1 - Project/4 plan/Stack]]
-		- [[1 - Project/4 plan/Queue]]
-		- [[1 - Project/4 plan/Linked List]]
+	- **[[1 - Project/4 wait/Data Structure]]**
+		- [[1 - Project/4 wait/Stack]]
+		- [[1 - Project/4 wait/Queue]]
+		- [[1 - Project/4 wait/Linked List]]
 		- [[Array]]
-		- [[1 - Project/4 plan/Tree]]
-		- [[1 - Project/4 plan/Heap]]
+		- [[1 - Project/4 wait/Tree]]
+		- [[1 - Project/4 wait/Heap]]
 		- [[Graph]]
-		- [[1 - Project/4 plan/Hash Table]]
+		- [[1 - Project/4 wait/Hash Table]]
 		- [[1 - Main/1 CS/Array|Array]]
 	- [[Operating System]]
 		- [[1 - Project/4 plan/2 Study/CPU]] 
@@ -94,19 +94,19 @@ updated:
 	- **[[Algorithem]]**
 		- [[big-O]]
 		- [[Sorting Algorithms]] 
-		- [[1 - Project/4 plan/Bubble Sort]] 
-		- [[1 - Project/4 plan/Selection Sort]] 
-		- [[1 - Project/4 plan/Insertion Sort]] 
-		- [[1 - Project/4 plan/Heap Sort]] 
-		- [[1 - Project/4 plan/Merge Sort]] 
-		- [[1 - Project/4 plan/Quick Sort]] 
+		- [[1 - Project/4 wait/Bubble Sort]] 
+		- [[1 - Project/4 wait/Selection Sort]] 
+		- [[1 - Project/4 wait/Insertion Sort]] 
+		- [[1 - Project/4 wait/Heap Sort]] 
+		- [[1 - Project/4 wait/Merge Sort]] 
+		- [[1 - Project/4 wait/Quick Sort]] 
 		- [[Search Algorithms]] 
 		- [[Breadth-First Search (BFS)]]
 		- [[Depth-First Search (DFS)]] 
 		- [[Dijkstra's Algorithm]]
 	- [[1 - Project/4 plan/1 list/Design Pattern|Design Pattern]]
 		- [[Creational Patterns]]
-			1. [[Singleton]]
+			1. [[SingleTon]]
 			2. [[Factory Method]]
 			3. [[Abstract Factory]]
 			4. [[Builder]]
@@ -233,9 +233,9 @@ updated:
 	-  1.1 기본 자료구조
 		- [[Array]]
 		- [[1 - Main/1 CS/Linked List]]
-		- [[1 - Project/4 plan/Stack]]
-		- [[1 - Project/4 plan/Queue]]
-		- [[1 - Project/4 plan/Hash Table]]
+		- [[1 - Project/4 wait/Stack]]
+		- [[1 - Project/4 wait/Queue]]
+		- [[1 - Project/4 wait/Hash Table]]
 	- 1.2 트리와 그래프
 	- 1.3 정렬 및 탐색 알고리즘
 	- 1.4 고급 알고리즘

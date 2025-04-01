@@ -2,7 +2,7 @@
 created:
 ---
 ---
-- [[1 - Project/4 plan/Data Structure]]
+- [[1 - Project/4 wait/Data Structure]]
 - 
 - 
 ---

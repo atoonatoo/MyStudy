@@ -6,13 +6,13 @@ created:
 - 
 - 
 ---
-- [[1 - Project/4 plan/Linked List]]
+- [[1 - Project/4 wait/Linked List]]
 - [[Array]]
-- [[1 - Project/4 plan/Stack]]
-- [[1 - Project/4 plan/Queue]]
-- [[1 - Project/4 plan/Hash Table]]
-- [[1 - Project/4 plan/Heap]]
-- [[1 - Project/4 plan/Tree]]
+- [[1 - Project/4 wait/Stack]]
+- [[1 - Project/4 wait/Queue]]
+- [[1 - Project/4 wait/Hash Table]]
+- [[1 - Project/4 wait/Heap]]
+- [[1 - Project/4 wait/Tree]]
 ---
 - **자료구조의 의의**
 	우리가 사용하는 컴퓨터의 공간은 한정적이다.
