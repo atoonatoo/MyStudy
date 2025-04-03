@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cd98d8c609647e72",
+        "id": "bd09bbaffbae949a",
         "type": "tabs",
         "children": [
           {
-            "id": "218394972d4ecdf3",
+            "id": "0454d60f7da65334",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Project/0 write/TCP vs UDP.md",
+                "file": "0 - New/1 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TCP vs UDP"
+              "title": "1 1"
             }
           }
         ]
@@ -104,8 +104,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Project/0 Main/0 - Main.md",
-                "collapseAll": false,
+                "file": "5 - Media/Templete/CS Templete.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "0 - Main의 백링크"
+              "title": "CS Templete 의 백링크"
             }
           },
           {
@@ -138,10 +138,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "태그"
             }
           },
           {
@@ -150,10 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Project/0 Main/0 - Main.md"
+                "file": "5 - Media/Templete/CS Templete.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "0 - Main 개요"
+              "title": "CS Templete 의 개요"
             }
           },
           {
@@ -176,7 +181,8 @@
               "title": "Juggl style"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -198,18 +204,23 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "218394972d4ecdf3",
+  "active": "0454d60f7da65334",
   "lastOpenFiles": [
-    "! - New/Pasted image 20250401212547.png",
-    "1 - Project/1 plan/HTTP 3.0.md",
+    "5 - Media/Templete/CS Templete.md",
+    "0 - New/1 1.md",
+    "0 - New/프로그래밍.md",
+    "0 - New/Interview.md",
+    "! - New/무제.md",
+    "0 - New/Image/Pasted image 20250401210120.png",
     "1 - Project/0 write/TCP vs UDP.md",
-    "! - New/Pasted image 20250401211840.png",
-    "! - New/Pasted image 20250401211315.png",
-    "! - New/Pasted image 20250401211133.png",
-    "! - New/Pasted image 20250401211052.png",
+    "0 - New/Image/Pasted image 20250401212547.png",
+    "1 - Project/1 plan/HTTP 3.0.md",
+    "0 - New/Image/Pasted image 20250401211840.png",
+    "0 - New/Image/Pasted image 20250401211315.png",
+    "0 - New/Image/Pasted image 20250401211133.png",
+    "0 - New/Image/Pasted image 20250401211052.png",
     "1 - Project/0 write",
     "1 - Project/0 write.md",
-    "! - New/Pasted image 20250401210120.png",
     "! - New",
     "1 - Project/1 plan/객체지향 프로그래밍 (Object-Oriented Programming, OOP).md",
     "1 - Project/1 plan/Data Structure.md",
@@ -229,10 +240,6 @@
     "1 - Project/1 plan/Heap Sort.md",
     "1 - Project/1 plan/선형검색트리.md",
     "1 - Project/1 plan/이진검색트리.md",
-    "1 - Project/1 plan/그래프.md",
-    "1 - Project/1 plan/너비 우선 탐색.md",
-    "1 - Project/1 plan/깊이 우선 탐색.md",
-    "1 - Project/1 plan/벨먼-포드 알고리즘.md",
     "5 - Media",
     "1 - Project/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch15",
     "1 - Project/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch14",
@@ -242,10 +249,9 @@
     "1 - Project/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch12",
     "1 - Project/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch11",
     "5 - Media/Canvas/캔버스.canvas",
-    "5 - Media/Image/스크린샷 2025-03-18 142921.png",
-    "5 - Media/Image/Pasted image 20241210191448.png",
-    "5 - Media/Image/Pasted image 20241210191423.png",
-    "5 - Media/Image/Pasted image 20241210190649.png",
-    "5 - Media/Image/Pasted image 20241210190310.png"
+    "0 - New/Image/스크린샷 2025-03-18 142921.png",
+    "0 - New/Image/Pasted image 20241210191448.png",
+    "0 - New/Image/Pasted image 20241210191423.png",
+    "0 - New/Image/Pasted image 20241210190649.png"
   ]
 }
