@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "61bfd32f90633d4c",
+        "id": "ba99e463105126e0",
         "type": "tabs",
         "children": [
           {
-            "id": "f6bb8ae12b44630f",
+            "id": "9c797c56c6e1c962",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Area/Mentoring.md",
+                "file": "0 - New/Obsidian PlugIn - Templeter.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mentoring"
+              "title": "Obsidian PlugIn - Templeter"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "이력서",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,13 +201,15 @@
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "juggl:Juggl global graph": false
+      "juggl:Juggl global graph": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "f6bb8ae12b44630f",
+  "active": "9c797c56c6e1c962",
   "lastOpenFiles": [
-    "2 - Area/LINK.md",
+    "0 - New/Obsidian PlugIn - Templeter.md",
     "2 - Area/Mentoring.md",
+    "2 - Area/LINK.md",
     "2 - Area/Employment.md",
     "1 - Project/0 Home.md",
     "2 - Area/Study List.md",
@@ -240,7 +241,6 @@
     "1 - Project/1 plan/big-O 표기법.md",
     "1 - Project/1 plan/Bubble Sort.md",
     "1 - Project/1 plan/Selection Sort.md",
-    "1 - Project/1 plan/Insertion Sort.md",
     "5 - Media",
     "1 - Project/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch15",
     "1 - Project/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch14",

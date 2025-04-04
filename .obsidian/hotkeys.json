@@ -41,5 +41,13 @@
       "modifiers": [],
       "key": "F1"
     }
+  ],
+  "templater-obsidian:replace-in-file-templater": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }
