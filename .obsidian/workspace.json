@@ -109,7 +109,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -235,8 +236,8 @@
   "lastOpenFiles": [
     "1 - Project/0 write/TCP vs UDP.md",
     "0 - New/프로젝트 개선 사항 시나리오.md",
-    "0 - New/Obsidian PlugIn - Templeter.md",
     "2 - Area/Mentoring.md",
+    "0 - New/Obsidian PlugIn - Templeter.md",
     "2 - Area/LINK.md",
     "2 - Area/Employment.md",
     "1 - Project/0 Home.md",
