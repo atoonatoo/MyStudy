@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ba99e463105126e0",
+        "id": "48d8087e790f15a6",
         "type": "tabs",
         "children": [
           {
-            "id": "9c797c56c6e1c962",
+            "id": "2df33a1308692921",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - New/Obsidian PlugIn - Templeter.md",
+                "file": "1 - Project/0 write/TCP vs UDP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Obsidian PlugIn - Templeter"
+              "title": "TCP vs UDP"
+            }
+          },
+          {
+            "id": "17b106384269ebf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0 - New/프로젝트 개선 사항 시나리오.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "프로젝트 개선 사항 시나리오"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -205,8 +231,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9c797c56c6e1c962",
+  "active": "17b106384269ebf2",
   "lastOpenFiles": [
+    "1 - Project/0 write/TCP vs UDP.md",
+    "0 - New/프로젝트 개선 사항 시나리오.md",
     "0 - New/Obsidian PlugIn - Templeter.md",
     "2 - Area/Mentoring.md",
     "2 - Area/LINK.md",
@@ -219,7 +247,6 @@
     "0 - New/Interview.md",
     "! - New/무제.md",
     "0 - New/Image/Pasted image 20250401210120.png",
-    "1 - Project/0 write/TCP vs UDP.md",
     "0 - New/Image/Pasted image 20250401212547.png",
     "1 - Project/1 plan/HTTP 3.0.md",
     "0 - New/Image/Pasted image 20250401211840.png",
@@ -240,7 +267,6 @@
     "1 - Project/1 plan/Heap.md",
     "1 - Project/1 plan/big-O 표기법.md",
     "1 - Project/1 plan/Bubble Sort.md",
-    "1 - Project/1 plan/Selection Sort.md",
     "5 - Media",
     "1 - Project/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch15",
     "1 - Project/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch14",
