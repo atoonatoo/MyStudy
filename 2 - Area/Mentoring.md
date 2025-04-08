@@ -2,7 +2,10 @@
 created:
 ---
 ---
+- **오늘 내용**
 
+
+---
 - **링크**
 	- 멘토링 노션 일정
 		- [12주차](https://applicationspring.notion.site/12-43744912300148798daab456f3bde188?pvs=4)
@@ -24,14 +27,12 @@ created:
 		- [37주차](https://applicationspring.notion.site/37-19c5823552638071b258f5f8e5af4c90)
 		- [38~40주차](https://applicationspring.notion.site/38-19c58235526380cbba6fcac97bed5419?pvs=4)
 		- [41주차](https://applicationspring.notion.site/41-1be58235526380748a8ef9f2f07bbbdb)
+		- [42주차](https://applicationspring.notion.site/42-1be582355263808e9e8cf74f64dbe0fb)
 		
 	1. [이력서 모음](https://applicationspring.notion.site/1b158235526380dca53cd3baef3ce103?pvs=4)
 		1. 김영수님 주목(잘치는분)
 		2. 가장 좋은 회사에 갈 확률이 높은 사람
 		3. 이 사람의 깃허브, 기술블로그 등등 주목하는 것을 추천한다.
-	2. 
-	3. 
-	4. 
 	 
 - **어드바이스**
 	1. 두괄식으로 말하라.
