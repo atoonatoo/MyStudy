@@ -14,6 +14,8 @@ created:
 	- @CrossOrigin 내부 동작
 	- 
 ---
+abuse 방지
+SaaS 서비스
 클럭
 메모리 버퍼레지스터
 메모리 어드레스 레지스터

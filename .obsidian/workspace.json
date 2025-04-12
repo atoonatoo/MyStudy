@@ -139,7 +139,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -233,7 +234,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "00287fc1e0187fb6",
@@ -253,7 +254,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -274,9 +276,11 @@
   },
   "active": "5d42957c4f36abcf",
   "lastOpenFiles": [
-    "1 - Project/0 Home.md",
     "2 - Area/Mentoring.md",
     "0 - New/프로젝트 개선 사항 시나리오.md",
+    "2 - Area/Study Topics.md",
+    "1 - Project/0 Home.md",
+    "2 - Area/Simple Word.md",
     "1 - Project/1 plan/Kernel Mode.md",
     "1 - Project/0 write/무제.md",
     "1 - Project/0 write/TCP vs UDP.md",
@@ -308,8 +312,6 @@
     "1 - Project/0 write",
     "1 - Project/0 write.md",
     "! - New",
-    "1 - Project/1 plan/객체지향 프로그래밍 (Object-Oriented Programming, OOP).md",
-    "1 - Project/1 plan/Data Structure.md",
     "5 - Media",
     "1 - Project/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch15",
     "1 - Project/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch14",
