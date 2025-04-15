@@ -1,14 +1,20 @@
 ---
 created:
 ---
+---
+- [[0 Home]]
 
 ---
+
+
 - LINK
 	- [ChatGPT API Token Limit 해결하기 (요금 줄이기)](https://velog.io/@noh0907/ChatGPT-API-Token-Limit-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-%EC%9A%94%EA%B8%88-%EC%A4%84%EC%9D%B4%EA%B8%B0)
 	- [GPT 성능 최적화 응답 품질과 속도 개선을 위한 가이드](https://doitevery.com/entry/ChatGPT-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94-%EC%9D%91%EB%8B%B5-%ED%92%88%EC%A7%88%EA%B3%BC-%EC%86%8D%EB%8F%84-%EA%B0%9C%EC%84%A0%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C#google_vignette)
 	- [프롬프트 캐싱 참고문헌 1](https://docs.anthropic.com/ko/docs/build-with-claude/prompt-caching)
 	- [프롬프트 캐싱 참고문헌 2](https://wikidocs.net/262049)
-	- 
+	- [PostMan 가이드 Infa](https://inpa.tistory.com/entry/POSTMAN-%F0%9F%92%BD-%ED%8F%AC%EC%8A%A4%ED%8A%B8%EB%A7%A8-%EC%82%AC%EC%9A%A9%EB%B2%95-API-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%8F%99%ED%99%94-%EA%B3%A0%EA%B8%89-%ED%99%9C%EC%9A%A9%EA%B9%8C%EC%A7%80#%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EA%B8%B0_%EC%9E%90%EB%8F%99%ED%99%94_monitor_collection)
+	- [서버 부하 테스트](https://velog.io/@kimhalin/%EC%84%9C%EB%B2%84-%EB%B6%80%ED%95%98-%ED%85%8C%EC%8A%A4%ED%8A%B8-K6)
+
 
 - 멘토링
 	- 메타 인지를 하도록 노력해야한다.
@@ -23,8 +29,6 @@ created:
 	- 이것 말고도 다른 것을 사용해선 안되는가? 스스로 물어보자
 
 - 키워드
-	- Private Cloud 관리 플랫폼
-		- OpenStack API 및 SDK을 활용한 가상 서버 생성 및 자동화 관리
 	- Kubernetes 관리 플랫폼
 		- 클러스터 구성, 워크로드 배포 등 쿠버네티스 구성 및 자동화 관리
 	- MLOps 플랫폼 (Kubeflow) 구성, 관리 자동화 개발
