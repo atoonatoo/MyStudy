@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - New/대량의 외부 API를 호출하면 무슨 일이 벌어지는가.md",
+                "file": "2 - Area/Quick Notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "대량의 외부 API를 호출하면 무슨 일이 벌어지는가"
+              "title": "Quick Notes"
             }
           }
         ]
@@ -218,15 +218,15 @@
       "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "e0aa2f722bc8a637",
   "lastOpenFiles": [
-    "0 - New/Image/Pasted image 20250415170718.png",
+    "1 - Project/0 Home.md",
     "0 - New/프로젝트 개선 사항 시나리오.md",
     "0 - New/대량의 외부 API를 호출하면 무슨 일이 벌어지는가.md",
+    "0 - New/Image/Pasted image 20250415170718.png",
     "0 - New/Image/Pasted image 20250415160820.png",
     "0 - New/Image/Pasted image 20250415160807.png",
     "0 - New/Image/Pasted image 20250415160749.png",
@@ -236,14 +236,12 @@
     "0 - New/Obsidian PlugIn - Templeter.md",
     "0 - New/스파이크성 트래픽을 재현.md",
     "1 - Project/1 plan/Test.md",
-    "1 - Project/0 Home.md",
     "0 - New/Image/Pasted image 20250415152934.png",
     "0 - New/Image/Pasted image 20250415152635.png",
     "0 - New/Image/Pasted image 20250415152611.png",
     "0 - New/Image/Pasted image 20250415152510.png",
     "0 - New/Image/Pasted image 20250415152450.png",
     "0 - New/Image/Pasted image 20250415152358.png",
-    "0 - New/Image/Pasted image 20250415152240.png",
     "2 - Area/Quick Notes.md",
     "0 - New/Interview.md",
     "0 - New/Daily Note.md",
