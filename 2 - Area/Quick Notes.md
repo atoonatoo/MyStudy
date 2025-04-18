@@ -5,6 +5,52 @@ created:
 - [[0 Home]]
 
 ---
+- 정보처리기사 암기
+	- Death of ping
+	- Smurfing
+	- SYN Flooding
+	- Tear drop 
+	- Land Attack
+	- Ddos
+	- LRU
+	- VPN
+	- 방화벽
+	- 칩입탐지시스템(IDS)
+	- 침입방지시스템(IPS)
+	- 데이터유출방지(DLP)
+	- 웹 방화벽
+	- NAC
+	- ESM
+	- SIEM
+	- SSH
+	- 탬퍼 프루핑(Tamper Proofing)
+	- OAuth (Open Authoration)
+	- 생성 패턴 (Creational)
+	- 구조 패턴 (Structural)
+	- 행위 패턴 (Behavioral)
+	- 추상 팩토리
+	- 빌더
+	- 팩토리 메서드
+	- 프로토타입
+	- 싱글톤
+	- 어댑터
+	- 브리지
+	- 컴포지트
+	- 데코레이터
+	- 퍼싸드
+	- 플라이웨이트
+	- 프록시
+	- 책임 연쇄
+	- 커맨드
+	- 인터프리터
+	- 반복자
+	- 중재자
+	- 메멘토
+	- 옵저버
+	- 상태
+	- 전략
+	- 탬플릿 메소드
+	- 방문자
 
 - LINK
 	- [ChatGPT API Token Limit 해결하기 (요금 줄이기)](https://velog.io/@noh0907/ChatGPT-API-Token-Limit-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-%EC%9A%94%EA%B8%88-%EC%A4%84%EC%9D%B4%EA%B8%B0)
