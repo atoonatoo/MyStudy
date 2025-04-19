@@ -218,12 +218,15 @@
       "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "e0aa2f722bc8a637",
   "lastOpenFiles": [
     "1 - Project/0 Home.md",
+    "2 - Area/Mentoring.md",
+    "2 - Area/Quick Notes.md",
     "0 - New/프로젝트 개선 사항 시나리오.md",
     "0 - New/대량의 외부 API를 호출하면 무슨 일이 벌어지는가.md",
     "0 - New/Image/Pasted image 20250415170718.png",
@@ -242,10 +245,8 @@
     "0 - New/Image/Pasted image 20250415152510.png",
     "0 - New/Image/Pasted image 20250415152450.png",
     "0 - New/Image/Pasted image 20250415152358.png",
-    "2 - Area/Quick Notes.md",
     "0 - New/Interview.md",
     "0 - New/Daily Note.md",
-    "2 - Area/Mentoring.md",
     "1 - Project/2 done/TCP vs UDP.md",
     "2 - Area/Simple Word.md",
     "! - New",
