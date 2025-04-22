@@ -63,6 +63,8 @@ created:
 	- [외부 API 테스트 2](https://velog.io/@jmjmjmz732002/%EC%99%B8%EB%B6%80-API-%EC%84%9C%EB%B2%84%EB%8A%94-mocking%ED%95%98%EC%97%AC-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%B4%EC%95%BC-%ED%95%9C%EB%8B%A4)
 	- [외부 API 테스트 3](https://jojoldu.tistory.com/341)
 	- [외부 API 테스트 4](https://minnseong.tistory.com/26)
+	- [Jmeter 사용법](https://devmango.tistory.com/40)
+	- 
 
 - 멘토링
 	- 메타 인지를 하도록 노력해야한다.
