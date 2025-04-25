@@ -65,7 +65,7 @@ created:
 	- [외부 API 테스트 4](https://minnseong.tistory.com/26)
 	- [Jmeter 사용법](https://devmango.tistory.com/40)
 	- 
-
+	
 - 멘토링
 	- 메타 인지를 하도록 노력해야한다.
 		- 스스로에게 입밖으로 내뱉고 계속 질문하라
@@ -87,7 +87,8 @@ created:
 	- gRFC
 	- RDBMS
 	- NoSQL
-	- 
+	
+- 
 
 
 
