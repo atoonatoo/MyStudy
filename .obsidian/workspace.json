@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Area/Quick Notes.md",
+                "file": "1 - Project/0 write/HTTP VS HTTPS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Quick Notes"
+              "title": "HTTP VS HTTPS"
             }
           }
         ]
@@ -218,13 +218,15 @@
       "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "78ec968253847177",
   "lastOpenFiles": [
-    "1 - Project/0 Home.md",
     "2 - Area/Quick Notes.md",
+    "1 - Project/0 write/HTTP VS HTTPS.md",
+    "1 - Project/0 Home.md",
     "1 - Project/4 wait/Trouble Shooting.md",
     "2 - Area/Mentoring.md",
     "0 - New/프로젝트 개선 사항 시나리오.md",
@@ -252,7 +254,6 @@
     "! - New",
     "2 - Area/Study Topics.md",
     "1 - Project/1 plan/Kernel Mode.md",
-    "1 - Project/0 write/무제.md",
     "1 - Project/1 plan/디자인패턴.md",
     "1 - Project/1 plan/네트워크 공격.md",
     "5 - Media/Templete/Daily_Note Templete.md",
