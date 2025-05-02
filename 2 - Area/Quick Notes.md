@@ -90,8 +90,14 @@ created:
 	- [외부 API 테스트 3](https://jojoldu.tistory.com/341)
 	- [외부 API 테스트 4](https://minnseong.tistory.com/26)
 	- [Jmeter 사용법](https://devmango.tistory.com/40)
-	- 
-	
+	- [HTTPS 심화 강의 - 생활코딩](https://www.youtube.com/watch?v=0cfUVrQW_yg&list=PLCZ-8rvakaqbplQZAoUku8uuxUgbLQm-1)
+	- [Spring Security JSON 형식으로 로그인 1](https://goalinnext.tistory.com/136)
+	- [Spring Security JSON 형식으로 로그인 2](https://goalinnext.tistory.com/m/146)
+	- [Spring Security JSON 형식으로 로그인 3](https://dsjo.tistory.com/4)
+	- [개발자가 되는 방법 - 니콜라스](https://www.youtube.com/watch?v=c78j19OpfN0)
+	- [HTTP VS HTTPS + SSL + TLS 이해하기 심화편](https://www.stevenjlee.net/2020/11/01/%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-http-vs-https-%EA%B7%B8%EB%A6%AC%EA%B3%A0-ssl-secure-socket-layer/)
+
+
 - 멘토링
 
 
