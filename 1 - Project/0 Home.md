@@ -4,7 +4,10 @@ updated: 2024-09-20
 tags:
   - bookmark
 ---
-# **Contents**
+
+---
+# Home
+
 1. [Quick Notes](#quick-notes) - 메모장
 2. [Today](#today) - 스케줄
 3. [LINK](#link) - 링크
@@ -20,16 +23,35 @@ tags:
 13. [Good Information](#good-information) - 좋은 정보
 14. [Spec](#spec) - 스펙
 15. [Annotation Study Method](#annotation-study-method) - 어노테이션 학습
-16. [Analects](#analects) - 저명한 프로그래머들의 어록
-17. [Notebook Archive](#notebook-archive) - 분류 문서
+16. [Trouble Shooting](####trouble-shooting) - 트러블 슈팅
+17. [Analects](#analects) - 저명한 프로그래머들의 어록
+18. [Notebook Archive](#notebook-archive) - 분류 문서
+
 ---
+# Content
 #### quick-notes
-###### 과제
+
+##### 명령어
+###### 테이블 데이터 지우기
+- 테이블 참조가 되어서 외래 키 제약조건때문에 직접 지우기 불가능한 경우
+- 일시적으로 외래키 제약 비활성화 후
+- `실업무에는 위험` `테스트 DB에만 사용할 것`
+	  
+```
+SET FOREIGN_KEY_CHECKS = 0;
+
+DELETE FROM users;
+
+SET FOREIGN_KEY_CHECKS = 1;
+```
+
+##### 과제
 - Http vs Https 공부하기
 - 로드밸런서 공부하기
 - 트러블 슈팅 시나리오 계속 진행하기
 - 이력서 수정 및 지원서 제출
-###### 트러블슈팅 시나리오 진행사항
+	  
+##### 트러블슈팅 시나리오 진행사항
 - 외부 API 대량 호출 및 모니터링
 	- [Grafana 대시보드 연결 (1차 모니터링 화면 구축)](https://chatgpt.com/c/68060da7-dbc8-8012-8fb0-0e13a30cec6f)
 	- Alertmanager 경고 세팅 강화 (2차 알림 시스템 구축)
@@ -47,9 +69,11 @@ tags:
 		- "👉 바로 JMeter 부하 테스트로 넘어가자"
 		- "👉 Alertmanager 알람 먼저 세팅 강화하자"
 - [스파이크성 트래픽을 재현](https://chatgpt.com/c/680ddf8e-e858-8012-a55d-b42fc0317ab6)
-- 데이터가 많을 때 조회하는 성능 개선
+- [데이터가 많을 때 조회하는 성능 개선](https://chatgpt.com/c/68145efc-2388-8012-95c3-63818e139064)
 
-
+##### 챌린지
+- 스프링프레임워크를 직접 구현하기
+- 공룡책 원본 완독
 - 백준 혹은 프로그래머스 코딩테스트
 - SQL 쿼리문 자유롭게 작성
 - Git 터미널을 통해 명령어 자유롭게 이동하기
@@ -62,11 +86,8 @@ tags:
 - 새로운 기술 스텍 배우기
 - 내가 배운 지식 남들에게 설명하기
 - 옵시디언 문서 작성 및 정리
-- 챌린지
-	- 스프링프레임워크를 직접 구현하기
-	- 공룡책 원본 완독
----
-###### 정보처리기사 암기
+  
+##### 정보처리기사 암기
 - Death of ping
 - Smurfing
 - SYN Flooding
@@ -112,8 +133,7 @@ tags:
 - 전략
 - 탬플릿 메소드
 - 방문자
----
-###### LINK
+##### LINK
 - [ChatGPT API Token Limit 해결하기 (요금 줄이기)](https://velog.io/@noh0907/ChatGPT-API-Token-Limit-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-%EC%9A%94%EA%B8%88-%EC%A4%84%EC%9D%B4%EA%B8%B0)
 - [GPT 성능 최적화 응답 품질과 속도 개선을 위한 가이드](https://doitevery.com/entry/ChatGPT-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94-%EC%9D%91%EB%8B%B5-%ED%92%88%EC%A7%88%EA%B3%BC-%EC%86%8D%EB%8F%84-%EA%B0%9C%EC%84%A0%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C#google_vignette)
 - [프롬프트 캐싱 참고문헌 1](https://docs.anthropic.com/ko/docs/build-with-claude/prompt-caching)
@@ -131,11 +151,9 @@ tags:
 - [Spring Security JSON 형식으로 로그인 3](https://dsjo.tistory.com/4)
 - [개발자가 되는 방법 - 니콜라스](https://www.youtube.com/watch?v=c78j19OpfN0)
 - [HTTP VS HTTPS + SSL + TLS 이해하기 심화편](https://www.stevenjlee.net/2020/11/01/%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-http-vs-https-%EA%B7%B8%EB%A6%AC%EA%B3%A0-ssl-secure-socket-layer/)
----
-###### 멘토링
+##### 멘토링
 
----
-###### 키워드
+##### 키워드
 - Kubernetes 관리 플랫폼
 	- 클러스터 구성, 워크로드 배포 등 쿠버네티스 구성 및 자동화 관리
 - MLOps 플랫폼 (Kubeflow) 구성, 관리 자동화 개발
@@ -144,22 +162,44 @@ tags:
 - gRFC
 - RDBMS
 - NoSQL
-
+---
 ---
 #### today 
 
-| 시간           | 활동                    |
-| ------------ | --------------------- |
-| **오전**       |                       |
-| 09시 ~ 11시    | 기상, 모닝 스터디, 샤워, 아침 식사 |
-| 12시 이내       | 카페, 집 작업 시작           |
-| **오후**       |                       |
-| 01시 ~ 1시 30분 | 점심 식사                 |
-| 02시 ~ 03시    | 코딩 테스트                |
-| 03시 ~ 08시    | CS 공부, 저녁 식사          |
-| 08시 ~ 11시    | 프로젝트 작업               |
-| **남는 시간**    |                       |
-| -            | 채용 정보 열람 및 정보 수집      |
+######  **Schedule***
+
+|     | 월요일 | 화요일 | 수요일 | 목요일 | 금요일 | 토요일  | 일요일 |
+| --- | --- | --- | --- | --- | --- | ---- | --- |
+| 오전  |     |     |     |     |     | 프로젝트 | X   |
+| 오후  |     |     |     |     |     | 블로그  | X   |
+
+---
+###### **Todo List**
+
+| Todo List       | Challenge          | Lost Ark            |
+| --------------- | ------------------ | ------------------- |
+| 📑 옵시디언 노트 정리   | 💬 커뮤니티 댓글 CRUD 구현 | 🏆 주간 레이드           |
+| 📂 포트폴리오 업데이트   | 🔄 리프레시 토큰 구현      | ⚔️ 카오스 던전           |
+| 📝 입사 지원        | 🔐 쿠키 보안 문제 해결     | 🐉 가디언 토벌           |
+| 🎯 코딩 테스트       | 🧦 양말 당근마켓         | 🎟️ 주간 에포나 (큐브)     |
+| 🚀 프로젝트 진행      | 📱 스마트폰 바꾸기        | 🌲 생활 (벌목)          |
+| ✍️ 기술 블로그 작성    | 💧 정수기 수리          | 🏭 아비도스 공장          |
+| 💪 헬스           | 📚 정보처리기사 실기       | 🔥 카오스게이트 or 필드보스   |
+| 📚 정보처리기사 실기 공부 | x☁️ AWS 강의, 이해     | 💰 싱글 주화 & 길드 혈석 상점 |
+
+---
+###### **정보처리기사 일정**
+
+![[스크린샷 2025-03-18 142921.png]]
+
+---
+###### **프로젝트 일정**
+
+- [x] controller 리팩토링 
+- [x] service 리팩토링
+- [x] refresh token 구현
+- [x] security 리팩토링
+- [ ] gpt 리팩토링
 
 ---
 #### link  
@@ -1032,7 +1072,7 @@ tags:
 ---
 #### learning-loadmap
 
-- [[1 - Project/4 wait/Data Structure]]
+- [[6 - CS/4 wait/Data Structure]]
 - [[Algorithem]]
 - [[Operating System]]
 - [[Network]]
@@ -1091,15 +1131,15 @@ tags:
 	    - 8-6 하노이의 탑
 ---
 - **CS 로드맵**
-	- **[[1 - Project/4 wait/Data Structure]]**
-		- [[1 - Project/4 wait/Stack]]
-		- [[1 - Project/4 wait/Queue]]
-		- [[1 - Project/4 wait/Linked List]]
+	- **[[6 - CS/4 wait/Data Structure]]**
+		- [[6 - CS/4 wait/Stack]]
+		- [[6 - CS/4 wait/Queue]]
+		- [[6 - CS/4 wait/Linked List]]
 		- [[Array]]
-		- [[1 - Project/4 wait/Tree]]
-		- [[1 - Project/4 wait/Heap]]
+		- [[6 - CS/4 wait/Tree]]
+		- [[6 - CS/4 wait/Heap]]
 		- [[Graph]]
-		- [[1 - Project/4 wait/Hash Table]]
+		- [[6 - CS/4 wait/Hash Table]]
 		- [[1 - Main/1 CS/Array|Array]]
 	- [[Operating System]]
 		- [[1 - Project/4 plan/2 Study/CPU]] 
@@ -1123,12 +1163,12 @@ tags:
 	- **[[Algorithem]]**
 		- [[big-O]]
 		- [[Sorting Algorithms]] 
-		- [[1 - Project/4 wait/Bubble Sort]] 
-		- [[1 - Project/4 wait/Selection Sort]] 
-		- [[1 - Project/4 wait/Insertion Sort]] 
-		- [[1 - Project/4 wait/Heap Sort]] 
-		- [[1 - Project/4 wait/Merge Sort]] 
-		- [[1 - Project/4 wait/Quick Sort]] 
+		- [[6 - CS/4 wait/Bubble Sort]] 
+		- [[6 - CS/4 wait/Selection Sort]] 
+		- [[6 - CS/4 wait/Insertion Sort]] 
+		- [[6 - CS/4 wait/Heap Sort]] 
+		- [[6 - CS/4 wait/Merge Sort]] 
+		- [[6 - CS/4 wait/Quick Sort]] 
 		- [[Search Algorithms]] 
 		- [[Breadth-First Search (BFS)]]
 		- [[Depth-First Search (DFS)]] 
@@ -1262,9 +1302,9 @@ tags:
 	-  1.1 기본 자료구조
 		- [[Array]]
 		- [[1 - Main/1 CS/Linked List]]
-		- [[1 - Project/4 wait/Stack]]
-		- [[1 - Project/4 wait/Queue]]
-		- [[1 - Project/4 wait/Hash Table]]
+		- [[6 - CS/4 wait/Stack]]
+		- [[6 - CS/4 wait/Queue]]
+		- [[6 - CS/4 wait/Hash Table]]
 	- 1.2 트리와 그래프
 	- 1.3 정렬 및 탐색 알고리즘
 	- 1.4 고급 알고리즘
@@ -1566,6 +1606,63 @@ public class UserController {
 #### analects
 
 ---
+
+#### trouble-shooting
+
+##### Jmeter 로그인 대용량 트래픽 테스트을 위한 필수 세팅
+
+- CSV Data Set Config 설정
+    - Filename: users.csv (email,password 포함된 파일)
+    - Variable Names: email,password
+    - Ignore first line: True
+    - 예시:
+        - `email,password test1@naver.com,123456789`
+    
+- Thread Group 설정
+    - Number of Threads: 테스트할 사용자 수 (예: 30)
+    - Loop Count: 반복 횟수 (1로 설정하면 사용자당 1회 로그인)
+    
+- HTTP Request 설정
+    - Method: POST
+    - Path: /login
+    - Body Data: 아래 JSON 형식 입력
+    - Use multipart: 체크하지 않음
+    - Body 예시:
+        - `{   "email": "${email}",   "password": "${password}" }`
+    - 필수 Header:
+        - Content-Type: application/json
+        - Accept: application/json
+    
+- 서버 쪽 사전 조건
+    - 로그인 API는 email, password 필드명을 JSON으로 받아야 함
+    - csrf().disable() 설정 필요 (CSRF 토큰 없이도 POST 가능)
+    - /login 경로가 permitAll()로 허용되어야 함
+    - DB의 비밀번호는 반드시 BCrypt 해시로 저장되어야 함
+    - `BCryptPasswordEncoder.matches("123456789", dbHash)`가 true가 되어야 로그인 성공
+    
+- View Results Tree 확인
+    - 전송된 JSON에 `${email}`이 실제 사용자 이메일로 치환됐는지 확인
+    - 응답 상태 코드가 200 OK인지, 아니라면 401 메시지 내용 확인
+    
+- 로그인 성공 시 토큰 추출 (선택 사항)
+    - JSONPath Extractor로 token 값 추출 가능
+    - 이후 API 요청에 Authorization: Bearer ${token} 헤더 추가 가능
+
+---
+
+- 요약 순서
+    
+    - CSV 설정 (email/password)
+        
+    - Thread Group 사용자 수 설정
+        
+    - HTTP Request → POST + JSON + Header
+        
+    - 서버 로그인 API 구조와의 정합성 확인
+        
+    - View Results Tree로 응답 및 치환 여부 확인
+
+
 ## notebook-archive
 
 - Gpt 활용법

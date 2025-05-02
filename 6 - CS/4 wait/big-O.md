@@ -2,7 +2,7 @@
 created:
 ---
 ---
-- [[1 - Project/4 wait/Data Structure]]
+- [[6 - CS/4 wait/Data Structure]]
 - [[Algorithem]]
 - 
 ---
