@@ -31,10 +31,15 @@ tags:
 # Content
 
 
-
-
-
-
+- 대용량 데이터 처리
+	- [대용량 데이터베이스의 조회 성능을 개선해보자 (1) : 인덱스 적용](https://velog.io/@sckwon770/%EB%8C%80%EB%9F%89%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%A0%81%EC%9E%AC%EB%90%9C-%ED%85%8C%EC%9D%B4%EB%B8%94%EC%97%90-%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A5%BC-%EC%A0%81%EC%9A%A9%ED%95%B4-%EC%B5%9C%EC%A0%81%ED%99%94%ED%95%B4%EB%B3%B4%EC%9E%90)
+		- 일대다 방식에 대한 트러블 슈팅 블로그 매우 중요한 참고가 될 것이다.
+	- [대량 데이터 조회와 유지보수는 어떻게 해야될까?](https://hyune-c.tistory.com/40)
+		- 멘토님이 해주신 말씀을 토대로 준비된 게시물
+	- [효율이 좋은 쿼리](https://likenow.tistory.com/51)
+	- 대용량 데이터 처리에 대한 일목요연한 설명이 되어있다.
+	- [대용량 데이터를 빠르게 조회하기 - 페이징 전략 비교(offset, no offset, Where In)](https://guui-dev-lee.tistory.com/16)
+	- [대용량시스템에 대한 이해(5) - 300만건 데이터 삽입 & 조회 실습](https://velog.io/@sunsik08/%EB%8C%80%EC%9A%A9%EB%9F%89%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B45-300%EB%A7%8C%EA%B1%B4-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%82%BD%EC%9E%85-%EC%8B%A4%EC%8A%B5-%EC%A1%B0%ED%9A%8C)
 
 #### quick-notes
 
