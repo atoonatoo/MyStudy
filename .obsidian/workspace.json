@@ -218,14 +218,16 @@
       "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "a3d99295ac1002ef",
   "lastOpenFiles": [
-    "1 - Project/0 Todo.md",
+    "7 - Home/Study List.md",
+    "6 - CS/0 write/HTTP VS HTTPS.md",
     "1 - Project/0 Home.md",
+    "7 - Home",
+    "1 - Project/0 Todo.md",
     "6 - CS",
     "9 - New/스파이크성 트래픽을 재현.md",
     "9 - New/데이터가 많을 때 조회하는 성능 개선.md",
@@ -249,8 +251,6 @@
     "2 - Area/Employment.md",
     "2 - Area/Learning LoadMap.md",
     "3 - Resouce/analects.md",
-    "2 - Area/Helth Note.md",
-    "2 - Area/Study Topics.md",
     "9 - New/Image/Pasted image 20250415170718.png",
     "9 - New/Image/Pasted image 20250415160820.png",
     "9 - New/Image/Pasted image 20250415160807.png",
@@ -269,7 +269,6 @@
     "6 - CS/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch15",
     "6 - CS/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch14",
     "6 - CS/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch10",
-    "6 - CS/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch13",
     "5 - Media/Canvas/캔버스.canvas"
   ]
 }

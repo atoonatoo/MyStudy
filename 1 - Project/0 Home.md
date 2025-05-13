@@ -29,128 +29,143 @@ tags:
 
 ---
 # Content
+
+
+
+
+
+
+
 #### quick-notes
 
-##### 명령어
+- 문제 해결 -> 수치화 -> 성능 측정
+- [A급 코딩 유튜브 - 딩코딩코](https://www.youtube.com/@%EB%94%A9%EC%BD%94%EB%94%A9%EC%BD%94/videos)
 
 
-##### 과제
-- Http vs Https 공부하기
-- 로드밸런서 공부하기
-- 트러블 슈팅 시나리오 계속 진행하기
-- 이력서 수정 및 지원서 제출
+- 과제
+	- Http vs Https 공부하기
+	- 로드밸런서 공부하기
+	- 트러블 슈팅 시나리오 계속 진행하기
+	- 이력서 수정 및 지원서 제출
 	  
-##### 트러블슈팅 시나리오 진행사항
-- 외부 API 대량 호출 및 모니터링
-	- [Grafana 대시보드 연결 (1차 모니터링 화면 구축)](https://chatgpt.com/c/68060da7-dbc8-8012-8fb0-0e13a30cec6f)
-	- Alertmanager 경고 세팅 강화 (2차 알림 시스템 구축)
-	- JMeter로 부하 테스트 (모니터링 + 경고 트리거 검증)
-	- Grafana 알람(Alert) 설정 (3차 시각적 경고 시스템)
-	- 스케일아웃 포트 관리 및 자동화 (4차 확장성 강화)
-	- 최종 모니터링 시나리오 작성 및 테스트
-	-  순서 제안
-		1. Grafana → Prometheus 연결 → 대시보드 세팅
-		2. JMeter → 부하 발생 → 모니터링 테스트
-		3. Alertmanager → Slack + Webhook 경고 흐름 최종 점검
-		4. Grafana Alerts → 추가 알람 설정
-	- 선택
-		- "👉 먼저 Grafana 대시보드 연결부터 하자"
-		- "👉 바로 JMeter 부하 테스트로 넘어가자"
-		- "👉 Alertmanager 알람 먼저 세팅 강화하자"
-- [스파이크성 트래픽을 재현](https://chatgpt.com/c/680ddf8e-e858-8012-a55d-b42fc0317ab6)
-- [데이터가 많을 때 조회하는 성능 개선](https://chatgpt.com/c/68145efc-2388-8012-95c3-63818e139064)
-
-##### 챌린지
-- 스프링프레임워크를 직접 구현하기
-- 공룡책 원본 완독
-- 백준 혹은 프로그래머스 코딩테스트
-- SQL 쿼리문 자유롭게 작성
-- Git 터미널을 통해 명령어 자유롭게 이동하기
-- 손코딩 연습하기
-- CS  공부하기
-- 다양한 기술 스텍을 적용하여 토이 프로젝트 만들기
-- ERD 작성하기
-- 리눅스 연습하기
-- 오픈소스로 프로젝트 작성
-- 새로운 기술 스텍 배우기
-- 내가 배운 지식 남들에게 설명하기
-- 옵시디언 문서 작성 및 정리
-  
-##### 정보처리기사 암기
-- Death of ping
-- Smurfing
-- SYN Flooding
-- Tear drop 
-- Land Attack
-- Ddos
-- LRU
-- VPN
-- 방화벽
-- 칩입탐지시스템(IDS)  
-- 침입방지시스템(IPS)
-- 데이터유출방지(DLP)
-- 웹 방화벽
-- NAC
-- ESM
-- SIEM
-- SSH
-- 탬퍼 프루핑(Tamper Proofing)
-- OAuth (Open Authoration)
-- 생성 패턴 (Creational)
-- 구조 패턴 (Structural)
-- 행위 패턴 (Behavioral)
-- 추상 팩토리
-- 빌더
-- 팩토리 메서드
-- 프로토타입
-- 싱글톤
-- 어댑터
-- 브리지
-- 컴포지트
-- 데코레이터
-- 퍼싸드
-- 플라이웨이트
-- 프록시
-- 책임 연쇄
-- 커맨드
-- 인터프리터
-- 반복자
-- 중재자
-- 메멘토
-- 옵저버
-- 상태
-- 전략
-- 탬플릿 메소드
-- 방문자
-##### LINK
-- [ChatGPT API Token Limit 해결하기 (요금 줄이기)](https://velog.io/@noh0907/ChatGPT-API-Token-Limit-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-%EC%9A%94%EA%B8%88-%EC%A4%84%EC%9D%B4%EA%B8%B0)
-- [GPT 성능 최적화 응답 품질과 속도 개선을 위한 가이드](https://doitevery.com/entry/ChatGPT-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94-%EC%9D%91%EB%8B%B5-%ED%92%88%EC%A7%88%EA%B3%BC-%EC%86%8D%EB%8F%84-%EA%B0%9C%EC%84%A0%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C#google_vignette)
-- [프롬프트 캐싱 참고문헌 1](https://docs.anthropic.com/ko/docs/build-with-claude/prompt-caching)
-- [프롬프트 캐싱 참고문헌 2](https://wikidocs.net/262049)
-- [PostMan 가이드 Infa](https://inpa.tistory.com/entry/POSTMAN-%F0%9F%92%BD-%ED%8F%AC%EC%8A%A4%ED%8A%B8%EB%A7%A8-%EC%82%AC%EC%9A%A9%EB%B2%95-API-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%8F%99%ED%99%94-%EA%B3%A0%EA%B8%89-%ED%99%9C%EC%9A%A9%EA%B9%8C%EC%A7%80#%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EA%B8%B0_%EC%9E%90%EB%8F%99%ED%99%94_monitor_collection)
-- [서버 부하 테스트](https://velog.io/@kimhalin/%EC%84%9C%EB%B2%84-%EB%B6%80%ED%95%98-%ED%85%8C%EC%8A%A4%ED%8A%B8-K6)
-- [외부 API 테스트 1](https://velog.io/@kyle/%EC%99%B8%EB%B6%80-API%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%95%A0-%EA%B2%83%EC%9D%B8%EA%B0%80)
-- [외부 API 테스트 2](https://velog.io/@jmjmjmz732002/%EC%99%B8%EB%B6%80-API-%EC%84%9C%EB%B2%84%EB%8A%94-mocking%ED%95%98%EC%97%AC-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%B4%EC%95%BC-%ED%95%9C%EB%8B%A4)
-- [외부 API 테스트 3](https://jojoldu.tistory.com/341)
-- [외부 API 테스트 4](https://minnseong.tistory.com/26)
-- [Jmeter 사용법](https://devmango.tistory.com/40)
-- [HTTPS 심화 강의 - 생활코딩](https://www.youtube.com/watch?v=0cfUVrQW_yg&list=PLCZ-8rvakaqbplQZAoUku8uuxUgbLQm-1)
-- [Spring Security JSON 형식으로 로그인 1](https://goalinnext.tistory.com/136)
-- [Spring Security JSON 형식으로 로그인 2](https://goalinnext.tistory.com/m/146)
-- [Spring Security JSON 형식으로 로그인 3](https://dsjo.tistory.com/4)
-- [개발자가 되는 방법 - 니콜라스](https://www.youtube.com/watch?v=c78j19OpfN0)
-- [HTTP VS HTTPS + SSL + TLS 이해하기 심화편](https://www.stevenjlee.net/2020/11/01/%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-http-vs-https-%EA%B7%B8%EB%A6%AC%EA%B3%A0-ssl-secure-socket-layer/)
-##### 멘토링
-
-##### 키워드
-- Kubernetes 관리 플랫폼
-	- 클러스터 구성, 워크로드 배포 등 쿠버네티스 구성 및 자동화 관리
-- MLOps 플랫폼 (Kubeflow) 구성, 관리 자동화 개발
-- Flask
-- Django
-- gRFC
-- RDBMS
-- NoSQL
+- 트러블슈팅 시나리오 진행사항
+	- 외부 API 대량 호출 및 모니터링
+		- [Grafana 대시보드 연결 (1차 모니터링 화면 구축)](https://chatgpt.com/c/68060da7-dbc8-8012-8fb0-0e13a30cec6f)
+		- Alertmanager 경고 세팅 강화 (2차 알림 시스템 구축)
+		- JMeter로 부하 테스트 (모니터링 + 경고 트리거 검증)
+		- Grafana 알람(Alert) 설정 (3차 시각적 경고 시스템)
+		- 스케일아웃 포트 관리 및 자동화 (4차 확장성 강화)
+		- 최종 모니터링 시나리오 작성 및 테스트
+		-  순서 제안
+			1. Grafana → Prometheus 연결 → 대시보드 세팅
+			2. JMeter → 부하 발생 → 모니터링 테스트
+			3. Alertmanager → Slack + Webhook 경고 흐름 최종 점검
+			4. Grafana Alerts → 추가 알람 설정
+		- 선택
+			- "👉 먼저 Grafana 대시보드 연결부터 하자"
+			- "👉 바로 JMeter 부하 테스트로 넘어가자"
+			- "👉 Alertmanager 알람 먼저 세팅 강화하자"
+	- [스파이크성 트래픽을 재현](https://chatgpt.com/c/680ddf8e-e858-8012-a55d-b42fc0317ab6)
+	- [데이터가 많을 때 조회하는 성능 개선](https://chatgpt.com/c/68145efc-2388-8012-95c3-63818e139064)
+	
+- 챌린지
+	- 스프링프레임워크를 직접 구현하기
+	- 공룡책 원본 완독
+	- 백준 혹은 프로그래머스 코딩테스트
+	- SQL 쿼리문 자유롭게 작성
+	- Git 터미널을 통해 명령어 자유롭게 이동하기
+	- 손코딩 연습하기
+	- CS  공부하기
+	- 다양한 기술 스텍을 적용하여 토이 프로젝트 만들기
+	- ERD 작성하기
+	- 리눅스 연습하기
+	- 오픈소스로 프로젝트 작성
+	- 새로운 기술 스텍 배우기
+	- 내가 배운 지식 남들에게 설명하기
+	- 옵시디언 문서 작성 및 정리
+	  
+- 정보처리기사 암기
+	- Death of ping
+	- Smurfing
+	- SYN Flooding
+	- Tear drop 
+	- Land Attack
+	- Ddos
+	- LRU
+	- VPN
+	- 방화벽
+	- 칩입탐지시스템(IDS)  
+	- 침입방지시스템(IPS)
+	- 데이터유출방지(DLP)
+	- 웹 방화벽
+	- NAC
+	- ESM
+	- SIEM
+	- SSH
+	- 탬퍼 프루핑(Tamper Proofing)
+	- OAuth (Open Authoration)
+	- 생성 패턴 (Creational)
+	- 구조 패턴 (Structural)
+	- 행위 패턴 (Behavioral)
+	- 추상 팩토리
+	- 빌더
+	- 팩토리 메서드
+	- 프로토타입
+	- 싱글톤
+	- 어댑터
+	- 브리지
+	- 컴포지트
+	- 데코레이터
+	- 퍼싸드
+	- 플라이웨이트
+	- 프록시
+	- 책임 연쇄
+	- 커맨드
+	- 인터프리터
+	- 반복자
+	- 중재자
+	- 메멘토
+	- 옵저버
+	- 상태
+	- 전략
+	- 탬플릿 메소드
+	- 방문자
+	
+- LINK
+	- 너무 중요한 LINK
+		- [기술스택이 아쉬워도 신입이력서를 잘 쓰는 법](https://www.youtube.com/watch?v=iBE8trz9uHI)
+	- [ChatGPT API Token Limit 해결하기 (요금 줄이기)](https://velog.io/@noh0907/ChatGPT-API-Token-Limit-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-%EC%9A%94%EA%B8%88-%EC%A4%84%EC%9D%B4%EA%B8%B0)
+	- [GPT 성능 최적화 응답 품질과 속도 개선을 위한 가이드](https://doitevery.com/entry/ChatGPT-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94-%EC%9D%91%EB%8B%B5-%ED%92%88%EC%A7%88%EA%B3%BC-%EC%86%8D%EB%8F%84-%EA%B0%9C%EC%84%A0%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C#google_vignette)
+	- [프롬프트 캐싱 참고문헌 1](https://docs.anthropic.com/ko/docs/build-with-claude/prompt-caching)
+	- [프롬프트 캐싱 참고문헌 2](https://wikidocs.net/262049)
+	- [PostMan 가이드 Infa](https://inpa.tistory.com/entry/POSTMAN-%F0%9F%92%BD-%ED%8F%AC%EC%8A%A4%ED%8A%B8%EB%A7%A8-%EC%82%AC%EC%9A%A9%EB%B2%95-API-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%8F%99%ED%99%94-%EA%B3%A0%EA%B8%89-%ED%99%9C%EC%9A%A9%EA%B9%8C%EC%A7%80#%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EA%B8%B0_%EC%9E%90%EB%8F%99%ED%99%94_monitor_collection)
+	- [서버 부하 테스트](https://velog.io/@kimhalin/%EC%84%9C%EB%B2%84-%EB%B6%80%ED%95%98-%ED%85%8C%EC%8A%A4%ED%8A%B8-K6)
+	- [외부 API 테스트 1](https://velog.io/@kyle/%EC%99%B8%EB%B6%80-API%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%95%A0-%EA%B2%83%EC%9D%B8%EA%B0%80)
+	- [외부 API 테스트 2](https://velog.io/@jmjmjmz732002/%EC%99%B8%EB%B6%80-API-%EC%84%9C%EB%B2%84%EB%8A%94-mocking%ED%95%98%EC%97%AC-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%B4%EC%95%BC-%ED%95%9C%EB%8B%A4)
+	- [외부 API 테스트 3](https://jojoldu.tistory.com/341)
+	- [외부 API 테스트 4](https://minnseong.tistory.com/26)
+	- [Jmeter 사용법](https://devmango.tistory.com/40)
+	- [HTTPS 심화 강의 - 생활코딩](https://www.youtube.com/watch?v=0cfUVrQW_yg&list=PLCZ-8rvakaqbplQZAoUku8uuxUgbLQm-1)
+	- [Spring Security JSON 형식으로 로그인 1](https://goalinnext.tistory.com/136)
+	- [Spring Security JSON 형식으로 로그인 2](https://goalinnext.tistory.com/m/146)
+	- [Spring Security JSON 형식으로 로그인 3](https://dsjo.tistory.com/4)
+	- [개발자가 되는 방법 - 니콜라스](https://www.youtube.com/watch?v=c78j19OpfN0)
+	- [HTTP VS HTTPS + SSL + TLS 이해하기 심화편](https://www.stevenjlee.net/2020/11/01/%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-http-vs-https-%EA%B7%B8%EB%A6%AC%EA%B3%A0-ssl-secure-socket-layer/)
+	- [대용량 트래픽과 데이터 처리를 위해 공부할 내용](https://velog.io/@seultudy/%EB%8C%80%EC%9A%A9%EB%9F%89-%ED%8A%B8%EB%9E%98%ED%94%BD%EA%B3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%B2%98%EB%A6%AC%EB%A5%BC-%EC%9C%84%ED%95%B4-%EA%B3%B5%EB%B6%80%ED%95%A0-%EB%82%B4%EC%9A%A9)
+	- [대규모 데이터 처리](https://hotechstory.tistory.com/147)
+	- [대용량 트래픽 처리하는 6가지 방법](https://jeounpar.tistory.com/29)
+	- [우리팀은 카프가를 어떻게 사용하고 있을까 - 우테코](https://techblog.woowahan.com/17386/)
+	- [대용량 트래픽을 처리하기 위한 카프카 사용법](https://www.elancer.co.kr/blog/detail/738)
+	
+- 키워드
+	- Kubernetes 관리 플랫폼
+		- 클러스터 구성, 워크로드 배포 등 쿠버네티스 구성 및 자동화 관리
+	- MLOps 플랫폼 (Kubeflow) 구성, 관리 자동화 개발
+	- Flask
+	- Django
+	- gRFC
+	- RDBMS
+	- NoSQL
 ---
 ---
 #### today 
@@ -284,7 +299,7 @@ git push
 ---
 ##### **SQL**
 
-###### 테이블 데이터 지우기
+	###### 테이블 데이터 지우기
 - 테이블 참조가 되어서 외래 키 제약조건때문에 직접 지우기 불가능한 경우
 - 일시적으로 외래키 제약 비활성화 후
 - `실업무에는 위험` `테스트 DB에만 사용할 것`
@@ -823,256 +838,7 @@ SET FOREIGN_KEY_CHECKS = 1;
 	- 스프링, vue.js 컨트리뷰터가 되는 걸 목표로 하라
 
 ---
-#### study-list  
 
-- **mentoring**
-	- **오늘 내용**
-	---
-	- **링크**
-		- 멘토링 노션 일정
-			- [12주차](https://applicationspring.notion.site/12-43744912300148798daab456f3bde188?pvs=4)
-			- [13주차](https://applicationspring.notion.site/13-5c422ca79d024fb9bbb7cea51a4cf2f8)
-			- [14주차](https://applicationspring.notion.site/14-eb30043f63634d0f9269d2e9c913e082)
-			- [15주차](https://applicationspring.notion.site/15-6854ef9dd02b4c7d96e952ae931dec99)
-			- [16주차](https://applicationspring.notion.site/16-374ea79afa324fb0a5c4b0213f1c845e)
-			- [17주차](https://applicationspring.notion.site/17-0fc1ee76a186470ab43448c3c39dbc4d?pvs=4)
-			- [18주차](https://applicationspring.notion.site/18-4f9c9ec7c53743a4969dd8d874b9a177?pvs=4)
-			- [19주차](https://applicationspring.notion.site/19-7eb8660f952141df81a62fe0641ef874?pvs=4)
-			- [20주차](https://applicationspring.notion.site/20-9b207dbfa281450d8a2c201070e5e127?pvs=4)
-			- [21주차](https://applicationspring.notion.site/21-3dcf3ef6c28048de9dee65b9316b6b21?pvs=4)
-			- [22주차](https://applicationspring.notion.site/22-3806c035e8284e76a962ab88113b4d2b?pvs=4)
-			- [23주차](https://applicationspring.notion.site/23-bd2607c8bbdc4d6293e1bb1806bfff89?pvs=4)
-			- [24주차](https://applicationspring.notion.site/24-ace4528a615a4117a5764ad2ec129d16?pvs=4)
-			- [32주차](https://applicationspring.notion.site/32-14f58235526380359b1de956f5d29473?pvs=4)
-			- [35주차](https://applicationspring.notion.site/35-18758235526380e9b103d5cd496cabad)
-			- [36주차](https://applicationspring.notion.site/36-1875823552638000b45bf863ff06d558)
-			- [37주차](https://applicationspring.notion.site/37-19c5823552638071b258f5f8e5af4c90)
-			- [38~40주차](https://applicationspring.notion.site/38-19c58235526380cbba6fcac97bed5419?pvs=4)
-			- [41주차](https://applicationspring.notion.site/41-1be58235526380748a8ef9f2f07bbbdb)
-			- [42주차](https://applicationspring.notion.site/42-1be582355263808e9e8cf74f64dbe0fb)
-			
-		1. [이력서 모음](https://applicationspring.notion.site/1b158235526380dca53cd3baef3ce103?pvs=4)
-			1. 김영수님 주목(잘치는분)
-			2. 가장 좋은 회사에 갈 확률이 높은 사람
-			3. 이 사람의 깃허브, 기술블로그 등등 주목하는 것을 추천한다.
-		 
-	- **어드바이스**
-		1. 두괄식으로 말하라.
-			1. 핵심 내용을 먼저 제시 한 후, 이를 뒷받침하는 설명을 덧붙이는 방식을 사용하라.
-			2. 방법
-				1. 핵심 내용 먼저 말하기
-				2. 근거와 이유 추가하기
-				3. 추가 설명 및 예시 제시하기
-		2. "내가 이걸 진짜 아는가?"
-			1. 내가 이 지식을 진짜로 알고있는지 항상 나스스로에게 물어보아라.
-		3. 하루 스케줄 관리
-			1. 최대한의 능력을 하루에 다 쏟아붓고, 매일 무엇을 했는지 기록하는 것이 중요하다.
-		4. 입사 지원 전략 수립
-			1. 원하는 회사의 정보를 최대한 수집하고, 목표를 설정해야 한다. 
-			2. "나는 이런 회사를 가고 싶다"는 기준을 세우는 것이 중요.
-		5. 학습 관리
-			 1. 필요한 스터디나 학습 자료를 구하고, 부족한 부분을 빠르게 채워나가야 한다.
-		6. 트랜드 동향 관리
-			1.  매일 업계 동향을 찾아보되 부정적인 요소에 너무 신경 쓰지 말 것.
-		7. 실력 향상 핵심 요소
-			1. 문제해결 능력, 클린 코드 작성, Git 사용, API 설계 등의 능력을 키워야 한다.
-		8. 협업 능력
-			1. 팀 프로젝트를 통해 소통 및 협업 능력을 기르고, 각자의 역할을 정확히 나누어 진행하는 것이 중요하다.
-		9. CS 공부법
-			1. 비교해라, 꼬리의 꼬리를 물어라
-		10. 구글링 검색하는 방법
-			1. 영어를 검색하고 그 내용을 공부해 보아라.
-			2. 
-		
-	- **테크닉 노하우**
-		1. 
-		2. 
-		3. 
-		4. 
-		5. 
-		
-	- **추천**
-		1. 책 추천 __ 소프트웨어장인 : 프로그래머 열정을 말하다
-		2. 
-		3. 
-		4. 
-		5. 
-		
-	- **취업 준비**
-		1. 면접관은 자잘한 것은 안보고 github나 기술블로그를 볼 것이다.
-		2. 옥석을 뽑으려면 어떻게 어필을 해야할까?
-			1. 기술 발표
-			2. 호텔경영학 서술 부분은 좋았다는 평가를 받았다. 
-			3. 다만, 예상 답변에 대한 준비가 필요하다.
-		3. 추상적인 서술은 최대한 빼야한다.
-		4. OKKY 개발자 컨퍼런스 발표
-			1. 이력서에 한줄 가능하다.
-		5. 문제해결 능력
-			문제가 발생했으면 `원인` , `어떻게`, `해결했는가` 를 어필해야 한다.
-			면접관들은 문제해결능력을 가장 중요하게 생각한다.
-			즉, 여기서 내 역량을 여실히 드러낼 수 있는 부분이다.
-			뾰족한 느낌을 주듯이 특별한 어필을 면접관에게 보여주어야한다.
-			
-			- 어필하고 싶은 포인트를 소단원으로 나눠보자
-				- 문제에 대한 서술을 한다.
-				- 감정적인 부분은 다 배제한다.
-				- 아주 이성적으로 작성해야한다.
-				- 위의 규칙을 전제로 문제, 원인, 해결을 서술해야한다.
-		6. 기술 스택은 진짜 자신있는 것만 써야한다.
-			- 하나를 지암반수를 뚫을 수 있을 때까지 답하게 공부하고 그 내용만 적어라.
-		7. 포트폴리오에 너무 집중하지 말고, 이력서를 꾸준히 업데이트하고 지원을 계속해야 한다.
-		8. 포트폴리오에 너무 많은 시간을 할애하지 말고, 이력서 작성 및 지원에 집중해야 한다.
-		9. 취업에 필요한 역량을 쌓고, 면접 후기를 참고하여 목표를 세우는 것이 중요하다.
-		10. 이력서 작성
-			1. 복지는 구체적으로 적어야한다.
-			2. 직장 동료를 검색해보면 구체적으로 추구하는 가치관을 알 수 있다.
-			3. 장작은 장작이다. 리뷰 점수만 보자.
-		11. 좋은 기업 찾는 방법
-			1. 기술 블로그가 있는지?
-			2. 개발자들은 어떤사람들이 있는지?
-			3. 개발문화는 어떤지?
-			4. 비지니스모델은 어떤지?
-			5. 가장 중요한 것은 내가 성장할 수 있도록 배울 수 있는 사람이 있는가?
-			6. 빡세게 면접을 보는지?
-				1. 빡세게 면접을 보는 기준을 분석하라.
-		12. 나쁜 기업 찾는 방법
-			1. 신입의 기본기를 중요치 않는 회사는 좋은 회사가 아닐 가능성이 높다.
-			2. 기술적인 검증을 하지 않고 뽑으면 좋은 회사가 아닐 가능성이 높다.
-		13. 추천 이력서 사이트
-			1. RocketPunch
-			2. LinkedIn
-		14. 장작 이력서 사이트
-			1. 사람인
-			2. 잡코리아
-		15. 내가 자주 사용하는 앱  회사를 찾아보자
-		16. 면접관이 보는 지원자의 역량
-			1. 진실, 실무, 태도
-		17. 기술 역량은 무조건 필수적이다.
-		18. 면접 보러갈 때 녹음기를 키고 들어가라.
-		19. 무조건 첫 직장은 서비스 회사로 가야한다.
-		20. 향후 발전 가능성이 있는 회사를 찾아야한다. 무조건 쪽 빨아먹을 수 있는 회사를 가야한다.
-		21. 빅태크 기업은 거르는게 먼저다.
-		22. 서류를 보고 뭐부터 거를까?
-			- 기술력 ,태도
-			- 나는 우물안의 개구리다!
-			- 저사람이 왜 뽑힌걸까?, 찾아보자
-		23. 자기객관화가 되어야한다.
-		24. 경쟁우위에 어필의 증거물이 포함되어야한다.,
-			- "나는 커뮤니케이션 능력이 좋다" 
-			- "부트캠프에서 나는 늘 팀장을 뽑히고 이끌어간 경험이 있다."
-		25. 비전공과 VS 전공자? > 전공자가 유리하다.
-			- 나만의 무기가 될만한 스펙이 있어야한다.
-		   
-	- **프로젝트**
-		1. 로깅 모니터링, 알람
-		2. 베스트 리드미
-		3. 백엔드 개발자는 트래픽과 데이터 성능을 생각하고 만들어야 한다.
-			1. 백엔드 개발자는 트래픽이 중요하다.
-		4. CURD에서 더욱 많은 걸 할 수 있다.
-		5. 카카오톡, 디스코드
-		6. 백엔드는 데이터가 중요하다.
-		7. 시스템 디자인 인터뷰
-		8. 너무 쓸게 없다.
-			1. 너무 이타적이다.
-		9. 일부러 카오스 엔지니어링을 해보아라.
-		10. 스스로 무기를 만들어라
-		11. Spring Security처럼 어렵고 면접에 답할 수 없는 불리한 기술을 쓰지말고 차라리 JPA, MVC를 차라리 써라
-		12. 유사한 개념이 있다면 뭐가 다른걸까 생각하라
-		13. 항상 코드를 보아라.
-		
-	- CS
-		- RestFul이란?
-			- 로그인, 회원가입은 RestFul 할 수 없다.
-			- REST에 너무 연연할 필요없다.
-
-- **morning study**
-	- **타임라인**
-		- 1월 
-			- 1주차 - https://gaan.notion.site/1-1-16afbb391d79802baa96f67858721882
-			- 2주차 - https://gaan.notion.site/1-2-171fbb391d79804bb41ec6c81a0fee66
-			- 3주차 - https://www.notion.so/gaan/1-3-178fbb391d7980ac819ce8117d69edd8
-			- 4주차 - https://www.notion.so/gaan/1-4-17efbb391d798062a802fe80407855b1
-			- 5주차 - https://www.notion.so/gaan/1-5-185fbb391d7980978688c19dfc130f04
-		- 2월 
-			- 1주차 - https://gaan.notion.site/2-1-18dfbb391d798040823ffdd8a1689f33?pvs=4
-			- 2주차 - https://gaan.notion.site/2-2-194fbb391d79807aa11dd294914295b8?pvs=4
-			- 3주차 - https://gaan.notion.site/2-3-19bfbb391d7980ffaf10c81b6b028e5e?pvs=4
-			- 4주차 - https://www.notion.so/gaan/2-4-1a2fbb391d79800ca2c6ebf8e37118f9
-		- 3월
-			- 1주차 - https://gaan.notion.site/3-1-1a9fbb391d7980df9250d8f82038da69
-			- 2주차 - https://gaan.notion.site/3-2-1b0fbb391d7980c48ea3fa9eb0553810
-			- 3주차 - https://www.notion.so/gaan/3-3-1b7fbb391d7980379803db043924d69f
-			- 4주차 - https://www.notion.so/gaan/3-4-1befbb391d7980ed8172ffbde0b886e9
-		- 4월
-			- 1주차 - 
-			- 2주차 - 
-			- 3주차 - 
-			- 4주차 - 
-		- 5월
-			- 1주차 - 
-			- 2주차 - 
-			- 3주차 - 
-			- 4주차 - 
-		- 6월
-			- 1주차 - 
-			- 2주차 - 
-			- 3주차 - 
-			- 4주차 - 
-		- 7월
-			- 1주차 - 
-			- 2주차 - 
-			- 3주차 - 
-			- 4주차 - 
-		- 8월
-			- 1주차 - 
-			- 2주차 - 
-			- 3주차 - 
-			- 4주차 - 
-		- 9월
-			- 1주차 - 
-			- 2주차 - 
-			- 3주차 - 
-			- 4주차 - 
-		- 10월
-			- 1주차 - 
-			- 2주차 - 
-			- 3주차 - 
-			- 4주차 - 
-		- 11월
-			- 1주차 - 
-			- 2주차 - 
-			- 3주차 - 
-			- 4주차 - 
-		- 12월
-			- 1주차 - 
-			- 2주차 - 
-			- 3주차 - 
-			- 4주차 - 
-
-- **study list**
-	- [[project - techie]]
-	- [[project - study_commuity]]
----  
-- **학습자료**
-	- [노코드 로우코드]( https://judy0465.tistory.com/144)
-	- [Base64 인코딩](https://judy0465.tistory.com/145)
-	- [바인드 마운트](https://github.com/djm07073/blog/blob/main/dockers/mount.**md)
-	- [유니언 파일시스템](https://github.com/djm07073/blog/blob/main/dockers/union_file_system.md)
-	- [DB 인덱스](https://osumaniaddict527.tistory.com/41)
-	- [Amazon OpenSearch Service 구축하기](https://roomq.tistory.com/36)
-	- [CSR과 SCR, SPA와 MPA](https://sysy1127.tistory.com/7)
-	- 
-	- 
-	- 
-
-##### 추천 학습
-
-- [우아한 객체지향](https://velog.io/@codemcd/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%84%B8%EB%AF%B8%EB%82%98-%EC%9A%B0%EC%95%84%ED%95%9C%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EC%9D%98%EC%A1%B4%EC%84%B1%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EC%84%A4%EA%B3%84-%EC%A7%84%ED%99%94%EC%8B%9C%ED%82%A4%EA%B8%B0-By-%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4-%EA%B0%9C%EB%B0%9C%EC%8B%A4%EC%9E%A5-%EC%A1%B0%EC%98%81%ED%98%B8%EB%8B%98-vkk5brh7by)
-- [스프링부트 비동기 처리](https://velog.io/@harukaseasons/Spring-Boot-Async1)
-
-
-
----
 #### coding-test  
 
 ---
