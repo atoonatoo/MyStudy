@@ -30,6 +30,13 @@ tags:
 ---
 # Content
 
+- 플레이리스트 GET DETAILS
+```SQL
+SELECT p.id AS playlist_id, p.name AS playlist_name, v.video_id, v.title FROM playlists p JOIN playlist_video pv ON p.id = pv.playlist_id JOIN video v ON pv.video_id = v.video_id WHERE p.id = 1;
+```
+
+
+
 
 - 대용량 데이터 처리
 	- [대용량 데이터베이스의 조회 성능을 개선해보자 (1) : 인덱스 적용](https://velog.io/@sckwon770/%EB%8C%80%EB%9F%89%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%A0%81%EC%9E%AC%EB%90%9C-%ED%85%8C%EC%9D%B4%EB%B8%94%EC%97%90-%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A5%BC-%EC%A0%81%EC%9A%A9%ED%95%B4-%EC%B5%9C%EC%A0%81%ED%99%94%ED%95%B4%EB%B3%B4%EC%9E%90)
