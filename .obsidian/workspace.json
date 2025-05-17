@@ -218,8 +218,7 @@
       "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "a3d99295ac1002ef",
