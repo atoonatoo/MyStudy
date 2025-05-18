@@ -51,7 +51,6 @@ SELECT p.id AS playlist_id, p.name AS playlist_name, v.video_id, v.title FROM pl
 - 문제 해결 -> 수치화 -> 성능 측정
 - [A급 코딩 유튜브 - 딩코딩코](https://www.youtube.com/@%EB%94%A9%EC%BD%94%EB%94%A9%EC%BD%94/videos)
 
-
 - 과제
 	- Http vs Https 공부하기
 	- 로드밸런서 공부하기
