@@ -316,7 +316,7 @@ git push
 ```
 SET FOREIGN_KEY_CHECKS = 0;
 
-DELETE FROM users;
+DELETE FROM playlists;
 
 SET FOREIGN_KEY_CHECKS = 1;
 ```

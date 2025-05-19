@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "spring security",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,14 +219,17 @@
       "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "a3d99295ac1002ef",
   "lastOpenFiles": [
+    "6 - CS/1 plan/Java SE API.md",
+    "1 - Project/0 Home.md",
+    "6 - CS/1 plan/스프링이란.md",
     "7 - Home/Study List.md",
     "6 - CS/0 write/HTTP VS HTTPS.md",
-    "1 - Project/0 Home.md",
     "7 - Home",
     "1 - Project/0 Todo.md",
     "6 - CS",
@@ -249,8 +253,6 @@
     "2 - Area/Tip.md",
     "2 - Area/Recommended Information.md",
     "2 - Area/Employment.md",
-    "2 - Area/Learning LoadMap.md",
-    "3 - Resouce/analects.md",
     "9 - New/Image/Pasted image 20250415170718.png",
     "9 - New/Image/Pasted image 20250415160820.png",
     "9 - New/Image/Pasted image 20250415160807.png",
