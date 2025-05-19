@@ -165,6 +165,7 @@ SELECT p.id AS playlist_id, p.name AS playlist_name, v.video_id, v.title FROM pl
 	- [대용량 트래픽 처리하는 6가지 방법](https://jeounpar.tistory.com/29)
 	- [우리팀은 카프가를 어떻게 사용하고 있을까 - 우테코](https://techblog.woowahan.com/17386/)
 	- [대용량 트래픽을 처리하기 위한 카프카 사용법](https://www.elancer.co.kr/blog/detail/738)
+	- [Jmeter playlists get 세팅 성공 사례](https://chatgpt.com/c/682aded9-0834-8012-acaf-5cd483ee8c0e)
 	
 - 키워드
 	- Kubernetes 관리 플랫폼
