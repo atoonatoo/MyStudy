@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "spring security",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -223,7 +222,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a3d99295ac1002ef",
+  "active": "b85ca5c06d88fbdf",
   "lastOpenFiles": [
     "6 - CS/1 plan/Java SE API.md",
     "1 - Project/0 Home.md",
