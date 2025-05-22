@@ -327,7 +327,7 @@ git push
 ---
 ##### **SQL**
 
-	###### 테이블 데이터 지우기
+###### 테이블 데이터 지우기
 - 테이블 참조가 되어서 외래 키 제약조건때문에 직접 지우기 불가능한 경우
 - 일시적으로 외래키 제약 비활성화 후
 - `실업무에는 위험` `테스트 DB에만 사용할 것`
@@ -335,9 +335,14 @@ git push
 ```
 SET FOREIGN_KEY_CHECKS = 0;
 
-DELETE FROM playlists;
+DELETE FROM playlist_video;
 
 SET FOREIGN_KEY_CHECKS = 1;
+```
+
+###### sql 파일 cli에 삽입하기
+```sql
+SOURCE C:/Users/kkk96/Downloads/sql/playlist2/insert_youtube_video.sql;
 ```
 
 ---
