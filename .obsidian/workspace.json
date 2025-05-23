@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Project/0 Home.md",
+                "file": "7 - Home/Quick note.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0 Home"
+              "title": "Quick note"
             }
           }
         ]
@@ -222,12 +222,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b85ca5c06d88fbdf",
+  "active": "a3d99295ac1002ef",
   "lastOpenFiles": [
-    "6 - CS/1 plan/Java SE API.md",
     "1 - Project/0 Home.md",
-    "6 - CS/1 plan/스프링이란.md",
+    "7 - Home/Quick note.md",
+    "7 - Home/Employment.md",
+    "7 - Home/Prompt.md",
+    "7 - Home/Project.md",
+    "7 - Home/Today.md",
+    "7 - Home/Learning.md",
     "7 - Home/Study List.md",
+    "7 - Home/Link.md",
+    "2 - Area/Employment.md",
+    "2 - Area/LINK.md",
+    "5 - Media/Templete/CS Templete.md",
+    "5 - Media/Templete/Home Templete.md",
+    "5 - Media/Templete/Daily_Note Templete.md",
+    "6 - CS/1 plan/Java SE API.md",
+    "6 - CS/1 plan/스프링이란.md",
     "6 - CS/0 write/HTTP VS HTTPS.md",
     "7 - Home",
     "1 - Project/0 Todo.md",
@@ -240,18 +252,6 @@
     "2 - Area/Quick Notes.md",
     "6 - CS/4 wait/Write Templete.md",
     "2 - Area/Annotation Study Method.md",
-    "2 - Area/Study List.md",
-    "2 - Area/Coding Test.md",
-    "2 - Area/History.md",
-    "2 - Area/KnowHow.md",
-    "2 - Area/Morning Study.md",
-    "2 - Area/Mentoring.md",
-    "2 - Area/Program Project.md",
-    "2 - Area/SPEC.md",
-    "2 - Area/Life.md",
-    "2 - Area/Tip.md",
-    "2 - Area/Recommended Information.md",
-    "2 - Area/Employment.md",
     "9 - New/Image/Pasted image 20250415170718.png",
     "9 - New/Image/Pasted image 20250415160820.png",
     "9 - New/Image/Pasted image 20250415160807.png",

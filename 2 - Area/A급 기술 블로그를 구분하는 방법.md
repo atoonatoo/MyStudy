@@ -2,7 +2,7 @@
 created:
 ---
 ---
-- [[learning]]
+- [[2 - Area/learning]]
 
 ---
 
