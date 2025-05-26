@@ -6,7 +6,6 @@
 ---
 - DB Index
 	- `EXPLAIN` 분석
-	- 
 - Full GC
 	- jstat
 		- jstat -gcutil 3772 1000 10
@@ -32,7 +31,7 @@
 	- [대용량시스템에 대한 이해(5) - 300만건 데이터 삽입 & 조회 실습](https://velog.io/@sunsik08/%EB%8C%80%EC%9A%A9%EB%9F%89%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B45-300%EB%A7%8C%EA%B1%B4-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%82%BD%EC%9E%85-%EC%8B%A4%EC%8A%B5-%EC%A1%B0%ED%9A%8C)
 - 문제 해결 -> 수치화 -> 성능 측정
 - [A급 코딩 유튜브 - 딩코딩코](https://www.youtube.com/@%EB%94%A9%EC%BD%94%EB%94%A9%EC%BD%94/videos)
-
+- [[Nginx] 리버스 프록시(Reverse Proxy) 개념 및 사용법](https://narup.tistory.com/238)
 
 
 - 코딩 노하우
