@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Project/0 Home.md",
+                "file": "7 - Home/1 Quick note.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0 Home"
+              "title": "1 Quick note"
             }
           }
         ]
@@ -224,8 +224,8 @@
   },
   "active": "a3d99295ac1002ef",
   "lastOpenFiles": [
-    "7 - Home/4 Learning.md",
     "1 - Project/0 Home.md",
+    "7 - Home/4 Learning.md",
     "7 - Home/5 Life Style.md",
     "7 - Home/3 Employment.md",
     "7 - Home/2 Project.md",
