@@ -5,37 +5,42 @@
 
 ---
 
-# ✅ NGINX 로드밸런싱 문제 해결 보고서
-
-## 📌 문제 요약
-- `localhost` 접속 시 **"Welcome to nginx!"** 화면만 출력됨
-- 의도한 Spring Boot 서버 (8080, 8081) 로드밸런싱이 작동하지 않음
-
----
-
-## 🔍 원인 분석
-| 항목 | 설명 |
-|------|------|
-| ✅ `nginx.conf` 문법 확인 (`-t`) | 정상 (`syntax is ok`, `test is successful`) |
-| ❌ 실행 시 `-c` 옵션 누락 | 커스텀 conf가 아닌 **기본 conf**(`conf/nginx.conf`) 사용됨 |
-| ⛔ 기본 conf는 `proxy_pass` 설정 없음 | HTML root만 서빙 → "Welcome to nginx!" 화면 출력 |
-
----
-
-## ✅ 해결 방법
-```bash
-# 1. 실행 중인 NGINX 종료
-.\nginx.exe -s stop
-
-# 2. 수정한 conf 문법 검증
-.\nginx.exe -t -c "C:\Users\kkk96\workspace\2 project\team\techie\back-end\nginx\nginx.conf"
-
-# 3. 정확한 conf 경로 지정하여 실행
-.\nginx.exe -c "C:\Users\kkk96\workspace\2 project\team\techie\back-end\nginx\nginx.conf"
-```
 
 
-
+- SLA (Service Level Agreement)
+	- 사용자와 약속한 성능 보장 기준
+	- 예 - 평균 응답시간 1초 이하, TPS 1000 이상, 에러율 1% 이하
+- hikari
+	- Java 기반 application에서 데이터베이스와 연결을 효율적으로 관리하기 위한 커넥션 풀 라이브러리이다.
+- connection pool
+	- DB와 연결을 새로 맺는 것은 매우 비용이 큰 작업이다. 그래서 미리 일정 수의 DB 연결을 만들어 폴에 보관하고 어플리케이션은 필요할 때 폴에서 연결을 꺼내서 사용하고, 사용 후 다시 반납하는 방식으로 동작한다.
+	- 설정값
+		- `maxinmum-pool-size` : 폴에 생성할 수 있는 최대 커넥션수
+		- `minimum-idle` : 항상 유지할 최소 유휴(idle) 커넥션 수
+		- `idle-timeout` : 커넥션이 사용되지 않고 idle 상태로 있으면 해제될 때까지 대기 시간 (ms)
+		- `max-lifetime` : 커넥션이 살아 있을 수 있는 최대 시간 (ms). DB가 커넥션을 강제로 끊는 문제 예방
+			- aws rds, mysql은 일정시간이 지나 자동으로 커넥션을 닫는다.
+			- 그 이유는 자원 보호 및 누수의 문제를 해결 하기 위함이다.
+- hibernate
+	- java 진영의 ORM 프레임워크이다.
+	- 객체지향 코드(java 코드)와 관계형 데이터베이스 (DB 테이블)간 매핑을 자동화
+	- 즉, 직접 SQL문을 작성하지 않아도 객체 상태를 기반으로 DB 작업을 자동 수행
+	- 기능
+		- Entity <-> 테이블 자동 매핑
+		- CURD 자동 처리
+		- 지연 로딩 / 캐싱
+		- 트랜잭션 / Lazy Loading
+- Spring Boot Actuator
+	- 스프링부트의 운영 및 모니터링 기능을 제공하는 라이브러리
+	- 이를 통해 서버 상태, 매트릭, 헬스 체크, 애플리케이션 정보 등을 실시간으로 확인 가능
+	- 설정값
+		-  `management.endpoints.web.exposure.include: "*"` : 모든 actuator 엔드포인트를 HTTP로 노출
+			- 기본 값은 `"health", "info`만 노출 -> 이를 `"**"`로 변경해 전체 활성화 한 것
+		- `management.endpoint.health.show-details: always` : `/actuator/health`에 접근했을 때 상세 상태 정보를 항상 표시
+			- 기본 값은 `never` 또는`when-authorized`인데 이 경우 인증 없이는 `status:UP`같은 간단한 정보만 표시
+		- `management.endpoint.prometheus.enabled: true` : Prometheus 엔드포인트(`/actuator/prometheus`)를 활성화
+			- 이 설정이 있어야 Prometheus가 Spring Boot 앱의 메트릭을 수집할 수 있다.
+			- 이 엔드포인트는 Prometheus 포맷의 텍스트 데이터를 반환한다.
 ---
 
 ## 📅 1주차: 컴퓨터 구조 & 운영체제 입문

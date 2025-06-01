@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e4c1c8e6f3887c73",
+        "id": "d229e4810a549677",
         "type": "tabs",
         "children": [
           {
-            "id": "a3d99295ac1002ef",
+            "id": "da1748101e4093d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Home/1 Quick note.md",
+                "file": "GPT 활용법.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1 Quick note"
+              "title": "GPT 활용법"
+            }
+          },
+          {
+            "id": "c1605be85c974985",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 - Home/0 Home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "0 Home"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,36 +247,43 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a3d99295ac1002ef",
+  "active": "c1605be85c974985",
   "lastOpenFiles": [
-    "1 - Project/0 Home.md",
+    "GPT 활용법.md",
+    "0 - Home/Learning.md",
+    "7 - Home/0 Home.md",
+    "Jmeter 세팅 가이드.md",
+    "5 - Media/Templete/1 Home Templete.md",
+    "5 - Media/Templete/2 CS Templete.md",
+    "7 - Home/6 Notebook Archive.md",
+    "무제 1.md",
+    "무제.md",
+    "1 - Project",
+    "0 - Home Diretory",
+    "8 - Directory/무제",
+    "7 - Home/1 Quick note.md",
+    "7 - Home/Study List.md",
+    "7 - Home/Prompt.md",
+    "7 - Home/OneLineKnowhow.md",
+    "8 - Directory/OneLineKnowhow",
+    "8 - Directory/OneLineKnowhow.md",
+    "7 - Home/2 Project.md",
+    "8 - Directory/3 Employment",
+    "8 - Directory/2 Project",
+    "8 - Directory/2 Project Directory.md",
+    "8 - Directory",
+    "8 - Directory.md",
+    "9 - New/대용량 데이터 + 스파이크성 트래픽 개선 (2).md",
+    "9 - New/대량의 외부 API를 호출하면 무슨 일이 벌어지는가.md",
     "7 - Home/4 Learning.md",
     "7 - Home/5 Life Style.md",
     "7 - Home/3 Employment.md",
-    "7 - Home/2 Project.md",
-    "7 - Home/1 Quick note.md",
-    "7 - Home/6 Notebook Archive.md",
-    "7 - Home/Prompt.md",
     "7 - Home/Today.md",
-    "7 - Home/Study List.md",
     "7 - Home/Link.md",
     "2 - Area/Employment.md",
     "2 - Area/LINK.md",
-    "5 - Media/Templete/CS Templete.md",
-    "5 - Media/Templete/Home Templete.md",
-    "5 - Media/Templete/Daily_Note Templete.md",
-    "6 - CS/1 plan/Java SE API.md",
-    "6 - CS/1 plan/스프링이란.md",
-    "6 - CS/0 write/HTTP VS HTTPS.md",
     "7 - Home",
-    "1 - Project/0 Todo.md",
     "6 - CS",
-    "9 - New/스파이크성 트래픽을 재현.md",
-    "9 - New/데이터가 많을 때 조회하는 성능 개선.md",
-    "9 - New/프로젝트 개선 사항 시나리오.md",
-    "9 - New/Obsidian PlugIn - Templeter.md",
-    "9 - New/대량의 외부 API를 호출하면 무슨 일이 벌어지는가.md",
-    "2 - Area/Quick Notes.md",
     "9 - New/Image/Pasted image 20250415170718.png",
     "9 - New/Image/Pasted image 20250415160820.png",
     "9 - New/Image/Pasted image 20250415160807.png",
@@ -263,13 +295,6 @@
     "9 - New/Image/Pasted image 20250415152450.png",
     "9 - New/Image/Pasted image 20250415152358.png",
     "! - New",
-    "9 - New/Daily Note",
-    "0 - New/10. Planner",
-    "6 - CS/0 write",
-    "5 - Media",
-    "6 - CS/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch15",
-    "6 - CS/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch14",
-    "6 - CS/4 wait/혼자 공부하는 컴퓨터구조 + 운영체제/ch10",
     "5 - Media/Canvas/캔버스.canvas"
   ]
 }

@@ -5,86 +5,15 @@ tags:
   - bookmark
 ---
 ---
-###### 📒  1. **[[1 Quick note]]** 📝 메모장 / 📅 스케줄 / 🔗 링크 / 💡 좋은 정보 / 🗣️ 어록
-###### 💻 2. **[[2 Project]]** 🛠️ 프로젝트 / 📓 개발일지 / 🧾 명령어 / 🧯 트러블 슈팅 / 🧠 어노테이션 학습
-###### 🧳 3. **[[3 Employment|3 Employment]]** 🧑‍💼 취업 / 👥 스터디 / 🧾 스펙
-###### 📚 4. **[[4 Learning|4 Learning]]** 🗺️ 학습 로드맵 / 🤖 코딩 테스트 / 🎯 공부 주제 / ✍️ 한줄 설명 / ❓ 의문점
-###### 🧘 5. **[[5 Life Style]]**  🏡 일상
-###### 📂 6. **[[Notebook Archive]]** 🗃️ 분류 문서
----
 
-
----
-
-#### annotation-study-method  
-
+#### 
 
 ---
 
 ---
-
-#### trouble-shooting
-
-##### Jmeter 로그인 대용량 트래픽 테스트을 위한 필수 세팅
-
-- CSV Data Set Config 설정
-    - Filename: users.csv (email,password 포함된 파일)
-    - Variable Names: email,password
-    - Ignore first line: True
-    - 예시:
-        - `email,password test1@naver.com,123456789`
-    
-- Thread Group 설정
-    - Number of Threads: 테스트할 사용자 수 (예: 30)
-    - Loop Count: 반복 횟수 (1로 설정하면 사용자당 1회 로그인)
-    
-- HTTP Request 설정
-    - Method: POST
-    - Path: /login
-    - Body Data: 아래 JSON 형식 입력
-    - Use multipart: 체크하지 않음
-    - Body 예시:
-        - `{   "email": "${email}",   "password": "${password}" }`
-    - 필수 Header:
-        - Content-Type: application/json
-        - Accept: application/json
-    
-- 서버 쪽 사전 조건
-    - 로그인 API는 email, password 필드명을 JSON으로 받아야 함
-    - csrf().disable() 설정 필요 (CSRF 토큰 없이도 POST 가능)
-    - /login 경로가 permitAll()로 허용되어야 함
-    - DB의 비밀번호는 반드시 BCrypt 해시로 저장되어야 함
-    - `BCryptPasswordEncoder.matches("123456789", dbHash)`가 true가 되어야 로그인 성공
-    
-- View Results Tree 확인
-    - 전송된 JSON에 `${email}`이 실제 사용자 이메일로 치환됐는지 확인
-    - 응답 상태 코드가 200 OK인지, 아니라면 401 메시지 내용 확인
-    
-- 로그인 성공 시 토큰 추출 (선택 사항)
-    - JSONPath Extractor로 token 값 추출 가능
-    - 이후 API 요청에 Authorization: Bearer ${token} 헤더 추가 가능
-
----
-
-- 요약 순서
-    
-    - CSV 설정 (email/password)
-        
-    - Thread Group 사용자 수 설정
-        
-    - HTTP Request → POST + JSON + Header
-        
-    - 서버 로그인 API 구조와의 정합성 확인
-        
-    - View Results Tree로 응답 및 치환 여부 확인
-
-
 ## notebook-archive
 
-- Gpt 활용법
-	- 지금부터 너는 15년차 경력자로서 나에게 답변을 구해줘
-	- 10살 아이에게 설명하듯 쉼게 설명해줘
-	- 정답을 알려주지는 말고 힌트를 알려줘
+
 	  
 - 코딩테스트
 	- 알고리즘
