@@ -13,30 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPT 활용법.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GPT 활용법"
-            }
-          },
-          {
-            "id": "c1605be85c974985",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "7 - Home/0 Home.md",
                 "mode": "source",
                 "source": false,
@@ -54,9 +30,32 @@
               "icon": "lucide-file",
               "title": "0 Home"
             }
+          },
+          {
+            "id": "c1605be85c974985",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0 - Home/Study.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Study"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,11 +246,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c1605be85c974985",
+  "active": "da1748101e4093d0",
   "lastOpenFiles": [
-    "GPT 활용법.md",
-    "0 - Home/Learning.md",
+    "0 - Home/Study.md",
     "7 - Home/0 Home.md",
+    "0 - Home/Learning.md",
+    "Conding Test 문제 접근법.md",
+    "Conding Test 용어.md",
+    "GPT 활용법.md",
     "Jmeter 세팅 가이드.md",
     "5 - Media/Templete/1 Home Templete.md",
     "5 - Media/Templete/2 CS Templete.md",
@@ -279,9 +281,6 @@
     "7 - Home/5 Life Style.md",
     "7 - Home/3 Employment.md",
     "7 - Home/Today.md",
-    "7 - Home/Link.md",
-    "2 - Area/Employment.md",
-    "2 - Area/LINK.md",
     "7 - Home",
     "6 - CS",
     "9 - New/Image/Pasted image 20250415170718.png",
