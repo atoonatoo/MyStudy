@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "9 - New/대용량 데이터 + 스파이크성 트래픽 개선 (2).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "대용량 데이터 + 스파이크성 트래픽 개선 (2)"
+            }
+          },
+          {
+            "id": "c1605be85c974985",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "7 - Home/0 Home.md",
                 "mode": "source",
                 "source": false,
@@ -29,30 +53,6 @@
               },
               "icon": "lucide-file",
               "title": "0 Home"
-            }
-          },
-          {
-            "id": "c1605be85c974985",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0 - Home/Study.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Study"
             }
           }
         ]
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "스파이크성",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -248,13 +249,22 @@
   },
   "active": "da1748101e4093d0",
   "lastOpenFiles": [
-    "0 - Home/Study.md",
     "7 - Home/0 Home.md",
-    "0 - Home/Learning.md",
+    "9 - New/대용량 데이터 + 스파이크성 트래픽 개선 (2).md",
+    "0 - Home/Study.md",
+    "9 - New/프로젝트 개선 사항 시나리오.md",
+    "9 - New/스파이크성 트래픽을 재현.md",
+    "9 - New/데이터가 많을 때 조회하는 성능 개선.md",
+    "9 - New/대량의 외부 API를 호출하면 무슨 일이 벌어지는가.md",
+    "7 - Home/1 Quick note.md",
+    "Jmeter 세팅 가이드.md",
     "Conding Test 문제 접근법.md",
+    "0 - New/Image/Pasted image 20250601140845.png",
+    "0 - New/Image",
+    "0 - New",
+    "0 - Home/Learning.md",
     "Conding Test 용어.md",
     "GPT 활용법.md",
-    "Jmeter 세팅 가이드.md",
     "5 - Media/Templete/1 Home Templete.md",
     "5 - Media/Templete/2 CS Templete.md",
     "7 - Home/6 Notebook Archive.md",
@@ -263,7 +273,6 @@
     "1 - Project",
     "0 - Home Diretory",
     "8 - Directory/무제",
-    "7 - Home/1 Quick note.md",
     "7 - Home/Study List.md",
     "7 - Home/Prompt.md",
     "7 - Home/OneLineKnowhow.md",
@@ -275,14 +284,8 @@
     "8 - Directory/2 Project Directory.md",
     "8 - Directory",
     "8 - Directory.md",
-    "9 - New/대용량 데이터 + 스파이크성 트래픽 개선 (2).md",
-    "9 - New/대량의 외부 API를 호출하면 무슨 일이 벌어지는가.md",
     "7 - Home/4 Learning.md",
-    "7 - Home/5 Life Style.md",
-    "7 - Home/3 Employment.md",
-    "7 - Home/Today.md",
     "7 - Home",
-    "6 - CS",
     "9 - New/Image/Pasted image 20250415170718.png",
     "9 - New/Image/Pasted image 20250415160820.png",
     "9 - New/Image/Pasted image 20250415160807.png",
@@ -292,8 +295,6 @@
     "9 - New/Image/Pasted image 20250415152611.png",
     "9 - New/Image/Pasted image 20250415152510.png",
     "9 - New/Image/Pasted image 20250415152450.png",
-    "9 - New/Image/Pasted image 20250415152358.png",
-    "! - New",
     "5 - Media/Canvas/캔버스.canvas"
   ]
 }

@@ -4,6 +4,12 @@ updated: 2024-09-20
 tags:
   - bookmark
 ---
+
+- [네트워크의 기초 - 처리량과 지연시간, 토폴로지와 병목 현상](https://dodote10.tistory.com/628)
+- [Web Server와 WAS의 차이와 웹 서비스 구조](https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html)
+- [nginx란? 고성능 웹 서버의 핵심 파헤치기](https://ohj9575.tistory.com/196)
+- [nginx로 100만  동시 연결 처리하기](https://velog.io/@sleekydevzero86/nginx-architecture-1000000-concurrent-connections)
+- 
 - java
 	- 자바의 특징 및 장점에 대해 설명해 주세요.
 		- 플랫폼 독립성

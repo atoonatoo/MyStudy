@@ -4,9 +4,13 @@
 ---
 
 ---
+![[Pasted image 20250601140845.png]]
 
 
+- [Garbage Collection 총정리](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98GC-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC)
+- [Garbage Collection Tuning](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98-GC-%ED%8A%9C%EB%8B%9D-%EB%A7%9B%EB%B3%B4%EA%B8%B0)
 
+- 
 - SLA (Service Level Agreement)
 	- 사용자와 약속한 성능 보장 기준
 	- 예 - 평균 응답시간 1초 이하, TPS 1000 이상, 에러율 1% 이하
