@@ -1,6 +1,7 @@
 ---
-created:
+
 ---
+
 ---
 
 1. **[[Quick note]]** - `temporary` `doodle`
@@ -9,7 +10,7 @@ created:
 
 3. **[[2 - Category/Link|Link]]** - `blog` `references` `official site` `personal site`
 
-4. **[[2 - Category/Prompt|Prompt]]** - `grammer` `linux` `cmd` `power shell` `git` `sql` `vim` 
+4. **[[2 - Category/Prompt|Prompt]]** - `grammer` `obsidian` `linux` `cmd` `power shell` `git` `sql` `vim` 
 
 5. **[[Schedule]]** - `Today` `Weekend` `Challenge` `Important`
 

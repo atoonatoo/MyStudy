@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "17ed0db33872c640",
+        "id": "3376da4dcc82f6c8",
         "type": "tabs",
         "children": [
           {
-            "id": "b793f6e9bf2446f0",
+            "id": "77e4c83a107325fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - Home/0 Home.md",
+                "file": "2 - Category/Quick note.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0 Home"
+              "title": "Quick note"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "스파이크성",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -222,34 +222,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b85ca5c06d88fbdf",
+  "active": "77e4c83a107325fd",
   "lastOpenFiles": [
-    "2 - Category/Learning.md",
-    "2 - Category",
-    "2 - Category/Employment.md",
     "0 - Home/0 Home.md",
+    "2 - Category/Learning.md",
+    "3 - Diretory/Mentoring.md",
+    "2 - Category/Quick note.md",
+    "2 - Category/Prompt.md",
+    "3 - Diretory/Git Prompt.md",
+    "Linux Prompt.md",
+    "SQL Prompt.md",
+    "MarkDown 기본 문법.md",
+    "4 - Media/Templete/1 Home Templete.md",
+    "2 - Category/Employment.md",
+    "3 - Diretory/Grammer.md",
+    "3 - Diretory/Function.md",
+    "3 - Diretory/GPT 질문 공략.md",
+    "3 - Diretory/Nginx Prompt.md",
+    "3 - Diretory/Poawer Shell Prompt.md",
+    "3 - Diretory/Nginx configration.md",
+    "Nginx^nginx-main.md",
+    "- Grammer.md",
+    "무제.md",
+    "3 - Diretory/Nginx 로드밸런싱 문제 해결 보고서.md",
+    "3 - Diretory/대용량 데이터 + 스파이크성 트래픽 개선 (2).md",
+    "2 - Category",
     "2 - Category/Link.md",
     "3 - Diretory/SQL Practice.md",
     "2 - Diretory/Study.md",
     "3 - Diretory/Morning Study.md",
-    "2 - Category/Life Style.md",
-    "2 - Category/Quick note.md",
-    "3 - Diretory/대량의 외부 API를 호출하면 무슨 일이 벌어지는가.md",
-    "2 - Category/Prompt.md",
-    "3 - Diretory/Project.md",
-    "3 - Diretory/KnowHow 1.md",
-    "3 - Diretory/GPT 질문 공략.md",
-    "3 - Diretory/Recommended Book.md",
-    "3 - Diretory/Famous Saying.md",
-    "3 - Diretory/Thingking.md",
-    "3 - Diretory/KnowHow.md",
-    "3 - Diretory/Why.md",
-    "3 - Diretory/Jmeter 세팅 가이드.md",
-    "3 - Diretory/프로젝트 개선 사항 시나리오.md",
-    "3 - Diretory/Conding Test - 용어.md",
-    "3 - Diretory/Conding Test - 문제 접근법.md",
-    "3 - Diretory/대용량 데이터 + 스파이크성 트래픽 개선 (2).md",
-    "3 - Diretory/Obsidian PlugIn - Templeter.md",
     "0 - Home",
     "5 - 분류",
     "4 - Media/Image/Pasted image 20250601194715.png",

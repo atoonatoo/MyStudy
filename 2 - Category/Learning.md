@@ -11,13 +11,12 @@ created:
 	- [[대량의 외부 API를 호출하면 무슨 일이 벌어지는가]]
 	- [[대용량 데이터 + 스파이크성 트래픽 개선 (2)]]
 	- [[프로젝트 개선 사항 시나리오]]
-	
 - **Coding Test**
 	- [[Conding Test - 용어]]
 	- [[Conding Test - 문제 접근법]]
 	
 - **Trouble Shooting**
-	- 
+	- [[Nginx 로드밸런싱 문제 해결 보고서]]
 	- 
 	- 
 - **Set Up**

@@ -4,15 +4,6 @@ created:
 ---
 - [[0 Home]]
 ---
-
-
-
----
-- [[0 Home]]
----
-- [mentoring](##mentoring)
-- [](#)
-- [](#)
 ---
 
 
