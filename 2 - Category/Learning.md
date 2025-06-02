@@ -90,7 +90,7 @@ public class UserController {
 
 #### learning-loadmap
 
-- [[3 - 분류/7 - CS/4 wait/Data Structure]]
+- [[5 - 분류/7 - CS/4 wait/Data Structure]]
 - [[Algorithem]]
 - [[Operating System]]
 - [[Network]]
@@ -149,15 +149,15 @@ public class UserController {
 	    - 8-6 하노이의 탑
 ---
 - **CS 로드맵**
-	- **[[3 - 분류/7 - CS/4 wait/Data Structure]]**
-		- [[3 - 분류/7 - CS/4 wait/Stack]]
-		- [[3 - 분류/7 - CS/4 wait/Queue]]
-		- [[3 - 분류/7 - CS/4 wait/Linked List]]
+	- **[[5 - 분류/7 - CS/4 wait/Data Structure]]**
+		- [[5 - 분류/7 - CS/4 wait/Stack]]
+		- [[5 - 분류/7 - CS/4 wait/Queue]]
+		- [[5 - 분류/7 - CS/4 wait/Linked List]]
 		- [[Array]]
-		- [[3 - 분류/7 - CS/4 wait/Tree]]
-		- [[3 - 분류/7 - CS/4 wait/Heap]]
+		- [[5 - 분류/7 - CS/4 wait/Tree]]
+		- [[5 - 분류/7 - CS/4 wait/Heap]]
 		- [[Graph]]
-		- [[3 - 분류/7 - CS/4 wait/Hash Table]]
+		- [[5 - 분류/7 - CS/4 wait/Hash Table]]
 		- [[1 - Main/1 CS/Array|Array]]
 	- [[Operating System]]
 		- [[1 - Project/4 plan/2 Study/CPU]] 
@@ -181,12 +181,12 @@ public class UserController {
 	- **[[Algorithem]]**
 		- [[big-O]]
 		- [[Sorting Algorithms]] 
-		- [[3 - 분류/7 - CS/4 wait/Bubble Sort]] 
-		- [[3 - 분류/7 - CS/4 wait/Selection Sort]] 
-		- [[3 - 분류/7 - CS/4 wait/Insertion Sort]] 
-		- [[3 - 분류/7 - CS/4 wait/Heap Sort]] 
-		- [[3 - 분류/7 - CS/4 wait/Merge Sort]] 
-		- [[3 - 분류/7 - CS/4 wait/Quick Sort]] 
+		- [[5 - 분류/7 - CS/4 wait/Bubble Sort]] 
+		- [[5 - 분류/7 - CS/4 wait/Selection Sort]] 
+		- [[5 - 분류/7 - CS/4 wait/Insertion Sort]] 
+		- [[5 - 분류/7 - CS/4 wait/Heap Sort]] 
+		- [[5 - 분류/7 - CS/4 wait/Merge Sort]] 
+		- [[5 - 분류/7 - CS/4 wait/Quick Sort]] 
 		- [[Search Algorithms]] 
 		- [[Breadth-First Search (BFS)]]
 		- [[Depth-First Search (DFS)]] 
@@ -320,9 +320,9 @@ public class UserController {
 	-  1.1 기본 자료구조
 		- [[Array]]
 		- [[1 - Main/1 CS/Linked List]]
-		- [[3 - 분류/7 - CS/4 wait/Stack]]
-		- [[3 - 분류/7 - CS/4 wait/Queue]]
-		- [[3 - 분류/7 - CS/4 wait/Hash Table]]
+		- [[5 - 분류/7 - CS/4 wait/Stack]]
+		- [[5 - 분류/7 - CS/4 wait/Queue]]
+		- [[5 - 분류/7 - CS/4 wait/Hash Table]]
 	- 1.2 트리와 그래프
 	- 1.3 정렬 및 탐색 알고리즘
 	- 1.4 고급 알고리즘

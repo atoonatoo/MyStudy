@@ -2,7 +2,7 @@
 created:
 ---
 ---
-- [[3 - 분류/7 - CS/4 wait/Data Structure]]
+- [[5 - 분류/7 - CS/4 wait/Data Structure]]
 - 
 - 
 ---

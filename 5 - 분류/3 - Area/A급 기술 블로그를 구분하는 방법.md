@@ -2,7 +2,7 @@
 created:
 ---
 ---
-- [[3 - 분류/3 - Area/learning]]
+- [[5 - 분류/3 - Area/learning]]
 
 ---
 

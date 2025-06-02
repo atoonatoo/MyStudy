@@ -6,13 +6,13 @@ created:
 - 
 - 
 ---
-- [[3 - 분류/7 - CS/4 wait/Linked List]]
+- [[5 - 분류/7 - CS/4 wait/Linked List]]
 - [[Array]]
-- [[3 - 분류/7 - CS/4 wait/Stack]]
-- [[3 - 분류/7 - CS/4 wait/Queue]]
-- [[3 - 분류/7 - CS/4 wait/Hash Table]]
-- [[3 - 분류/7 - CS/4 wait/Heap]]
-- [[3 - 분류/7 - CS/4 wait/Tree]]
+- [[5 - 분류/7 - CS/4 wait/Stack]]
+- [[5 - 분류/7 - CS/4 wait/Queue]]
+- [[5 - 분류/7 - CS/4 wait/Hash Table]]
+- [[5 - 분류/7 - CS/4 wait/Heap]]
+- [[5 - 분류/7 - CS/4 wait/Tree]]
 ---
 - **자료구조의 의의**
 	우리가 사용하는 컴퓨터의 공간은 한정적이다.
