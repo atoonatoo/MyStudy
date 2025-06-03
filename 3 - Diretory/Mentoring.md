@@ -20,7 +20,7 @@ created:
 	- k6
 	- 로직 병목은 어떻게 찾는가?
 		- 인텔리제이 프로파일러 사용법
-	- [주차](https://applicationspring.notion.site/47-2055823552638088a73dd4adfcd0ac8b)
+	- [47주차](https://applicationspring.notion.site/47-2055823552638088a73dd4adfcd0ac8b)
 ## mentoring
 
 - **오늘 내용**
