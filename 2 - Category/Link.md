@@ -34,7 +34,8 @@ created:
 	- [우리팀은 카프가를 어떻게 사용하고 있을까 - 우테코](https://techblog.woowahan.com/17386/)
 	- [대용량 트래픽을 처리하기 위한 카프카 사용법](https://www.elancer.co.kr/blog/detail/738)
 	- [Jmeter playlists get 세팅 성공 사례](https://chatgpt.com/c/682aded9-0834-8012-acaf-5cd483ee8c0e)
-	
+	- [IntelliJ active profile 설정 하기](https://lucas-owner.tistory.com/22)
+	- [예시로 살펴보는 IntelliJ 프로파일링 결과 분석 및 성능 최적화 방법](http://mangkyu.tistory.com/342)
 
 
 

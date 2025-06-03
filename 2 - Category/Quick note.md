@@ -12,6 +12,32 @@
 	    - 그라파나를 사용해보자
 		    - Grafana + Prometheus
 
+- intelij profile java application with ease
+	- intelij profile java application with ease은 무엇인가?
+	- 내가 작성한 Java 코드의 성능 분석을 쉽게 할 수 있도록 도와주는 `IntelliJ Ultimate Edition`에서 제공되는 내장 프로파일링 도구
+	- profile
+		- 애플리케이션 실행 중일 때, 메모리 사용, CPU 사용, 쓰레드 상태, 메서드 호출 시간 등을 분석하는 행위
+		- 즉, 내 코드가 어디서 느려지는지, 메모리를 어디가 많이 쓰는지 등을 실시간으로 시각적으로 확인할 수 있는 기능이다.
+	- 기능 목적
+		- 성능 병목 탐지
+			- 특정 메서드가 CPU를 과도하게 점유하는지 확인
+		- 메모리 누수 추적
+			- 객체가 계속 메모리에 남아있는 이유 파악
+		- GC 빈도 확인
+			- 가비기 컬렉션이 너무 자주 발생하는지 확인
+		- 쓰레드 상태 분석
+			- 데드락, 기아 상태 등 확인 가능
+	- 사용하는 방법
+		1. Run > Profile `YourApp`  클릭
+			- 또는 상단 실행버튼 오른쪽 🔽 버튼 → `Profile` 선택
+		2. JVM이 부트되며 자동으로 분석 시작
+		3. 실행 중에 실시간 그래프, 힙 사용량, CPU 점유율 등 확인 가능
+	- 주요 도구
+		- CPU 사용량
+		- Memory allocation
+		- Threads
+		- Flame Graph
+
 - 병목지점이란 무엇인가
 	- 전체 데이터의 흐름 중 가장 느린 구간을 의미?
 		- 라우터 처리 능력 부족
