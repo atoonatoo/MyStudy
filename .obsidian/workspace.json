@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "3ee5291561b34f4c",
+            "id": "83e5ab8a4b29897b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/Link.md",
+                "file": "3 - Diretory/GPT 질문 공략.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,20 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Link"
+              "title": "GPT 질문 공략"
+            }
+          },
+          {
+            "id": "a15732fb88cabb64",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -247,18 +257,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3ee5291561b34f4c",
+  "active": "e6a3932a20bbd842",
   "lastOpenFiles": [
+    "3 - Diretory/GPT 질문 공략.md",
     "2 - Category/Quick note.md",
+    "2 - Category/Prompt.md",
+    "2 - Category/Link.md",
     "2 - Category/Learning.md",
     "3 - Diretory/Mentoring.md",
     "2 - Category/Employment.md",
-    "2 - Category/Link.md",
     "0 - Home/0 Home.md",
     "0 - New/Image/Pasted image 20250602203203.png",
     "0 - New/Image",
     "0 - New",
-    "2 - Category/Prompt.md",
     "3 - Diretory/Git Prompt.md",
     "Linux Prompt.md",
     "SQL Prompt.md",
@@ -266,7 +277,6 @@
     "4 - Media/Templete/1 Home Templete.md",
     "3 - Diretory/Grammer.md",
     "3 - Diretory/Function.md",
-    "3 - Diretory/GPT 질문 공략.md",
     "3 - Diretory/Nginx Prompt.md",
     "3 - Diretory/Poawer Shell Prompt.md",
     "3 - Diretory/Nginx configration.md",

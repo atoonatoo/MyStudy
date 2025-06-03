@@ -57,6 +57,7 @@ created:
 	- [나의 공부 저장소]( https://programforlife.tistory.com/)
 	- [다민 블로그](https://www.jeong-min.com/52-gatsby-blog/)
 	- [멘토 블로그](https://minkukjo.github.io/framework/2020/12/18/Spring-142/)
+	- [망나니 개발자](https://mangkyu.tistory.com/#google_vignette)
 	- [개발자가 자주 보면 좋은 사이트](https://brunch.co.kr/@skykamja24/639)
 	- [개발 실력을 위한 IT기업 기술 블로그 45곳 모음](https://brunch.co.kr/@sicle-official/35)
 ---
