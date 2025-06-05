@@ -59,13 +59,28 @@
             "id": "a15732fb88cabb64",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2 - Category/Link.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Link"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -257,10 +271,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e6a3932a20bbd842",
+  "active": "a15732fb88cabb64",
   "lastOpenFiles": [
-    "3 - Diretory/GPT 질문 공략.md",
     "2 - Category/Quick note.md",
+    "3 - Diretory/GPT 질문 공략.md",
     "2 - Category/Prompt.md",
     "2 - Category/Link.md",
     "2 - Category/Learning.md",
