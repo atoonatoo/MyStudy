@@ -33,12 +33,13 @@ cd C:\nginx-1.28.0
 ```bash
 # PowerShell 기준
 # 1. 기존 nginx 프로세스 종료 (안 껐다면 충돌 날 수 있음)
+# 2. nginx 실행 디렉토리로 이동
+# 3. -c 옵션으로 커스텀 nginx.conf 지정하여 실행
+
 taskkill /F /IM nginx.exe
 
-# 2. nginx 실행 디렉토리로 이동
 cd C:\nginx-1.28.0
 
-# 3. -c 옵션으로 커스텀 nginx.conf 지정하여 실행
 .\nginx.exe -c "C:\Users\kkk96\workspace\2 project\team\techie\back-end\nginx\nginx.conf"
 
 ```
