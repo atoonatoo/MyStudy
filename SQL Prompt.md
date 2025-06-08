@@ -19,7 +19,7 @@ USE your_database_name;
 ```sql
 SET FOREIGN_KEY_CHECKS = 0;
 
-DELETE FROM playlist_video;
+DELETE FROM users;
 
 SET FOREIGN_KEY_CHECKS = 1;
 
@@ -32,9 +32,19 @@ SET FOREIGN_KEY_CHECKS = 1;
 
 - sql 파일 cli을 통하여 Local DB에 삽입하기
 ```sql
-SOURCE C:/Users/kkk96/Downloads/sql/playlist2/insert_youtube_video.sql;
+SOURCE C:/Users/kkk96/Downloads/jmeter/playlist2/test02/users.sql;
+SOURCE C:/Users/kkk96/Downloads/jmeter/playlist2/test02/video.sql;
+SOURCE C:/Users/kkk96/Downloads/jmeter/playlist2/test02/playlist.sql;
+SOURCE C:/Users/kkk96/Downloads/jmeter/playlist2/test02/playlist_video.sql;
 ```
 
+- 테이블 가장 위에 있는 데이터만 SELECT 하는 명령어
+```SQL
+SELECT * FROM users ORDER BY id ASC LIMIT 1;
+```
 
-
+- 테이블 가장 아래에 있는 데이터만 SELECT 하는 명령어
+```SQL
+SELECT * FROM users ORDER BY id DESC LIMIT 1;
+```
 ---

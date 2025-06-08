@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fddf5fc8e32ee24f",
+        "id": "ef7a245564728b38",
         "type": "tabs",
         "children": [
           {
-            "id": "e6a3932a20bbd842",
+            "id": "61f81a6622b894c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/Quick note.md",
+                "file": "SQL Prompt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Quick note"
-            }
-          },
-          {
-            "id": "83e5ab8a4b29897b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Diretory/GPT 질문 공략.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GPT 질문 공략"
-            }
-          },
-          {
-            "id": "a15732fb88cabb64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Category/Link.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Link"
+              "title": "SQL Prompt"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "delete",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -271,53 +222,53 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a15732fb88cabb64",
+  "active": "61f81a6622b894c2",
   "lastOpenFiles": [
-    "2 - Category/Quick note.md",
-    "3 - Diretory/GPT 질문 공략.md",
     "2 - Category/Prompt.md",
-    "2 - Category/Link.md",
-    "2 - Category/Learning.md",
-    "3 - Diretory/Mentoring.md",
-    "2 - Category/Employment.md",
+    "3 - Diretory/Nginx Prompt.md",
+    "2 - Category/Quick note.md",
     "0 - Home/0 Home.md",
+    "2 - Category/Learning.md",
+    "3 - Diretory/Poawer Shell Prompt.md",
+    "SQL Prompt.md",
+    "5 - 분류/7 - CS/1 plan/CORS Error.md",
+    "0 - New/Image/Pasted image 20250607152033.png",
+    "0 - New/Image/Pasted image 20250607151639.png",
+    "0 - New/Image/Pasted image 20250607151603.png",
+    "0 - New/Image/Pasted image 20250607150423.png",
+    "0 - New/Image/Pasted image 20250607150000.png",
+    "0 - New/Image/Pasted image 20250607145341.png",
+    "0 - New/Image/Pasted image 20250607145253.png",
+    "3 - Diretory/Nginx 로드밸런싱 문제 해결 보고서.md",
+    "2 - Category/Link.md",
+    "2 - Category/Employment.md",
+    "3 - Diretory/Nginx configration.md",
+    "3 - Diretory/GPT 질문 공략.md",
+    "3 - Diretory/Mentoring.md",
     "0 - New/Image/Pasted image 20250602203203.png",
     "0 - New/Image",
     "0 - New",
     "3 - Diretory/Git Prompt.md",
     "Linux Prompt.md",
-    "SQL Prompt.md",
     "MarkDown 기본 문법.md",
     "4 - Media/Templete/1 Home Templete.md",
     "3 - Diretory/Grammer.md",
     "3 - Diretory/Function.md",
-    "3 - Diretory/Nginx Prompt.md",
-    "3 - Diretory/Poawer Shell Prompt.md",
-    "3 - Diretory/Nginx configration.md",
     "Nginx^nginx-main.md",
     "- Grammer.md",
     "무제.md",
-    "3 - Diretory/Nginx 로드밸런싱 문제 해결 보고서.md",
     "3 - Diretory/대용량 데이터 + 스파이크성 트래픽 개선 (2).md",
     "2 - Category",
     "3 - Diretory/SQL Practice.md",
-    "2 - Diretory/Study.md",
     "0 - Home",
     "5 - 분류",
     "4 - Media/Image/Pasted image 20250601194715.png",
     "4 - Media/Image/Pasted image 20250601190104.png",
-    "4 - Media/Image/Pasted image 20250601140845.png",
     "9 - New/Image 1",
     "0 - Home",
     "2 - Project",
     "3 - Diretory",
     "8 - Directory/무제",
-    "4 - Media/Image/Pasted image 20250415170718.png",
-    "4 - Media/Image/Pasted image 20250415160820.png",
-    "4 - Media/Image/Pasted image 20250415160807.png",
-    "4 - Media/Image/Pasted image 20250415160749.png",
-    "4 - Media/Image/Pasted image 20250415152934.png",
-    "4 - Media/Image/Pasted image 20250415152635.png",
     "4 - Media/Canvas/캔버스.canvas"
   ]
 }
