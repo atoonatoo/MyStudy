@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/Quick note.md",
+                "file": "3 - Diretory/Nginx Prompt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Quick note"
+              "title": "Nginx Prompt"
             }
           }
         ]
@@ -224,16 +224,19 @@
   },
   "active": "61f81a6622b894c2",
   "lastOpenFiles": [
+    "2 - Category/4 Prompt.md",
+    "3 - Diretory/Nginx configration.md",
+    "2 - Category/5 Schedule.md",
+    "2 - Category/6 Employment.md",
+    "2 - Category/7 Life Style.md",
+    "0 - Home/0 Home.md",
+    "2 - Category/1 Quick note.md",
+    "2 - Category/2 Learning.md",
+    "2 - Category/3 Link.md",
     "0 - New/Image/Pasted image 20250608224819.png",
     "0 - New/Image/Pasted image 20250608224816.png",
-    "2 - Category/Schedule.md",
-    "2 - Category/Employment.md",
     "3 - Diretory/Nginx Prompt.md",
-    "2 - Category/Prompt.md",
     "3 - Diretory/SQL Prompt.md",
-    "2 - Category/Quick note.md",
-    "0 - Home/0 Home.md",
-    "2 - Category/Learning.md",
     "3 - Diretory/Poawer Shell Prompt.md",
     "5 - 분류/7 - CS/1 plan/CORS Error.md",
     "0 - New/Image/Pasted image 20250607152033.png",
@@ -244,8 +247,6 @@
     "0 - New/Image/Pasted image 20250607145341.png",
     "0 - New/Image/Pasted image 20250607145253.png",
     "3 - Diretory/Nginx 로드밸런싱 문제 해결 보고서.md",
-    "2 - Category/Link.md",
-    "3 - Diretory/Nginx configration.md",
     "3 - Diretory/GPT 질문 공략.md",
     "3 - Diretory/Mentoring.md",
     "0 - New/Image/Pasted image 20250602203203.png",
@@ -264,7 +265,6 @@
     "2 - Category",
     "0 - Home",
     "5 - 분류",
-    "4 - Media/Image/Pasted image 20250601194715.png",
     "9 - New/Image 1",
     "0 - Home",
     "2 - Project",

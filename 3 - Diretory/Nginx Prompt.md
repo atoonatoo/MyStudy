@@ -1,7 +1,7 @@
 ---
 created:
 ---
----
+	---
 - [[0 Home]]
 ---
 
@@ -15,20 +15,6 @@ tasklist | findstr nginx
 taskkill /f /im nginx.exe
 ```
 
-3. local nginx.conf를 custom nginx.conf로 경로 수정하는 법
-```bash
-# PowerShell로 실행
-
-# 1. 기존 프로세스 종료
-taskkill /F /IM nginx.exe
-
-# 2. 정확한 conf로 다시 실행 (※ 공백 주의)
-cd C:\nginx-1.28.0
-.\nginx.exe -c "C:\Users\kkk96\workspace\2 project\team\techie\back-end\nginx\nginx.conf"
-
-# -c : -c가 없으면 기본 경로로 찾고, -c가 있어야 지정 경로로 찾는다.
-```
-
 4. nginx custom nginx.conf로 실행하는 명령어
 ```bash
 # PowerShell 기준
@@ -39,10 +25,10 @@ cd C:\nginx-1.28.0
 taskkill /F /IM nginx.exe
 
 cd C:\nginx-1.28.0
-
 .\nginx.exe -c "C:\Users\kkk96\workspace\2 project\team\techie\back-end\nginx\nginx.conf"
 
 ```
+
 
 
 
