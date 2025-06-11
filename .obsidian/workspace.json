@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/Nginx Prompt.md",
+                "file": "0 - Home/0 Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Nginx Prompt"
+              "title": "0 Home"
             }
           }
         ]
@@ -224,6 +224,7 @@
   },
   "active": "61f81a6622b894c2",
   "lastOpenFiles": [
+    "3 - Diretory/Nginx Prompt.md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/Nginx configration.md",
     "2 - Category/5 Schedule.md",
@@ -235,7 +236,6 @@
     "2 - Category/3 Link.md",
     "0 - New/Image/Pasted image 20250608224819.png",
     "0 - New/Image/Pasted image 20250608224816.png",
-    "3 - Diretory/Nginx Prompt.md",
     "3 - Diretory/SQL Prompt.md",
     "3 - Diretory/Poawer Shell Prompt.md",
     "5 - 분류/7 - CS/1 plan/CORS Error.md",
