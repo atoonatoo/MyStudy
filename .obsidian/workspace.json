@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/Nginx Prompt.md",
+                "file": "2 - Category/1 Quick note.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Nginx Prompt"
+              "title": "1 Quick note"
             }
           }
         ]
@@ -224,12 +224,12 @@
   },
   "active": "61f81a6622b894c2",
   "lastOpenFiles": [
+    "3 - Diretory/Nginx Prompt.md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/Morning Study.md",
     "2 - Category/2 Learning.md",
     "3 - Diretory/Mentoring.md",
     "0 - Home/0 Home.md",
-    "3 - Diretory/Nginx Prompt.md",
     "3 - Diretory/Nginx configration.md",
     "2 - Category/5 Schedule.md",
     "2 - Category/6 Employment.md",
