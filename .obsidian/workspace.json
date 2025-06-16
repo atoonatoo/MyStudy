@@ -30,8 +30,57 @@
               "icon": "lucide-file",
               "title": "1 Quick note"
             }
+          },
+          {
+            "id": "f1077fc9b945ea15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Category/3 Link.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3 Link"
+            }
+          },
+          {
+            "id": "950a89e09d133779",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/Nginx Prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nginx Prompt"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,20 +271,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "61f81a6622b894c2",
+  "active": "950a89e09d133779",
   "lastOpenFiles": [
+    "3 - Diretory/Mentoring.md",
+    "2 - Category/2 Learning.md",
+    "2 - Category/3 Link.md",
+    "2 - Category/1 Quick note.md",
+    "0 - New/Image/Pasted image 20250615224310.png",
     "3 - Diretory/Nginx Prompt.md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/Morning Study.md",
-    "2 - Category/2 Learning.md",
-    "3 - Diretory/Mentoring.md",
     "0 - Home/0 Home.md",
     "3 - Diretory/Nginx configration.md",
     "2 - Category/5 Schedule.md",
     "2 - Category/6 Employment.md",
     "2 - Category/7 Life Style.md",
-    "2 - Category/1 Quick note.md",
-    "2 - Category/3 Link.md",
     "0 - New/Image/Pasted image 20250608224819.png",
     "0 - New/Image/Pasted image 20250608224816.png",
     "3 - Diretory/SQL Prompt.md",
@@ -250,7 +300,6 @@
     "0 - New/Image/Pasted image 20250607145253.png",
     "3 - Diretory/Nginx 로드밸런싱 문제 해결 보고서.md",
     "3 - Diretory/GPT 질문 공략.md",
-    "0 - New/Image/Pasted image 20250602203203.png",
     "0 - New/Image",
     "0 - New",
     "3 - Diretory/Git Prompt.md",
@@ -261,7 +310,6 @@
     "3 - Diretory/Function.md",
     "Nginx^nginx-main.md",
     "- Grammer.md",
-    "무제.md",
     "2 - Category",
     "0 - Home",
     "5 - 분류",

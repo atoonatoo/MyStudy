@@ -3,6 +3,15 @@
 - [[0 Home]]
 ---
 
+
+- 톰캣 스레드
+- 로그를 모아서 file로 만든다?
+- ![[Pasted image 20250615224310.png]]
+
+- 스터디 - 
+
+
+
 - Jmeter HTML report
 	- Dashboard - 전체 테스트 요약 개요
 		- 

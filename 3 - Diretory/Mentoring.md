@@ -78,6 +78,7 @@ created:
 		- [43주차](https://applicationspring.notion.site/43-1d45823552638015ac84cd06c5ee9efe)
 		- [44주차](https://applicationspring.notion.site/44-1e258235526380769939e8fc73254873)
 		- [45주차](https://applicationspring.notion.site/45-1e9582355263808d94ebf5eebb8d5a7a)
+		- [49주차](https://applicationspring.notion.site/49-21358235526380d7adfadd14def1da7c?source=copy_link)
 		
 	1. [이력서 모음](https://applicationspring.notion.site/1b158235526380dca53cd3baef3ce103?pvs=4)
 		1. 김영수님 주목(잘치는분)
