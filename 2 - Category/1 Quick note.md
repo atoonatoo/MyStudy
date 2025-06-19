@@ -3,6 +3,43 @@
 - [[0 Home]]
 ---
 
+```nginx
+
+worker_processes auto;  
+  
+events {  
+    worker_connections 1024;  
+}  
+  
+http {  
+    upstream backend {  
+        server localhost:8080;  
+        server localhost:8081;  
+        server localhost:8082;  
+        server localhost:8083;  
+        server localhost:8084;  
+        server localhost:8085;  
+        server localhost:8086;  
+        server localhost:8087;  
+    }  
+  
+ server {  
+        listen 80;  
+        server_name localhost;  
+  
+        location / {  
+            proxy_pass http://backend;  
+            proxy_set_header Host $host;  
+            proxy_set_header X-Real-IP $remote_addr;  
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;  
+            proxy_set_header X-Forwarded-Proto $scheme;  
+        }  
+    }  
+}
+```
+
+
+
 - 톰캣 스레드
 - 로그를 모아서 file로 만든다?
 - ![[Pasted image 20250615224310.png]]

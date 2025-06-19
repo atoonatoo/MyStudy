@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/4 Prompt.md",
+                "file": "3 - Diretory/Nginx Prompt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4 Prompt"
+              "title": "Nginx Prompt"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/Mentoring.md",
+                "file": "2 - Category/1 Quick note.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mentoring"
+              "title": "1 Quick note"
             }
           },
           {
@@ -79,8 +79,7 @@
               "title": "Morning Study"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,8 +132,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -272,15 +270,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f1077fc9b945ea15",
+  "active": "61f81a6622b894c2",
   "lastOpenFiles": [
+    "2 - Category/4 Prompt.md",
+    "2 - Category/1 Quick note.md",
+    "3 - Diretory/Mentoring.md",
     "2 - Category/3 Link.md",
     "3 - Diretory/Morning Study.md",
     "2 - Category/2 Learning.md",
-    "3 - Diretory/Mentoring.md",
     "3 - Diretory/Nginx Prompt.md",
-    "2 - Category/4 Prompt.md",
-    "2 - Category/1 Quick note.md",
     "0 - New/Image/Pasted image 20250615224310.png",
     "0 - Home/0 Home.md",
     "3 - Diretory/Nginx configration.md",
