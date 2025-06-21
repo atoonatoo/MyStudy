@@ -3,6 +3,53 @@
 - [[0 Home]]
 ---
 
+| 동시접속자 | 평균 응답 속도(ms) | CPU 최대 사용량(%) | TPS (초당 처리 건수) | 에러율(%) |
+|------------|--------------------|---------------------|------------------------|-----------|
+| 20         | 179                | 약 49.29%           | 40.0                   | 0.00      |
+| 30         | 210                | 약 59.67%           | 60.5                   | 0.00      |
+| 40         | 2408               | 약 70.76%           | 76.2                   | 13.57     |
+
+- CPU 최대 사용량을 알기위해 필요한 정보
+	- CPU 논리 코어 갯수
+	- 테스트 시간
+	- 누적 CPU 사용 시간
+
+- 현재 컴퓨터의 CPU 논리 코어(logical processors) 수를 조회
+```
+Get-CimInstance -ClassName Win32_Processor | Select-Object NumberOfLogicalProcessors
+```
+
+
+- Windows 기준: CPU 최대 사용률 확인 방법
+```powershell
+
+## PowerShell 명령어 (즉시 확인용)
+## 전체 CPU 사용률 확인 (실시간 퍼센트)
+
+Get-Process java | Sort-Object CPU -Descending | Select-Object -First 5
+Get-Counter '\Processor(_Total)\% Processor Time'
+```
+
+- DB 최대 사용량 확인 명령어 (MySQL 기준)
+```sql
+-- 커넥션 기준 최대 사용률
+-- 사용률(%) = (Threads_connected / max_connections) × 100
+SHOW STATUS LIKE 'Threads_connected';
+SHOW VARIABLES LIKE 'max_connections';
+
+-- InnoDB 버퍼 풀 기준 최대 사용률
+-- 사용률(%) = (pages_data / pages_total) × 100
+SHOW GLOBAL STATUS LIKE 'Innodb_buffer_pool_pages%';
+
+---
+
+SHOW STATUS LIKE 'Threads_connected';
+SHOW VARIABLES LIKE 'max_connections';
+SHOW GLOBAL STATUS LIKE 'Innodb_buffer_pool_pages%';
+```
+
+
+---
 ```nginx
 
 worker_processes auto;  
@@ -38,7 +85,54 @@ http {
 }
 ```
 
-
+```nginx
+worker_processes auto;  
+  
+events {  
+    worker_connections 1024;  
+}  
+  
+http {  
+    # 로그 포맷 커스터마이징  
+    log_format main '$remote_addr - $remote_user [$time_local] "$request" '  
+                    '$status $body_bytes_sent "$http_referer" '  
+                    '"$http_user_agent" "$upstream_addr" "$upstream_status" $request_time';  
+  
+    access_log logs/access.log main;  
+    error_log logs/error.log warn;  
+  
+    # 로드밸런싱 대상 서버 (죽은 서버 자동 제외)  
+    upstream backend {  
+        server localhost:8080 max_fails=2 fail_timeout=5s;  
+        server localhost:8081 max_fails=2 fail_timeout=5s;  
+        server localhost:8082 max_fails=2 fail_timeout=5s;  
+        server localhost:8083 max_fails=2 fail_timeout=5s;  
+        server localhost:8084 max_fails=2 fail_timeout=5s;  
+        server localhost:8085 max_fails=2 fail_timeout=5s;  
+        server localhost:8086 max_fails=2 fail_timeout=5s;  
+        server localhost:8087 max_fails=2 fail_timeout=5s;  
+    }  
+  
+    server {  
+        listen 80;  
+        server_name localhost;  
+  
+        location / {  
+            proxy_pass http://backend;  
+  
+            # 클라이언트 정보 전달  
+            proxy_set_header Host $host;  
+            proxy_set_header X-Real-IP $remote_addr;  
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;  
+            proxy_set_header X-Forwarded-Proto $scheme;  
+  
+            # 타임아웃 등 설정도 권장 (옵션)  
+            proxy_connect_timeout 3s;  
+            proxy_read_timeout 10s;  
+        }  
+    }  
+}
+```
 
 - 톰캣 스레드
 - 로그를 모아서 file로 만든다?
