@@ -5,6 +5,7 @@
 ---
 
 - 문제 요약
+	- 비교적 작은 부하에도 로그인 응답시간에 지연이 발생한다.
 
 ---
 - 환경 정보
@@ -23,12 +24,7 @@
     - `QueryDSL 5.0.0 (jakarta)`
     - `Spring Actuator, Validation`
   - `JMeter` : `Apache JMeter 5.6.3`
-
 ---
-
-- 재현 절차
-
-- 증상 설명
 
 - 원인 분석
 
