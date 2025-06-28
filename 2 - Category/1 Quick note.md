@@ -2,6 +2,8 @@
 ---
 - [[0 Home]]
 ---
+- 멘토링
+
 
 - book study
 	- `nosql`은 `key-value`로 뽑는게 더 빠르다.
