@@ -17,7 +17,7 @@ created:
 	
 - **Trouble Shooting**
 	- [[Nginx 로드밸런싱 문제 해결 보고서]]
-	- 
+	- [[Jmeter 경량 부하 테스트 응답지연시간 문제 해결 보고서]]
 	- 
 - **Set Up**
 	- [[Jmeter 세팅 가이드]]
