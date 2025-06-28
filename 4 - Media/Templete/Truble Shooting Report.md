@@ -1,0 +1,30 @@
+
+---
+- [[0 Home]]
+---
+
+- 문제 요약
+---
+- 환경 정보
+  - `운영체제`: `Windows 11 Home 24H2 (OS 빌드 26100.4484)`
+  - `시스템`: `64비트 운영 체제, x64 기반 프로세서`
+  - `프로세서`: `Intel(R) Core(TM) Ultra 5 125H (3.60GHz)`
+  - `RAM` : `16.0 GB`
+  - `Java`: `17.0.12 (LTS, build 17.0.12+8-LTS-286)`
+  - `Spring Boot` : `3.3.4`
+  - `Gradle Java Toolchain` : `Java 17`
+  - `Spring`
+    - `spring-boot-starter-web`
+    - `spring-boot-starter-security`
+    - `spring-boot-starter-data-jpa`
+    - `springdoc-openapi 2.0.2`
+    - `QueryDSL 5.0.0 (jakarta)`
+    - `Spring Actuator, Validation`
+---
+- 재현 절차
+- 증상 설명
+- 원인 분석
+- 해결 과정
+- 결과 확인
+- 향후 조치 및 제안
+---
