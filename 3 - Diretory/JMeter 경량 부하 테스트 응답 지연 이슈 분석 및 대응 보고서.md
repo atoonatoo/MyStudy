@@ -210,14 +210,16 @@
 ---
 ### 7.5 Jmeter Dashboard
 
-- **Test and Report information**![[Pasted image 20250629200835.png]]
+![[Pasted image 20250629200835.png]]
+![[Pasted image 20250629200820.png]]
+![[Pasted image 20250629200752.png]]
+![[Pasted image 20250629201018.png]]
+![[Pasted image 20250629201045.png]]
 
-- **APDEX (Application Performance Index)**![[Pasted image 20250629200820.png]]
+![[Pasted image 20250629204959.png]]
 
+![[Pasted image 20250629205037.png]]
 
-- **Requests Summary** ![[Pasted image 20250629200752.png]]
+---
 
-- **Statistics**![[Pasted image 20250629201018.png]]
-
-- **Errors**![[Pasted image 20250629201045.png]]
-
+### 7.6
