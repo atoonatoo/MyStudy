@@ -115,68 +115,72 @@
 
 ---
 
-## 7. 분석
+## 7. 클라이언트 단 분석
 
-### 7. 클라이언트 단 분석: View Results Tree
+	### 7.1 Jmeter - View Results Tree
+	
+	- Request path
+		- `POST http://localhost/login`
+	- Request body
+	  ```json
+	  {
+	    "email": "test10970@naver.com",
+	    "password": "123456789"
+	  }
+	  ```
+	- Request header
+	  ```
+	  Connection: keep-alive
+	  Content-Type: application/json
+	  Accept: application/json
+	  Authorization: Bearer ${jwt_token}
+	  Content-Length: 64
+	  Host: localhost
+	  User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+	  ```
+	
+	- 에러 메세지
+		- Response body
+		- `org.apache.http.conn.HttpHostConnectException: Connect to localhost:80 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect`
+			- org.apache.http.conn.HttpHostConnectException: localhost:80 [localhost/127.0.0.1, localhost/::1]에 연결 실패: 연결이 거부됨: connect
+		- Response code
+		- `Non HTTP response code: org.apache.http.conn.HttpHostConnectException`
+			- HTTP 응답 코드 아님: org.apache.http.conn.HttpHostConnectException  
+		- `Response message:Non HTTP response message: Connect to localhost:80 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect`
+			- 응답 메시지 아님: localhost:80 [localhost/127.0.0.1, localhost/::1]에 연결 실패: 연결이 거부됨: connect
+		
+	- 에러 메시지 해석
+		- 오류 코드
+			- `Non HTTP response code: org.apache.http.conn.HttpHostConnectException
+				- `Non HTTP response code`
+					- HTTP 응답 코드가 아예 없음
+					- 클라이언트(JMeter)가 HTTP 서버에 도달하지 못해 응답을 받지 못함 ( 200, 404 같은 코드조차 없음)
+				- `org.apache.http.conn.HttpHostConnectException`
+					- Apache HTTPClient에서 호스트 연결 시도 중 예외 발생
+					- connect() 시도 중 네트워크 계층에서 에러가 발생했음을 의미
+		- 메시지
+			- `Connect to localhost:80 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect`
+				- JMeter가 localhost:80에 접속을 시도했으나, 해당 포트에 서버가 실행 중이지 않아 연결이 거부되었고 HTTP 응답조차 받지 못했다.
+			- `Connect to localhost:80 [...] failed`
+				- JMeter가 localhost:80으로 HTTP 요청을 시도했지만 연결 실패
+			- `[localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1]`
+				- 시도한 주소들 (IPv4 `127.0.0.1`, IPv6 `::1`)
+				- 둘 다 로컬 주소이며, 동일한 컴퓨터 내에서 서버를 찾으려 했다는 뜻
+			- `Connection refused: connect`
+				- 해당 주소(`localhost`)의 80번 포트에 서버가 실행 중이지 않음
+				- 즉, 연결 요청을 서버가 거부(Refused)했거나, 아예 리스닝 상태가 아님
+	
+	- 해당 요청은 JMeter가 `localhost:80` 포트에 연결을 시도했으나, 해당 포트에서 서버가 실행 중이지 않아 연결이 거부되었다. 
+	- 이로 인해 HTTP 응답조차 받지 못하고 비HTTP 오류로 처리되었다.
 
-#### 7.1 오류 유형
+---
+### 7.2 Jmeter - Summary Report
 
-- 오류 코드
-	- `Non HTTP response code: org.apache.http.conn.HttpHostConnectException`
-		- `Non HTTP response code`
-			- HTTP 응답 코드가 아예 없음
-			- 클라이언트(JMeter)가 HTTP 서버에 도달하지 못해 응답을 받지 못함 (ex. 200, 404 같은 코드조차 없음)
-		- `org.apache.http.conn.HttpHostConnectException`
-			- Apache HTTPClient에서 호스트 연결 시도 중 예외 발생
-			- `connect()` 시도 중 네트워크 계층에서 에러가 발생했음을 의미
-- 메시지:
-```
-Connect to localhost:80 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+---
+### 7.3 Jmeter - Aggregate Report
 
-JMeter가 `localhost:80`에 접속을 시도했으나, 해당 포트에 서버가 실행 중이지 않아 연결이 거부되었고 HTTP 응답조차 받지 못했다.
-```
-
-- `Connect to localhost:80 [...] failed`
-- `[localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1]`
-- `Connection refused: connect`
-
-#### 7.2 요청 정보
-
-- 요청 URL: `POST http://localhost/login`
-- 요청 헤더:
-  - Content-Type: `application/json`
-  - Authorization: `Bearer ${jwt_token}`
-  - Host: `localhost`
-- 요청 바디:
-  ```json
-  {
-    "email": "test10967@naver.com",
-    "password": "123456789"
-  }
-  ```
-
-#### 7.3 응답 정보
-
-- 응답 없음 (서버에 연결 실패)
-- 연결 시간: `Connect Time = 52ms`
-- 응답 바디:
-  ```
-  org.apache.http.conn.HttpHostConnectException: Connect to localhost:80 failed: Connection refused
-  ```
-
-#### 7.4 원인 분석
-
-- `localhost:80` 포트로의 연결 시도가 실패하면서 `Connection refused` 발생
-- 이는 테스트 당시 JMeter가 요청을 보낸 주소(`localhost`)에서 **포트 80에 서버가 리스닝 상태가 아니었음**을 의미
-- **Spring Boot 서버가 실행 중이 아니거나, 올바른 포트로 설정되지 않았을 가능성** 있음
-- JMeter 테스트 스크립트상의 **요청 URL이 실제 서버 포트와 일치하는지 반드시 확인 필요**
-
-#### 7.5 조치 사항
-
-- 테스트 대상 서버가 정상 실행 중인지 확인 (예: 포트 8080으로 실행 중일 수 있음)
-- `http://localhost:80/login` → `http://localhost:8080/login` 등 실제 포트에 맞게 수정
-- 또는 `jmeter.properties` 또는 `.jmx` 내 호스트 변수 설정 확인 필요
-- 단일 서버인지 다중 서버인지에 따라 `localhost` 대신 실제 IP 지정 권장
+---
+### 7.4 Jmeter - Error
 
 ---
 
