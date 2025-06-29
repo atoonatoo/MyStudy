@@ -112,3 +112,72 @@
    - Netdata, nmon, Glances: OS 레벨 모니터링
 
 각 구간의 자원 사용률, 처리율, 스레드 수, GC 동작, DB 커넥션 풀 상태 등을 종합적으로 분석하여 병목 요인을 추출할 것이다.
+
+---
+
+## 7. 분석
+
+### 7. 클라이언트 단 분석: View Results Tree
+
+#### 7.1 오류 유형
+
+- 오류 코드
+	- `Non HTTP response code: org.apache.http.conn.HttpHostConnectException`
+		- `Non HTTP response code`
+			- HTTP 응답 코드가 아예 없음
+			- 클라이언트(JMeter)가 HTTP 서버에 도달하지 못해 응답을 받지 못함 (ex. 200, 404 같은 코드조차 없음)
+		- `org.apache.http.conn.HttpHostConnectException`
+			- Apache HTTPClient에서 호스트 연결 시도 중 예외 발생
+			- `connect()` 시도 중 네트워크 계층에서 에러가 발생했음을 의미
+- 메시지:
+```
+Connect to localhost:80 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+
+JMeter가 `localhost:80`에 접속을 시도했으나, 해당 포트에 서버가 실행 중이지 않아 연결이 거부되었고 HTTP 응답조차 받지 못했다.
+```
+
+- `Connect to localhost:80 [...] failed`
+- `[localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1]`
+- `Connection refused: connect`
+
+#### 7.2 요청 정보
+
+- 요청 URL: `POST http://localhost/login`
+- 요청 헤더:
+  - Content-Type: `application/json`
+  - Authorization: `Bearer ${jwt_token}`
+  - Host: `localhost`
+- 요청 바디:
+  ```json
+  {
+    "email": "test10967@naver.com",
+    "password": "123456789"
+  }
+  ```
+
+#### 7.3 응답 정보
+
+- 응답 없음 (서버에 연결 실패)
+- 연결 시간: `Connect Time = 52ms`
+- 응답 바디:
+  ```
+  org.apache.http.conn.HttpHostConnectException: Connect to localhost:80 failed: Connection refused
+  ```
+
+#### 7.4 원인 분석
+
+- `localhost:80` 포트로의 연결 시도가 실패하면서 `Connection refused` 발생
+- 이는 테스트 당시 JMeter가 요청을 보낸 주소(`localhost`)에서 **포트 80에 서버가 리스닝 상태가 아니었음**을 의미
+- **Spring Boot 서버가 실행 중이 아니거나, 올바른 포트로 설정되지 않았을 가능성** 있음
+- JMeter 테스트 스크립트상의 **요청 URL이 실제 서버 포트와 일치하는지 반드시 확인 필요**
+
+#### 7.5 조치 사항
+
+- 테스트 대상 서버가 정상 실행 중인지 확인 (예: 포트 8080으로 실행 중일 수 있음)
+- `http://localhost:80/login` → `http://localhost:8080/login` 등 실제 포트에 맞게 수정
+- 또는 `jmeter.properties` 또는 `.jmx` 내 호스트 변수 설정 확인 필요
+- 단일 서버인지 다중 서버인지에 따라 `localhost` 대신 실제 IP 지정 권장
+
+---
+
+
