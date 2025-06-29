@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/Jmeter 경량 부하 테스트 응답지연시간 문제 해결 보고서.md",
+                "file": "3 - Diretory/JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -56,7 +56,7 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Jmeter 경량 부하 테스트 응답지연시간 문제 해결 보고서"
+              "title": "JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서"
             }
           },
           {
@@ -279,7 +279,7 @@
   "active": "b3c0f410dd7ff9c1",
   "lastOpenFiles": [
     "2 - Category/1 Quick note.md",
-    "3 - Diretory/Jmeter 경량 부하 테스트 응답지연시간 문제 해결 보고서.md",
+    "3 - Diretory/JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서.md",
     "0 - Home/0 Home.md",
     "0 - New/Image/Pasted image 20250628184654.png",
     "3 - Diretory/Nginx Prompt.md",
