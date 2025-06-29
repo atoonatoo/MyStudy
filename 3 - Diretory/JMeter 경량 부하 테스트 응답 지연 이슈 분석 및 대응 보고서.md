@@ -176,12 +176,48 @@
 ---
 ### 7.2 Jmeter - Summary Report
 
----
-### 7.3 Jmeter - Aggregate Report
+- 요청 샘플 요약
+
+| Label                               | # Samples | Average (ms) | Min | Max   | Std. Dev. | Error % | Throughput | Received KB/sec | Sent KB/sec | Avg. Bytes |
+| ----------------------------------- | --------- | ------------ | --- | ----- | --------- | ------- | ---------- | --------------- | ----------- | ---------- |
+| HTTP Request - login                | 12,000    | 7889         | 0   | 51492 | 8127.14   | 30.58%  | 38.5/sec   | 43.37           | 8.03        | 1153.0     |
+| HTTP Request - get playlist details | 12,000    | 1737         | 0   | 39139 | 3760.89   | 32.39%  | 39.1/sec   | 60.02           | 11.91       | 1572.0     |
+| TOTAL                               | 24,000    | 4813         | 0   | 51492 | 7039.72   | 31.49%  | 77.0/sec   | 102.51          | 19.76       | 1362.5     |
+
+- 요약 분석
+
+- 총 요청 수 : 24,000건
+    - 로그인 요청 : 12,000건
+    - 플레이리스트 상세 조회 요청 : 12,000건
+- 평균 응답 시간
+    - 로그인 요청 : 7.88초
+    - 상세 조회 요청 : 1.74초
+- 최대 응답 시간
+	- 로그인 요청 : 51.5초
+- 에러율
+    - 로그인 요청 : 30.58%
+    - 상세 조회 요청 : 32.39%
+    - 전체 평균 에러율 : 31.49%
+- 처리율(Throughput)
+    - 전체 처리율 : 77.0건/초
+    - 로그인 : 38.5건/초
+    - 상세 조회 : 39.1건/초
+
 
 ---
-### 7.4 Jmeter - Error
+### 7.4 Jmeter - Log
 
 ---
+### 7.5 Jmeter Dashboard
 
+- **Test and Report information**![[Pasted image 20250629200835.png]]
+
+- **APDEX (Application Performance Index)**![[Pasted image 20250629200820.png]]
+
+
+- **Requests Summary** ![[Pasted image 20250629200752.png]]
+
+- **Statistics**![[Pasted image 20250629201018.png]]
+
+- **Errors**![[Pasted image 20250629201045.png]]
 
