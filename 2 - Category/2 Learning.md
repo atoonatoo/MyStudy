@@ -7,6 +7,7 @@ created:
 - **Study**
 	- [[Mentoring]]
 	- [[Morning Study]]
+	- [[Book Study]]
 - **Project**
 	- [[대량의 외부 API를 호출하면 무슨 일이 벌어지는가]]
 	- [[대용량 데이터 + 스파이크성 트래픽 개선 (2)]]
@@ -22,6 +23,9 @@ created:
 - **Set Up**
 	- [[Jmeter 세팅 가이드]]
 	
+- **Guide**
+	- [[Findings]]
+	  
 - **Development Log**
 	
 - **Practice**
