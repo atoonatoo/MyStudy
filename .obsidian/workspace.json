@@ -56,105 +56,9 @@
               "icon": "lucide-file",
               "title": "1 Quick note"
             }
-          },
-          {
-            "id": "2810c5d436f642f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Category/1 Quick note.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "1 Quick note"
-            }
-          },
-          {
-            "id": "baf404b4d10a823b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Category/5 Schedule.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "5 Schedule"
-            }
-          },
-          {
-            "id": "d1695c119bd29c66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tendy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Tendy"
-            }
-          },
-          {
-            "id": "e7baa935b80eac31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tendy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Tendy"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -345,12 +249,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7baa935b80eac31",
+  "active": "b85ca5c06d88fbdf",
   "lastOpenFiles": [
     "2 - Category/7 Life Style.md",
     "0 - Home/0 Home.md",
     "2 - Category/5 Schedule.md",
-    "Tendy.md",
+    "3 - Diretory/Tendy.md",
     "3 - Diretory/집 베이스 규칙.md",
     "3 - Diretory/아이템 분류 기준.md",
     "0 - New/Image/Pasted image 20250630200355.png",
