@@ -11,6 +11,7 @@ created:
 
 #### life
 
+- [[Tendy]]
 - [[다경이]]
 - [[골드 거래 사기 대처법]]
 - [[My Profile]]
