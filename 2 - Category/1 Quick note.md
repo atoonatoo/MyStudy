@@ -2,7 +2,8 @@
 ---
 - [[0 Home]]
 ---
-
+- 예제 트위터 QPS 중 최대 QPS의 `2`에 대한 의문점
+	- 
 
 - 클로바노트
 	- https://clovanote.naver.com/
