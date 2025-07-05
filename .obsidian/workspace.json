@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "1 Quick note"
             }
-          },
-          {
-            "id": "3546501e26eac822",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Diretory/Mentoring.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Mentoring"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,13 +222,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3546501e26eac822",
+  "active": "762df90834452ebb",
   "lastOpenFiles": [
+    "3 - Diretory/Mentoring.md",
+    "2 - Category/1 Quick note.md",
     "2 - Category/2 Learning.md",
     "0 - Home/0 Home.md",
-    "2 - Category/1 Quick note.md",
     "0 - New/Image/Pasted image 20250629224934.png",
-    "3 - Diretory/Mentoring.md",
     "3 - Diretory/Morning Study.md",
     "3 - Diretory/Tendy.md",
     "2 - Category/7 Life Style.md",
