@@ -2,6 +2,14 @@
 ---
 - [[0 Home]]
 ---
+- filebeat
+	- 로그 수집기
+	- 서버나 애플리케이션에서 생성되는 로그 파일을 읽어, elasticsearch나 logstash로 전송
+- elasticsearch
+	- 로깅 관련 검색 및 분석 엔진
+- kibana
+	- elasticsearch의 시각화 도구
+
 - 예제 트위터 QPS 중 최대 QPS의 `2`에 대한 의문점
 	- 계략적인 추정이기 때문에 추정적인 값이 맞다.
 

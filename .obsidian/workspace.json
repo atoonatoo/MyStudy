@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b2daa6f03b720e70",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0 - Home/0 Home.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "0 Home"
-            }
-          },
-          {
             "id": "762df90834452ebb",
             "type": "leaf",
             "state": {
@@ -58,7 +32,7 @@
             }
           },
           {
-            "id": "5f81a8fff7c2642b",
+            "id": "3546501e26eac822",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -82,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,12 +247,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5f81a8fff7c2642b",
+  "active": "3546501e26eac822",
   "lastOpenFiles": [
     "2 - Category/2 Learning.md",
-    "3 - Diretory/Morning Study.md",
     "0 - Home/0 Home.md",
     "2 - Category/1 Quick note.md",
+    "0 - New/Image/Pasted image 20250629224934.png",
+    "3 - Diretory/Mentoring.md",
+    "3 - Diretory/Morning Study.md",
     "3 - Diretory/Tendy.md",
     "2 - Category/7 Life Style.md",
     "2 - Category/5 Schedule.md",
@@ -290,13 +266,11 @@
     "0 - New/Image/Pasted image 20250630200338.png",
     "0 - New/Image/Pasted image 20250630200322.png",
     "0 - New/Image/Pasted image 20250630200258.png",
-    "3 - Diretory/Mentoring.md",
     "3 - Diretory/Book Study.md",
     "3 - Diretory/Findings.md",
     "5 - 분류/3 - Area/Study List.md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서.md",
-    "0 - New/Image/Pasted image 20250629224934.png",
     "3 - Diretory/Nginx Prompt.md",
     "0 - New/Image/Pasted image 20250629205037.png",
     "0 - New/Image/Pasted image 20250629204959.png",
@@ -312,7 +286,6 @@
     "3 - Diretory/GPT 질문 공략.md",
     "0 - New/Image",
     "0 - New",
-    "3 - Diretory/Git Prompt.md",
     "2 - Category",
     "0 - Home",
     "5 - 분류",
