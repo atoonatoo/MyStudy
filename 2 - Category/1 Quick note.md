@@ -17,8 +17,35 @@
 
 - filebeat 실행방법
 ```
-# 
-filebeat -e -c filebeat.yml
+# 실행 명령어
+cd C:\workspace\filebeat
+.\filebeat.exe -e -c filebeat.yml
+
+
+
+
+```
+
+- elasticsearch 실행방법
+```
+- 창 닫지 말고 유지
+cd C:\workspace\elasticsearch-9.0.3\bin
+.\elasticsearch.bat
+
+- 실행 중 다음 메시지가 보이면 성공:
+[INFO ][o.e.n.Node               ] started
+
+- 웹브라우저 접속
+https://localhost:9200
+  - 첫 접속 시 로그인 창 → `elastic` 계정 로그인 필요
+  - 비밀번호 없을 경우 아래 명령어로 재설정
+
+- elastic 사용자 비밀번호 재설정
+.\elasticsearch-reset-password.bat -u elastic --url https://localhost:9200
+  - `y` 입력하여 진행
+  - 콘솔에 `New value: ...` 출력 → 해당 비밀번호 사용
+
+
 
 ```
 
