@@ -10,6 +10,7 @@
           {
             "id": "762df90834452ebb",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -27,8 +28,45 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "1 Quick note"
+            }
+          },
+          {
+            "id": "dc1d6f8f862d68b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/Mentoring.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mentoring"
+            }
+          },
+          {
+            "id": "21d8da999c9cbff5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "0 - New/Image/Pasted image 20250629224934.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250629224934"
             }
           }
         ]
@@ -88,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -225,11 +262,11 @@
   },
   "active": "762df90834452ebb",
   "lastOpenFiles": [
-    "2 - Category/1 Quick note.md",
     "3 - Diretory/Mentoring.md",
-    "2 - Category/2 Learning.md",
-    "0 - Home/0 Home.md",
     "0 - New/Image/Pasted image 20250629224934.png",
+    "2 - Category/2 Learning.md",
+    "2 - Category/1 Quick note.md",
+    "0 - Home/0 Home.md",
     "3 - Diretory/Morning Study.md",
     "3 - Diretory/Tendy.md",
     "2 - Category/7 Life Style.md",

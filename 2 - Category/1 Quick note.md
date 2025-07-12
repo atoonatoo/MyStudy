@@ -3,7 +3,24 @@
 - [[0 Home]]
 ---
 
----
+
+- 프로젝트의 로그 기록을 체계적으로 관리하기 위한 로깅 툴 설치 과정
+	- filebeat + elasticsearch + kibana
+
+- filebeat
+	- 로그 수집기
+	- 서버나 애플리케이션에서 생성되는 로그 파일을 읽어, elasticsearch나 logstash로 전송
+- elasticsearch
+	- 로깅 관련 검색 및 분석 엔진
+- kibana
+	- elasticsearch의 시각화 도구
+
+- filebeat 실행방법
+```
+# 
+filebeat -e -c filebeat.yml
+
+```
 
 - 할일
 	- 신용카드 재발급
@@ -18,15 +35,6 @@
 	- 로스트아크 관련
 	- 가계부
 	- 자주 방문하는 웹사이트 URL을 효과적으로 관리하고 정리하는 웹사이트
-	- 
-
-- filebeat
-	- 로그 수집기
-	- 서버나 애플리케이션에서 생성되는 로그 파일을 읽어, elasticsearch나 logstash로 전송
-- elasticsearch
-	- 로깅 관련 검색 및 분석 엔진
-- kibana
-	- elasticsearch의 시각화 도구
 
 - 예제 트위터 QPS 중 최대 QPS의 `2`에 대한 의문점
 	- 계략적인 추정이기 때문에 추정적인 값이 맞다.
