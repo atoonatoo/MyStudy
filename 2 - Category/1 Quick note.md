@@ -4,7 +4,7 @@
 ---
 
 
-- 프로젝트의 로그 기록을 체계적으로 관리하기 위한 로깅 툴 설치 과정
+- 로그 수집 시스템 구축
 	- filebeat + elasticsearch + kibana
 	- 목표
 		- [ ] project의 stacktrace가 나오도록 한다.
