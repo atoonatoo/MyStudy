@@ -4,7 +4,7 @@
 ---
 
 
-- 로그 수집 시스템 구축
+- ELK 로그 수집 시스템 구축
 	- filebeat + elasticsearch + kibana
 	- 목표
 		- [ ] project의 stacktrace가 나오도록 한다.
