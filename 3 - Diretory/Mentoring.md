@@ -5,8 +5,13 @@ created:
 - [[0 Home]]
 - [[2 Learning]]
 ---
-
-
+- [52주차](https://applicationspring.notion.site/52-22f582355263808ea4d9c8780fd0cdb9?source=copy_link)
+	- 엘라스틱은 회사이다.
+	- ELK 다 엘라스틱 회사에서 만든 것
+	- Logstash는 파일비트에 다른 용도가 있다.
+		- 경량 로그 수집기로서, (아마 스택이 짤린 이유가 파일비트이기 때문이다.)
+	- ![[Pasted image 20250714173234.png]]
+	
 - 멘토링 50주차
 	- 3 tier 아키텍처
 	    - Client ( Jmeter )
