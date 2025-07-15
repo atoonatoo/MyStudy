@@ -28,6 +28,9 @@ created:
 	  
 - **Development Log**
 	
+- **Test**
+	- [[정보처리기사]]
+	  
 - **Practice**
 	- [[SQL Practice]]
 - **ETC**

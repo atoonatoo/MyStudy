@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - Home/0 Home.md",
+                "file": "2 - Category/1 Quick note.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0 Home"
+              "title": "1 Quick note"
             }
           },
           {
-            "id": "02625245b3d6577a",
+            "id": "c537a746004f3626",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/Mentoring.md",
+                "file": "3 - Diretory/정보처리기사.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mentoring"
+              "title": "정보처리기사"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,14 +246,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "02625245b3d6577a",
+  "active": "550bb86398a40413",
   "lastOpenFiles": [
-    "0 - New/Image/Pasted image 20250714173234.png",
-    "2 - Category/2 Learning.md",
     "0 - Home/0 Home.md",
+    "3 - Diretory/정보처리기사.md",
+    "2 - Category/2 Learning.md",
+    "3 - Diretory/Mentoring.md",
+    "0 - New/Image/Pasted image 20250714173234.png",
     "2 - Category/1 Quick note.md",
     "3 - Diretory/Nginx Prompt.md",
-    "3 - Diretory/Mentoring.md",
     "0 - New/Image/Pasted image 20250629224934.png",
     "2 - Category/4 Prompt.md",
     "0 - New/Image/Pasted image 20250713230650.png",
@@ -275,7 +275,6 @@
     "5 - 분류/3 - Area/Study List.md",
     "3 - Diretory/JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서.md",
     "0 - New/Image/Pasted image 20250629205037.png",
-    "0 - New/Image/Pasted image 20250629204959.png",
     "4 - Media/Templete/Truble Shooting Report.md",
     "3 - Diretory/Nginx 로드밸런싱 문제 해결 보고서.md",
     "2 - Category/3 Link.md",
