@@ -11,6 +11,9 @@ created:
 - LINK
 	- 너무 중요한 LINK
 		- [기술스택이 아쉬워도 신입이력서를 잘 쓰는 법](https://www.youtube.com/watch?v=iBE8trz9uHI)
+		- [기술 면접 리포지토리](https://github.com/gyoogle/tech-interview-for-developer)
+		- [워니님의 이력서 포트폴리오 공략법](http://xn--wonny-9zu.oopy.io/)
+		  
 	- [ChatGPT API Token Limit 해결하기 (요금 줄이기)](https://velog.io/@noh0907/ChatGPT-API-Token-Limit-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-%EC%9A%94%EA%B8%88-%EC%A4%84%EC%9D%B4%EA%B8%B0)
 	- [GPT 성능 최적화 응답 품질과 속도 개선을 위한 가이드](https://doitevery.com/entry/ChatGPT-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94-%EC%9D%91%EB%8B%B5-%ED%92%88%EC%A7%88%EA%B3%BC-%EC%86%8D%EB%8F%84-%EA%B0%9C%EC%84%A0%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C#google_vignette)
 	- [프롬프트 캐싱 참고문헌 1](https://docs.anthropic.com/ko/docs/build-with-claude/prompt-caching)
@@ -36,7 +39,8 @@ created:
 	- [Jmeter playlists get 세팅 성공 사례](https://chatgpt.com/c/682aded9-0834-8012-acaf-5cd483ee8c0e)
 	- [IntelliJ active profile 설정 하기](https://lucas-owner.tistory.com/22)
 	- [예시로 살펴보는 IntelliJ 프로파일링 결과 분석 및 성능 최적화 방법](http://mangkyu.tistory.com/342)
-
+	- [실제 이력서](file:///C:/Users/kkk96/OneDrive/%EB%AC%B8%EC%84%9C/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1%20%EB%B0%9B%EC%9D%80%20%ED%8C%8C%EC%9D%BC/%EC%9D%B4%EB%A0%A5%EC%84%9C3%20(2).pdf)
+	- 
 
 
 - [대용량 데이터베이스의 조회 성능을 개선해보자 (1) : 인덱스 적용](https://velog.io/@sckwon770/%EB%8C%80%EB%9F%89%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%A0%81%EC%9E%AC%EB%90%9C-%ED%85%8C%EC%9D%B4%EB%B8%94%EC%97%90-%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A5%BC-%EC%A0%81%EC%9A%A9%ED%95%B4-%EC%B5%9C%EC%A0%81%ED%99%94%ED%95%B4%EB%B3%B4%EC%9E%90)

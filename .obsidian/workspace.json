@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - Home/0 Home.md",
+                "file": "2 - Category/3 Link.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0 Home"
+              "title": "3 Link"
             }
           },
           {
@@ -248,8 +248,8 @@
   },
   "active": "550bb86398a40413",
   "lastOpenFiles": [
-    "2 - Category/1 Quick note.md",
     "0 - Home/0 Home.md",
+    "2 - Category/1 Quick note.md",
     "3 - Diretory/정보처리기사.md",
     "2 - Category/2 Learning.md",
     "3 - Diretory/Mentoring.md",

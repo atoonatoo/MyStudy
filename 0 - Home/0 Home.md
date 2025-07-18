@@ -30,11 +30,11 @@
 		- 시험 : 11.01 ~ 21
 		- 발표 : 12.24
 
-- ELK 스택 : 로그 수집 시스템 구축
+- 로그 수집 시스템 구축
 	- filebeat + elasticsearch + kibana
 	- 목표
 		- [ ] project의 stacktrace가 나오도록 한다.
-		- [ ] setup 완료하기
+		- [x] setup 완료하기 ✅ 2025-07-18
 		- [ ] project의 test가 실행되면 log 출력이 나오도록하기
 		- [ ] login의 요청 처리 속도의 느린 원인을 로그로부터 확인하기
 		- [ ] 문제 해결 하기
