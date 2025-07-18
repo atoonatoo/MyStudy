@@ -5,6 +5,9 @@ created:
 - [[0 Home]]
 ---
 
+- **GPT**
+	- [Kibana에서 스택트레이스 로그 수집 및 시각화 설정](https://chatgpt.com/c/6873a500-c60c-8012-8f40-f0b6fd5cd3b6)
+	- [SpringBoot ELK 설정](https://chatgpt.com/c/6873759a-aa5c-8012-92fe-31ca3ad660a5)
 
 
 
