@@ -9,8 +9,6 @@ created:
 	- [Kibana에서 스택트레이스 로그 수집 및 시각화 설정](https://chatgpt.com/c/6873a500-c60c-8012-8f40-f0b6fd5cd3b6)
 	- [SpringBoot ELK 설정](https://chatgpt.com/c/6873759a-aa5c-8012-92fe-31ca3ad660a5)
 
-
-
 - LINK
 	- 너무 중요한 LINK
 		- [기술스택이 아쉬워도 신입이력서를 잘 쓰는 법](https://www.youtube.com/watch?v=iBE8trz9uHI)

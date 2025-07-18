@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ef7a245564728b38",
+        "id": "d03eadb56623c6b9",
         "type": "tabs",
         "children": [
           {
-            "id": "550bb86398a40413",
+            "id": "1d80b3ffae9ba196",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/3 Link.md",
+                "file": "2 - Category/7 Life Style.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3 Link"
+              "title": "7 Life Style"
             }
           },
           {
-            "id": "c537a746004f3626",
+            "id": "e7b82bb524d3267f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/정보처리기사.md",
+                "file": "3 - Diretory/Book Study.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "정보처리기사"
+              "title": "Book Study"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -246,21 +247,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "550bb86398a40413",
+  "active": "e7b82bb524d3267f",
   "lastOpenFiles": [
-    "0 - Home/0 Home.md",
-    "2 - Category/1 Quick note.md",
-    "3 - Diretory/정보처리기사.md",
     "2 - Category/2 Learning.md",
+    "3 - Diretory/Morning Study.md",
+    "0 - Home/0 Home.md",
+    "2 - Category/7 Life Style.md",
+    "3 - Diretory/Diary.md",
+    "3 - Diretory/Tendy.md",
+    "3 - Diretory/로그 수집 시스템 구축.md",
+    "3 - Diretory/Project Idea.md",
+    "3 - Diretory/정보처리기사.md",
+    "2 - Category/3 Link.md",
+    "2 - Category/1 Quick note.md",
     "3 - Diretory/Mentoring.md",
     "0 - New/Image/Pasted image 20250714173234.png",
     "3 - Diretory/Nginx Prompt.md",
     "0 - New/Image/Pasted image 20250629224934.png",
     "2 - Category/4 Prompt.md",
     "0 - New/Image/Pasted image 20250713230650.png",
-    "3 - Diretory/Morning Study.md",
-    "3 - Diretory/Tendy.md",
-    "2 - Category/7 Life Style.md",
     "2 - Category/5 Schedule.md",
     "3 - Diretory/집 베이스 규칙.md",
     "3 - Diretory/아이템 분류 기준.md",
@@ -277,13 +282,9 @@
     "0 - New/Image/Pasted image 20250629205037.png",
     "4 - Media/Templete/Truble Shooting Report.md",
     "3 - Diretory/Nginx 로드밸런싱 문제 해결 보고서.md",
-    "2 - Category/3 Link.md",
     "3 - Diretory/Nginx configration.md",
     "2 - Category/6 Employment.md",
     "3 - Diretory/SQL Prompt.md",
-    "3 - Diretory/Poawer Shell Prompt.md",
-    "5 - 분류/7 - CS/1 plan/CORS Error.md",
-    "3 - Diretory/GPT 질문 공략.md",
     "0 - New/Image",
     "0 - New",
     "2 - Category",

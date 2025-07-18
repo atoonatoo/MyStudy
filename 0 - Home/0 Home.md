@@ -30,56 +30,6 @@
 		- 시험 : 11.01 ~ 21
 		- 발표 : 12.24
 
-- 로그 수집 시스템 구축
-	- filebeat + elasticsearch + kibana
-	- 목표
-		- [ ] project의 stacktrace가 나오도록 한다.
-		- [x] setup 완료하기 ✅ 2025-07-18
-		- [ ] project의 test가 실행되면 log 출력이 나오도록하기
-		- [ ] login의 요청 처리 속도의 느린 원인을 로그로부터 확인하기
-		- [ ] 문제 해결 하기
-		- [ ] 각 프로젝트의 가이드 라인을 만들어 이해하기 쉽게 포스팅하기
-		
-
-- filebeat
-	- 로그 수집기
-	- 서버나 애플리케이션에서 생성되는 로그 파일을 읽어, elasticsearch나 logstash로 전송
-- elasticsearch
-	- 로깅 관련 검색 및 분석 엔진
-- kibana
-	- elasticsearch의 시각화 도구
-
-- filebeat 실행방법
-```
-cd C:\workspace\filebeat
-.\filebeat.exe -e -c filebeat.yml
-```
-
-- elasticsearch 실행방법
-```
-cd C:\workspace\elasticsearch-9.0.3\bin
-.\elasticsearch.bat
-```
-
-- elasticsearch 정상 동작 확인 하는 방법 및 팁
-```
-https://localhost:9200
-  - 첫 접속 시 로그인 창 → `elastic` 계정 로그인 필요
-  - 비밀번호 없을 경우 아래 명령어로 재설정
-
-- elastic 사용자 비밀번호 재설정
-.\elasticsearch-reset-password.bat -u elastic --url https://localhost:9200
-  - `y` 입력하여 진행
-  - 콘솔에 `New value: ...` 출력 → 해당 비밀번호 사용
-```
-
-- kibana 실행 방법
-```
-cd C:\workspace\kibana-9.0.3\bin
-.\kibana.bat
-```
-
-
 - 할일
 	- 신용카드 재발급
 	- 이음카드 발급
@@ -88,14 +38,9 @@ cd C:\workspace\kibana-9.0.3\bin
 	- 자전거 자물쇠
 	- 현백 상품권
 
-- 프로젝트 아이디어
-	- 요리 레시피, 커뮤니티, 유튜브 참고
-	- 로스트아크 관련
-	- 가계부
-	- 자주 방문하는 웹사이트 URL을 효과적으로 관리하고 정리하는 웹사이트
+---
 
-- 예제 트위터 QPS 중 최대 QPS의 `2`에 대한 의문점
-	- 계략적인 추정이기 때문에 추정적인 값이 맞다.
+
 
 - 클로바노트
 	- https://clovanote.naver.com/

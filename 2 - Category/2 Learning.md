@@ -8,10 +8,13 @@ created:
 	- [[Mentoring]]
 	- [[Morning Study]]
 	- [[Book Study]]
+	  
 - **Project**
+	- [[Project Idea]]
 	- [[대량의 외부 API를 호출하면 무슨 일이 벌어지는가]]
 	- [[대용량 데이터 + 스파이크성 트래픽 개선 (2)]]
 	- [[프로젝트 개선 사항 시나리오]]
+	  
 - **Coding Test**
 	- [[Conding Test - 용어]]
 	- [[Conding Test - 문제 접근법]]
@@ -19,8 +22,9 @@ created:
 - **Trouble Shooting**
 	- [[Nginx 로드밸런싱 문제 해결 보고서]]
 	- [[JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서]]
-	- 
-- **Set Up**
+	- [[로그 수집 시스템 구축]]
+	
+- **Setup**
 	- [[Jmeter 세팅 가이드]]
 	
 - **Guide**
@@ -28,23 +32,15 @@ created:
 	  
 - **Development Log**
 	
-- **Test**
+- **Learning**
 	- [[정보처리기사]]
-	  
-- **Practice**
 	- [[SQL Practice]]
-- **ETC**
-	- [[Thingking]]
-	- [[Topic]]
-	- [[Why]]
-	- [[KnowHow 1]]
-	- [[Famous Saying]]
 	- [[Recmmended Book]]
-	- [[Idea]]
-	
-- ****
-  
-
+	- [[Topic]]
+	- [[Famous Saying]]
+	- [[KnowHow 1]]
+	- [[Why]]
+	- [[Thingking]]
 
 ---
 ##### 3. 아이디어 
