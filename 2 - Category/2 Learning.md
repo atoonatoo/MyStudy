@@ -22,7 +22,7 @@ created:
 - **Trouble Shooting**
 	- [[Nginx 로드밸런싱 문제 해결 보고서]]
 	- [[JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서]]
-	- [[로그 수집 시스템 구축]]
+	- [[로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)]]
 	
 - **Setup**
 	- [[Jmeter 세팅 가이드]]

@@ -23,16 +23,16 @@ created:
 - 최우선 목표였던 스택 트레이스가 전부 출력이 되지않고 요약되어 출력되는 문제 발생했다. 문제는 내가 이 3가지의 프로그램들의 동작 원리를 이해하고 있지 않기 때문에 뭐가 문제인지 구체적으로 알 수 없다고 판단하여, 우선 이 세가지의 기술에 대해 좀 더 깊이 공부하고 searching을 할 것이다.
 
 ---
-### filebeat
+### [[Filebeat]]
 - 로그 수집기
 - 서버나 애플리케이션에서 생성되는 로그 파일을 읽어, elasticsearch나 logstash로 전송
 
 ---
-### elasticsearch
+### [[Elasticsearch]]
 - 로깅 관련 검색 및 분석 엔진
 
 ---
-### kibana
+### [[Kibana]]
 - elasticsearch의 시각화 도구
 
 ---

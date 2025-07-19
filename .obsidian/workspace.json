@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1d80b3ffae9ba196",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Category/7 Life Style.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "7 Life Style"
-            }
-          },
-          {
             "id": "e7b82bb524d3267f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/Book Study.md",
+                "file": "0 - Home/0 Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +28,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Book Study"
+              "title": "0 Home"
+            }
+          },
+          {
+            "id": "1e3c3a5269720b01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Category/2 Learning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2 Learning"
+            }
+          },
+          {
+            "id": "d4e6ec0f22da3c07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
+            }
+          },
+          {
+            "id": "bc597227f597d0e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/Filebeat.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Filebeat"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -247,15 +296,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7b82bb524d3267f",
+  "active": "bc597227f597d0e8",
   "lastOpenFiles": [
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "2 - Category/2 Learning.md",
-    "3 - Diretory/Morning Study.md",
+    "3 - Diretory/Kibana.md",
+    "3 - Diretory/Elasticsearch.md",
+    "3 - Diretory/Filebeat.md",
     "0 - Home/0 Home.md",
+    "3 - Diretory/Book Study.md",
     "2 - Category/7 Life Style.md",
+    "3 - Diretory/Morning Study.md",
     "3 - Diretory/Diary.md",
     "3 - Diretory/Tendy.md",
-    "3 - Diretory/로그 수집 시스템 구축.md",
     "3 - Diretory/Project Idea.md",
     "3 - Diretory/정보처리기사.md",
     "2 - Category/3 Link.md",
@@ -275,16 +328,12 @@
     "0 - New/Image/Pasted image 20250630200338.png",
     "0 - New/Image/Pasted image 20250630200322.png",
     "0 - New/Image/Pasted image 20250630200258.png",
-    "3 - Diretory/Book Study.md",
     "3 - Diretory/Findings.md",
     "5 - 분류/3 - Area/Study List.md",
     "3 - Diretory/JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서.md",
     "0 - New/Image/Pasted image 20250629205037.png",
     "4 - Media/Templete/Truble Shooting Report.md",
     "3 - Diretory/Nginx 로드밸런싱 문제 해결 보고서.md",
-    "3 - Diretory/Nginx configration.md",
-    "2 - Category/6 Employment.md",
-    "3 - Diretory/SQL Prompt.md",
     "0 - New/Image",
     "0 - New",
     "2 - Category",
