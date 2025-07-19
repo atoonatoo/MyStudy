@@ -37,30 +37,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/2 Learning.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2 Learning"
-            }
-          },
-          {
-            "id": "d4e6ec0f22da3c07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
                 "mode": "source",
                 "source": false,
@@ -78,33 +54,9 @@
               "icon": "lucide-file",
               "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
-          },
-          {
-            "id": "bc597227f597d0e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Diretory/Filebeat.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Filebeat"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -296,13 +248,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bc597227f597d0e8",
+  "active": "1e3c3a5269720b01",
   "lastOpenFiles": [
+    "3 - Diretory/Filebeat.md",
+    "filebeat module.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "tail.md",
+    "0 - New/Image/filebeat.gif",
+    "0 - New/Image/Pasted image 20250719161126.png",
+    "spooler.md",
+    "0 - New/Image/Pasted image 20250719160223.png",
+    "0 - New/Image/Pasted image 20250719160210.png",
+    "0 - New/Image/Pasted image 20250719160209.png",
+    "libbeat.md",
     "2 - Category/2 Learning.md",
+    "3 - Diretory/harvester.md",
+    "하베스터(harvester).md",
+    "3 - Diretory/Indexing.md",
+    "3 - Diretory/Log Event.md",
     "3 - Diretory/Kibana.md",
     "3 - Diretory/Elasticsearch.md",
-    "3 - Diretory/Filebeat.md",
     "0 - Home/0 Home.md",
     "3 - Diretory/Book Study.md",
     "2 - Category/7 Life Style.md",
@@ -319,21 +284,8 @@
     "0 - New/Image/Pasted image 20250629224934.png",
     "2 - Category/4 Prompt.md",
     "0 - New/Image/Pasted image 20250713230650.png",
-    "2 - Category/5 Schedule.md",
-    "3 - Diretory/집 베이스 규칙.md",
-    "3 - Diretory/아이템 분류 기준.md",
     "0 - New/Image/Pasted image 20250630200355.png",
     "0 - New/Image/Pasted image 20250630200349.png",
-    "0 - New/Image/Pasted image 20250630200345.png",
-    "0 - New/Image/Pasted image 20250630200338.png",
-    "0 - New/Image/Pasted image 20250630200322.png",
-    "0 - New/Image/Pasted image 20250630200258.png",
-    "3 - Diretory/Findings.md",
-    "5 - 분류/3 - Area/Study List.md",
-    "3 - Diretory/JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서.md",
-    "0 - New/Image/Pasted image 20250629205037.png",
-    "4 - Media/Templete/Truble Shooting Report.md",
-    "3 - Diretory/Nginx 로드밸런싱 문제 해결 보고서.md",
     "0 - New/Image",
     "0 - New",
     "2 - Category",
