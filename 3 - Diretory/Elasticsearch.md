@@ -43,7 +43,6 @@ created:
 		- 텍스트, 로그, 구조화되지 않은 데이터에 강하다.
 
 
-
 - 키워드
 	- [[Vector]]
 	- [[inverted index]]
@@ -52,6 +51,6 @@ created:
 	- [[정형, 비정형]]
 
 - 참고
-	- []
+	- [Elasticsearch 공식 홈페이지](https://www.elastic.co/kr/virtual-events/getting-started-elasticsearch)
 
 ---
