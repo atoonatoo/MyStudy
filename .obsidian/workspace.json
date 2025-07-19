@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "file": "3 - Diretory/Elasticsearch.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
+              "title": "Elasticsearch"
             }
           }
         ],
@@ -250,9 +250,9 @@
   },
   "active": "1e3c3a5269720b01",
   "lastOpenFiles": [
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/Filebeat.md",
     "filebeat module.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "tail.md",
     "0 - New/Image/filebeat.gif",
     "0 - New/Image/Pasted image 20250719161126.png",
