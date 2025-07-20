@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - Home/0 Home.md",
+                "file": "3 - Diretory/Mentoring.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0 Home"
+              "title": "Mentoring"
+            }
+          },
+          {
+            "id": "78de3eb87f4ac61d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/Nginx Prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nginx Prompt"
             }
           },
           {
@@ -37,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/Elasticsearch.md",
+                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Elasticsearch"
+              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -250,14 +274,19 @@
   },
   "active": "1e3c3a5269720b01",
   "lastOpenFiles": [
-    "Vector.md",
+    "3 - Diretory/Mentoring.md",
+    "2 - Category/2 Learning.md",
+    "0 - Home/0 Home.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "3 - Diretory/Filebeat.md",
+    "3 - Diretory/Nginx Prompt.md",
+    "2 - Category/4 Prompt.md",
     "3 - Diretory/Elasticsearch.md",
+    "Vector.md",
     "3 - Diretory/정형, 비정형.md",
     "3 - Diretory/Lucenu.md",
     "3 - Diretory/분산 아키텍쳐.md",
     "3 - Diretory/inverted index.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
-    "3 - Diretory/Filebeat.md",
     "3 - Diretory/filebeat module.md",
     "3 - Diretory/tail.md",
     "0 - New/Image/filebeat.gif",
@@ -267,20 +296,15 @@
     "0 - New/Image/Pasted image 20250719160210.png",
     "0 - New/Image/Pasted image 20250719160209.png",
     "3 - Diretory/libbeat.md",
-    "2 - Category/2 Learning.md",
     "3 - Diretory/harvester.md",
     "하베스터(harvester).md",
     "3 - Diretory/Indexing.md",
     "3 - Diretory/Log Event.md",
     "3 - Diretory/Kibana.md",
-    "0 - Home/0 Home.md",
     "3 - Diretory/Book Study.md",
     "2 - Category/7 Life Style.md",
     "3 - Diretory/Morning Study.md",
     "3 - Diretory/Diary.md",
-    "3 - Diretory/Tendy.md",
-    "3 - Diretory/Project Idea.md",
-    "3 - Diretory/정보처리기사.md",
     "0 - New/Image/Pasted image 20250714173234.png",
     "0 - New/Image/Pasted image 20250629224934.png",
     "0 - New/Image/Pasted image 20250713230650.png",
