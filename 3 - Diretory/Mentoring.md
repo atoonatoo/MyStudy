@@ -6,7 +6,7 @@ created:
 - [[2 Learning]]
 ---
 - 53주차
-	- 
+	- 성공, 실패를 엘라스틱서치를 통해 집계하여 로그인 요청수를 Jmeter와 비교해야한다.
 
 
 - [52주차](https://applicationspring.notion.site/52-22f582355263808ea4d9c8780fd0cdb9?source=copy_link)
