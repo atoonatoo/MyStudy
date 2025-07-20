@@ -72,6 +72,7 @@ cd C:\workspace\kibana-9.0.3\bin
 
 ### 참고
 
+[filebeat multiline 설정 가이드 | 공식](https://www.elastic.co/docs/reference/beats/filebeat/multiline-examples)
 [multiline 설정 가이드](https://velog.io/@juhwanheo/Elastic-Stack-Filebeat-LogBack-multiline-pattern-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
 [multiline 테스트](https://go.dev/play/p/uAd5XHxscu)
 
