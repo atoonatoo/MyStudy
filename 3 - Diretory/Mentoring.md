@@ -5,6 +5,10 @@ created:
 - [[0 Home]]
 - [[2 Learning]]
 ---
+- 53주차
+	- 
+
+
 - [52주차](https://applicationspring.notion.site/52-22f582355263808ea4d9c8780fd0cdb9?source=copy_link)
 	- 엘라스틱은 회사이다.
 	- ELK 다 엘라스틱 회사에서 만든 것
