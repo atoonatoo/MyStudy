@@ -79,7 +79,8 @@
               "title": "3 Link"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -271,11 +272,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7b82bb524d3267f",
+  "active": "1e3c3a5269720b01",
   "lastOpenFiles": [
+    "3 - Diretory/Mentoring.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "2 - Category/3 Link.md",
-    "3 - Diretory/Mentoring.md",
     "0 - New/Image/Pasted image 20250720191306.png",
     "0 - New/Image/Pasted image 20250720191057.png",
     "3 - Diretory/Nginx Prompt.md",

@@ -11,9 +11,9 @@ created:
 - 로그 수집 시스템 구축
 	- filebeat + elasticsearch + kibana
 - 목표
-	- [ ] project의 stacktrace가 나오도록 한다.
+	- [x] project의 stacktrace가 나오도록 한다. ✅ 2025-07-21
 	- [x] setup 완료하기 ✅ 2025-07-18
-	- [ ] project의 test가 실행되면 log 출력이 나오도록하기
+	- [x] project의 test가 실행되면 log 출력이 나오도록하기 ✅ 2025-07-21
 	- [ ] login의 요청 처리 속도의 느린 원인을 로그로부터 확인하기
 	- [ ] 문제 해결 하기
 	- [ ] 각 프로젝트의 가이드 라인을 만들어 이해하기 쉽게 포스팅하기
