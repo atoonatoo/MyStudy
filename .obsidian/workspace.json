@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7b82bb524d3267f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Diretory/Mentoring.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Mentoring"
-            }
-          },
-          {
             "id": "1e3c3a5269720b01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "file": "0 - Home/0 Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
-            }
-          },
-          {
-            "id": "5eb2369ced6cd604",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Category/3 Link.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3 Link"
+              "title": "0 Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -274,8 +224,8 @@
   },
   "active": "1e3c3a5269720b01",
   "lastOpenFiles": [
-    "3 - Diretory/Mentoring.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "3 - Diretory/Mentoring.md",
     "2 - Category/3 Link.md",
     "0 - New/Image/Pasted image 20250720191306.png",
     "0 - New/Image/Pasted image 20250720191057.png",
