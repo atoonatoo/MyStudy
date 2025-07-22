@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - Home/0 Home.md",
+                "file": "3 - Diretory/정보처리기사.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0 Home"
+              "title": "정보처리기사"
             }
           }
         ]
@@ -224,14 +224,14 @@
   },
   "active": "1e3c3a5269720b01",
   "lastOpenFiles": [
+    "2 - Category/2 Learning.md",
+    "0 - Home/0 Home.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/Mentoring.md",
     "2 - Category/3 Link.md",
     "0 - New/Image/Pasted image 20250720191306.png",
     "0 - New/Image/Pasted image 20250720191057.png",
     "3 - Diretory/Nginx Prompt.md",
-    "0 - Home/0 Home.md",
-    "2 - Category/2 Learning.md",
     "3 - Diretory/Filebeat.md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/Elasticsearch.md",
