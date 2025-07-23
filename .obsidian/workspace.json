@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -225,6 +224,9 @@
   },
   "active": "1e3c3a5269720b01",
   "lastOpenFiles": [
+    "정보처리기사 - C.md",
+    "3 - Diretory/정보처리기사.md",
+    "정보처리기사 - Python.md",
     "2 - Category/2 Learning.md",
     "0 - Home/0 Home.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
@@ -255,8 +257,6 @@
     "3 - Diretory/Indexing.md",
     "3 - Diretory/Log Event.md",
     "3 - Diretory/Kibana.md",
-    "3 - Diretory/Book Study.md",
-    "2 - Category/7 Life Style.md",
     "0 - New/Image/Pasted image 20250714173234.png",
     "0 - New/Image/Pasted image 20250629224934.png",
     "0 - New/Image/Pasted image 20250713230650.png",
