@@ -72,8 +72,6 @@ cd C:\workspace\kibana-9.0.3\bin
 
 ```
 
-
-
 - filebeat 실행방법
 ```
 cd C:\workspace\filebeat

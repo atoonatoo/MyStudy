@@ -13,30 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/정보처리기사.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "정보처리기사"
-            }
-          },
-          {
-            "id": "bf61226e6cb38e88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
                 "mode": "source",
                 "source": false,
@@ -55,8 +31,7 @@
               "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,15 +222,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bf61226e6cb38e88",
+  "active": "1e3c3a5269720b01",
   "lastOpenFiles": [
+    "2 - Category/2 Learning.md",
     "0 - Home/0 Home.md",
+    "3 - Diretory/정보처리기사.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/Poawer Shell Prompt.md",
     "2 - Category/4 Prompt.md",
-    "2 - Category/2 Learning.md",
     "3 - Diretory/Nginx Prompt.md",
-    "3 - Diretory/정보처리기사.md",
     "3 - Diretory/정보처리기사 - 데이터베이스.md",
     "3 - Diretory/정보처리기사 - 네트워크.md",
     "3 - Diretory/정보처리기사 - 자료구조.md",
