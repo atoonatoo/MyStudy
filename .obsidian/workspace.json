@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "정보처리기사"
             }
+          },
+          {
+            "id": "bf61226e6cb38e88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,24 +247,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b85ca5c06d88fbdf",
+  "active": "bf61226e6cb38e88",
   "lastOpenFiles": [
-    "3 - Diretory/정보처리기사 - 데이터베이스.md",
+    "0 - Home/0 Home.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "3 - Diretory/Poawer Shell Prompt.md",
+    "2 - Category/4 Prompt.md",
+    "2 - Category/2 Learning.md",
+    "3 - Diretory/Nginx Prompt.md",
     "3 - Diretory/정보처리기사.md",
+    "3 - Diretory/정보처리기사 - 데이터베이스.md",
     "3 - Diretory/정보처리기사 - 네트워크.md",
     "3 - Diretory/정보처리기사 - 자료구조.md",
     "3 - Diretory/정보처리기사 - C.md",
     "3 - Diretory/정보처리기사 - Python.md",
-    "2 - Category/2 Learning.md",
-    "0 - Home/0 Home.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/Mentoring.md",
     "2 - Category/3 Link.md",
     "0 - New/Image/Pasted image 20250720191306.png",
     "0 - New/Image/Pasted image 20250720191057.png",
-    "3 - Diretory/Nginx Prompt.md",
     "3 - Diretory/Filebeat.md",
-    "2 - Category/4 Prompt.md",
     "3 - Diretory/Elasticsearch.md",
     "3 - Diretory/Vector.md",
     "3 - Diretory/정형, 비정형.md",
@@ -256,7 +282,6 @@
     "0 - New/Image/Pasted image 20250719160209.png",
     "3 - Diretory/libbeat.md",
     "3 - Diretory/harvester.md",
-    "하베스터(harvester).md",
     "0 - New/Image/Pasted image 20250714173234.png",
     "0 - New/Image/Pasted image 20250629224934.png",
     "0 - New/Image/Pasted image 20250713230650.png",
