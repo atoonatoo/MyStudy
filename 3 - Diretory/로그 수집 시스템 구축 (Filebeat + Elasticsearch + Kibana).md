@@ -54,22 +54,27 @@ created:
 
 - Project start 명령어 모음
 ```
-- nginx
+---nginx---------------------------------------------------------------------------------------
+
 cd C:\nginx-1.28.0
 .\nginx.exe -c "C:\Users\kkk96\workspace\2 project\team\techie\back-end\nginx\nginx.conf"
 
-- filebeat
+---filebeat------------------------------------------------------------------------------------
+
 cd C:\workspace\filebeat
 .\filebeat.exe -e -c filebeat.yml
 
-- elasticsearch
+---elasticsearch-------------------------------------------------------------------------------
+
 cd C:\workspace\elasticsearch-9.0.3\bin
 .\elasticsearch.bat
 
-- kibana
+---kibana--------------------------------------------------------------------------------------
+
 cd C:\workspace\kibana-9.0.3\bin
 .\kibana.bat
 
+-----------------------------------------------------------------------------------------------
 ```
 
 - filebeat 실행방법
