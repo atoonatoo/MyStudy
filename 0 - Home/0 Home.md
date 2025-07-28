@@ -125,7 +125,6 @@ SHOW VARIABLES LIKE 'max_connections';
 SHOW GLOBAL STATUS LIKE 'Innodb_buffer_pool_pages%';
 ```
 
-
 ---
 ```nginx
 
