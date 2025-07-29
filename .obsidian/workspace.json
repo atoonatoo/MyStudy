@@ -11,10 +11,24 @@
             "id": "a93be7202a435be9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "테스트.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "테스트"
             }
           }
         ]
@@ -230,6 +244,7 @@
   },
   "active": "a93be7202a435be9",
   "lastOpenFiles": [
+    "테스트.md",
     "3 - Diretory/Nginx Prompt.md",
     "2 - Category/4 Prompt.md",
     "0 - Home/0 Home.md",
@@ -239,7 +254,7 @@
     "3 - Diretory/GPT 질문 공략.md",
     "5 - 분류/7 - CS/1 plan/Gpt 사용법 및 노하우.md",
     "3 - Diretory/Jmeter 세팅 가이드.md",
-    "자주 햇갈리는 개념.md",
+    "3 - Diretory/자주 햇갈리는 개념.md",
     "3 - Diretory/Conding Test - 용어.md",
     "3 - Diretory/Conding Test - 문제 접근법.md",
     "5 - 분류/7 - CS/4 wait/Data Structure.md",
@@ -253,21 +268,20 @@
     "3 - Diretory/정보처리기사 - Python.md",
     "3 - Diretory/Mentoring.md",
     "2 - Category/3 Link.md",
-    "0 - New/Image/Pasted image 20250720191306.png",
-    "0 - New/Image/Pasted image 20250720191057.png",
+    "2 - Category/0 - New/Image/Pasted image 20250720191306.png",
+    "2 - Category/0 - New/Image/Pasted image 20250720191057.png",
     "3 - Diretory/Filebeat.md",
     "3 - Diretory/Elasticsearch.md",
-    "3 - Diretory/Vector.md",
-    "0 - New/Image/filebeat.gif",
-    "0 - New/Image/Pasted image 20250719161126.png",
-    "0 - New/Image/Pasted image 20250719160223.png",
-    "0 - New/Image/Pasted image 20250719160210.png",
-    "0 - New/Image/Pasted image 20250719160209.png",
-    "0 - New/Image/Pasted image 20250714173234.png",
-    "0 - New/Image/Pasted image 20250629224934.png",
-    "0 - New/Image/Pasted image 20250713230650.png",
-    "0 - New/Image",
-    "0 - New",
+    "2 - Category/0 - New/Image/filebeat.gif",
+    "2 - Category/0 - New/Image/Pasted image 20250719161126.png",
+    "2 - Category/0 - New/Image/Pasted image 20250719160223.png",
+    "2 - Category/0 - New/Image/Pasted image 20250719160210.png",
+    "2 - Category/0 - New/Image/Pasted image 20250719160209.png",
+    "2 - Category/0 - New/Image/Pasted image 20250714173234.png",
+    "2 - Category/0 - New/Image/Pasted image 20250629224934.png",
+    "2 - Category/0 - New/Image/Pasted image 20250713230650.png",
+    "2 - Category/0 - New/Image",
+    "2 - Category/0 - New",
     "2 - Category",
     "0 - Home",
     "5 - 분류",
