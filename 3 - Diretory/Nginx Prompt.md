@@ -21,7 +21,7 @@ taskkill /f /im nginx.exe
 
 3. nginx custom nginx.conf로 실행하는 명령어
 ```bash
-cd C:\nginx-1.28.0
+cd C:\workspace\nginx-1.28.0
 .\nginx.exe -c "C:\workspace\project\techie\back-end\nginx\nginx.conf"
 ```
 - PowerShell 기준
