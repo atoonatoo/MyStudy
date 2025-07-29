@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "테스트.md",
+                "file": "테스트 재시도.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "테스트"
+              "title": "테스트 재시도"
             }
           }
         ]
@@ -243,7 +243,8 @@
   },
   "active": "a93be7202a435be9",
   "lastOpenFiles": [
-    "테스트.md",
+    "테스트 재시도.md",
+    "테스트 재시도.md",
     "3 - Diretory/Nginx Prompt.md",
     "2 - Category/4 Prompt.md",
     "0 - Home/0 Home.md",
@@ -270,7 +271,6 @@
     "2 - Category/0 - New/Image/Pasted image 20250720191306.png",
     "2 - Category/0 - New/Image/Pasted image 20250720191057.png",
     "3 - Diretory/Filebeat.md",
-    "3 - Diretory/Elasticsearch.md",
     "2 - Category/0 - New/Image/filebeat.gif",
     "2 - Category/0 - New/Image/Pasted image 20250719161126.png",
     "2 - Category/0 - New/Image/Pasted image 20250719160223.png",
