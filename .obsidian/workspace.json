@@ -11,10 +11,24 @@
             "id": "60e50dae17ae97d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
           }
         ]
@@ -204,12 +218,17 @@
       "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "60e50dae17ae97d4",
   "lastOpenFiles": [
     "0 - Home/0 Home.md",
+    "2 - Category/4 Prompt.md",
+    "3 - Diretory/Nginx configration.md",
+    "3 - Diretory/Nginx Prompt.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "2 - Category/2 Learning.md",
     "3 - Diretory/GPT 질문 공략.md",
     "5 - 분류/7 - CS/1 plan/Gpt 사용법 및 노하우.md",
@@ -219,11 +238,8 @@
     "3 - Diretory/Conding Test - 문제 접근법.md",
     "5 - 분류/7 - CS/4 wait/Data Structure.md",
     "2 - Category/1 Quick note.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/정보처리기사.md",
     "3 - Diretory/Poawer Shell Prompt.md",
-    "2 - Category/4 Prompt.md",
-    "3 - Diretory/Nginx Prompt.md",
     "3 - Diretory/정보처리기사 - 데이터베이스.md",
     "3 - Diretory/정보처리기사 - 네트워크.md",
     "3 - Diretory/정보처리기사 - 자료구조.md",
@@ -236,7 +252,6 @@
     "3 - Diretory/Filebeat.md",
     "3 - Diretory/Elasticsearch.md",
     "3 - Diretory/Vector.md",
-    "3 - Diretory/정형, 비정형.md",
     "0 - New/Image/filebeat.gif",
     "0 - New/Image/Pasted image 20250719161126.png",
     "0 - New/Image/Pasted image 20250719160223.png",

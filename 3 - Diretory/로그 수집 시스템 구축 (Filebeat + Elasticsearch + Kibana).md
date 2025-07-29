@@ -57,7 +57,7 @@ created:
 ---nginx---------------------------------------------------------------------------------------
 
 cd C:\nginx-1.28.0
-.\nginx.exe -c "C:\Users\kkk96\workspace\2 project\team\techie\back-end\nginx\nginx.conf"
+.\nginx.exe -c "C:\workspace\project\techie\back-end\nginx\nginx.conf"
 
 ---filebeat------------------------------------------------------------------------------------
 
