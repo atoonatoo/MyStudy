@@ -45,12 +45,6 @@
 ---
 # Quick note
 
-
-- 자주 햇갈리는 개념
-	- FIFO
-	- DFS, BFS
-	- 
-
 - 클로바노트
 	- https://clovanote.naver.com/
 - 챗지피티 성능 올리기

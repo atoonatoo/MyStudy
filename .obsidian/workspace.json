@@ -4,55 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d03eadb56623c6b9",
+        "id": "6e40beb9ce30bbde",
         "type": "tabs",
         "children": [
           {
-            "id": "1e3c3a5269720b01",
+            "id": "60e50dae17ae97d4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0 - Home/0 Home.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "0 Home"
-            }
-          },
-          {
-            "id": "647877378fe0f2a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Category/1 Quick note.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "1 Quick note"
+              "title": "새 탭"
             }
           }
         ]
@@ -246,12 +208,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1e3c3a5269720b01",
+  "active": "60e50dae17ae97d4",
   "lastOpenFiles": [
-    "2 - Category/1 Quick note.md",
     "0 - Home/0 Home.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "2 - Category/2 Learning.md",
+    "3 - Diretory/GPT 질문 공략.md",
+    "5 - 분류/7 - CS/1 plan/Gpt 사용법 및 노하우.md",
+    "3 - Diretory/Jmeter 세팅 가이드.md",
+    "자주 햇갈리는 개념.md",
+    "3 - Diretory/Conding Test - 용어.md",
+    "3 - Diretory/Conding Test - 문제 접근법.md",
+    "5 - 분류/7 - CS/4 wait/Data Structure.md",
+    "2 - Category/1 Quick note.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/정보처리기사.md",
     "3 - Diretory/Poawer Shell Prompt.md",
     "2 - Category/4 Prompt.md",
@@ -269,18 +238,11 @@
     "3 - Diretory/Elasticsearch.md",
     "3 - Diretory/Vector.md",
     "3 - Diretory/정형, 비정형.md",
-    "3 - Diretory/Lucenu.md",
-    "3 - Diretory/분산 아키텍쳐.md",
-    "3 - Diretory/inverted index.md",
-    "3 - Diretory/filebeat module.md",
-    "3 - Diretory/tail.md",
     "0 - New/Image/filebeat.gif",
     "0 - New/Image/Pasted image 20250719161126.png",
-    "3 - Diretory/spooler.md",
     "0 - New/Image/Pasted image 20250719160223.png",
     "0 - New/Image/Pasted image 20250719160210.png",
     "0 - New/Image/Pasted image 20250719160209.png",
-    "3 - Diretory/libbeat.md",
     "0 - New/Image/Pasted image 20250714173234.png",
     "0 - New/Image/Pasted image 20250629224934.png",
     "0 - New/Image/Pasted image 20250713230650.png",

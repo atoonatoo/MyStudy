@@ -26,6 +26,7 @@ created:
 	
 - **Setup**
 	- [[Jmeter 세팅 가이드]]
+	- [[GPT 질문 공략]]
 	
 - **Guide**
 	- [[Findings]]
@@ -33,6 +34,7 @@ created:
 - **Development Log**
 	
 - **Learning**
+	- [[자주 햇갈리는 개념]]
 	- [[정보처리기사]]
 	- [[SQL Practice]]
 	- [[Recmmended Book]]
@@ -76,20 +78,7 @@ public class UserController {
 }
 ```
 
-
-
 ---
-
-
-
-
----
-
-#### coding-test  
-
-
-
-
 #### learning-loadmap
 
 - [[5 - 분류/7 - CS/4 wait/Data Structure]]
@@ -809,16 +798,4 @@ public class UserController {
 		8. **Linux에서 네트워크 설정 및 문제 해결을 위한 주요 명령어(ifconfig, ip, netstat, ping 등)에 대해 설명해 주세요.**
 		9. **Linux 시스템에서 로그 파일 관리의 기본 위치와 주요 로그 파일(예: /var/log/syslog, /var/log/messages 등)에 대해 설명해 주세요.**
 		10. **Linux 부팅 과정과 관련된 부트로더(예: GRUB) 및 init 시스템(systemd, init.d 등)의 역할에 대해 설명해 주세요.
-- **annotation-study-method**
-- **trouble-shooting**
-- **KnowHow**
-	- [[GPT 질문 공략]]
-- **Guide**
-	- [[Jmeter 세팅 가이드]]
-- **CodingTest**
-	- [[Conding Test - 용어]]
-	- [[Conding Test - 문제 접근법]]
-- ****
-- ****
-
 ---
