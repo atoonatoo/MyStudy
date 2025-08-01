@@ -68,6 +68,32 @@
   
 ---
 
+
+- 테스트 전
+```
+@Override  
+public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {  
+    String email = null;  
+    String password = null;  
+  
+    try {  
+        if ("application/json".equals(request.getContentType())) {  
+            UserRequest.Register loginRequest = objectMapper.readValue(request.getInputStream(), UserRequest.Register.class);  
+            email = loginRequest.getEmail();  
+            password = loginRequest.getPassword();  
+        } else {  
+            email = obtainUsername(request);  
+            password = obtainPassword(request);  
+        }  
+    } catch (Exception e) {  
+        e.printStackTrace();  
+    }  
+  
+    UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(email, password, null);  
+    return authenticationManager.authenticate(authToken);  
+}
+```
+
 - 트러블 슈팅
 	- 로드밸런싱 후 테스트하는데 서버에서 에러로그가 안뜬다?
 		- 단일 서버로는 에러로그가 뜨는지 확인해보자.
