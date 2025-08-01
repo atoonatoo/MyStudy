@@ -10,10 +10,36 @@
           {
             "id": "98b8b94eb2cbd8d3",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/2 Learning.md",
+                "file": "0 - Home/0 Home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "0 Home"
+            }
+          },
+          {
+            "id": "8c62bfd9b074722f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Category/3 Link.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +54,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2 Learning"
+              "title": "3 Link"
+            }
+          },
+          {
+            "id": "c8a9d2bd8680bcae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Category/4 Prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "4 Prompt"
+            }
+          },
+          {
+            "id": "b3a2e0c824af5244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/Nginx Prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Nginx Prompt"
             }
           },
           {
@@ -267,15 +341,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7d6a26cd17ece78a",
+  "active": "8c62bfd9b074722f",
   "lastOpenFiles": [
-    "2 - Category/2 Learning.md",
     "0 - Home/0 Home.md",
-    "테스트 재시도.md",
-    "테스트 재시도.md",
-    "3 - Diretory/Nginx Prompt.md",
     "2 - Category/4 Prompt.md",
+    "3 - Diretory/Nginx Prompt.md",
+    "2 - Category/2 Learning.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "테스트 재시도.md",
+    "테스트 재시도.md",
     "3 - Diretory/Nginx configration.md",
     "3 - Diretory/GPT 질문 공략.md",
     "5 - 분류/7 - CS/1 plan/Gpt 사용법 및 노하우.md",
