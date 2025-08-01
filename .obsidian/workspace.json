@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7146455e6e01f773",
+        "id": "4060ccb66edf5780",
         "type": "tabs",
         "children": [
           {
-            "id": "a93be7202a435be9",
+            "id": "98b8b94eb2cbd8d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "테스트 재시도.md",
+                "file": "2 - Category/2 Learning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "테스트 재시도"
+              "title": "2 Learning"
+            }
+          },
+          {
+            "id": "7d6a26cd17ece78a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -238,19 +263,20 @@
       "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "a93be7202a435be9",
+  "active": "7d6a26cd17ece78a",
   "lastOpenFiles": [
+    "2 - Category/2 Learning.md",
+    "0 - Home/0 Home.md",
     "테스트 재시도.md",
     "테스트 재시도.md",
     "3 - Diretory/Nginx Prompt.md",
     "2 - Category/4 Prompt.md",
-    "0 - Home/0 Home.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/Nginx configration.md",
-    "2 - Category/2 Learning.md",
     "3 - Diretory/GPT 질문 공략.md",
     "5 - 분류/7 - CS/1 plan/Gpt 사용법 및 노하우.md",
     "3 - Diretory/Jmeter 세팅 가이드.md",
