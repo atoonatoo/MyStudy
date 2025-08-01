@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "8c62bfd9b074722f",
+            "id": "301e7b395141e846",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,12 +58,12 @@
             }
           },
           {
-            "id": "c8a9d2bd8680bcae",
+            "id": "176cdd4c3a519642",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/4 Prompt.md",
+                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,35 +78,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4 Prompt"
+              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
           },
           {
-            "id": "b3a2e0c824af5244",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Diretory/Nginx Prompt.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nginx Prompt"
-            }
-          },
-          {
-            "id": "7d6a26cd17ece78a",
+            "id": "c7e412cc68b9a7ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -130,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -341,13 +317,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8c62bfd9b074722f",
+  "active": "176cdd4c3a519642",
   "lastOpenFiles": [
+    "2 - Category/3 Link.md",
     "0 - Home/0 Home.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "2 - Category/2 Learning.md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/Nginx Prompt.md",
-    "2 - Category/2 Learning.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "테스트 재시도.md",
     "테스트 재시도.md",
     "3 - Diretory/Nginx configration.md",
@@ -367,7 +344,6 @@
     "3 - Diretory/정보처리기사 - C.md",
     "3 - Diretory/정보처리기사 - Python.md",
     "3 - Diretory/Mentoring.md",
-    "2 - Category/3 Link.md",
     "2 - Category/0 - New/Image/Pasted image 20250720191306.png",
     "2 - Category/0 - New/Image/Pasted image 20250720191057.png",
     "3 - Diretory/Filebeat.md",
