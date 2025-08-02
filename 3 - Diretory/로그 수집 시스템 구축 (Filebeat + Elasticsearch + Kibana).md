@@ -200,6 +200,112 @@ elasticsearch.ssl.certificateAuthorities: [ "C:/workspace/elasticsearch-9.0.3/co
 elasticsearch.ssl.verificationMode: full
 ```
 
+---
+### 백업용 이전 코드
+
+- SecurityConfig (25/8/10)
+```
+package com.techie.backend.global.security;  
+  
+import jakarta.servlet.http.HttpServletRequest;  
+import lombok.RequiredArgsConstructor;  
+import org.springframework.context.annotation.Bean;  
+import org.springframework.context.annotation.Configuration;  
+import org.springframework.security.authentication.AuthenticationManager;  
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;  
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;  
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;  
+import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;  
+import org.springframework.security.config.http.SessionCreationPolicy;  
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;  
+import org.springframework.security.web.SecurityFilterChain;  
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;  
+import org.springframework.web.cors.CorsConfiguration;  
+import org.springframework.web.cors.CorsConfigurationSource;  
+  
+import java.util.Collections;  
+  
+@Configuration  
+@EnableWebSecurity  
+@RequiredArgsConstructor  
+public class SecurityConfig {  
+    private final AuthenticationConfiguration authenticationConfiguration;  
+    private final JWTUtil jwtUtil;  
+  
+    @Bean  
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception {  
+        return configuration.getAuthenticationManager();  
+    }  
+  
+    @Bean  
+    public BCryptPasswordEncoder passwordEncoder() {  
+        return new BCryptPasswordEncoder(10);  
+    }  
+  
+    @Bean  
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {  
+        http.csrf(AbstractHttpConfigurer::disable)  
+                .formLogin(AbstractHttpConfigurer::disable)  
+                .httpBasic(AbstractHttpConfigurer::disable)  
+                .authorizeHttpRequests(auth -> {  
+                    PathConfig.PERMIT_ALL_PATHS.forEach(path -> auth.requestMatchers(path).permitAll());  
+                    PathConfig.AUTHENTICATED_PATHS.forEach(path -> auth.requestMatchers(path).authenticated());  
+                    PathConfig.ADMIN_ONLY_PATHS.forEach(path -> auth.requestMatchers(path).hasRole("ADMIN"));  
+                    auth.anyRequest().permitAll();  
+                })  
+                .addFilterBefore(new JWTFilter(jwtUtil), LoginFilter.class)  
+                .addFilterAt(new LoginFilter(authenticationManager(authenticationConfiguration), jwtUtil), UsernamePasswordAuthenticationFilter.class)  
+                .sessionManagement((session) -> session  
+                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS));  
+        http  
+                .cors((corsCustomizer -> corsCustomizer.configurationSource(new CorsConfigurationSource() {  
+  
+                    @Override  
+                    public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {  
+  
+                        CorsConfiguration configuration = new CorsConfiguration();  
+  
+                        configuration.setAllowedOrigins(Collections.singletonList("http://localhost:3000"));  
+                        configuration.setAllowedMethods(Collections.singletonList("*"));  
+                        configuration.setAllowCredentials(true);  
+                        configuration.setAllowedHeaders(Collections.singletonList("*"));  
+                        configuration.setMaxAge(3600L);  
+                        configuration.setExposedHeaders(Collections.singletonList("Authorization"));  
+  
+                        return configuration;  
+                    }  
+                })));  
+  
+        return http.build();  
+    }  
+}
+```
+- LoginFilter ((25/8/10))
+```
+@Override  
+public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {  
+    String email = null;  
+    String password = null;  
+  
+    try {  
+        if ("application/json".equals(request.getContentType())) {  
+            UserRequest.Register loginRequest = objectMapper.readValue(request.getInputStream(), UserRequest.Register.class);  
+            email = loginRequest.getEmail();  
+            password = loginRequest.getPassword();  
+        } else {  
+            email = obtainUsername(request);  
+            password = obtainPassword(request);  
+        }  
+    } catch (Exception e) {  
+        e.printStackTrace();  
+    }  
+  
+    UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(email, password, null);  
+    return authenticationManager.authenticate(authToken);  
+}
+```
+
+---
 
 
 ---
