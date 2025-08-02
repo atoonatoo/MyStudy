@@ -34,6 +34,54 @@
             }
           },
           {
+            "id": "58b2fa4a382e7495",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BackUp Code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "BackUp Code"
+            }
+          },
+          {
+            "id": "27aa7efc5343e2c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/Poawer Shell Prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Poawer Shell Prompt"
+            }
+          },
+          {
             "id": "346b4c9468133308",
             "type": "leaf",
             "state": {
@@ -63,7 +111,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/2 Learning.md",
+                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,7 +126,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2 Learning"
+              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
           },
           {
@@ -106,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -318,16 +366,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "346b4c9468133308",
+  "active": "6ddc3de822959a43",
   "lastOpenFiles": [
-    "0 - Home/0 Home.md",
+    "BackUp Code.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "2 - Category/2 Learning.md",
-    "3 - Diretory/정보처리기사.md",
+    "0 - Home/0 Home.md",
     "3 - Diretory/Poawer Shell Prompt.md",
     "2 - Category/4 Prompt.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
-    "3 - Diretory/Nginx Prompt.md",
     "2 - Category/3 Link.md",
+    "3 - Diretory/정보처리기사.md",
+    "3 - Diretory/Nginx Prompt.md",
     "테스트 재시도.md",
     "테스트 재시도.md",
     "3 - Diretory/Nginx configration.md",
@@ -347,7 +396,6 @@
     "3 - Diretory/Mentoring.md",
     "2 - Category/0 - New/Image/Pasted image 20250720191306.png",
     "2 - Category/0 - New/Image/Pasted image 20250720191057.png",
-    "3 - Diretory/Filebeat.md",
     "2 - Category/0 - New/Image/filebeat.gif",
     "2 - Category/0 - New/Image/Pasted image 20250719161126.png",
     "2 - Category/0 - New/Image/Pasted image 20250719160223.png",

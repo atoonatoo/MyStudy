@@ -70,5 +70,12 @@ Start-Process -NoNewWindow `
   -ArgumentList '-e -c filebeat.yml'
 ```
 
+- Mete data 있는지 확인하는 방법
+```
+cd C:\workspace\project\techie\back-end
+.\gradlew bootJar
+jar tf build\libs\backend-0.0.1-SNAPSHOT.jar | Select-String "META-INF/services"
+```
+
 
 ---
