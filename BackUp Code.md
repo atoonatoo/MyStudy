@@ -87,26 +87,112 @@ public class SecurityConfig {
 ```
 - LoginFilter ((25/8/10))
 ```
-@Override  
-public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {  
-    String email = null;  
-    String password = null;  
+package com.techie.backend.global.security;  
   
-    try {  
-        if ("application/json".equals(request.getContentType())) {  
-            UserRequest.Register loginRequest = objectMapper.readValue(request.getInputStream(), UserRequest.Register.class);  
-            email = loginRequest.getEmail();  
-            password = loginRequest.getPassword();  
-        } else {  
-            email = obtainUsername(request);  
-            password = obtainPassword(request);  
+import com.fasterxml.jackson.databind.ObjectMapper;  
+import com.techie.backend.user.dto.UserRequest;  
+import jakarta.servlet.FilterChain;  
+import jakarta.servlet.http.HttpServletRequest;  
+import jakarta.servlet.http.HttpServletResponse;  
+import lombok.RequiredArgsConstructor;  
+import org.springframework.security.authentication.*;  
+import org.springframework.security.core.Authentication;  
+import org.springframework.security.core.AuthenticationException;  
+import org.springframework.security.core.GrantedAuthority;  
+import org.springframework.security.core.userdetails.UsernameNotFoundException;  
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;  
+import org.slf4j.Logger;  
+import org.slf4j.LoggerFactory;  
+  
+import java.util.Collection;  
+import java.util.Iterator;  
+import java.util.concurrent.atomic.AtomicInteger;  
+  
+@RequiredArgsConstructor  
+public class LoginFilter extends UsernamePasswordAuthenticationFilter {  
+    private final AuthenticationManager authenticationManager;  
+    private final JWTUtil jwtUtil;  
+    private final ObjectMapper objectMapper = new ObjectMapper();  
+    private static final Logger log = LoggerFactory.getLogger(LoginFilter.class);  
+  
+  
+    @Override  
+    public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {  
+        String email = null;  
+        String password = null;  
+  
+        try {  
+            String contentType = request.getContentType();  
+  
+            if (contentType != null && contentType.startsWith("application/json")) {  
+                UserRequest.Register loginRequest = objectMapper.readValue(request.getInputStream(), UserRequest.Register.class);  
+                email = loginRequest.getEmail();  
+                password = loginRequest.getPassword();  
+            } else {  
+                email = obtainUsername(request);  
+                password = obtainPassword(request);  
+            }  
+  
+            if (email == null || password == null) {  
+                log.warn("❌ 로그인 시도 실패: email 또는 password가 null입니다.");  
+                throw new BadCredentialsException("이메일 또는 비밀번호가 누락되었습니다.");  
+            }  
+  
+        } catch (Exception e) {  
+            log.error("❌ 로그인 요청 파싱 중 오류 발생", e);  
+            throw new AuthenticationServiceException("요청 파싱 실패", e);  
         }  
-    } catch (Exception e) {  
-        e.printStackTrace();  
+  
+        UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(email, password, null);  
+        return authenticationManager.authenticate(authToken);  
     }  
   
-    UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(email, password, null);  
-    return authenticationManager.authenticate(authToken);  
+  
+    @Override  
+    protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authentication) {  
+        UserDetailsCustom userDetailsCustom = (UserDetailsCustom) authentication.getPrincipal();  
+  
+        String email = userDetailsCustom.getUsername();  
+        Collection<? extends GrantedAuthority> authorities = authentication.getAuthorities();  
+        Iterator<? extends GrantedAuthority> iterator = authorities.iterator();  
+        GrantedAuthority auth = iterator.next();  
+        String role = auth.getAuthority();  
+        String nickname = userDetailsCustom.getNickname();  
+        String token = jwtUtil.createJwt(email, role, nickname, 3 * 60 * 60 * 1000L);  
+  
+//        log.info("✅ 로그인 성공: {}", email);  
+  
+        response.addHeader("Authorization", "Bearer " + token);  
+    }  
+  
+    @Override  
+    protected void unsuccessfulAuthentication(HttpServletRequest request,  
+                                              HttpServletResponse response,  
+                                              AuthenticationException failed) {  
+        response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);  
+        response.setContentType("application/json");  
+        response.setCharacterEncoding("UTF-8");  
+  
+  
+        String errorMessage = "이메일 또는 비밀번호가 올바르지 않거나, 필수 입력란이 비어 있습니다.";  
+  
+        if (failed instanceof BadCredentialsException) {  
+            errorMessage = "비밀번호가 일치하지 않습니다.";  
+        } else if (failed instanceof UsernameNotFoundException) {  
+            errorMessage = "존재하지 않는 이메일입니다.";  
+        } else if (failed instanceof DisabledException) {  
+            errorMessage = "비활성화된 계정입니다.";  
+        } else if (failed instanceof LockedException) {  
+            errorMessage = "잠긴 계정입니다.";  
+        } else if (failed instanceof CredentialsExpiredException) {  
+            errorMessage = "비밀번호 유효기간이 만료되었습니다.";  
+        } else if (failed instanceof AuthenticationServiceException) {  
+            errorMessage = failed.getMessage();  
+        }  
+        log.info("✅ 로그인 실패: {}", errorMessage);  
+        log.error("❌ 로그인 실패 예외 발생", failed); // 스택트레이스 강제 출력  
+  
+    }  
 }
 ```
 

@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -276,13 +276,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0 - New/프로젝트 개선 사항 시나리오.md",
+                "file": "BackUp Code.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "프로젝트 개선 사항 시나리오 의 개요"
+              "title": "BackUp Code 의 개요"
             }
           },
           {
@@ -338,8 +338,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화돼있지 않음"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -366,16 +366,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6ddc3de822959a43",
+  "active": "58b2fa4a382e7495",
   "lastOpenFiles": [
-    "BackUp Code.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "3 - Diretory/정보처리기사.md",
+    "BackUp Code.md",
+    "3 - Diretory/Poawer Shell Prompt.md",
+    "2 - Category/3 Link.md",
     "2 - Category/2 Learning.md",
     "0 - Home/0 Home.md",
-    "3 - Diretory/Poawer Shell Prompt.md",
     "2 - Category/4 Prompt.md",
-    "2 - Category/3 Link.md",
-    "3 - Diretory/정보처리기사.md",
     "3 - Diretory/Nginx Prompt.md",
     "테스트 재시도.md",
     "테스트 재시도.md",
