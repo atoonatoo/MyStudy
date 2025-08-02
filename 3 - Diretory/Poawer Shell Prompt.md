@@ -48,5 +48,27 @@ Test-Path "C:\workspace\kibana-9.0.3\bin\kibana.bat"
 Test-Path "C:\workspace\filebeat\filebeat.exe"
 ```
 
+- 자동화 start 명령어
+```
+cd C:\workspace
+.\start-techie.ps1
+```
+
+- 스크립트 자동화 구축 설정 방법
+```
+# 1. elasticsearch
+Start-Process -NoNewWindow `
+  -FilePath "C:\workspace\elasticsearch-9.0.3\bin\elasticsearch.bat"
+
+# 2. kibana
+Start-Process -NoNewWindow `
+  -FilePath "C:\workspace\kibana-9.0.3\bin\kibana.bat"
+
+# 3. filebeat
+Start-Process -NoNewWindow `
+  -FilePath "C:\workspace\filebeat\filebeat.exe" `
+  -ArgumentList '-e -c filebeat.yml'
+```
+
 
 ---

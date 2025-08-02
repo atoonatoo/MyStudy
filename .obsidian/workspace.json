@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "dec89bb7bd1de0d6",
+            "id": "528d3b4e0d8f992e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,54 +55,6 @@
               },
               "icon": "lucide-file",
               "title": "Poawer Shell Prompt"
-            }
-          },
-          {
-            "id": "301e7b395141e846",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Category/3 Link.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3 Link"
-            }
-          },
-          {
-            "id": "176cdd4c3a519642",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
           },
           {
@@ -129,8 +81,7 @@
               "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -341,15 +292,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "176cdd4c3a519642",
+  "active": "98b8b94eb2cbd8d3",
   "lastOpenFiles": [
     "3 - Diretory/Poawer Shell Prompt.md",
-    "2 - Category/4 Prompt.md",
-    "0 - Home/0 Home.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "2 - Category/4 Prompt.md",
+    "3 - Diretory/Nginx Prompt.md",
+    "0 - Home/0 Home.md",
     "2 - Category/3 Link.md",
     "2 - Category/2 Learning.md",
-    "3 - Diretory/Nginx Prompt.md",
     "테스트 재시도.md",
     "테스트 재시도.md",
     "3 - Diretory/Nginx configration.md",
