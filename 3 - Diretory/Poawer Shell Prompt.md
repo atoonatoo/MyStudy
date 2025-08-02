@@ -38,4 +38,15 @@ https://localhost:9200
 ```
 cd C:\workspace\kibana-9.0.3\bin
 .\kibana.bat
+```
+
+- 경로 점검 방법
+```
+Test-Path "C:\nginx-1.28.0\nginx.exe"
+Test-Path "C:\workspace\elasticsearch-9.0.3\bin\elasticsearch.bat"
+Test-Path "C:\workspace\kibana-9.0.3\bin\kibana.bat"
+Test-Path "C:\workspace\filebeat\filebeat.exe"
+```
+
+
 ---
