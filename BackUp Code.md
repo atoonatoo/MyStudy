@@ -13,7 +13,10 @@ created:
 package com.techie.backend.global.security;  
   
 import jakarta.servlet.http.HttpServletRequest;  
+import jakarta.servlet.http.HttpServletResponse;  
 import lombok.RequiredArgsConstructor;  
+import org.slf4j.Logger;  
+import org.slf4j.LoggerFactory;  
 import org.springframework.context.annotation.Bean;  
 import org.springframework.context.annotation.Configuration;  
 import org.springframework.security.authentication.AuthenticationManager;  
@@ -34,8 +37,11 @@ import java.util.Collections;
 @EnableWebSecurity  
 @RequiredArgsConstructor  
 public class SecurityConfig {  
+  
     private final AuthenticationConfiguration authenticationConfiguration;  
     private final JWTUtil jwtUtil;  
+    private static final Logger log = LoggerFactory.getLogger(LoginFilter.class);  
+  
   
     @Bean  
     public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception {  
@@ -49,6 +55,20 @@ public class SecurityConfig {
   
     @Bean  
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {  
+        AuthenticationManager authManager = authenticationManager(authenticationConfiguration);  
+  
+        LoginFilter loginFilter = new LoginFilter(authManager, jwtUtil);  
+        loginFilter.setFilterProcessesUrl("/login");  
+  
+        loginFilter.setAuthenticationFailureHandler((request, response, exception) -> {  
+            log.error("❌ 커스텀 실패 핸들러 작동: {}", exception.getMessage(), exception);  
+            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);  
+            response.setContentType("application/json");  
+            response.setCharacterEncoding("UTF-8");  
+            response.getWriter().write("{\"error\": \"" + exception.getMessage() + "\"}");  
+        });  
+  
+  
         http.csrf(AbstractHttpConfigurer::disable)  
                 .formLogin(AbstractHttpConfigurer::disable)  
                 .httpBasic(AbstractHttpConfigurer::disable)  
@@ -58,28 +78,23 @@ public class SecurityConfig {
                     PathConfig.ADMIN_ONLY_PATHS.forEach(path -> auth.requestMatchers(path).hasRole("ADMIN"));  
                     auth.anyRequest().permitAll();  
                 })  
-                .addFilterBefore(new JWTFilter(jwtUtil), LoginFilter.class)  
-                .addFilterAt(new LoginFilter(authenticationManager(authenticationConfiguration), jwtUtil), UsernamePasswordAuthenticationFilter.class)  
-                .sessionManagement((session) -> session  
-                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS));  
-        http  
-                .cors((corsCustomizer -> corsCustomizer.configurationSource(new CorsConfigurationSource() {  
+                .addFilterBefore(new JWTFilter(jwtUtil), LoginFilter.class) // JWTFilter 먼저  
+                .addFilterAt(loginFilter, UsernamePasswordAuthenticationFilter.class) // LoginFilter 등록  
+                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));  
   
-                    @Override  
-                    public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {  
-  
-                        CorsConfiguration configuration = new CorsConfiguration();  
-  
-                        configuration.setAllowedOrigins(Collections.singletonList("http://localhost:3000"));  
-                        configuration.setAllowedMethods(Collections.singletonList("*"));  
-                        configuration.setAllowCredentials(true);  
-                        configuration.setAllowedHeaders(Collections.singletonList("*"));  
-                        configuration.setMaxAge(3600L);  
-                        configuration.setExposedHeaders(Collections.singletonList("Authorization"));  
-  
-                        return configuration;  
-                    }  
-                })));  
+        http.cors(corsCustomizer -> corsCustomizer.configurationSource(new CorsConfigurationSource() {  
+            @Override  
+            public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {  
+                CorsConfiguration configuration = new CorsConfiguration();  
+                configuration.setAllowedOrigins(Collections.singletonList("http://localhost:3000"));  
+                configuration.setAllowedMethods(Collections.singletonList("*"));  
+                configuration.setAllowCredentials(true);  
+                configuration.setAllowedHeaders(Collections.singletonList("*"));  
+                configuration.setMaxAge(3600L);  
+                configuration.setExposedHeaders(Collections.singletonList("Authorization"));  
+                return configuration;  
+            }  
+        }));  
   
         return http.build();  
     }  
