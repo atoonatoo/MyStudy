@@ -9,6 +9,138 @@ created:
 ### 백업용 이전 코드
 
 ---
+- JWTUtil
+```
+package com.techie.backend.global.security;  
+  
+import io.jsonwebtoken.Jwts;  
+import org.springframework.beans.factory.annotation.Value;  
+import org.springframework.stereotype.Component;  
+  
+import javax.crypto.SecretKey;  
+import javax.crypto.spec.SecretKeySpec;  
+import java.nio.charset.StandardCharsets;  
+import java.util.Date;  
+  
+@Component  
+public class JWTUtil {  
+  
+    private final SecretKey secretKey;  
+  
+    public JWTUtil(@Value("${spring.security.jwt.secret}") String secret) {  
+        this.secretKey = new SecretKeySpec(secret.getBytes(StandardCharsets.UTF_8), Jwts.SIG.HS256.key().build().getAlgorithm());  
+    }  
+  
+    public String getEmail(String token) {  
+        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token).getPayload().get("email", String.class);  
+    }  
+  
+    public String getRole(String token) {  
+        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token).getPayload().get("role", String.class);  
+    }  
+  
+    public String getNickname(String token) {  
+        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token).getPayload().get("nickname", String.class);  
+    }  
+  
+    public Boolean isExpired(String token) {  
+        return Jwts.parser().verifyWith(secretKey).build().parseSignedClaims(token).getPayload().getExpiration().before(new Date());  
+    }  
+  
+    public String createJwt(String email, String role, String nickname, Long expiredMs) {  
+        return Jwts.builder()  
+                .claim("email", email)  
+                .claim("role", role)  
+                .claim("nickname", nickname)  
+                .issuedAt(new Date(System.currentTimeMillis()))  
+                .expiration(new Date(System.currentTimeMillis() + expiredMs))  
+                .signWith(secretKey)  
+                .compact();  
+    }  
+}
+```
+---
+- JWTFilter
+```
+package com.techie.backend.global.security;  
+  
+import com.techie.backend.user.domain.User;  
+import jakarta.servlet.FilterChain;  
+import jakarta.servlet.ServletException;  
+import jakarta.servlet.http.HttpServletRequest;  
+import jakarta.servlet.http.HttpServletResponse;  
+import lombok.RequiredArgsConstructor;  
+import org.slf4j.Logger;  
+import org.slf4j.LoggerFactory;  
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;  
+import org.springframework.security.core.Authentication;  
+import org.springframework.security.core.context.SecurityContextHolder;  
+import org.springframework.web.filter.OncePerRequestFilter;  
+  
+import java.io.IOException;  
+  
+@RequiredArgsConstructor  
+public class JWTFilter extends OncePerRequestFilter {  
+    private final JWTUtil jwtUtil;  
+    private static final Logger log = LoggerFactory.getLogger(LoginFilter.class);  
+  
+  
+    @Override  
+    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)  
+            throws ServletException, IOException {  
+  
+        String authorization = request.getHeader("Authorization");  
+        String path = request.getRequestURI();  
+  
+        if ("/login".equals(path)) {  
+            filterChain.doFilter(request, response);  
+            return;  
+        }  
+  
+        if (authorization == null || !authorization.startsWith("Bearer ")) {  
+            filterChain.doFilter(request, response);  
+            return;  
+        }  
+  
+        String token = authorization.substring(7);  
+  
+        if (!token.contains(".") || token.chars().filter(ch -> ch == '.').count() != 2) {  
+            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);  
+            return;  
+        }  
+  
+        try {  
+            if (jwtUtil.isExpired(token)) {  
+                response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);  
+                return;  
+            }  
+  
+            String email = jwtUtil.getEmail(token);  
+            String role = jwtUtil.getRole(token);  
+            String nickname = jwtUtil.getNickname(token);  
+  
+            User user = User.builder()  
+                    .email(email)  
+                    .password("tempPassword")  
+                    .nickname(nickname)  
+                    .role(role)  
+                    .build();  
+  
+            UserDetailsCustom userDetailsCustom = new UserDetailsCustom(user);  
+            Authentication authToken = new UsernamePasswordAuthenticationToken(  
+                    userDetailsCustom, null, userDetailsCustom.getAuthorities());  
+            SecurityContextHolder.getContext().setAuthentication(authToken);  
+  
+        } catch (Exception e) {  
+            log.error("❌ JWTFilter 처리 중 예외 발생", e); // 스택트레이스 로그 출력  
+            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);  
+            return;  
+        }  
+  
+        filterChain.doFilter(request, response);  
+    }  
+}
+```
 
 ---
 - UserDetailsServiceCustom
