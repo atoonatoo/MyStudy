@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "27aa7efc5343e2c8",
+            "id": "372803d82d544527",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -82,12 +82,12 @@
             }
           },
           {
-            "id": "346b4c9468133308",
+            "id": "27aa7efc5343e2c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/3 Link.md",
+                "file": "3 - Diretory/Nginx Prompt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -102,7 +102,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3 Link"
+              "title": "Nginx Prompt"
             }
           },
           {
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -276,13 +276,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BackUp Code.md",
+                "file": "3 - Diretory/Poawer Shell Prompt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "BackUp Code 의 개요"
+              "title": "Poawer Shell Prompt 의 개요"
             }
           },
           {
@@ -366,17 +366,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "58b2fa4a382e7495",
+  "active": "372803d82d544527",
   "lastOpenFiles": [
+    "2 - Category/4 Prompt.md",
+    "0 - Home/0 Home.md",
+    "3 - Diretory/Nginx Prompt.md",
+    "2 - Category/3 Link.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
-    "3 - Diretory/정보처리기사.md",
     "BackUp Code.md",
     "3 - Diretory/Poawer Shell Prompt.md",
-    "2 - Category/3 Link.md",
+    "3 - Diretory/정보처리기사.md",
     "2 - Category/2 Learning.md",
-    "0 - Home/0 Home.md",
-    "2 - Category/4 Prompt.md",
-    "3 - Diretory/Nginx Prompt.md",
     "테스트 재시도.md",
     "테스트 재시도.md",
     "3 - Diretory/Nginx configration.md",
