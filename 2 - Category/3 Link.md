@@ -42,6 +42,12 @@ created:
 	- [예시로 살펴보는 IntelliJ 프로파일링 결과 분석 및 성능 최적화 방법](http://mangkyu.tistory.com/342)
 	- [실제 이력서](file:///C:/Users/kkk96/OneDrive/%EB%AC%B8%EC%84%9C/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1%20%EB%B0%9B%EC%9D%80%20%ED%8C%8C%EC%9D%BC/%EC%9D%B4%EB%A0%A5%EC%84%9C3%20(2).pdf)
 	- [GPT 에이전트 출시](https://www.aitimes.kr/news/articleView.html?idxno=35727)
+	- [Kibana 사용법 1](https://12bme.tistory.com/486)
+	- [Kibana 사용법 2](https://velog.io/@dm911/Kibana-%EA%B8%B0%EB%B3%B8-%EC%82%AC%EC%9A%A9-%EB%B0%8F-%EA%B0%9C%EB%85%90)
+	- [Kibana 사용법 3](https://devocean.sk.com/blog/techBoardDetail.do?ID=165161)
+	- [Kibana 사용법 4](https://findmypiece.tistory.com/205)
+	- [Kibana 사용법 | 공식홈페이지](https://www.elastic.co/kr/blog/getting-started-with-canvas-in-kibana)
+	- 
 
 
 - [대용량 데이터베이스의 조회 성능을 개선해보자 (1) : 인덱스 적용](https://velog.io/@sckwon770/%EB%8C%80%EB%9F%89%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%A0%81%EC%9E%AC%EB%90%9C-%ED%85%8C%EC%9D%B4%EB%B8%94%EC%97%90-%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A5%BC-%EC%A0%81%EC%9A%A9%ED%95%B4-%EC%B5%9C%EC%A0%81%ED%99%94%ED%95%B4%EB%B3%B4%EC%9E%90)

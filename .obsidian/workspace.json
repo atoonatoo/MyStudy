@@ -34,6 +34,30 @@
             }
           },
           {
+            "id": "346b4c9468133308",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Category/3 Link.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3 Link"
+            }
+          },
+          {
             "id": "9f6e8fb999dd0990",
             "type": "leaf",
             "state": {
@@ -82,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -294,10 +318,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6ddc3de822959a43",
+  "active": "346b4c9468133308",
   "lastOpenFiles": [
-    "2 - Category/2 Learning.md",
     "0 - Home/0 Home.md",
+    "2 - Category/2 Learning.md",
+    "3 - Diretory/정보처리기사.md",
     "3 - Diretory/Poawer Shell Prompt.md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
@@ -314,7 +339,6 @@
     "3 - Diretory/Conding Test - 문제 접근법.md",
     "5 - 분류/7 - CS/4 wait/Data Structure.md",
     "2 - Category/1 Quick note.md",
-    "3 - Diretory/정보처리기사.md",
     "3 - Diretory/정보처리기사 - 데이터베이스.md",
     "3 - Diretory/정보처리기사 - 네트워크.md",
     "3 - Diretory/정보처리기사 - 자료구조.md",
