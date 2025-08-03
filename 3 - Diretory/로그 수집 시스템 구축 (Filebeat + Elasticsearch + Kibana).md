@@ -182,6 +182,9 @@ upstream: "http://127.0.0.1:8081/login"
 	- Nginx proxy_read_timeout 5~10초로 낮추기
 		- 문제 구간 빨리 포착 가능
 	- 대기 큐 만들어서 문제해결해보기
+- Nginx의 Error 로그 분석하기
+- Nginx의 유의미한 원인을 못찾으면 k6로 바꿔보기
+
 ---
 
 ### 참고
