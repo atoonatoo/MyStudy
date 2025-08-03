@@ -150,7 +150,17 @@ elasticsearch.ssl.verificationMode: full
 ```
 
 ---
+### 타임라인 8/3
 
+- Nginx upstream timeout → `8081` 포트에서 응답 없음
+```
+upstream timed out (10060: A connection attempt failed...) 
+while reading response header from upstream,
+client: 127.0.0.1,
+request: "POST /login",
+upstream: "http://127.0.0.1:8081/login"
+```
+- `JMeter가 보낸 /login 요청이 Nginx를 통해 8081번 백엔드로 전달되었는데 백엔드 서버(8081)가 응답을 주지 않아 타임아웃 발생함.`
 
 ---
 
