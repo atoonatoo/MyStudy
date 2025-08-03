@@ -86,6 +86,12 @@ message
 cd C:\workspace
 .\start-techie.ps1
 ```
+
+- kibana에서 nginx 에러로그 KQL 찍어보기
+```
+log_type : "nginx-error"
+```
+
 ---
 ### 코드
 - filebeat
@@ -161,7 +167,21 @@ request: "POST /login",
 upstream: "http://127.0.0.1:8081/login"
 ```
 - `JMeter가 보낸 /login 요청이 Nginx를 통해 8081번 백엔드로 전달되었는데 백엔드 서버(8081)가 응답을 주지 않아 타임아웃 발생함.`
+- 포스트맨 단일 로그인 요청을 해본 결과 `532ms(0.5초)`로 빠른 응답시간이 확인
+- nginx를 통해 로드밸런싱으로 로그인 대량 요청을 할 때 앞의 서버들이 처리하는데 위의 요청들이 대기하다가 결국 죽어버리는 것으로 추측
 
+- 이후 진행해볼 테스트는
+	- Spring에 `OncePerRequestFilter`로 모든 요청 로그 찍기
+		- 성공/실패 막론하고 진입 시점 기록
+	- 로그인 메서드에 진입-종료 로그 추가
+		- 어느 단계에서 멈췄는지 추적
+	- Hikari 커넥션 상태 모니터링
+		- HikariPool-1 - Timeout after ... 로그 확인
+	- GC 로그 활성화
+		- -Xlog:gc*
+	- Nginx proxy_read_timeout 5~10초로 낮추기
+		- 문제 구간 빨리 포착 가능
+	- 대기 큐 만들어서 문제해결해보기
 ---
 
 ### 참고

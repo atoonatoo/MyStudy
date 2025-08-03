@@ -10,6 +10,7 @@ created:
 	- [[Book Study]]
 	  
 - **Project**
+	- [[BackUp Code]]
 	- [[Project Idea]]
 	- [[대량의 외부 API를 호출하면 무슨 일이 벌어지는가]]
 	- [[대용량 데이터 + 스파이크성 트래픽 개선 (2)]]

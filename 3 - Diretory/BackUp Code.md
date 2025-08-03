@@ -7,6 +7,13 @@ created:
 ---
 
 ### 백업용 이전 코드
+
+###### Jmeter HTTP Header Manager
+```
+Content-Type / application/json
+Accept / application/json
+```
+
 ###### Nginx.conf(Custom)
 
 ```

@@ -34,6 +34,30 @@
             }
           },
           {
+            "id": "187d743057ecb75e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/BackUp Code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "BackUp Code"
+            }
+          },
+          {
             "id": "9f6e8fb999dd0990",
             "type": "leaf",
             "state": {
@@ -58,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -272,15 +295,15 @@
   },
   "active": "9f6e8fb999dd0990",
   "lastOpenFiles": [
-    "3 - Diretory/Poawer Shell Prompt.md",
-    "2 - Category/4 Prompt.md",
     "0 - Home/0 Home.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "3 - Diretory/BackUp Code.md",
+    "2 - Category/2 Learning.md",
+    "2 - Category/4 Prompt.md",
+    "3 - Diretory/Poawer Shell Prompt.md",
     "3 - Diretory/Nginx Prompt.md",
     "2 - Category/3 Link.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
-    "BackUp Code.md",
     "3 - Diretory/정보처리기사.md",
-    "2 - Category/2 Learning.md",
     "테스트 재시도.md",
     "테스트 재시도.md",
     "3 - Diretory/Nginx configration.md",
