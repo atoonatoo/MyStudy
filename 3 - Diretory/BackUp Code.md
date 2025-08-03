@@ -17,13 +17,20 @@ Accept / application/json
 ###### Nginx.conf(Custom)
 
 ```
-worker_processes auto;  
-  
-events {  
-    worker_connections 1024;  
-}  
-  
-http {  
+worker_processes auto;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    log_format main '$remote_addr - $remote_user [$time_local] "$request" '
+                    '$status $body_bytes_sent "$http_referer" '
+                    '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  logs/access.log  main;
+    error_log   logs/error.log  warn;
+
     upstream backend {
         least_conn;
         server localhost:8080;
@@ -34,20 +41,20 @@ http {
         server localhost:8085;
         server localhost:8086;
         server localhost:8087;
-    }  
-  
- server {  
-        listen 80;  
-        server_name localhost;  
-  
-        location / {  
-            proxy_pass http://backend;  
-            proxy_set_header Host $host;  
-            proxy_set_header X-Real-IP $remote_addr;  
-            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;  
-            proxy_set_header X-Forwarded-Proto $scheme;  
-        }  
-    }  
+    }
+
+    server {
+        listen 80;
+        server_name localhost;
+
+        location / {
+            proxy_pass http://backend;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+        }
+    }
 }
 ```
 

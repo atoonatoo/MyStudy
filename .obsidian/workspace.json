@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,13 +203,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "file": "3 - Diretory/BackUp Code.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana) 의 개요"
+              "title": "BackUp Code 의 개요"
             }
           },
           {
@@ -293,10 +293,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9f6e8fb999dd0990",
+  "active": "187d743057ecb75e",
   "lastOpenFiles": [
-    "0 - Home/0 Home.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "0 - Home/0 Home.md",
     "3 - Diretory/BackUp Code.md",
     "2 - Category/2 Learning.md",
     "2 - Category/4 Prompt.md",
