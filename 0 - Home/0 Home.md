@@ -41,6 +41,9 @@
 	- 레이저 제모
 	- 자전거 자물쇠
 	- 현백 상품권
+	- elasticsearch enter를 해야하는 이유?
+	- filebeat가 자동화 에러가 뜬 이유 찾기
+	- 
 
 ---
 # Quick note
@@ -69,7 +72,8 @@
 ---
 
 
-
+- [[Nginx] proxy 사용 시 upstream timed out (110: Connection timed out) while reading response header](https://passwd.tistory.com/entry/Nginx-proxy-%EC%82%AC%EC%9A%A9-%EC%8B%9C-upstream-timed-out-110-Connection-timed-out-while-reading-response-header-from-upstream)
+- [[Nginx] Nginx의 5가지 주요 기능에 대해서 알아보자](https://wonit.tistory.com/336)
 
 - 트러블 슈팅
 	- 로드밸런싱 후 테스트하는데 서버에서 에러로그가 안뜬다?
