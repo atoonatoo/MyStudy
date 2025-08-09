@@ -189,6 +189,9 @@ upstream: "http://127.0.0.1:8081/login"
 - gpt 요청
     - **로그인 요청 쿼리 실행 계획 분석 방법**하고, 지금처럼 p95가 긴 원인별 조치 우선순위표를 만들어줄 수 있어.
 - 
+git fetch origin
+git checkout backend/refact/login_lazy
+
 
 ---
 
