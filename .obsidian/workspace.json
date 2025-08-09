@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "22f604dec25f8c32",
+            "id": "8e23c6ea9e60b83a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/2 Learning.md",
+                "file": "2 - Category/3 Link.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,16 +54,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2 Learning"
+              "title": "3 Link"
             }
           },
           {
-            "id": "1c4e25038dbd85be",
+            "id": "565534809f3603df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/정보처리기사.md",
+                "file": "3 - Diretory/Conding Test - 문제 접근법.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,11 +78,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "정보처리기사"
+              "title": "Conding Test - 문제 접근법"
+            }
+          },
+          {
+            "id": "5f06c8cc2ae4d490",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/GPT 질문 공략.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GPT 질문 공략"
+            }
+          },
+          {
+            "id": "5e165c669daa6acb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
+            }
+          },
+          {
+            "id": "6d163ac9db921102",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Category/3 Link.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3 Link"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Diretory/정보처리기사.md",
+                "file": "2 - Category/3 Link.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "정보처리기사 의 개요"
+              "title": "3 Link 의 개요"
             }
           },
           {
@@ -293,27 +365,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1c4e25038dbd85be",
+  "active": "8e23c6ea9e60b83a",
   "lastOpenFiles": [
+    "3 - Diretory/Conding Test - 문제 접근법.md",
+    "2 - Category/3 Link.md",
     "2 - Category/2 Learning.md",
-    "3 - Diretory/정보처리기사.md",
     "0 - Home/0 Home.md",
+    "3 - Diretory/GPT 질문 공략.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "3 - Diretory/정보처리기사.md",
     "5 - 분류/7 - CS/4 wait/Trouble Shooting.md",
     "3 - Diretory/BackUp Code.md",
     "3 - Diretory/Nginx Prompt.md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/Poawer Shell Prompt.md",
-    "2 - Category/3 Link.md",
     "테스트 재시도.md",
     "테스트 재시도.md",
     "3 - Diretory/Nginx configration.md",
-    "3 - Diretory/GPT 질문 공략.md",
     "5 - 분류/7 - CS/1 plan/Gpt 사용법 및 노하우.md",
     "3 - Diretory/Jmeter 세팅 가이드.md",
     "3 - Diretory/자주 햇갈리는 개념.md",
     "3 - Diretory/Conding Test - 용어.md",
-    "3 - Diretory/Conding Test - 문제 접근법.md",
     "5 - 분류/7 - CS/4 wait/Data Structure.md",
     "2 - Category/1 Quick note.md",
     "3 - Diretory/정보처리기사 - 데이터베이스.md",

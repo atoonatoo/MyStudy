@@ -47,7 +47,7 @@ created:
 	- [Kibana 사용법 3](https://devocean.sk.com/blog/techBoardDetail.do?ID=165161)
 	- [Kibana 사용법 4](https://findmypiece.tistory.com/205)
 	- [Kibana 사용법 | 공식홈페이지](https://www.elastic.co/kr/blog/getting-started-with-canvas-in-kibana)
-	- 
+	- [데이터베이스 커넥션 풀 및 JPA, 하이버네이트 설정 최적화(https://mangkyu.tistory.com/413)
 
 
 - [대용량 데이터베이스의 조회 성능을 개선해보자 (1) : 인덱스 적용](https://velog.io/@sckwon770/%EB%8C%80%EB%9F%89%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%A0%81%EC%9E%AC%EB%90%9C-%ED%85%8C%EC%9D%B4%EB%B8%94%EC%97%90-%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A5%BC-%EC%A0%81%EC%9A%A9%ED%95%B4-%EC%B5%9C%EC%A0%81%ED%99%94%ED%95%B4%EB%B3%B4%EC%9E%90)
