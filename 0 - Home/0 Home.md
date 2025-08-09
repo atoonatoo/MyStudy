@@ -49,7 +49,6 @@
 # Quick note
 
 
-
 - 클로바노트
 	- https://clovanote.naver.com/
 - 챗지피티 성능 올리기
