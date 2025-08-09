@@ -43,10 +43,12 @@
 	- 현백 상품권
 	- elasticsearch enter를 해야하는 이유?
 	- filebeat가 자동화 에러가 뜬 이유 찾기
-	- 
+	-　ｄｄｄｄｄｄ
 
 ---
 # Quick note
+
+
 
 - 클로바노트
 	- https://clovanote.naver.com/

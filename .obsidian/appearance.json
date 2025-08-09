@@ -1,7 +1,5 @@
 {
   "theme": "obsidian",
   "cssTheme": "Things",
-  "enabledCssSnippets": [
-    "dashboard"
-  ]
+  "enabledCssSnippets": []
 }

@@ -1,0 +1,8 @@
+- 작성일: {{date:YYYY-MM-DD HH:mm}}
+- 카테고리 제안: [Learning | Link | Prompt | Schedule | Employment | Life Style]
+- 내용:
+    - 
+- 관련 링크:
+    - 
+- 태그:
+    - #임시 #분류필요

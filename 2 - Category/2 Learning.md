@@ -4,47 +4,46 @@ created:
 ---
 - [[0 Home]]
 ---
-- **Study**
-	- [[Mentoring]]
-	- [[Morning Study]]
-	- [[Book Study]]
+- **A. Study & Research**
+    1. **Study**
+    2. **Learning**
+    3. **Ideas**
 	  
-- **Project**
-	- [[BackUp Code]]
-	- [[Project Idea]]
-	- [[대량의 외부 API를 호출하면 무슨 일이 벌어지는가]]
-	- [[대용량 데이터 + 스파이크성 트래픽 개선 (2)]]
-	- [[프로젝트 개선 사항 시나리오]]
-	  
-- **Coding Test**
-	- [[Conding Test - 용어]]
-	- [[Conding Test - 문제 접근법]]
-	
-- **Trouble Shooting**
-	- [[BackUp Code]]
-	- [[Nginx 로드밸런싱 문제 해결 보고서]]
-	- [[JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서]]
-	- [[로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)]]
-	
-- **Setup**
-	- [[Jmeter 세팅 가이드]]
-	- [[GPT 질문 공략]]
-	
-- **Guide**
-	- [[Findings]]
-	  
-- **Development Log**
-	
-- **Learning**
-	- [[자주 햇갈리는 개념]]
-	- [[정보처리기사]]
-	- [[SQL Practice]]
-	- [[Recmmended Book]]
-	- [[Topic]]
-	- [[Famous Saying]]
-	- [[KnowHow 1]]
-	- [[Why]]
-	- [[Thingking]]
+- **B. Projects**
+    1. **Work**
+    2. **Issues - In Progress**
+    3. **Issues - Resolved**
+    4. **Setup Guide**
+      
+- **C. Tests & Practice**
+    - **Coding Test**
+    - **Exams**
+
+---
+- [[Mentoring]]
+- [[Morning Study]]
+- [[Book Study]]
+- [[BackUp Code]]
+- [[Jmeter 세팅 가이드]]
+- [[정보처리기사]]
+- [[Conding Test]]
+- [[Nginx 로드밸런싱 문제 해결 보고서]]
+- [[JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서]]
+- [[로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)]]
+- [[자주 햇갈리는 개념]]
+- [[Project Idea]]
+- [[대량의 외부 API를 호출하면 무슨 일이 벌어지는가]]
+- [[대용량 데이터 + 스파이크성 트래픽 개선 (2)]]
+- [[프로젝트 개선 사항 시나리오]]
+- [[GPT 질문 공략]]
+- [[Findings]]
+- [[SQL Practice]]
+- [[Recmmended Book]]
+- [[Topic]]
+- [[Famous Saying]]
+- [[KnowHow 1]]
+- [[Why]]
+- [[Thingking]]
 
 ---
 ##### 3. 아이디어 

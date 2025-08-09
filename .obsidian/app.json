@@ -8,5 +8,10 @@
   "newFileLocation": "folder",
   "newFileFolderPath": " 0 - Home",
   "attachmentFolderPath": "0 - New/Image",
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "shortest",
+  "useTab": false,
+  "rightToLeft": true,
+  "foldIndent": false,
+  "showIndentGuide": true,
+  "strictLineBreaks": false
 }
