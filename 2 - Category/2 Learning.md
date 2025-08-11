@@ -6,6 +6,8 @@ created:
 ---
 - **A. Study & Research**
     1. **Study**
+        - [[Mentoring]]
+        - [[BlackList]]
     2. **Learning**
     3. **Ideas**
 	  
@@ -20,7 +22,6 @@ created:
     - **Exams**
 
 ---
-- [[Mentoring]]
 - [[Morning Study]]
 - [[Book Study]]
 - [[BackUp Code]]

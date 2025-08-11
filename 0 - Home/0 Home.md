@@ -19,16 +19,21 @@
 7. **[[7 Life Style]]** - `Life` `Lover` `Cook` `Fitness` `Cat` `Hobby` `Travel` 
 
 ---
+# Bookmark
+
+- [[Book Study]]
+- [[Mentoring]]
+- [[Mentoring Link]]
+- [[Nginx Prompt]]
+- [[로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)]]
+
+---
 # Schedule
 
 - [spring hikari 설정](https://www.google.com/search?q=spring+hikari+%EC%84%A4%EC%A0%95&oq=spring+hik&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCTE0MDAwajBqNKgCALACAA&sourceid=chrome&ie=UTF-8)
 - [spring tomcat thread 설정](https://www.google.com/search?q=spring+tomcat+thread+%EC%84%A4%EC%A0%95&sca_esv=0ad64ee5905d69ac&sxsrf=AE3TifPlQeTL0npfJ3UNfPvSUjANBEhtFw%3A1752987127645&ei=93V8aK6VJ-yp2roP_v6kqQo&ved=0ahUKEwju7Kf40cqOAxXslFYBHX4_KaUQ4dUDCBA&uact=5&oq=spring+tomcat+thread+%EC%84%A4%EC%A0%95&gs_lp=Egxnd3Mtd2l6LXNlcnAiG3NwcmluZyB0b21jYXQgdGhyZWFkIOyEpOyglTIGEAAYCBgeMgUQABjvBTIIEAAYogQYiQUyBRAAGO8FMggQABiABBiiBEiALVDpAligLHADeAGQAQCYAY4BoAH7DaoBBDAuMTW4AQPIAQD4AQGYAg-gAqwLwgIKEAAYsAMY1gQYR8ICBBAAGB7CAgYQABgFGB7CAgoQIxiABBgnGIoFwgIKEAAYgAQYFBiHAsICBRAAGIAEwgIIEAAYCBgNGB6YAwCIBgGQBgqSBwQzLjEyoAfQX7IHBDAuMTK4B58LwgcFMC44LjfIBy0&sclient=gws-wiz-serp)
 
 - 정보처리기사 시험 일정
-	- 필기
-		- 접수 : 07.21 ~ 24
-		- 시험 : 08.09 ~ 09.01
-		- 발표 : 09.10
 	- 실기
 		- 접수 : 09.22 ~ 25
 		- 시험 : 11.01 ~ 21
@@ -43,11 +48,9 @@
 	- 현백 상품권
 	- elasticsearch enter를 해야하는 이유?
 	- filebeat가 자동화 에러가 뜬 이유 찾기
-	-　ｄｄｄｄｄｄ
 
 ---
 # Quick note
-
 
 - 클로바노트
 	- https://clovanote.naver.com/

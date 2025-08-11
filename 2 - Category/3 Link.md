@@ -5,6 +5,19 @@ created:
 - [[0 Home]]
 ---
 
+
+- [노코드 로우코드](https://judy0465.tistory.com/144)
+- [Base64 인코딩](https://judy0465.tistory.com/145)
+- [바인드 마운트](https://github.com/djm07073/blog/blob/main/dockers/mount.**md)
+- [유니언 파일시스템](https://github.com/djm07073/blog/blob/main/dockers/union_file_system.md)
+- [DB 인덱스](https://osumaniaddict527.tistory.com/41)
+- [Amazon OpenSearch Service 구축하기](https://roomq.tistory.com/36)
+- [CSR과 SCR, SPA와 MPA](https://sysy1127.tistory.com/7)
+- [우아한 객체지향](https://velog.io/@codemcd/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%84%B8%EB%AF%B8%EB%82%98-%EC%9A%B0%EC%95%84%ED%95%9C%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EC%9D%98%EC%A1%B4%EC%84%B1%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EC%84%A4%EA%B3%84-%EC%A7%84%ED%99%94%EC%8B%9C%ED%82%A4%EA%B8%B0-By-%EC%9A%B0%EC%95%84%ED%95%9C%ED%98%95%EC%A0%9C%EB%93%A4-%EA%B0%9C%EB%B0%9C%EC%8B%A4%EC%9E%A5-%EC%A1%B0%EC%98%81%ED%98%B8%EB%8B%98-vkk5brh7by)
+- [스프링부트 비동기 처리](https://velog.io/@harukaseasons/Spring-Boot-Async1)
+
+
+---
 # 📂 개발 환경 & 설정
 
 - GPT
@@ -122,6 +135,9 @@ created:
 - [Garbage Collection 총정리](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98GC-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC) #Java #GC
 - [Garbage Collection Tuning](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98-GC-%ED%8A%9C%EB%8B%9D-%EB%A7%9B%EB%B3%B4%EA%B8%B0) #Java #GC
 
+# 📂 스터디
+
+- [[Mentoring Link]]
 
 # 📂 ETC
 
