@@ -25,6 +25,7 @@
 - [[Mentoring]]
 - [[Mentoring Link]]
 - [[Nginx Prompt]]
+- [[BackUp Code]]
 - [[로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)]]
 
 ---

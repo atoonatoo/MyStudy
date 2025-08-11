@@ -7,12 +7,18 @@ created:
 - **A. Study & Research**
     1. **Study**
         - [[Mentoring]]
+        - [[Morning Study]]
+        - [[Book Study]]
         - [[BlackList]]
+          
     2. **Learning**
     3. **Ideas**
+        - [[Ideas - Code]]
 	  
 - **B. Projects**
     1. **Work**
+        - [[BackUp Code]]
+          
     2. **Issues - In Progress**
     3. **Issues - Resolved**
     4. **Setup Guide**
@@ -22,9 +28,7 @@ created:
     - **Exams**
 
 ---
-- [[Morning Study]]
-- [[Book Study]]
-- [[BackUp Code]]
+
 - [[Jmeter 세팅 가이드]]
 - [[정보처리기사]]
 - [[Conding Test]]
@@ -45,51 +49,12 @@ created:
 - [[KnowHow 1]]
 - [[Why]]
 - [[Thingking]]
-
----
-##### 3. 아이디어 
-###### 상용 정보
-- 상영정보를 이렇게 활용해 볼수 있지 않을까?!
-``` java
-@RestController
-@RequestMapping("/api/users")
-public class UserController {
-
-    @GetMapping("/{userId}")
-    public ResponseEntity<User> getUserById(@PathVariable Long userId) {
-        // userId를 사용하여 특정 사용자 정보 조회
-        User user = userService.getUserById(userId);
-        if (user != null) {
-            return ResponseEntity.ok(user);
-        } else {
-            return ResponseEntity.notFound().build();
-        }
-    }
-	
-    @GetMapping("/{userId}/posts/{postId}")
-    public ResponseEntity<Post> getPostById(@PathVariable Long userId, @PathVariable Long postId) {
-        // userId와 postId를 사용하여 특정 사용자의 특정 포스트 조회
-        Post post = postService.getPostById(userId, postId);
-        if (post != null) {
-            return ResponseEntity.ok(post);
-        } else {
-            return ResponseEntity.notFound().build();
-        }
-    }
-    // 추가적인 API 메서드들...
-}
-```
-
----
-#### learning-loadmap
-
 - [[5 - 분류/7 - CS/4 wait/Data Structure]]
 - [[Algorithem]]
 - [[Operating System]]
 - [[Network]]
 - [[1 - Project/4 plan/1 list/Design Pattern|Design Pattern]]
 - [[DataBase|DataBase]]
----
 - **그림으로 보는 자료구조 알고리즘 목차**
 	- **1장 데이터 구조**
 	    - 1-1 데이터 구조란?
