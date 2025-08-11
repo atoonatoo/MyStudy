@@ -49,6 +49,10 @@ http {
 
         location / {
             proxy_pass http://backend;
+            proxy_connect_timeout 600s;
+            proxy_send_timeout   600;
+            proxy_read_timeout   600;
+
             proxy_set_header Host $host;
             proxy_set_header X-Real-IP $remote_addr;
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -56,6 +60,7 @@ http {
         }
     }
 }
+
 ```
 
 ---
