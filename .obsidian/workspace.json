@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Category/2 Learning.md",
+                "file": "로그인 성능 문제, 계층별 이해와 분석.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2 Learning"
+              "title": "로그인 성능 문제, 계층별 이해와 분석"
             }
           },
           {
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -292,11 +292,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9148a6e3ee5ddcc2",
+  "active": "2a7ebf6d67bce063",
   "lastOpenFiles": [
-    "2 - Category/2 Learning.md",
-    "0 - Home/0 Home.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "로그인 성능 문제, 계층별 이해와 분석.md",
+    "0 - Home/0 Home.md",
+    "2 - Category/2 Learning.md",
     "Ideas - Code.md",
     "3 - Diretory/Mentoring.md",
     "2 - Category/3 Link.md",
@@ -320,7 +321,6 @@
     "3 - Diretory/GPT 질문 공략.md",
     "5 - 분류/7 - CS/4 wait/Trouble Shooting.md",
     "3 - Diretory/Poawer Shell Prompt.md",
-    "테스트 재시도.md",
     "2 - Category/0 - New/Image/Pasted image 20250720191057.png",
     "2 - Category/0 - New/Image/filebeat.gif",
     "2 - Category/0 - New/Image/Pasted image 20250719161126.png",

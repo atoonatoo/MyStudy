@@ -20,7 +20,7 @@ created:
         - [[BackUp Code]]
           
     2. **Issues - In Progress**
-        - [[]]
+        - [[로그인 성능 문제, 계층별 이해와 분석]]
            
     3. **Issues - Resolved**
     4. **Setup Guide**
