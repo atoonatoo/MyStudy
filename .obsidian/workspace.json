@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "a819f3245ea92b14",
+            "id": "2a7ebf6d67bce063",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "file": "2 - Category/2 Learning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
+              "title": "2 Learning"
             }
           },
           {
@@ -294,9 +294,9 @@
   },
   "active": "9148a6e3ee5ddcc2",
   "lastOpenFiles": [
+    "2 - Category/2 Learning.md",
     "0 - Home/0 Home.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
-    "2 - Category/2 Learning.md",
     "Ideas - Code.md",
     "3 - Diretory/Mentoring.md",
     "2 - Category/3 Link.md",
