@@ -289,11 +289,14 @@
       "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "2a7ebf6d67bce063",
   "lastOpenFiles": [
+    "DB connection pool.md",
+    "DB Conection Pool.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "로그인 성능 문제, 계층별 이해와 분석.md",
     "0 - Home/0 Home.md",
@@ -319,8 +322,6 @@
     "3 - Diretory/Project Idea.md",
     "4 - Media/Templete/1 Home Templete.md",
     "3 - Diretory/GPT 질문 공략.md",
-    "5 - 분류/7 - CS/4 wait/Trouble Shooting.md",
-    "3 - Diretory/Poawer Shell Prompt.md",
     "2 - Category/0 - New/Image/Pasted image 20250720191057.png",
     "2 - Category/0 - New/Image/filebeat.gif",
     "2 - Category/0 - New/Image/Pasted image 20250719161126.png",
