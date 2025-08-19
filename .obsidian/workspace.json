@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "로그인 성능 문제, 계층별 이해와 분석.md",
+                "file": "DB Conection Pool.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "로그인 성능 문제, 계층별 이해와 분석"
+              "title": "DB Conection Pool"
             }
           },
           {
@@ -297,8 +297,8 @@
   "lastOpenFiles": [
     "DB connection pool.md",
     "DB Conection Pool.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "로그인 성능 문제, 계층별 이해와 분석.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "0 - Home/0 Home.md",
     "2 - Category/2 Learning.md",
     "Ideas - Code.md",
