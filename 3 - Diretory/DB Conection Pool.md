@@ -35,5 +35,8 @@ created:
           
     - `wait_timeout`
         - connection이 inactive(놀고 있을 때)할 때 다시 요청이 오기까지 얼마의 시간을 기다린 뒤에 close할 것인지 결정
-        - 
+        - 예외적인 상황을 목적으로 존재한다.
+            - 비정상적인 connection 종료
+            - connection 다 쓰고 반환이 안됨.
+            - 네트워크 단절
 ---
