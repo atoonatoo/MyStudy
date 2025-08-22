@@ -111,7 +111,6 @@
 Get-CimInstance -ClassName Win32_Processor | Select-Object NumberOfLogicalProcessors
 ```
 
-
 - Windows 기준: CPU 최대 사용률 확인 방법
 ```powershell
 

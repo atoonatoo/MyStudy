@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB Conection Pool.md",
+                "file": "3 - Diretory/DB Conection Pool.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,30 +53,6 @@
               },
               "icon": "lucide-file",
               "title": "DB Conection Pool"
-            }
-          },
-          {
-            "id": "9148a6e3ee5ddcc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
           }
         ],
@@ -138,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -295,13 +272,13 @@
   },
   "active": "2a7ebf6d67bce063",
   "lastOpenFiles": [
-    "DB connection pool.md",
-    "DB Conection Pool.md",
-    "로그인 성능 문제, 계층별 이해와 분석.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "0 - Home/0 Home.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "3 - Diretory/DB Conection Pool.md",
+    "3 - Diretory/DB connection pool.md",
+    "3 - Diretory/로그인 성능 문제, 계층별 이해와 분석.md",
     "2 - Category/2 Learning.md",
-    "Ideas - Code.md",
+    "3 - Diretory/Ideas - Code.md",
     "3 - Diretory/Mentoring.md",
     "2 - Category/3 Link.md",
     "3 - Diretory/Morning Study Link.md",
