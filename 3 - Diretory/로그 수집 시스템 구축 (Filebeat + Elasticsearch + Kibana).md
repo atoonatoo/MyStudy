@@ -162,9 +162,19 @@ created:
         1. 모든 개념을 설명할 수 있도록 이해한다.
         2. 서버 로그를 강화해서 히카리풀 또는 하이버네이트 로그를 발견하자
         
-    - 알아낸 정보
-        
-    
+---
+
+```
+2025-08-24T02:04:20.416+09:00 ERROR 48120 --- [http-nio-8083-exec-23] o.a.c.c.C.[.[.[/].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataAccessResourceFailureException: Unable to acquire JDBC Connection [HikariPool-5 - Connection is not available, request timed out after 10211ms (total=16, active=16, idle=0, waiting=24)] [n/a]] with root cause
+
+
+- Tomcat/Spring) 에러 로그이다.
+- 요청 처리 중 DB 커넥션을 얻으려다 **10.211초(`connection-timeout`) 대기 후 실패
+- 당시 풀 상태가 `total=16, active=16, idle=0, waiting=24` → 풀 포화였다.
+- Spring이 이를 `DataAccessResourceFailureException`으로 래핑해 서블릿에서 에러로 기록한 것
+- 원인 후보: 커넥션 누수, 느린/락 쿼리, 톰캣 스레드 과다 대비 풀 크기 부족, DB 연결 한도 등
+  
+```
 
 ---
 ### 동작 원리
