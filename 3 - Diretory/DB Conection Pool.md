@@ -63,4 +63,14 @@ created:
           
     - `connectionTimeout`
         - pool에서 connection을 받기 위한 대기 시간
+          
+- 적절한 connection 수 찾기
+    - 부하테스트 tool 증요 값
+        - `request per second`
+            - 단위 초당 몇개의 리퀘스트까지 처리할 수 있는가
+        - `avg response time`
+            - 이 리퀘스트를 처리할 때 평균적인 응답시간 얼마나 되는가
+    - 백엔드 서버, DB 서버의 CPU, Memory 등등 리소스 사용률 확인을 해야한다.
+    - 
+
 ---

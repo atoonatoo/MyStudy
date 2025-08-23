@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -294,14 +294,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eff49d90a9ec533f",
+  "active": "2a7ebf6d67bce063",
   "lastOpenFiles": [
+    "2 - Category/2 Learning.md",
     "0 - Home/0 Home.md",
     "3 - Diretory/DB Conection Pool.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/DB connection pool.md",
     "3 - Diretory/로그인 성능 문제, 계층별 이해와 분석.md",
-    "2 - Category/2 Learning.md",
     "3 - Diretory/Ideas - Code.md",
     "3 - Diretory/Mentoring.md",
     "2 - Category/3 Link.md",
