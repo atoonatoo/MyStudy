@@ -16,7 +16,7 @@ created:
 - 설정 방법
     - 스프링부트 2.0 이상 HikariCP , MySQL 기준
       
-- MySQL 핵심 설정
+- DB 서버(MySQL) 핵심 설정
     - `max_connections`
         - client와 맺을 수 있는 최대 connections 수
         - 여기서 말하는 client는 DB 서버의 요청을 보내는 모든 것들을 client라고 한다.
@@ -41,5 +41,26 @@ created:
             - 네트워크 단절
         - 이러한 비정상적인 상황들은 DB 서버가 인지하고 있지 못하고 하염없이 연결되어 기다리고 있게 되고 이런 상태가 1개 2개 많아 지다보면 계속 리소스를 점유하게 되는 것이고 나중에는 DB 서버의 안좋은 영향을 끼칠 수 있기 때문에 적절한 시점에서 이 문제를 해결해줘야한다.
         - 이때 사용되는 파라미터가 `wait_timeout`이다.
-        - 
+        
+- DBCP(HikariCP) 핵심 설정
+    - 백엔드 서버에서 DBCP 설정에 어떤 것들이 있는지 살펴보자.
+          
+    - `minimumIdle`
+        - pool에서 유지하는 최소한의 idle(놀고 있는 유후 자원) connection의 수
+        - idle connection 수가 minimumIdle보다 작고, 전체 connection 수도 maximumPoolSize보다 작다면, 신속하게 추가로 connection을 만든다.
+        - 즉, `maximumPoolSize` 파라미터가 `minimumIdle`보다 우선 순위가 높다는 것을 알 수 있다.
+    - `maximumPoolSize`
+        - pool이 가질 수 있는 최대 connection의 수
+        - idle, active(in-use) connection 합쳐서 최대 수
+    - HikariCP 공식 문서에는 minimumIdle의 기본 값을 maximumPoolSize과 동일하게 하는 것을 권장한다고 한다. (= pool size 고정)
+        
+    - `maxLifetime`
+        - pool에서 connection의 최대 수명
+        - maxLiftime을 넘기면 idle일 경우 pool에서 바로제거하고, active인 경우 pool로 반환된 후 제거
+        - pool로 반환이 안되면 maxLifetime은 동작 하지 않는다.
+        - 그렇기 때문에 다쓴 connection은 pool로 잘 반환시키는 것이 중요하다.
+        - DB connection time limit보다 몇초 짧게 설정해야
+          
+    - `connectionTimeout`
+        - pool에서 connection을 받기 위한 대기 시간
 ---
