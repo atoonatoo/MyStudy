@@ -169,6 +169,24 @@ created:
 
 ```
 
+- `2025-08-24T02:04:20.416+09:00`
+    - 타임스탬프 : 한국시간(UTC+9)으로 02:04:20.416에 찍힌 로그
+- `ERROR`
+    - 로그 레벨 : 에러 단계(요청 처리 실패)
+- `48120`
+    - 프로세스 ID(PID) : 이 자바 프로세스의 PID가 48120
+- `[http-nio-8083-exec-23]`
+    - 스레드명 : 톰캣 NIO 커넥터(포트 **8083**)의 워커 스레드 23번이 처리 중이었다는 뜻
+- `o.a.c.c.C.[.[.[/].[dispatcherServlet]`
+    - 로거 카테고리 :축약형 표기
+    - 풀면 대략 `org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/].[dispatcherServlet]`  = 톰캣 컨테이너의 **루트 컨텍스트(`/`)** 안의 **Spring MVC DispatcherServlet**에서 난 에러를 의미한다.
+- `Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception`
+    - **어디서 예외가 던져졌나**. 컨텍스트 경로가 빈값(`[]` ⇒ 루트)인 앱의 `dispatcherServlet`이 `service()` 도중 예외를 던짐
+- `[Request processing failed: org.springframework.dao.DataAccessResourceFailureException:`
+    - 스프링이 감싼 상위 예외 : 요청 처리 실패의 직접 타입은  `DataAccessResourceFailureException` (데이터 리소스에 접근 실패할 때 던지는 스프링 데이터 예외)
+
+
+
 - Tomcat/Spring) 에러 로그이다.
 - 요청 처리 중 DB 커넥션을 얻으려다 **10.211초(`connection-timeout`) 대기 후 실패
 - 당시 풀 상태가 `total=16, active=16, idle=0, waiting=24` → 풀 포화였다.
