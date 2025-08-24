@@ -167,6 +167,7 @@ created:
 ```
 2025-08-24T02:04:20.416+09:00 ERROR 48120 --- [http-nio-8083-exec-23] o.a.c.c.C.[.[.[/].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataAccessResourceFailureException: Unable to acquire JDBC Connection [HikariPool-5 - Connection is not available, request timed out after 10211ms (total=16, active=16, idle=0, waiting=24)] [n/a]] with root cause
 
+```
 
 - Tomcat/Spring) 에러 로그이다.
 - 요청 처리 중 DB 커넥션을 얻으려다 **10.211초(`connection-timeout`) 대기 후 실패
@@ -220,7 +221,6 @@ created:
 
 즉, “풀 크기”를 늘리거나 “빨리 반납되게(쿼리·트랜잭션·누수 개선)” 하거나 둘 다 필요해.
   
-```
 
 
 
