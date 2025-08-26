@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "1d9d84ffa26357db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/Mentoring Link.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mentoring Link"
+            }
+          },
+          {
             "id": "a5c539a8439c015e",
             "type": "leaf",
             "state": {
@@ -56,12 +80,12 @@
             }
           },
           {
-            "id": "f2d09b70b70458c6",
+            "id": "64df91f5adee79b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "file": "3 - Diretory/Mentoring.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,83 +100,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
-            }
-          },
-          {
-            "id": "4e593614413696d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Category/4 Prompt.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "4 Prompt"
-            }
-          },
-          {
-            "id": "1c6782575e91d048",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Diretory/Nginx Prompt.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nginx Prompt"
-            }
-          },
-          {
-            "id": "2a7ebf6d67bce063",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Diretory/DB Conection Pool.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DB Conection Pool"
+              "title": "Mentoring"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -366,26 +318,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f2d09b70b70458c6",
+  "active": "64df91f5adee79b4",
   "lastOpenFiles": [
-    "3 - Diretory/Nginx Prompt.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
-    "3 - Diretory/로그인 성능 문제, 계층별 이해와 분석.md",
-    "2 - Category/2 Learning.md",
+    "3 - Diretory/Mentoring Link.md",
+    "2 - Category/3 Link.md",
     "0 - Home/0 Home.md",
+    "3 - Diretory/Mentoring.md",
+    "2 - Category/2 Learning.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "3 - Diretory/Nginx Prompt.md",
+    "3 - Diretory/로그인 성능 문제, 계층별 이해와 분석.md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/DB Conection Pool.md",
     "3 - Diretory/DB connection pool.md",
     "3 - Diretory/Ideas - Code.md",
-    "3 - Diretory/Mentoring.md",
-    "2 - Category/3 Link.md",
     "3 - Diretory/Morning Study Link.md",
     "3 - Diretory/Morning Study.md",
     "3 - Diretory/Book Study.md",
     "3 - Diretory/BlackList.md",
     "2 - Category/0 - New/Image/Pasted image 20250720191306.png",
     "[[.md",
-    "3 - Diretory/Mentoring Link.md",
     "멘토님의 추천.md",
     "3 - Diretory/BackUp Code.md",
     "3 - Diretory/정보처리기사.md",
