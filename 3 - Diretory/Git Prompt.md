@@ -5,6 +5,14 @@ created:
 - [[0 Home]]
 ---
 
+- git 리포지토리 클론 
+```
+cd C:\workspace\obsidian
+git clone https://github.com/atoonatoo/MyStudy.git
+cd MyStudy
+git status
+```
+
 - git 리포지토리 연동 해제
 ```git
 git remote remove origin

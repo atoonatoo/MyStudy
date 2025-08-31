@@ -32,6 +32,78 @@
             }
           },
           {
+            "id": "e6c531f3c0f49bec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Category/4 Prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "4 Prompt"
+            }
+          },
+          {
+            "id": "0b3f35bb54a949ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/Git Prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Git Prompt"
+            }
+          },
+          {
+            "id": "ddf36b4b0917513b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Category/2 Learning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2 Learning"
+            }
+          },
+          {
             "id": "9514b814f5ae9e2d",
             "type": "leaf",
             "state": {
@@ -56,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -270,17 +342,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9514b814f5ae9e2d",
+  "active": "0b3f35bb54a949ed",
   "lastOpenFiles": [
+    "2 - Category/4 Prompt.md",
     "0 - Home/0 Home.md",
-    "3 - Diretory/Mentoring Link.md",
     "2 - Category/2 Learning.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "3 - Diretory/Mentoring Link.md",
     "3 - Diretory/Mentoring.md",
     "2 - Category/3 Link.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/Nginx Prompt.md",
     "3 - Diretory/로그인 성능 문제, 계층별 이해와 분석.md",
-    "2 - Category/4 Prompt.md",
     "3 - Diretory/DB Conection Pool.md",
     "3 - Diretory/DB connection pool.md",
     "3 - Diretory/Ideas - Code.md",
