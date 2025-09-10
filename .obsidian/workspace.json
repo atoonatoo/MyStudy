@@ -30,21 +30,8 @@
               "icon": "lucide-file",
               "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
-          },
-          {
-            "id": "14b5f05295d0e6c2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.9.12"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -258,7 +245,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "14b5f05295d0e6c2",
+  "active": "9514b814f5ae9e2d",
   "lastOpenFiles": [
     "0 - Home/0 Home.md",
     "2 - Category/4 Prompt.md",
