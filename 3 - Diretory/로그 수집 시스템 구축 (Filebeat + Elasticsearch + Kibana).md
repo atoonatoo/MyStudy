@@ -276,67 +276,10 @@ cd C:\workspace
 log_type : "nginx-error"
 ```
 
----
-### 코드
-- filebeat
+- nginx 실행 명령어
 ```
-filebeat.inputs:
-  - type: filestream
-    id: app-logs
-    enabled: true
-    paths:
-      - C:/workspace/filebeat/logs/app.log
-    parsers:
-      - multiline:
-          type: pattern
-          pattern: '^[[:space:]]'
-          negate: false
-          match: after
-
-processors:
-  - drop_fields:
-      fields: ["log.offset", "log.file.fingerprint", "input.type"]
-
-output.elasticsearch:
-  hosts: ["https://localhost:9200"]
-  username: "elastic"
-  password: "XXX"
-  ssl.certificate_authorities: ["C:/workspace/elasticsearch-9.0.3/config/certs/http_ca.crt"]
-
-setup.kibana:
-  host: "https://localhost:5601"
-```
-- elasticsearch
-```
-xpack.security.enabled: true
-xpack.security.enrollment.enabled: true
-
-xpack.security.http.ssl:
-  enabled: true
-  keystore.path: certs/http.p12
-
-xpack.security.transport.ssl:
-  enabled: true
-  verification_mode: certificate
-  keystore.path: certs/transport.p12
-  truststore.path: certs/transport.p12
-
-http.host: 0.0.0.0
-cluster.initial_master_nodes: ["ATOO"]
-```
-- kibana
-```
-server.port: 5601
-server.host: "localhost"
-
-elasticsearch.hosts: ["https://localhost:9200"]
-elasticsearch.serviceAccountToken: "AAEAAWVsYXN0aWMva2liYW5hL2tpYmFuYTpMaGZtem83dlJyS2pxeTJFSFFoTExR"
-
-xpack.encryptedSavedObjects.encryptionKey: "a_secure_and_long_key_123456789012345678901234"
-xpack.security.encryptionKey: "another_secure_key_abcdefghijklmnopqrstuv"
-
-elasticsearch.ssl.certificateAuthorities: [ "C:/workspace/elasticsearch-9.0.3/config/certs/http_ca.crt" ]
-elasticsearch.ssl.verificationMode: full
+cd C:\workspace\nginx-1.28.0
+.\nginx.exe -c "C:\workspace\project\techie\back-end\nginx\nginx.conf"
 ```
 
 ---
