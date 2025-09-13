@@ -258,6 +258,7 @@ created:
 ### 9/10 타임라인
 
 - 캐싱을 선택한 이유
+- memcached, redis, 
 - 
 
 
@@ -339,6 +340,7 @@ elasticsearch.ssl.verificationMode: full
 ```
 
 ---
+
 
 
 ---
