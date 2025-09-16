@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "12fb8e5dfc543c25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
+            }
+          },
+          {
             "id": "0586b917575c0b85",
             "type": "leaf",
             "state": {
@@ -293,16 +317,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0586b917575c0b85",
+  "active": "12fb8e5dfc543c25",
   "lastOpenFiles": [
     "0 - Home/0 Home.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/Nginx Prompt.md",
+    "3 - Diretory/Mentoring.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/Git Prompt.md",
     "2 - Category/2 Learning.md",
     "3 - Diretory/Mentoring Link.md",
-    "3 - Diretory/Mentoring.md",
     "2 - Category/3 Link.md",
     "3 - Diretory/로그인 성능 문제, 계층별 이해와 분석.md",
     "3 - Diretory/DB Conection Pool.md",
