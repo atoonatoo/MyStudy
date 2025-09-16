@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "12fb8e5dfc543c25",
+            "id": "46c74fdce4097228",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+                "file": "3 - Diretory/MindContol.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,55 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
-            }
-          },
-          {
-            "id": "0586b917575c0b85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Diretory/Mentoring.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Mentoring"
-            }
-          },
-          {
-            "id": "064dc72735502529",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Diretory/Nginx Prompt.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nginx Prompt"
+              "title": "MindContol"
             }
           }
         ],
@@ -317,15 +269,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "12fb8e5dfc543c25",
+  "active": "46c74fdce4097228",
   "lastOpenFiles": [
+    "2 - Category/2 Learning.md",
+    "3 - Diretory/MindContol.md",
     "0 - Home/0 Home.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/Nginx Prompt.md",
     "3 - Diretory/Mentoring.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/Git Prompt.md",
-    "2 - Category/2 Learning.md",
     "3 - Diretory/Mentoring Link.md",
     "2 - Category/3 Link.md",
     "3 - Diretory/로그인 성능 문제, 계층별 이해와 분석.md",
@@ -345,7 +298,6 @@
     "3 - Diretory/Conding Test - 문제 접근법.md",
     "4 - Media/Templete/Quick Note.md",
     "3 - Diretory/Project Idea.md",
-    "4 - Media/Templete/1 Home Templete.md",
     "2 - Category/0 - New/Image/Pasted image 20250720191057.png",
     "2 - Category/0 - New/Image/filebeat.gif",
     "2 - Category/0 - New/Image/Pasted image 20250719161126.png",

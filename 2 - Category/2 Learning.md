@@ -10,6 +10,7 @@ created:
         - [[Morning Study]]
         - [[Book Study]]
         - [[BlackList]]
+        - [[MindContol]]
           
     2. **Learning**
     3. **Ideas**
