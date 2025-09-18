@@ -13,6 +13,7 @@ created:
         - [[MindContol]]
           
     2. **Learning**
+        - [[DBCP 고갈 문제를 해결하기 위한 캐싱 전략]]
     3. **Ideas**
         - [[Ideas - Code]]
 	  

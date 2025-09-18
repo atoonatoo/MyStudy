@@ -7,6 +7,7 @@ created:
 - [[Morning Study Link]]
 ---
 
+- [캐시를 설정하는 기준](https://steady-coding.tistory.com/647)
 
 - [노코드 로우코드](https://judy0465.tistory.com/144)
 - [Base64 인코딩](https://judy0465.tistory.com/145)

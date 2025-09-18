@@ -32,6 +32,54 @@
             }
           },
           {
+            "id": "cd63c4986bd77bd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Category/3 Link.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3 Link"
+            }
+          },
+          {
+            "id": "a444145b58b0c7f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/DBCP 고갈 문제를 해결하기 위한 캐싱 전략.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DBCP 고갈 문제를 해결하기 위한 캐싱 전략"
+            }
+          },
+          {
             "id": "46c74fdce4097228",
             "type": "leaf",
             "state": {
@@ -56,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -269,18 +317,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "46c74fdce4097228",
+  "active": "a444145b58b0c7f8",
   "lastOpenFiles": [
+    "2 - Category/3 Link.md",
+    "0 - Home/0 Home.md",
+    "3 - Diretory/DBCP 고갈 문제를 해결하기 위한 캐싱 전략.md",
     "2 - Category/2 Learning.md",
     "3 - Diretory/MindContol.md",
-    "0 - Home/0 Home.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/Nginx Prompt.md",
     "3 - Diretory/Mentoring.md",
     "2 - Category/4 Prompt.md",
     "3 - Diretory/Git Prompt.md",
     "3 - Diretory/Mentoring Link.md",
-    "2 - Category/3 Link.md",
     "3 - Diretory/로그인 성능 문제, 계층별 이해와 분석.md",
     "3 - Diretory/DB Conection Pool.md",
     "3 - Diretory/DB connection pool.md",
@@ -297,7 +346,6 @@
     "3 - Diretory/Conding Test.md",
     "3 - Diretory/Conding Test - 문제 접근법.md",
     "4 - Media/Templete/Quick Note.md",
-    "3 - Diretory/Project Idea.md",
     "2 - Category/0 - New/Image/Pasted image 20250720191057.png",
     "2 - Category/0 - New/Image/filebeat.gif",
     "2 - Category/0 - New/Image/Pasted image 20250719161126.png",
