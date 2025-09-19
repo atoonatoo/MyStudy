@@ -37,6 +37,8 @@ created:
     - [52주차](https://applicationspring.notion.site/52-22f582355263808ea4d9c8780fd0cdb9?source=copy_link)
     - [55주차](https://applicationspring.notion.site/55-24b582355263800b99a8d0cf67e5a354)
     - [56주차](https://applicationspring.notion.site/56-259582355263803bbe3cee4cd96079c6)
+    - [57주차]()
+    - [58주차](https://applicationspring.notion.site/58-26e582355263802195dbeb4b497992dc)
     
 - 어드바이스
     - [이력서 모음](https://applicationspring.notion.site/1b158235526380dca53cd3baef3ce103?pvs=4)
