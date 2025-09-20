@@ -14,9 +14,13 @@ redis-cli -h localhost -p 6379
 ```
 KEYS *
 ```
+- DB 데이터 단일 조회
+```
+GET "User::test123@naver.com"
+```
 - DB 데이터 전체 삭제
 ```
-redis-cli FLUSHALL
+FLUSHALL
 ```
 
 
