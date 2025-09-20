@@ -24,6 +24,9 @@ created:
 	  
 - **Git**
 	- [[Git Prompt]]
+	  
+- **Redis**
+    - [[Redis Prompt]]
 	
 - **SQL**
 	- [[SQL Prompt]]
