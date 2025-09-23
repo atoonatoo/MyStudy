@@ -1,7 +1,7 @@
 
 ---
-- [[0 Home]]
-- [[7 Life Style]]
+- [[Home]]
+- [[Life Style]]
 ---
 
 ----

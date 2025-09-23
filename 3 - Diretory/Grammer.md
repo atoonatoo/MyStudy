@@ -2,7 +2,7 @@
 created:
 ---
 ---
-- [[0 Home]]
+- [[Home]]
 ---
 - [[Grammer]]
 - [[Function]]

@@ -3,8 +3,8 @@ created:
 ---
 
 ---
-- [[0 Home]]
-- [[learning]]
+- [[Home]]
+- [[5 - 분류/3 - Area/learning]]
 ---
 
 - 기본 개념 요약

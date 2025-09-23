@@ -3,7 +3,7 @@ created:
 ---
 
 ---
-- [[0 Home]]
+- [[Home]]
 ---
 
 - filebeat의 모듈은 Elasticsearch 5.2 이상이 필요하다.

@@ -2,7 +2,7 @@
 created:
 ---
 ---
-- [[0 Home]]
+- [[Home]]
 ---
 - **A. Study & Research**
     1. **Study**

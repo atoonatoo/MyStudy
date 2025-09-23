@@ -3,7 +3,7 @@ created:
 ---
 
 ---
-- [[0 Home]]
+- [[Home]]
 ---
 
 - Beats 계열의 모든 데이터 수집기(Filebeat, Metricbeat, Packetbeat 등)가 공통적으로 사용하는 내부 라이브러리이자 프레임워크

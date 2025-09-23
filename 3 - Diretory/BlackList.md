@@ -1,7 +1,7 @@
 
 ---
-- [[0 Home]]
-- [[2 Learning]]
+- [[Home]]
+- [[2 - Category/Learning]]
 ---
 
 - [hailey4165@gmail.com](mailto:hailey4165@gmail.com)

@@ -2,7 +2,7 @@
 created:
 ---
 ---
-- [[0 Home]]
+- [[Home]]
 - [[Mentoring Link]]
 - [[Morning Study Link]]
 ---

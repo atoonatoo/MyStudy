@@ -2,7 +2,7 @@
 created:
 ---
 ---
-- [[0 Home]]
+- [[Home]]
 ---
 
 1. 현재 nginx 상태 확인

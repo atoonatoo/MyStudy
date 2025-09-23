@@ -3,8 +3,8 @@ created:
 ---
 
 ---
-- [[0 Home]]
-- [[3 Link]]
+- [[Home]]
+- [[2 - Category/Link]]
 - [[Mentoring]]
 ---
 

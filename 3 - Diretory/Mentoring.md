@@ -2,8 +2,8 @@
 created:
 ---
 ---
-- [[0 Home]]
-- [[2 Learning]]
+- [[Home]]
+- [[2 - Category/Learning]]
 - [[Mentoring Link]]
 ---
 
