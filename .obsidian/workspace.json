@@ -32,6 +32,54 @@
             }
           },
           {
+            "id": "a89c8e9fce4c94f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Category/Learning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Learning"
+            }
+          },
+          {
+            "id": "f1da4e176062e458",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Diretory/JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서"
+            }
+          },
+          {
             "id": "67558372294b2d5a",
             "type": "leaf",
             "state": {
@@ -56,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -264,11 +312,15 @@
       "vscode-editor:Create Code File": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "67558372294b2d5a",
   "lastOpenFiles": [
+    "3 - Diretory/JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서.md",
+    "2 - Category/Learning.md",
+    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "0 - Home/Home.md",
     "4 - Media/Templete/1 Home Templete.md",
     "오늘의 회고.md",
@@ -290,7 +342,6 @@
     "2 - Category/Employment.md",
     "2 - Category/5 Schedule.md",
     "2 - Category/Schedule.md",
-    "2 - Category/Learning.md",
     "4 - Media/Templete/Truble Shooting Report.md",
     "4 - Media/Templete/Quick Note.md",
     "2 - Category/Prompt.md",
@@ -298,13 +349,11 @@
     "3 - Diretory/Nginx Prompt.md",
     "3 - Diretory/Redis Prompt.md",
     "3 - Diretory/DBCP 고갈 문제를 해결하기 위한 캐싱 전략.md",
-    "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/Poawer Shell Prompt.md",
     "3 - Diretory/Mentoring Link.md",
     "3 - Diretory/MindContol.md",
     "3 - Diretory/Mentoring.md",
     "3 - Diretory/Git Prompt.md",
-    "3 - Diretory/로그인 성능 문제, 계층별 이해와 분석.md",
     "2 - Category/0 - New/Image/Pasted image 20250720191306.png",
     "2 - Category/0 - New/Image/Pasted image 20250720191057.png",
     "2 - Category/0 - New/Image/filebeat.gif",
