@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b7cd8a85f81166e3",
+        "id": "c23bf82782eaa8c9",
         "type": "tabs",
         "children": [
           {
-            "id": "1c1d5b5a2be112f8",
+            "id": "9659080bf8f24a10",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian_Guide_Dataview.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Obsidian_Guide_Dataview"
+              "title": "새 탭"
             }
           }
         ]
@@ -43,7 +29,6 @@
       {
         "id": "8ecb16ef3cfc7b8c",
         "type": "tabs",
-        "dimension": 72.06427688504327,
         "children": [
           {
             "id": "3bed8b912269764a",
@@ -51,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:markdown",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,15 +59,7 @@
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "c04ff0d7626a9f21",
-        "type": "tabs",
-        "dimension": 27.935723114956733,
-        "children": [
+          },
           {
             "id": "1bbf34e1f7115f8c",
             "type": "leaf",
@@ -95,7 +72,8 @@
               "title": "북마크"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,13 +142,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_Guide_Dataview.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian_Guide_Dataview 의 개요"
+              "title": "개요"
             }
           },
           {
@@ -235,7 +212,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,57 +230,59 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "1c1d5b5a2be112f8",
+  "active": "9659080bf8f24a10",
   "lastOpenFiles": [
-    "4 - Media/Templetes/Templete_Default.md",
-    "4 - Media/Templetes/Templete_Obsidian Guide.md",
-    "Obsidian_Guide_Dataview.md",
-    "0 - Home/Obsidian_Guide_Menual.md",
-    "3 - Diretory/Obsidian_Guide_DailyNote.md",
-    "3 - Diretory/Obsidian_Guide_Templete Making.md",
-    "3 - Diretory/Obsidian_Guide_Templetes.md",
-    "0 - Home/Home.md",
-    "2 - Category/Life Style.md",
-    "2 - Category/Employment.md",
-    "2 - Category/Schedule.md",
-    "2 - Category/Prompt.md",
-    "2 - Category/Link.md",
-    "2 - Category/Learning.md",
-    "2 - Category/1 Quick note.md",
-    "5 - Daily/2025-09-29(월).md",
-    "5 - Daily",
+    "zzz/5 Schedule.md",
+    "zzz/3 - Area/A급 기술 블로그를 구분하는 방법.md",
+    "daily note/2025년_09월_29일.md",
+    "list/2. learning",
+    "database/employ_company info.md",
+    "list/6. templetes/templete_default.md",
+    "list/6. templetes/templete_database.md",
+    "list/6. templetes/templete_daily.md",
+    "list/6. templetes/templete_obsidian guide.md",
+    "list/13. obsidian/obsidian_templete making.md",
+    "list/13. obsidian/obsidian_menual.md",
+    "list/13. obsidian/obsidian_templetes.md",
+    "list/13. obsidian/obsidian_dataview.md",
+    "list/13. obsidian/obsidian_daily note.md",
+    "zzz/6 Employment.md",
+    "z - rolling/1 Quick note.md",
+    "list/5. employ/employment_resume_menual.md",
+    "z - rolling/5 - 분류/3 - Area/이력서 원칙.md",
+    "list/10. life/life_couple_우리 응애.md",
+    "list/다경이.md",
+    "database",
+    "daily note/2025_09_29.md",
+    "daily note/2025-09-29.md",
     "무제.md",
-    "aom_a1_124.md",
-    "Titile_home_hoa.md",
-    "기업 노트 리스트.md",
-    "programing/무제.md",
-    "2 - Category/0 - New/Image/filebeat.gif",
-    "2 - Category/7 Life Style.md",
-    "obsidian/무제.md",
-    "obsidian",
-    "employment",
-    "programing",
-    "2025-09-29.md",
-    "Obsidian Guide.md",
-    "3 - Diretory/5 - 분류/7 - CS/1 plan/Markdown.md",
-    "2 - Category/0 - New/Image/Pasted image 20250720191306.png",
-    "4 - Media/mcp-obsidian-main/mcp-obsidian-main/src/mcp_obsidian/__init__.py",
-    "4 - Media/mcp-obsidian-main/mcp-obsidian-main/src/mcp_obsidian/tools.py",
-    "4 - Media/mcp-obsidian-main/mcp-obsidian-main/src/mcp_obsidian/server.py",
-    "4 - Media/mcp-obsidian-main/mcp-obsidian-main/src/mcp_obsidian/obsidian.py",
-    "4 - Media/mcp-obsidian-main/mcp-obsidian-main/src/mcp_obsidian",
-    "4 - Media/mcp-obsidian-main/mcp-obsidian-main/src",
-    "2 - Category/0 - New/Image/Pasted image 20250720191057.png",
-    "2 - Category/0 - New/Image/Pasted image 20250719161126.png",
-    "2 - Category/0 - New/Image/Pasted image 20250719160223.png",
-    "2 - Category/0 - New/Image/Pasted image 20250719160210.png",
-    "2 - Category/0 - New/Image/Pasted image 20250719160209.png",
-    "2 - Category/0 - New/Image/Pasted image 20250714173234.png",
-    "2 - Category/0 - New/Image/Pasted image 20250629224934.png",
-    "2 - Category/0 - New/Image/Pasted image 20250713230650.png",
-    "4 - Media/Canvas/캔버스.canvas"
+    "daily note/2025-09-29(월).md",
+    "daily note",
+    "Daily Note/2025-09-29(월).md",
+    "5 - Daily/2025-09-30(화).md",
+    "list/무제 1",
+    "list/8. canvas",
+    "list/10. life",
+    "list/3. link",
+    "list/4. prompt",
+    "list/1. programing",
+    "zzz/SQL Prompt.md",
+    "Media/Canvas/캔버스.canvas",
+    "무제.canvas",
+    "list/5. employ",
+    "list/7. Images/filebeat.gif",
+    "list/7. Images/Pasted image 20250720191306.png",
+    "list/7. Images/Pasted image 20250720191057.png",
+    "list/7. Images/Pasted image 20250719161126.png",
+    "list/7. Images/Pasted image 20250719160223.png",
+    "list/7. Images/Pasted image 20250719160210.png",
+    "list/7. Images/Pasted image 20250719160209.png",
+    "list/7. Images/Pasted image 20250714173234.png",
+    "list/7. Images/Pasted image 20250629224934.png",
+    "list/7. Images/Pasted image 20250713230650.png"
   ]
 }

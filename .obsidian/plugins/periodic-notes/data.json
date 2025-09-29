@@ -3,9 +3,9 @@
   "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "format": "YYYY-MM-DD(ddd)",
-    "template": "0 - Home/Obsidian_Guide_Menual.md",
-    "folder": "5 - Daily",
+    "format": "YYYY년_MM월_DD일",
+    "template": "list/templetes/templete_daily.md",
+    "folder": "daily note",
     "enabled": true
   },
   "weekly": {

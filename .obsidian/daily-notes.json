@@ -1,3 +1,5 @@
 {
-  "autorun": false
+  "autorun": false,
+  "folder": "daily note",
+  "template": "list/templetes/templete_daily"
 }
