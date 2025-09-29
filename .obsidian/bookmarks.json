@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1759115360953,
+      "path": "0 - Home/Home.md",
+      "title": "Home"
+    },
+    {
+      "type": "file",
+      "ctime": 1759115389908,
+      "path": "2 - Category/1 Quick note.md",
+      "title": "Quick note"
+    },
+    {
+      "type": "file",
+      "ctime": 1759115401493,
+      "path": "2 - Category/Learning.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1759115407361,
+      "path": "2 - Category/Link.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1759115414160,
+      "path": "2 - Category/Prompt.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1759115423544,
+      "path": "2 - Category/Schedule.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1759115429107,
+      "path": "2 - Category/Employment.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1759115433668,
+      "path": "2 - Category/Life Style.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1759115467567,
+      "path": "0 - Home/Obsidian_Guide_Menual.md",
+      "title": "Obsidian_Guide"
+    }
+  ]
+}

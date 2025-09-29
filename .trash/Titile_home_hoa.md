@@ -1,0 +1,25 @@
+---
+title: Templete
+type: Obsidian Guide
+director: Media
+date: 2025-09-29
+tags:
+  - programing
+  - markdown
+  - obsidian_community_plugin
+url:
+book_mark:
+  - "[[Home]]"
+  - "[[2 - Category/Link|Link]]"
+  - "[[2 - Category/Prompt|Prompt]]"
+  - "[[2 - Category/Learning|Learning]]"
+  - "[[2 - Category/Employment|Employment]]"
+  - "[[Schedule]]"
+---
+### Guide List
+1. mark_down
+    - [[Markdown]]
+2. community plugin
+    - [[Obsidian_Guide_Templetes]]
+    - [[Obsidian_Guide_Templete Making]]
+

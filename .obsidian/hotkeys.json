@@ -49,5 +49,13 @@
       ],
       "key": "R"
     }
+  ],
+  "templater-obsidian:create-4 - Media/Templetes/Media_Home_Templete.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Z"
+    }
   ]
 }

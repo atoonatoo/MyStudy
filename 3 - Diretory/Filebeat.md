@@ -4,7 +4,7 @@ created:
 
 ---
 - [[Home]]
-- [[5 - 분류/3 - Area/learning]]
+- [[3 - Diretory/5 - 분류/3 - Area/learning]]
 ---
 
 - 기본 개념 요약

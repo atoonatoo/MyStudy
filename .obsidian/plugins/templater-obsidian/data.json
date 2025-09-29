@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "3 - Diretory",
+      "template": "4 - Media/Templetes/Media_Home_Templete.md"
     }
   ],
   "enable_file_templates": false,

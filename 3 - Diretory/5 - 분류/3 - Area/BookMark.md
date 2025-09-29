@@ -18,7 +18,7 @@ created:
 - [[CS 목록 - 70%]]
 - [[CS 목록 - 100%]]
 - [[Naver Cloud Bit Camp]]
-- [[5 - 분류/7 - CS/4 wait/Trouble Shooting]]
+- [[3 - Diretory/5 - 분류/7 - CS/4 wait/Trouble Shooting]]
 - [[기초 100 제]]
 - [[Tip]]
 ---

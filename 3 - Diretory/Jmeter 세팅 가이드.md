@@ -3,7 +3,7 @@ created:
 ---
 ---
 - [[Home]]
-- [[5 - 분류/3 - Area/learning]]
+- [[3 - Diretory/5 - 분류/3 - Area/learning]]
 ---
 ##### Jmeter 로그인 대용량 트래픽 테스트을 위한 필수 세팅
 
