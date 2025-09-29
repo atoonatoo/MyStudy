@@ -10,7 +10,7 @@
   "attachmentFolderPath": "0 - New/Image",
   "newLinkFormat": "shortest",
   "useTab": false,
-  "rightToLeft": true,
+  "rightToLeft": false,
   "foldIndent": false,
   "showIndentGuide": true,
   "strictLineBreaks": false

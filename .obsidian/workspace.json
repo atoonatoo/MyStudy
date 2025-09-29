@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기업 노트 리스트.md",
+                "file": "4 - Media/Templete/1 Home Templete.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "기업 노트 리스트"
+              "title": "1 Home Templete"
             }
           }
         ]
@@ -244,12 +244,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9b4610631fd59679",
+  "active": "462660780f721ae3",
   "lastOpenFiles": [
-    "4 - Media/Templete/1 Home Templete.md",
-    "기업 노트 리스트.md",
     "0 - Home/Home.md",
+    "4 - Media/Templete/1 Home Templete.md",
+    "4 - Media/Templete/Truble Shooting Report.md",
+    "4 - Media/Templete/Quick Note.md",
+    "4 - Media/Templete/Daily_Note Templete.md",
+    "4 - Media/Templete/2 CS Templete.md",
     "2 - Category/Learning.md",
+    "5 - 분류/3 - Area/LINK.md",
+    "2 - Category/Prompt.md",
+    "5 - 분류/3 - Area/PROMPT.md",
+    "2 - Category/Schedule.md",
+    "기업 노트 리스트.md",
     "3 - Diretory/Mentoring.md",
     "3 - Diretory/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "3 - Diretory/JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서.md",
@@ -272,17 +280,9 @@
     "2 - Category/6 Employment.md",
     "2 - Category/Employment.md",
     "2 - Category/5 Schedule.md",
-    "2 - Category/Schedule.md",
-    "4 - Media/Templete/Truble Shooting Report.md",
-    "4 - Media/Templete/Quick Note.md",
-    "2 - Category/Prompt.md",
     "2 - Category/Link.md",
     "3 - Diretory/Nginx Prompt.md",
     "3 - Diretory/Redis Prompt.md",
-    "3 - Diretory/DBCP 고갈 문제를 해결하기 위한 캐싱 전략.md",
-    "3 - Diretory/Poawer Shell Prompt.md",
-    "3 - Diretory/Mentoring Link.md",
-    "3 - Diretory/MindContol.md",
     "2 - Category/0 - New/Image/Pasted image 20250720191057.png",
     "2 - Category/0 - New/Image/filebeat.gif",
     "2 - Category/0 - New/Image/Pasted image 20250719161126.png",
