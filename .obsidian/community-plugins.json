@@ -12,5 +12,6 @@
   "templater-obsidian",
   "periodic-notes",
   "calendar",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "dataview"
 ]
