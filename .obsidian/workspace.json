@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ded40454d4a0b885",
+        "id": "9d7bd3ea7fc414da",
         "type": "tabs",
         "children": [
           {
-            "id": "d2d7b08c6807e15b",
+            "id": "96ba3ffa5579f409",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,30 +29,6 @@
               },
               "icon": "lucide-file",
               "title": "employ info"
-            }
-          },
-          {
-            "id": "bbb829d8a55aedc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/company info/맥스피아.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "맥스피아"
             }
           }
         ]
@@ -115,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -273,16 +248,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d2d7b08c6807e15b",
+  "active": "96ba3ffa5579f409",
   "lastOpenFiles": [
-    "7. employ/company info/맥스피아.md",
+    "7. employ/company info/레이라.md",
     "2. dataview/employ info.md",
+    "7. employ/company info/폴라리스투자자몬.md",
     "7. employ/company info/이즈트리시스템.md",
     "7. employ/company info/유비벨록스.md",
-    "7. employ/company info/폴라리스투자자몬.md",
-    "-.md",
-    "2. dataview/youtube info.md",
+    "7. employ/company info/에이치엔.md",
+    "7. employ/company info/시큐파이퍼.md",
+    "7. employ/company info/맥스피아.md",
+    "7. employ/company info/마크클라우드.md",
+    "7. employ/company info/마인드차트.md",
+    "7. employ/company info/마이렌.md",
     "8. templetes/templete_employ_company info.md",
+    "7. employ/employment_resume_menual.md",
+    "2. dataview/무제.md",
+    "2. dataview/youtube info.md",
+    "-.md",
+    "5. link/youtube/채용 사이트에서 제대로 공고 찾는 방법.md",
+    "5. link/youtube/단순한개발자가 성공하는 이유.md",
+    "5. link/youtube/개발자 취업사이트 공고 찾는법.md",
     "5. link/youtube/컴공의취업 공식은 깨졌다..당신의 일자리는 안녕한가요.md",
     "8. templetes/templete_guide_obsidian.md",
     "6 Employment.md",
@@ -290,19 +276,8 @@
     "15. guide/obsidian/obsidian_templetes.md",
     "15. guide/obsidian/obsidian_menual.md",
     "15. guide/obsidian/obsidian_templete making.md",
-    "15. guide/obsidian/obsidian_dataview.md",
-    "15. guide/obsidian/obsidian_daily note.md",
-    "7. employ/employment_resume_menual.md",
-    "8. templetes/templete_basic.md",
-    "8. templetes/templete_dataview.md",
-    "8. templetes/templete_link_youtube.md",
-    "8. templetes/templete_link_repository.md",
-    "8. templetes/templete_link_blog.md",
     "15. guide",
-    "8. templetes/templete_daily.md",
-    "7. employ/기업 노트 리스트.md",
     "7. employ/company info",
-    "7. employ/무제.md",
     "5. link/youtube",
     "1. schedule",
     "6. learning",
