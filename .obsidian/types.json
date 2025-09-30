@@ -47,6 +47,8 @@
     "TQ_show_urgency": "checkbox",
     "mark_down": "multitext",
     "c_plugIn": "multitext",
-    "related_notes": "multitext"
+    "related_notes": "multitext",
+    "updated": "date",
+    "deadline": "date"
   }
 }

@@ -13,7 +13,8 @@ url: https://www.youtube.com/watch?v=17tThWhNNGw&list=PL-KPFbwFiAWA3bR3QSK3w6r_X
 ---
 
 - **명령어**
-    - Ctrl + R : Replace templates in the active file (활성 파일의 템플릿을 바꾸는 명령어)
+    - `Ctrl + R` : Replace templates in the active file (활성 파일의 템플릿을 바꾸는 명령어)
+    - `<% tp.system.suggester %>` : 템플릿 실행 시 작은 팝업이 떠서 별 개수를 고를 수 있고, 선택한 값이 노트에 삽입
 
 - 노트 생성 날짜
 25년09월29일 10:44
