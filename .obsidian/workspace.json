@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. dataview/employ info.md",
+                "file": "7. employ/company info/소울엑스.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "employ info"
+              "title": "소울엑스"
             }
           }
         ]
@@ -250,6 +250,8 @@
   },
   "active": "e1675cfa4b89d0f5",
   "lastOpenFiles": [
+    "2. dataview/employ info.md",
+    "7. employ/company info/소울엑스.md",
     "7. employ/company info/토마토체인.md",
     "7. employ/company info/폴라리스투자자몬.md",
     "7. employ/company info/이즈트리시스템.md",
@@ -271,11 +273,9 @@
     "7. employ/company info/데브레인.md",
     "7. employ/company info/뉴제스트.md",
     "8. templetes/templete_employ_company info.md",
-    "2. dataview/employ info.md",
     "7. employ/employment_resume_menual.md",
     "2. dataview/무제.md",
     "2. dataview/youtube info.md",
-    "-.md",
     "15. guide",
     "7. employ/company info",
     "5. link/youtube",
