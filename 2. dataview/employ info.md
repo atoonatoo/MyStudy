@@ -13,10 +13,10 @@ tags:
 
 ```dataview
 TABLE without id
-    ("[" + file.name + "](" + url + ")") as "제목",
-    site as "지원 사이트",
+    ("[" + file.name + "](" + url + ")") as "회사명",
+    site as "공고 사이트",
     rate as "등급", 
-    status as "지원 상태",
+    status as "지원 현황",
     dateformat(date, "yy/MM/dd") as "지원일",
     choice(deadline, dateformat(deadline, "yy/MM/dd"), "") as "마감일",
     website as "회사 사이트"
