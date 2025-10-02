@@ -4,5 +4,4 @@ type: <% tp.file.title.split("_") [0] %>
 director: dataview
 created:
 tags:
-  - dataview
 ---

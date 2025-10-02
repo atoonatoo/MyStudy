@@ -4,10 +4,6 @@ type: <% tp.file.title.split("_") [0] %>
 director: guide
 date:
 tags:
-  - programing
-  - markdown
-  - plugin
-  - obsidian
   - guide
 url:
 ---

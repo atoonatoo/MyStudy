@@ -1,12 +1,10 @@
 ---
 title: <% tp.file.title.split("_") [0] %>
-type: blog
+type: youtube
 director: link
 date:
 tags:
-  - programing
   - link
-  - blog
 url:
 coment:
 ---

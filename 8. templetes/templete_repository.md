@@ -4,9 +4,7 @@ type: git_repository
 director: link
 date:
 tags:
-  - programing
   - link
-  - git_repository
 url:
 coment:
 ---

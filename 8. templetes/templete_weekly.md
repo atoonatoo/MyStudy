@@ -4,7 +4,7 @@ manth: <% tp.file.title.split("_") [1] %>
 years: <% tp.file.title.split("_") [0] %>
 date:
 tags:
-  - daily
+  - scheduler
 ---
 
 

@@ -1,0 +1,18 @@
+---
+title: <% tp.file.title.split("_") [0] %>
+type: youtube
+director: link
+date:
+tags:
+  - programing
+  - youtube
+  - link
+url: https://www.youtube.com/watch?v=NQYzjrJ7jKY
+coment:
+---
+
+
+
+
+
+
