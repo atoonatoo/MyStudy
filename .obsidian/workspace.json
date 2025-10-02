@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. employ/company info/소울엑스.md",
+                "file": "8. templetes/templete_daily.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "소울엑스"
+              "title": "templete_daily"
             }
           }
         ]
@@ -156,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "8. templetes/templete_daily.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "templete_daily 의 개요"
             }
           },
           {
@@ -226,8 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,8 +250,17 @@
   },
   "active": "e1675cfa4b89d0f5",
   "lastOpenFiles": [
-    "2. dataview/employ info.md",
+    "8. templetes/templete_employ_company info.md",
+    "7. employ/company info/바카티오.md",
+    "-.md",
+    "0. planner/weekly",
+    "0. planner/daily",
+    "0. planner/무제.md",
+    "8. templetes/templete_weekly.md",
+    "8. templetes/templete_daily.md",
+    "8. templetes/templete_basic.md",
     "7. employ/company info/소울엑스.md",
+    "2. dataview/employ info.md",
     "7. employ/company info/토마토체인.md",
     "7. employ/company info/폴라리스투자자몬.md",
     "7. employ/company info/이즈트리시스템.md",
@@ -262,7 +271,6 @@
     "7. employ/company info/시큐파이퍼.md",
     "7. employ/company info/스위트앤데이터.md",
     "7. employ/company info/브이웨이.md",
-    "7. employ/company info/바카티오.md",
     "7. employ/company info/맥스피아.md",
     "7. employ/company info/마크클라우드.md",
     "7. employ/company info/마인드차트.md",
@@ -270,22 +278,14 @@
     "7. employ/company info/리비바이오.md",
     "7. employ/company info/레이라.md",
     "7. employ/company info/드림티원.md",
-    "7. employ/company info/데브레인.md",
-    "7. employ/company info/뉴제스트.md",
-    "8. templetes/templete_employ_company info.md",
-    "7. employ/employment_resume_menual.md",
-    "2. dataview/무제.md",
-    "2. dataview/youtube info.md",
     "15. guide",
     "7. employ/company info",
     "5. link/youtube",
     "1. schedule",
     "6. learning",
     "2. dataview",
-    "0. daily note",
+    "0. planner",
     "list/무제 1",
-    "10. canvas",
-    "9. life",
     "Media/Canvas/캔버스.canvas",
     "무제.canvas",
     "12. Images/filebeat.gif",

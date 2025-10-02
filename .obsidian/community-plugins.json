@@ -15,5 +15,6 @@
   "obsidian-local-rest-api",
   "dataview",
   "kr-book-info-plugin",
-  "sortable-tables"
+  "sortable-tables",
+  "auto-note-mover"
 ]
