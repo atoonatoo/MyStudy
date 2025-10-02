@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. dataview/youtube info.md",
+                "file": "0. planner/Redis, EFK, Jmeter 학습 로드맵.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "youtube info"
+              "title": "Redis, EFK, Jmeter 학습 로드맵"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. dataview/youtube info.md",
+                "file": "0. planner/Redis, EFK, Jmeter 학습 로드맵.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "youtube info 의 개요"
+              "title": "Redis, EFK, Jmeter 학습 로드맵 의 개요"
             }
           },
           {
@@ -250,10 +250,11 @@
   },
   "active": "c1082749501601e5",
   "lastOpenFiles": [
+    "2. dataview/youtube info.md",
+    "0. planner/Redis, EFK, Jmeter 학습 로드맵.md",
     "2. dataview/employ info.md",
     "7. employ/company info/데브레인.md",
     "7. employ/company info/뉴제스트.md",
-    "2. dataview/youtube info.md",
     "8. templetes/templete_basic.md",
     "8. templetes/templete_blog.md",
     "8. templetes/templete_daily.md",
@@ -284,7 +285,6 @@
     "-.md",
     "0. planner/weekly",
     "0. planner/daily",
-    "0. planner/무제.md",
     "15. guide",
     "Media/Canvas/캔버스.canvas",
     "무제.canvas",
