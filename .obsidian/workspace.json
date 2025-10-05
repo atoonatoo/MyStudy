@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d1ed6b578310dbba",
+        "id": "e8a4c26b9e31384d",
         "type": "tabs",
         "children": [
           {
-            "id": "5e5d64e4efa28f69",
+            "id": "593841e9ac9756cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99. organize/Link.md",
+                "file": "99. organize/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Link"
+              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana)"
             }
           }
         ]
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "이력서",
+                "query": "로그 수집",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99. organize/Link.md",
+                "file": "99. organize/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Link 의 개요"
+              "title": "로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana) 의 개요"
             }
           },
           {
@@ -248,8 +248,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5e5d64e4efa28f69",
+  "active": "593841e9ac9756cc",
   "lastOpenFiles": [
+    "99. organize/Link.md",
     "5. link/all links.md",
     "2. dataview/employ info.md",
     "7. employ/company info/퀀텟시스템즈.md",
@@ -275,7 +276,6 @@
     "8. templetes/templete_employ.md",
     "8. templetes/templete_obsidian.md",
     "7. employ/company info/레이라.md",
-    "7. employ/company info/리비바이오.md",
     "6. learning/morning study",
     "6. learning/mentoring",
     "3. programing/coding test",
