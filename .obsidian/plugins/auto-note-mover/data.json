@@ -4,12 +4,12 @@
   "statusBar_trigger_indicator": true,
   "folder_tag_pattern": [
     {
-      "folder": "0. planner/daily",
+      "folder": "1. planner/1. daily",
       "tag": "#daily",
       "pattern": ""
     },
     {
-      "folder": "0. planner/weekly",
+      "folder": "1. planner/2. weekly",
       "tag": "#weekly",
       "pattern": ""
     },
@@ -51,6 +51,16 @@
     {
       "folder": "5. link/blog",
       "tag": "#blog",
+      "pattern": ""
+    },
+    {
+      "folder": "1. planner/3. monthly",
+      "tag": "#monthly",
+      "pattern": ""
+    },
+    {
+      "folder": "1. planner/4. yearly",
+      "tag": "#yearly",
       "pattern": ""
     }
   ],

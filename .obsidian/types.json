@@ -49,6 +49,10 @@
     "c_plugIn": "multitext",
     "related_notes": "multitext",
     "updated": "date",
-    "deadline": "date"
+    "deadline": "date",
+    "importtan_date": "checkbox",
+    "date": "text",
+    "created": "text",
+    "exercise": "checkbox"
   }
 }

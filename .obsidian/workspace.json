@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e8a4c26b9e31384d",
+        "id": "7dc3276aa8f7717d",
         "type": "tabs",
         "children": [
           {
-            "id": "593841e9ac9756cc",
+            "id": "2b14f81b1b04fc01",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,8 +50,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "로그 수집",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -86,7 +86,8 @@
               "title": "북마크"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -248,34 +249,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "593841e9ac9756cc",
+  "active": "9b4610631fd59679",
   "lastOpenFiles": [
+    "1. planner/3. monthly/2025-10.md",
+    "1. planner/1. daily/2025년_10월_05일.md",
+    "1. planner/3. monthly/2025년_10월.md",
+    "8. templetes/templete_daily.md",
+    "1. planner/Redis, EFK, Jmeter 학습 로드맵.md",
+    "8. templetes/templete_basic.md",
+    "8. templetes/templete_blog.md",
+    "8. templetes/templete_dataview.md",
+    "8. templetes/templete_employ.md",
+    "8. templetes/templete_monthly.md",
+    "8. templetes/templete_obsidian.md",
+    "8. templetes/templete_repository.md",
+    "8. templetes/templete_weekly.md",
+    "8. templetes/templete_yearly.md",
+    "8. templetes/templete_youtube.md",
+    "8. templetes/templete_years.md",
+    "1. planner/4. yearly",
+    "1. planner/3. monthly",
+    "5. link/youtube/DBCP(DB connection pool)의 개념부터 설정 방법.md",
+    "2. dataview/youtube info.md",
+    "99. organize/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
     "99. organize/Link.md",
     "5. link/all links.md",
     "2. dataview/employ info.md",
     "7. employ/company info/퀀텟시스템즈.md",
     "7. employ/company info/데이터유니버스.md",
     "7. employ/company info/오너클랜.md",
-    "7. employ/company info/인퍼블릭.md",
-    "7. employ/company info/고스트패스.md",
-    "7. employ/company info/크림하우스.md",
-    "7. employ/company info/마드라스체크.md",
-    "7. employ/company info/코코아플러스.md",
-    "7. employ/company info/제온스.md",
-    "7. employ/company info/뉴플로이.md",
-    "7. employ/company info/더캐리.md",
-    "7. employ/company info/가이던스프로.md",
-    "7. employ/company info/무브.md",
-    "7. employ/company info/유비벨록스.md",
-    "7. employ/company info/태성에이치에스.md",
-    "7. employ/company info/큐브엔시스.md",
-    "7. employ/company info/넛지헬스케어.md",
-    "7. employ/company info/바카티오.md",
-    "7. employ/company info/드림티원.md",
-    "7. employ/company info/마인드차트.md",
-    "8. templetes/templete_employ.md",
-    "8. templetes/templete_obsidian.md",
-    "7. employ/company info/레이라.md",
     "6. learning/morning study",
     "6. learning/mentoring",
     "3. programing/coding test",
@@ -283,9 +285,7 @@
     "3. programing/computer sience",
     "5. link/repository",
     "5. link/blog",
-    "0. planner/weekly",
-    "0. planner/daily",
-    "15. guide",
+    "1. planner/2. weekly",
     "Media/Canvas/캔버스.canvas",
     "무제.canvas",
     "12. Images/filebeat.gif",
