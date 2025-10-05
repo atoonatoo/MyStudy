@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "df097951518a6fcc",
+        "id": "d1ed6b578310dbba",
         "type": "tabs",
         "children": [
           {
-            "id": "862200f0660cf4c1",
+            "id": "5e5d64e4efa28f69",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "99. organize/Link.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.9.14"
+              "icon": "lucide-file",
+              "title": "Link"
             }
           }
         ]
@@ -38,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "이력서",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +86,7 @@
               "title": "북마크"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -144,12 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "99. organize/Link.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "Link 의 개요"
             }
           },
           {
@@ -214,7 +226,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,15 +244,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "862200f0660cf4c1",
+  "active": "5e5d64e4efa28f69",
   "lastOpenFiles": [
+    "5. link/all links.md",
+    "2. dataview/employ info.md",
+    "7. employ/company info/퀀텟시스템즈.md",
+    "7. employ/company info/데이터유니버스.md",
+    "7. employ/company info/오너클랜.md",
+    "7. employ/company info/인퍼블릭.md",
+    "7. employ/company info/고스트패스.md",
+    "7. employ/company info/크림하우스.md",
+    "7. employ/company info/마드라스체크.md",
+    "7. employ/company info/코코아플러스.md",
+    "7. employ/company info/제온스.md",
     "7. employ/company info/뉴플로이.md",
     "7. employ/company info/더캐리.md",
     "7. employ/company info/가이던스프로.md",
-    "7. employ/company info/제온스.md",
     "7. employ/company info/무브.md",
     "7. employ/company info/유비벨록스.md",
     "7. employ/company info/태성에이치에스.md",
@@ -248,20 +272,10 @@
     "7. employ/company info/바카티오.md",
     "7. employ/company info/드림티원.md",
     "7. employ/company info/마인드차트.md",
-    "7. employ/company info/코코아플러스.md",
     "8. templetes/templete_employ.md",
     "8. templetes/templete_obsidian.md",
     "7. employ/company info/레이라.md",
     "7. employ/company info/리비바이오.md",
-    "7. employ/company info/마이렌.md",
-    "마이렌.md",
-    "7. employ/company info/폴리큐브.md",
-    "무제 1.md",
-    "2. dataview/youtube info.md",
-    "2. dataview/repository info.md",
-    "2. dataview/blog info.md",
-    "5. link/blog/이력서는 자기소개서의 요약본이다.md",
-    "0. planner/Redis, EFK, Jmeter 학습 로드맵.md",
     "6. learning/morning study",
     "6. learning/mentoring",
     "3. programing/coding test",
