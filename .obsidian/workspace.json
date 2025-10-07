@@ -11,10 +11,24 @@
             "id": "656ed5843582368a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "6. learning/learning_interview_backend.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "learning_interview_backend"
             }
           }
         ]
@@ -237,6 +251,7 @@
   },
   "active": "656ed5843582368a",
   "lastOpenFiles": [
+    "6. learning/learning_interview_backend.md",
     "7. employ/company info/인시퀀스.md",
     "7. employ/company info/인버스.md",
     "7. employ/company info/유비엔티스랩.md",
@@ -264,7 +279,6 @@
     "8. templetes/templete_years.md",
     "1. planner/4. yearly",
     "1. planner/3. monthly",
-    "5. link/youtube/DBCP(DB connection pool)의 개념부터 설정 방법.md",
     "6. learning/morning study",
     "6. learning/mentoring",
     "3. programing/coding test",

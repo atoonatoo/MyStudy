@@ -53,6 +53,8 @@
     "importtan_date": "checkbox",
     "date": "text",
     "created": "text",
-    "exercise": "checkbox"
+    "exercise": "checkbox",
+    "OS": "text",
+    "network": "multitext"
   }
 }
