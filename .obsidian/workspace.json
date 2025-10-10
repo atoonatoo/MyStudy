@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "656ed5843582368a",
+            "id": "9f90144b3d9a547b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6. learning/learning_interview_backend.md",
+                "file": "2. dataview/employ info.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "learning_interview_backend"
+              "title": "employ info"
             }
           }
         ]
@@ -249,8 +249,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "656ed5843582368a",
+  "active": "9f90144b3d9a547b",
   "lastOpenFiles": [
+    "브이바디.md",
+    "7. employ/company info/데일리페이.md",
+    "리비바이오.md",
+    "7. employ/company info/에이아이비즈.md",
     "6. learning/learning_interview_backend.md",
     "7. employ/company info/인시퀀스.md",
     "7. employ/company info/인버스.md",
@@ -273,10 +277,6 @@
     "8. templetes/templete_monthly.md",
     "8. templetes/templete_obsidian.md",
     "8. templetes/templete_repository.md",
-    "8. templetes/templete_weekly.md",
-    "8. templetes/templete_yearly.md",
-    "8. templetes/templete_youtube.md",
-    "8. templetes/templete_years.md",
     "1. planner/4. yearly",
     "1. planner/3. monthly",
     "6. learning/morning study",
