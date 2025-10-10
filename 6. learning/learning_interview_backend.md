@@ -17,8 +17,6 @@ backend: https://velog.io/@youngjun_10/BackEnd-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A
 ---
 
 
-887
-
 
 
 
