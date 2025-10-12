@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "10d7879d534e8029",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. dataview/channel info.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "channel info"
-            }
-          },
-          {
             "id": "c37a817d8797b082",
             "type": "leaf",
             "state": {
@@ -55,8 +31,7 @@
               "title": "네이버클라우드 비트캠프의 이력서 정리"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -286,6 +261,10 @@
   "lastOpenFiles": [
     "2. dataview/channel info.md",
     "네이버클라우드 비트캠프의 이력서 정리.md",
+    "아이알엠.md",
+    "에이아이비즈.md",
+    "로이드케이.md",
+    "넥스트그라운드.md",
     "2. dataview/employ info.md",
     "2. dataview/blog info.md",
     "2. dataview/repository info.md",
@@ -307,10 +286,6 @@
     "7. employ/company info/데일리페이.md",
     "리비바이오.md",
     "7. employ/company info/에이아이비즈.md",
-    "6. learning/learning_interview_backend.md",
-    "7. employ/company info/인시퀀스.md",
-    "7. employ/company info/인버스.md",
-    "7. employ/company info/유비엔티스랩.md",
     "1. planner/4. yearly",
     "1. planner/3. monthly",
     "6. learning/morning study",
