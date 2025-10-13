@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "210bef8f1e9a721d",
+        "id": "304c745d700a3da2",
         "type": "tabs",
         "children": [
           {
-            "id": "e9991ff5f94754b0",
+            "id": "7c84a7d6a2b7ebb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. dataview/youtube info.md",
+                "file": "네이버클라우드 비트캠프의 이력서 정리.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "youtube info"
+              "title": "네이버클라우드 비트캠프의 이력서 정리"
+            }
+          },
+          {
+            "id": "b4710f8033234a39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "무제"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,8 +100,7 @@
               "title": "파일 탐색기"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "86e5987d485b8b6d",
@@ -99,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -257,19 +282,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e9991ff5f94754b0",
+  "active": "b4710f8033234a39",
   "lastOpenFiles": [
-    "7. employ/company info/현대오토에버.md",
+    "무제.md",
     "네이버클라우드 비트캠프의 이력서 정리.md",
+    "2. dataview/employ info.md",
+    "2. dataview/youtube info.md",
+    "7. employ/company info/현대오토에버.md",
     "2. dataview/channel info.md",
     "아이알엠.md",
     "에이아이비즈.md",
     "로이드케이.md",
     "넥스트그라운드.md",
-    "2. dataview/employ info.md",
     "2. dataview/blog info.md",
     "2. dataview/repository info.md",
-    "2. dataview/youtube info.md",
     "5. link/youtube/생각등컴퍼니.md",
     "5. link/channel",
     "5. link/all links.md",
@@ -285,7 +311,6 @@
     "99. organize/Prompt.md",
     "브이바디.md",
     "7. employ/company info/데일리페이.md",
-    "리비바이오.md",
     "1. planner/4. yearly",
     "1. planner/3. monthly",
     "6. learning/morning study",
