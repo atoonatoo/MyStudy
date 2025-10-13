@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9a715cacee7978d2",
+        "id": "210bef8f1e9a721d",
         "type": "tabs",
         "children": [
           {
-            "id": "c37a817d8797b082",
+            "id": "e9991ff5f94754b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "네이버클라우드 비트캠프의 이력서 정리.md",
+                "file": "2. dataview/youtube info.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "네이버클라우드 비트캠프의 이력서 정리"
+              "title": "youtube info"
             }
           }
         ]
@@ -257,10 +257,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c37a817d8797b082",
+  "active": "e9991ff5f94754b0",
   "lastOpenFiles": [
-    "2. dataview/channel info.md",
+    "7. employ/company info/현대오토에버.md",
     "네이버클라우드 비트캠프의 이력서 정리.md",
+    "2. dataview/channel info.md",
     "아이알엠.md",
     "에이아이비즈.md",
     "로이드케이.md",
@@ -285,7 +286,6 @@
     "브이바디.md",
     "7. employ/company info/데일리페이.md",
     "리비바이오.md",
-    "7. employ/company info/에이아이비즈.md",
     "1. planner/4. yearly",
     "1. planner/3. monthly",
     "6. learning/morning study",
