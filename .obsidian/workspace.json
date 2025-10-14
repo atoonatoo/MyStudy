@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "304c745d700a3da2",
+        "id": "21deb63c3a93765f",
         "type": "tabs",
         "children": [
           {
-            "id": "7c84a7d6a2b7ebb6",
+            "id": "ad4a1d25c676ad47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "네이버클라우드 비트캠프의 이력서 정리.md",
+                "file": "2. dataview/youtube info.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "네이버클라우드 비트캠프의 이력서 정리"
-            }
-          },
-          {
-            "id": "b4710f8033234a39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "네이버클라우드 비트캠프의 이력서 정리.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "네이버클라우드 비트캠프의 이력서 정리"
+              "title": "youtube info"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +43,6 @@
       {
         "id": "8ecb16ef3cfc7b8c",
         "type": "tabs",
-        "dimension": 66.79012345679013,
         "children": [
           {
             "id": "3bed8b912269764a",
@@ -99,15 +73,7 @@
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "86e5987d485b8b6d",
-        "type": "tabs",
-        "dimension": 33.20987654320988,
-        "children": [
+          },
           {
             "id": "1bbf34e1f7115f8c",
             "type": "leaf",
@@ -120,7 +86,8 @@
               "title": "북마크"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -278,21 +245,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "b4710f8033234a39",
+  "active": "ad4a1d25c676ad47",
   "lastOpenFiles": [
+    "5. link/youtube/퇴사하고 1인 개발자로 앱 출시하면서 느낀점....md",
+    "6. learning/learning_interview_backend.md",
+    "6. learning/learning_study_mentoring.md",
     "무제.md",
-    "네이버클라우드 비트캠프의 이력서 정리.md",
+    "6 Employment.md",
+    "7. employ/company info/아이알엠.md",
+    "에이아이비즈.md",
+    "7. employ/company info/브이바디.md",
+    "7. employ/company info/로이드케이.md",
+    "7. employ/company info/넥스트그라운드.md",
+    "7. employ/employment_resume_menual.md",
+    "7. employ/네이버클라우드 비트캠프의 이력서 정리.md",
     "2. dataview/employ info.md",
     "2. dataview/youtube info.md",
     "7. employ/company info/현대오토에버.md",
     "2. dataview/channel info.md",
-    "아이알엠.md",
-    "에이아이비즈.md",
-    "로이드케이.md",
-    "넥스트그라운드.md",
     "2. dataview/blog info.md",
     "2. dataview/repository info.md",
     "5. link/youtube/생각등컴퍼니.md",
@@ -304,12 +278,6 @@
     "5. link/youtube/채용 사이트에서 제대로 공고 찾는 방법.md",
     "5. link/youtube/옵시디언 어려우셨던분들 꼭 보세요! 클로드 MCP의 엄청난 기능.옵시디언 노트 작성부터 유튜브 요약까지.md",
     "5. link/youtube/면접시작하자마자 합격하는 기술.md",
-    "5. link/youtube/개발자 취업사이트 공고 찾는법.md",
-    "5. link/youtube/단순한개발자가 성공하는 이유.md",
-    "8. templates/template_basic.md",
-    "99. organize/Prompt.md",
-    "브이바디.md",
-    "7. employ/company info/데일리페이.md",
     "1. planner/4. yearly",
     "1. planner/3. monthly",
     "6. learning/morning study",
