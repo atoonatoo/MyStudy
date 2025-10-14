@@ -11,6 +11,24 @@ coment: 코딩 테스트 입문자 학습 가이드라인
 ---
 
 
+### public static void main(String[] args)
+
+
+### Scanner
+
+- [[BufferedReader & BufferedWriter]]
+
+
+### InputStreamReader
+
+### Exception
+
+### throws
+
+
+
+---
+
 
 
 

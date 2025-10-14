@@ -1,11 +1,12 @@
 ---
-title: <% tp.file.title.split("_") [0] %>
+title: Exception
 type: computer science
 director: programing
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2025-10-14
 tags:
   - programing
   - cs
+  - cs_java
 ---
 # 
 

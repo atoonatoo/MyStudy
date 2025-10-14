@@ -14,13 +14,13 @@
       "pattern": ""
     },
     {
-      "folder": "7. employ/company info",
-      "tag": "#company_info",
+      "folder": "1. planner/3. monthly",
+      "tag": "#monthly",
       "pattern": ""
     },
     {
-      "folder": "5. link/info",
-      "tag": "#programing_youtube",
+      "folder": "1. planner/4. yearly",
+      "tag": "#yearly",
       "pattern": ""
     },
     {
@@ -29,8 +29,23 @@
       "pattern": ""
     },
     {
-      "folder": "3. programing/computer science",
-      "tag": "#computer_science",
+      "folder": "7. employ/company info",
+      "tag": "#company_info",
+      "pattern": ""
+    },
+    {
+      "folder": "5. link/programing info",
+      "tag": "#programing_youtube",
+      "pattern": ""
+    },
+    {
+      "folder": "5. link/programing info",
+      "tag": "#programing_blog",
+      "pattern": ""
+    },
+    {
+      "folder": "5. link/programing info",
+      "tag": "#programing_git_repository",
       "pattern": ""
     },
     {
@@ -44,23 +59,38 @@
       "pattern": ""
     },
     {
-      "folder": "5. link/info",
-      "tag": "#programing_git_repository",
+      "folder": "3. programing/computer science",
+      "tag": "#cs_java",
       "pattern": ""
     },
     {
-      "folder": "5. link/info",
-      "tag": "#programing_blog",
+      "folder": "3. programing/computer science",
+      "tag": "#cs_operation_system",
       "pattern": ""
     },
     {
-      "folder": "1. planner/3. monthly",
-      "tag": "#monthly",
+      "folder": "3. programing/computer science",
+      "tag": "#cs_network",
       "pattern": ""
     },
     {
-      "folder": "1. planner/4. yearly",
-      "tag": "#yearly",
+      "folder": "3. programing/computer science",
+      "tag": "#cs_data_structure",
+      "pattern": ""
+    },
+    {
+      "folder": "3. programing/computer science",
+      "tag": "#cs_algorithem",
+      "pattern": ""
+    },
+    {
+      "folder": "3. programing/computer science",
+      "tag": "#cs_database",
+      "pattern": ""
+    },
+    {
+      "folder": "3. programing/computer science",
+      "tag": "#cs_desine_pattern",
       "pattern": ""
     }
   ],

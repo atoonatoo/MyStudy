@@ -8,12 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "51f944ef0d627a92",
+            "id": "31d1430224422479",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. link/programing info/blog_초보자를 위한 백준 공부법.md",
+                "file": "3. programing/computer science/Process & Thread.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -27,8 +28,113 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "blog_초보자를 위한 백준 공부법"
+              "title": "Process & Thread"
+            }
+          },
+          {
+            "id": "e4bfa8dc61064512",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. programing/computer science/InputStreamReader.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "InputStreamReader"
+            }
+          },
+          {
+            "id": "d289ba2247bdf7eb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. programing/computer science/Exception.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Exception"
+            }
+          },
+          {
+            "id": "5dbc7ed282d1afcc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. programing/computer science/throws.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "throws"
+            }
+          },
+          {
+            "id": "957fe2da05866977",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. programing/computer science/public static void main.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "public static void main"
             }
           }
         ]
@@ -91,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -245,44 +352,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false,
-      "periodic-notes:Open today": false
+      "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "51f944ef0d627a92",
+  "active": "31d1430224422479",
   "lastOpenFiles": [
+    "3. programing/computer science/BufferedReader & BufferedWriter.md",
+    "list/Images/Pasted image 20251014144434.png",
+    "3. programing/computer science/public static void main.md",
+    "StringTokenizer.md",
+    "String.split().md",
+    "멀티 쓰레드.md",
+    "5. link/programing info/blog_초보자를 위한 백준 공부법.md",
+    "3. programing/computer science/InputStreamReader.md",
+    "3. programing/computer science/Exception.md",
+    "3. programing/computer science/throws.md",
     "3. programing/computer science/Process & Thread.md",
+    "8. templates/template_cs.md",
     "list/Images/Pasted image 20251014133237.png",
     "list/Images/Pasted image 20251014133233.png",
     "2. dataview/programing info.md",
-    "5. link/programing info/blog_초보자를 위한 백준 공부법.md",
     "2. dataview/channel.md",
     "2. dataview/employ.md",
     "2. dataview/youtube.md",
     "2. dataview/resume info.md",
     "2. dataview/repository info.md",
-    "무제.md",
     "하이퍼스레딩(Hyper-Threading).md",
     "메모리 구조(memory structure).md",
     "list/Images/Pasted image 20251014130157.png",
     "list/Images",
     "list",
     "multi tasking.md",
-    "8. templates/template_cs.md",
     "5. link/programing info/blog_이력서는 자기소개서의 요약본이다.md",
     "8. templates/template_youtube.md",
     "8. templates/template_blog.md",
     "LPC(Local inter-Process Communication).md",
     "IPC(Inter-Process Communication).md",
     "3. programing/computer sience/무제",
-    "8. templates/templete_resume.md",
     "5. link/resume",
-    "6 Employment.md",
-    "8. templates/template_dataview.md",
-    "9. life/life_couple_우리 응애.md",
-    "7. employ/company info/가이던스프로.md",
-    "6. learning/learning_qualifications_정보처리기사.md",
-    "5. link/youtube/이직 타이밍을 놓치게 만드는 3가지 함정 유형.md",
     "3. programing/project",
     "5. link/channel",
     "1. planner/4. yearly",
@@ -296,7 +403,6 @@
     "12. Images/Pasted image 20250720191057.png",
     "12. Images/Pasted image 20250719161126.png",
     "12. Images/Pasted image 20250719160223.png",
-    "12. Images/Pasted image 20250719160210.png",
-    "12. Images/Pasted image 20250719160209.png"
+    "12. Images/Pasted image 20250719160210.png"
   ]
 }

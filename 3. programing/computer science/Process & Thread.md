@@ -6,7 +6,7 @@ date: 2025-10-14
 tags:
   - programing
   - cs
-  - operation_system
+  - cs_operation_system
 ---
 # 1. 프로세스와 스레드 개념
 
