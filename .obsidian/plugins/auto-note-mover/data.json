@@ -19,18 +19,18 @@
       "pattern": ""
     },
     {
-      "folder": "5. link/youtube",
-      "tag": "#youtube",
+      "folder": "5. link/info",
+      "tag": "#programing_youtube",
       "pattern": ""
     },
     {
       "folder": "15. guide/obsidian",
-      "tag": "#obsidian",
+      "tag": "#guide_obsidian",
       "pattern": ""
     },
     {
-      "folder": "3. programing/computer sience",
-      "tag": "#cs",
+      "folder": "3. programing/computer science",
+      "tag": "#computer_science",
       "pattern": ""
     },
     {
@@ -44,13 +44,13 @@
       "pattern": ""
     },
     {
-      "folder": "5. link/repository",
-      "tag": "#git_repository",
+      "folder": "5. link/info",
+      "tag": "#programing_git_repository",
       "pattern": ""
     },
     {
-      "folder": "5. link/blog",
-      "tag": "#blog",
+      "folder": "5. link/info",
+      "tag": "#programing_blog",
       "pattern": ""
     },
     {
