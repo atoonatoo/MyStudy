@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제.md",
+                "file": "네이버클라우드 비트캠프의 이력서 정리.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "네이버클라우드 비트캠프의 이력서 정리"
             }
           }
         ],
@@ -68,7 +68,7 @@
       {
         "id": "8ecb16ef3cfc7b8c",
         "type": "tabs",
-        "dimension": 66.79012345679011,
+        "dimension": 66.79012345679013,
         "children": [
           {
             "id": "3bed8b912269764a",
@@ -100,12 +100,13 @@
               "title": "파일 탐색기"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "86e5987d485b8b6d",
         "type": "tabs",
-        "dimension": 33.20987654320987,
+        "dimension": 33.20987654320988,
         "children": [
           {
             "id": "1bbf34e1f7115f8c",
@@ -123,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -278,8 +278,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false,
-      "periodic-notes:Open today": false
+      "kr-book-info-plugin:Add Book Info": false
     }
   },
   "active": "b4710f8033234a39",
