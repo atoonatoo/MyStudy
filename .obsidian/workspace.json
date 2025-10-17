@@ -58,6 +58,30 @@
             }
           },
           {
+            "id": "384129ad357d1999",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. employ/company info/아랑소프트.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "아랑소프트"
+            }
+          },
+          {
             "id": "e4bfa8dc61064512",
             "type": "leaf",
             "pinned": true,
@@ -162,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -380,12 +404,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e518754d5ad008a8",
+  "active": "384129ad357d1999",
   "lastOpenFiles": [
+    "2. dataview/employ.md",
+    "7. employ/company info/아랑소프트.md",
+    "8. templates/template_employ.md",
     "2. dataview/programing info.md",
     "3. programing/computer science/Process & Thread.md",
-    "7. employ/company info/아랑소프트.md",
-    "2. dataview/employ.md",
     "3. programing/computer science/BufferedReader & BufferedWriter.md",
     "list/Images/Pasted image 20251014144434.png",
     "3. programing/computer science/public static void main.md",
@@ -413,7 +438,6 @@
     "8. templates/template_youtube.md",
     "8. templates/template_blog.md",
     "LPC(Local inter-Process Communication).md",
-    "IPC(Inter-Process Communication).md",
     "3. programing/computer sience/무제",
     "5. link/resume",
     "3. programing/project",

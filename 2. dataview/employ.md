@@ -19,7 +19,7 @@ TABLE without id
     status as "지원 현황",
     dateformat(date, "yy/MM/dd") as "지원일",
     choice(deadline, dateformat(deadline, "yy/MM/dd"), "") as "마감일",
-    website as "회사 사이트"
+    website as "면접 후기"
 FROM "7. employ/company info"
 
 ```
