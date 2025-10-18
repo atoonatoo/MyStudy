@@ -48,7 +48,7 @@ BufferedReader와 Scanner의 속도 차이를 잘 보여주는 예시는 아래�
 
 그리고 버퍼 사이즈도 Scanner가 1024 char인데 비해, BufferedReader는 8192char(16,384byte) 이기 때문에 입력이 많을 때 BufferedReader가 훨씬 유리하다.
 
-또한 BufferedReader는 동기화 되기 때문에 [[멀티 쓰레드]] 환경에서 안전하고, Scanner는 동기화가 되지 않기 때문에 멀티 쓰레드 환경에서 안전하지 않다.
+또한 BufferedReader는 동기화 되기 때문에 [[multi thread]] 환경에서 안전하고, Scanner는 동기화가 되지 않기 때문에 멀티 쓰레드 환경에서 안전하지 않다.
 
 ---
 ### 1.2.1  BufferedReader 사용법

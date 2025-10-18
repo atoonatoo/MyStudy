@@ -34,54 +34,6 @@
             }
           },
           {
-            "id": "e518754d5ad008a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. dataview/employ.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "employ"
-            }
-          },
-          {
-            "id": "384129ad357d1999",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/company info/아랑소프트.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "아랑소프트"
-            }
-          },
-          {
             "id": "e4bfa8dc61064512",
             "type": "leaf",
             "pinned": true,
@@ -186,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -404,21 +356,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "384129ad357d1999",
+  "active": "957fe2da05866977",
   "lastOpenFiles": [
+    "IPC(Inter-Process Communication).md",
+    "LPC(Local inter-Process Communication).md",
+    "String.split().md",
+    "StringTokenizer.md",
+    "multi thread.md",
+    "3. programing/computer science/Process & Thread.md",
     "2. dataview/employ.md",
+    "3. programing/computer science/InputStreamReader.md",
     "7. employ/company info/아랑소프트.md",
     "8. templates/template_employ.md",
     "2. dataview/programing info.md",
-    "3. programing/computer science/Process & Thread.md",
     "3. programing/computer science/BufferedReader & BufferedWriter.md",
     "list/Images/Pasted image 20251014144434.png",
     "3. programing/computer science/public static void main.md",
-    "StringTokenizer.md",
-    "String.split().md",
-    "멀티 쓰레드.md",
     "5. link/programing info/blog_초보자를 위한 백준 공부법.md",
-    "3. programing/computer science/InputStreamReader.md",
     "3. programing/computer science/Exception.md",
     "3. programing/computer science/throws.md",
     "8. templates/template_cs.md",
@@ -436,8 +390,6 @@
     "multi tasking.md",
     "5. link/programing info/blog_이력서는 자기소개서의 요약본이다.md",
     "8. templates/template_youtube.md",
-    "8. templates/template_blog.md",
-    "LPC(Local inter-Process Communication).md",
     "3. programing/computer sience/무제",
     "5. link/resume",
     "3. programing/project",
