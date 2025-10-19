@@ -136,81 +136,9 @@
               "icon": "lucide-file",
               "title": "public static void main"
             }
-          },
-          {
-            "id": "ce248e0478545124",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99. organize/Prompt.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Prompt"
-            }
-          },
-          {
-            "id": "9df9ac85f8ca5669",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99. organize/Nginx Prompt.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nginx Prompt"
-            }
-          },
-          {
-            "id": "54bc183dd97120e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99. organize/GPT 질문 공략.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GPT 질문 공략"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -266,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -428,19 +356,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "54bc183dd97120e2",
+  "active": "9b4610631fd59679",
   "lastOpenFiles": [
+    "무제.md",
+    "3. programing/computer science/public static void main.md",
+    "7. employ/company info/링커리어.md",
+    "7. employ/company info/건강누리.md",
+    "7. employ/company info/월비소프트.md",
+    "7. employ/company info/아이다이나믹스.md",
     "99. organize/Prompt.md",
     "99. organize/Nginx Prompt.md",
-    "3. programing/computer science/public static void main.md",
+    "99. organize/GPT 질문 공략.md",
+    "3. programing/computer science/InputStreamReader.md",
+    "3. programing/computer science/Process & Thread.md",
     "IPC(Inter-Process Communication).md",
     "LPC(Local inter-Process Communication).md",
     "String.split().md",
     "StringTokenizer.md",
     "multi thread.md",
-    "3. programing/computer science/Process & Thread.md",
     "2. dataview/employ.md",
-    "3. programing/computer science/InputStreamReader.md",
     "7. employ/company info/아랑소프트.md",
     "8. templates/template_employ.md",
     "2. dataview/programing info.md",
@@ -453,15 +387,9 @@
     "list/Images/Pasted image 20251014133237.png",
     "list/Images/Pasted image 20251014133233.png",
     "2. dataview/channel.md",
-    "2. dataview/youtube.md",
-    "2. dataview/resume info.md",
-    "2. dataview/repository info.md",
-    "하이퍼스레딩(Hyper-Threading).md",
-    "메모리 구조(memory structure).md",
     "list/Images/Pasted image 20251014130157.png",
     "list/Images",
     "list",
-    "multi tasking.md",
     "3. programing/computer sience/무제",
     "5. link/resume",
     "3. programing/project",
