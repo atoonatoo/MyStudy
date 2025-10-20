@@ -110,8 +110,33 @@
               "icon": "lucide-file",
               "title": "public static void main"
             }
+          },
+          {
+            "id": "8c8bf19ecede2136",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. employ/employ_my_resume.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "employ_my_resume"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -330,12 +355,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "31d1430224422479",
+  "active": "8c8bf19ecede2136",
   "lastOpenFiles": [
+    "7. employ/employment_resume_menual.md",
+    "7. employ/employ_my_resume.md",
+    "3. programing/computer science/Process & Thread.md",
     "3. programing/computer science/InputStreamReader.md",
     "3. programing/computer science/Exception.md",
     "3. programing/computer science/public static void main.md",
-    "3. programing/computer science/Process & Thread.md",
     "7. employ/company info/에이펙인텔리전스.md",
     "유비벨록스.md",
     "7. employ/company info/스톤인테그리티.md",
@@ -356,8 +383,6 @@
     "multi thread.md",
     "2. dataview/employ.md",
     "8. templates/template_employ.md",
-    "2. dataview/programing info.md",
-    "3. programing/computer science/BufferedReader & BufferedWriter.md",
     "list/Images/Pasted image 20251014144434.png",
     "list/Images/Pasted image 20251014133237.png",
     "list/Images/Pasted image 20251014133233.png",
