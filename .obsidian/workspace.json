@@ -34,32 +34,6 @@
             }
           },
           {
-            "id": "e4bfa8dc61064512",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. programing/computer science/InputStreamReader.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "InputStreamReader"
-            }
-          },
-          {
             "id": "d289ba2247bdf7eb",
             "type": "leaf",
             "pinned": true,
@@ -137,8 +111,7 @@
               "title": "public static void main"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -357,11 +330,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e4bfa8dc61064512",
+  "active": "31d1430224422479",
   "lastOpenFiles": [
+    "3. programing/computer science/InputStreamReader.md",
     "3. programing/computer science/Exception.md",
     "3. programing/computer science/public static void main.md",
-    "3. programing/computer science/InputStreamReader.md",
     "3. programing/computer science/Process & Thread.md",
     "7. employ/company info/에이펙인텔리전스.md",
     "유비벨록스.md",

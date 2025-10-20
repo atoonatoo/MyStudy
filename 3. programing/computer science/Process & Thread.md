@@ -179,5 +179,5 @@ tags:
 ---
 # 99. 참고 문헌
 
-- [참고문헌](https://it-techtree.tistory.com/entry/difference-multiprocessor-multicore)
+- [참고 문헌](https://it-techtree.tistory.com/entry/difference-multiprocessor-multicore)
 - [참고 문헌](https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%E2%9A%94%EF%B8%8F-%EC%93%B0%EB%A0%88%EB%93%9C-%EC%B0%A8%EC%9D%B4)
