@@ -65,7 +65,7 @@ System.out.println(a); } }
     - Char[] a = new char[3];
     - reader.read(a);
 
-- InputStreamReader를 
+
 
 # 99.  참고 문헌
 
