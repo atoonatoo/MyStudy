@@ -136,9 +136,33 @@
               "icon": "lucide-file",
               "title": "public static void main"
             }
+          },
+          {
+            "id": "af0cec1451b64b12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "무제 1"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -356,10 +380,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9b4610631fd59679",
+  "active": "af0cec1451b64b12",
   "lastOpenFiles": [
-    "무제.md",
+    "무제 1.md",
     "3. programing/computer science/public static void main.md",
+    "7. employ/company info/낭만상회.md",
+    "무제.md",
+    "7. employ/company info/아랑소프트.md",
     "7. employ/company info/링커리어.md",
     "7. employ/company info/건강누리.md",
     "7. employ/company info/월비소프트.md",
@@ -375,7 +402,6 @@
     "StringTokenizer.md",
     "multi thread.md",
     "2. dataview/employ.md",
-    "7. employ/company info/아랑소프트.md",
     "8. templates/template_employ.md",
     "2. dataview/programing info.md",
     "3. programing/computer science/BufferedReader & BufferedWriter.md",
@@ -383,10 +409,8 @@
     "5. link/programing info/blog_초보자를 위한 백준 공부법.md",
     "3. programing/computer science/Exception.md",
     "3. programing/computer science/throws.md",
-    "8. templates/template_cs.md",
     "list/Images/Pasted image 20251014133237.png",
     "list/Images/Pasted image 20251014133233.png",
-    "2. dataview/channel.md",
     "list/Images/Pasted image 20251014130157.png",
     "list/Images",
     "list",
