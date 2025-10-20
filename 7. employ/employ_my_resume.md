@@ -82,6 +82,15 @@ _2024.04 ~ 2024.10_
 - **Domain** : [https://techie-phi.vercel.app/](https://techie-phi.vercel.app/)
 
 
+---
+
+- 내가 만들고 배운 것들
+    - 설계 및 구현
+    - Domain 설계 및 작성
+    - 인증 구현 (인가도 구현했는가?)
+    - 플레이리스트
+    - OpenAI ChatGPT API 연동
+    - 부하 테스트 
 
 
 
