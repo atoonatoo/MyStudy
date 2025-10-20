@@ -136,33 +136,9 @@
               "icon": "lucide-file",
               "title": "public static void main"
             }
-          },
-          {
-            "id": "af0cec1451b64b12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "무제 1"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -380,12 +357,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "af0cec1451b64b12",
+  "active": "e4bfa8dc61064512",
   "lastOpenFiles": [
-    "무제 1.md",
+    "3. programing/computer science/Process & Thread.md",
+    "3. programing/computer science/Exception.md",
+    "7. employ/company info/에이펙인텔리전스.md",
+    "유비벨록스.md",
+    "7. employ/company info/스톤인테그리티.md",
+    "7. employ/company info/지지옥션.md",
     "3. programing/computer science/public static void main.md",
     "7. employ/company info/낭만상회.md",
-    "무제.md",
     "7. employ/company info/아랑소프트.md",
     "7. employ/company info/링커리어.md",
     "7. employ/company info/건강누리.md",
@@ -395,7 +376,6 @@
     "99. organize/Nginx Prompt.md",
     "99. organize/GPT 질문 공략.md",
     "3. programing/computer science/InputStreamReader.md",
-    "3. programing/computer science/Process & Thread.md",
     "IPC(Inter-Process Communication).md",
     "LPC(Local inter-Process Communication).md",
     "String.split().md",
@@ -406,9 +386,6 @@
     "2. dataview/programing info.md",
     "3. programing/computer science/BufferedReader & BufferedWriter.md",
     "list/Images/Pasted image 20251014144434.png",
-    "5. link/programing info/blog_초보자를 위한 백준 공부법.md",
-    "3. programing/computer science/Exception.md",
-    "3. programing/computer science/throws.md",
     "list/Images/Pasted image 20251014133237.png",
     "list/Images/Pasted image 20251014133233.png",
     "list/Images/Pasted image 20251014130157.png",
