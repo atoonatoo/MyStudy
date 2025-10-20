@@ -59,12 +59,13 @@ System.out.println(a); } }
 ```
 
 - (1) 주어진 입력 바이트 스트림 in에 대해 기본 인코딩을 사용하는 객체를 생성한다.
-    - `InputStreamReader reader = new InputStreamReader(in);`
+    - InputStreamReader reader = new InputStreamReader(in);
 
 - (2) byte 배열대신에 char 배열로 데이터를 받을 수 있다.
-    - `Char[] a = new char[3]; reader.read(a);`
+    - Char[] a = new char[3];
+    - reader.read(a);
 
-- 
+- InputStreamReader를 
 
 # 99.  참고 문헌
 
