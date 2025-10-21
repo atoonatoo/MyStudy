@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. programing/computer science/Exception.md",
+                "file": "3. programing/computer science/Java Error & Exception.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -56,7 +56,7 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Exception"
+              "title": "Java Error & Exception"
             }
           },
           {
@@ -135,8 +135,7 @@
               "title": "employ_my_resume"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -351,16 +350,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "8c8bf19ecede2136",
+  "active": "31d1430224422479",
   "lastOpenFiles": [
-    "7. employ/employment_resume_menual.md",
+    "3. programing/computer science/Java Error & Exception.md",
+    "list/Images/Pasted image 20251021182251.png",
+    "8. templates/template_cs.md",
     "7. employ/employ_my_resume.md",
     "3. programing/computer science/Process & Thread.md",
+    "7. employ/employment_resume_menual.md",
     "3. programing/computer science/InputStreamReader.md",
-    "3. programing/computer science/Exception.md",
     "3. programing/computer science/public static void main.md",
     "7. employ/company info/에이펙인텔리전스.md",
     "유비벨록스.md",
@@ -380,8 +382,6 @@
     "String.split().md",
     "StringTokenizer.md",
     "multi thread.md",
-    "2. dataview/employ.md",
-    "8. templates/template_employ.md",
     "list/Images/Pasted image 20251014144434.png",
     "list/Images/Pasted image 20251014133237.png",
     "list/Images/Pasted image 20251014133233.png",
@@ -402,7 +402,6 @@
     "12. Images/Pasted image 20250720191306.png",
     "12. Images/Pasted image 20250720191057.png",
     "12. Images/Pasted image 20250719161126.png",
-    "12. Images/Pasted image 20250719160223.png",
-    "12. Images/Pasted image 20250719160210.png"
+    "12. Images/Pasted image 20250719160223.png"
   ]
 }
