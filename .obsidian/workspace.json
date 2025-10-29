@@ -134,33 +134,9 @@
               "icon": "lucide-file",
               "title": "employ_my_resume"
             }
-          },
-          {
-            "id": "f53c50e9a86356ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "에이티씨아이.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "에이티씨아이"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -379,10 +355,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f53c50e9a86356ac",
+  "active": "8c8bf19ecede2136",
   "lastOpenFiles": [
-    "7. employ/employ_my_resume.md",
     "에이티씨아이.md",
+    "7. employ/employ_my_resume.md",
     "3. programing/computer science/Process & Thread.md",
     "3. programing/computer science/Java Error & Exception.md",
     "list/Images/Pasted image 20251021182251.png",

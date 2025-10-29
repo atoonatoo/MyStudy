@@ -9,163 +9,121 @@ tags:
   - resume
 ---
 
----
+## 1. 부하 테스트 설계와 도구 선정
 
-### JWT + Redis 기반 인증 아키텍처 설계
-### QueryDSL을 통한 N+1 문제 제거 및 데이터 조회 최적화
-### Redis 캐싱 전략 분리 및 세션 일관성 유지 설계
-### HikariCP 연결 풀 관리 및 DBCP 튜닝
-### Swagger UI(OpenAPI) 기반 협업 자동화 체계 구축
-### GlobalExceptionHandler 기반 전역 예외 처리 표준화
-### JMeter를 활용한 부하 테스트 및 성능 지표 분석
-### Nginx 로드밸런싱 환경 구축 및 트래픽 분산 설계
-### EFK 로그 파이프라인 구축 및 자동화 스크립트 구현
-### GPT API 연동 및 사용자별 데이터 영속화 설계
+프로젝트의 안정성과 확장성을 검증하기 위해 실제 사용자 행위를 모사한 복합 시나리오 기반 부하 테스트를 설계했습니다. Spring Security 로그인부터 JWT 및 리프레시 토큰 발급, 무작위 플레이리스트 조회, 내부 동영상 반복 조회로 이어지는 단계별 API 흐름을 구성하고, 요청 간 데이터 의존성과 인증 연속성을 검증했습니다.
 
+k6, Locust, nGrinder 등 다양한 부하 테스트 도구를 검토한 결과, Apache JMeter를 선택했습니다. 다른 도구들은 모두 스크립트를 직접 작성하는 코드 기반 방식이지만, JMeter는 테스트 플랜 내의 JSON Extractor, Header Manager, CSV Data Set Config, ForEach Controller 등 다양한 요소를 통해 로그인, 토큰 추출, 데이터 주입, 반복 호출 과정을 시각적으로 구성할 수 있었습니다.
 
+이를 통해 복잡한 인증 시나리오도 코드 작성 없이 자동화할 수 있었으며, 시간적 비용을 크게 절감했습니다. 또한 동일한 구성 방식을 활용해 추후 새로운 테스트 시나리오를 손쉽게 확장할 수 있어 유지보수 측면에서도 유리했습니다.
 
----
-- JWT + Redis 인증 구조
-- AccessToken / RefreshToken 관리
-- Redis TTL 캐싱 및 세션 일관성 유지
-- UserDetailsServiceCustom 캐시
-- QueryDSL 데이터 접근 최적화
-- N+1 문제 제거
-- PlaylistVideo 그룹 쿼리 최적화
-- Redis 캐싱 분리(User: :, refresh:)
-- GenericJackson2JsonRedisSerializer 직렬화
-- HikariCP 풀 관리 및 모니터링
-- GlobalExceptionHandler 전역 예외 처리
-- ExceptionType Enum 표준화
-- ModelMapper STRICT 매핑
-- Swagger UI(OpenAPI) 자동 문서화
-- API 스펙 협의(API Specification Alignment)
-- JWT Authorize 기능 테스트
-- JMeter 부하 테스트
-- Nginx 로드밸런싱
-- TPS / P95 / 에러율 측정
-- EFK 로그 파이프라인 구축 (Filebeat → Elasticsearch → Kibana)
-- Ingest Pipeline(grok/date) 정규화
-- PowerShell 자동화 스크립트(start-efk.ps1)
-- GPT API 연동 (Apache HttpClient5)
-- 사용자별 요청/응답 영속화 (Gpt 엔티티)
-- DDD 기반 도메인 구조화 (User, Playlist, Video, GPT)
-- 비즈니스 규칙 검증 (수정·삭제 동시 불가)
-- 실무형 백엔드 설계 역량, 안정성·성능·확장성 고려
+이를 기반으로 실제 사용자 2만 명 규모의 동시 부하 환경을 재현하고, 로그인 처리량, JWT 인증 속도, 응답 시간, 에러율을 분석해 시스템 병목 구간을 검증했습니다. 테스트 결과, 로그인 요청 로직에서 높은 병목 현상이 발생했고, 단일 서버 구조의 한계와 분산 환경 도입 필요성을 확인했습니다. 또한 스택트레이스 에러 로그가 출력되지 않는 문제와 캐싱 부재로 인한 데이터베이스 부하를 발견하여, 로깅 개선과 Redis 캐싱 도입의 필요성을 도출했습니다.
 
 ---
 
-- **시스템 아키텍처 설계 및 인증 구조 고도화**  
-  - JWT + Redis 기반 인증 시스템 설계  
-  - AccessToken과 RefreshToken 구조 분리, RefreshToken은 Redis에 TTL 7일 저장  
-  - 로그아웃 시 토큰과 사용자 캐시(User: : email)를 동기 삭제하여 세션 일관성 유지  
-  - UserDetailsServiceCustom 캐싱을 통해 로그인 시 DB 조회 최소화  
-  - 결과 : 인증 속도 및 확장성 향상, Stateless 환경에서도 안정적인 로그인 유지  
+## 2. Nginx 기반 로드 밸런싱 및 트래픽 제어
 
-- **QueryDSL 기반 데이터 접근 계층 최적화**  
-  - PlaylistRepositoryImpl, PlaylistVideoRepositoryImpl을 QueryDSL로 구현  
-  - Playlist-Video 관계를 findAllVideosGroupedByPlaylist() 단일 쿼리로 처리  
-  - 결과 : N+1 문제 제거 및 쿼리 효율 약 80% 개선, 응답 속도 향상  
+부하 테스트 결과, 로그인 요청의 응답 속도가 심각하게 지연되는 현상이 확인되었습니다. 이는 단일 서버로는 대량의 트래픽을 감당하기 어렵다는 사실을 보여주었습니다. 단순히 요청을 여러 서버로 나누는 것만으로는 충분하지 않았으며, 인증 요청의 폭증을 제어하고 병목의 근본 원인을 완화할 수 있는 구조가 필요했습니다.
 
-- **Redis 캐싱과 HikariCP 튜닝을 통한 성능 안정화**  
-  - 사용자 캐시(User: :), 토큰 캐시(refresh:)를 분리하고 TTL 기반 자동 만료 관리  
-  - GenericJackson2JsonRedisSerializer 적용으로 직렬화 안정성 확보  
-  - HikariCP 풀 상태(active, idle, waiting) 모니터링으로 연결 누수 방지  
-  - 결과 : DB 부하 약 35% 감소, 시스템 응답 시간 단축  
+여러 로드밸런서 후보 중 Nginx를 선택한 이유는 이러한 요구를 동시에 충족할 수 있었기 때문입니다. Nginx는 HTTP 계층에서 요청 큐잉, keep-alive, 헤더 정규화, rate-limit 등 트래픽 제어 기능을 기본적으로 제공하며, 업스트림 설정만으로도 부하 분산 정책을 세밀하게 조정할 수 있습니다.
 
-- **예외 처리 및 DTO 변환 표준화, Swagger UI를 통한 협업 효율 개선**  
-  - GlobalExceptionHandler + ExceptionType Enum으로 에러 응답 일원화  
-  - ModelMapperConfig를 STRICT 매칭으로 설정해 DTO 변환 정확성 확보  
-  - Swagger UI(OpenAPI) 기반으로 API 명세 자동화 및 협업 체계 확립  
-  - 요청과 응답 DTO 구조, 필드명, 타입, 예시(JSON) 자동 표시  
-  - API 스펙 협의(API Specification Alignment)를 시각화하고 자동 반영  
-  - JWT 인증 흐름을 Swagger Authorize 기능으로 테스트 가능  
-  - 결과 : 프론트엔드 및 QA와의 API 소통 정확도 향상, 문서 관리 부담 감소  
+또한 요청 시간, 응답 시간, 상태 코드 등 세부 로그 필드를 지원해 병목 구간을 정밀하게 분석할 수 있었고, 기존 서버 환경에 쉽게 통합되어 배포 부담이 적었습니다. HAProxy는 성능은 우수했지만 설정이 복잡하고, AWS ALB는 비용과 종속성이 높았으며, Traefik은 컨테이너 환경 중심이라 불필요한 구성이 많았습니다. 결과적으로 Nginx는 트래픽 분산, 성능 개선, 운영 효율성을 동시에 확보할 수 있었기에 선택했습니다.
 
-- **JMeter + Nginx 기반 부하 테스트 및 트래픽 분산 설계**  
-  - 1.2만 동시 접속 시나리오 구성, TPS·에러율·P95 지표 측정  
-  - Nginx Reverse Proxy와 로드밸런싱 구조 검증  
-  - 결과 : 평균 응답시간 40% 단축, Failover 성공률 100% 확보  
+Nginx 도입 이후, 로그인 요청의 처리 속도와 전체 응답 시간이 크게 개선되었습니다. 서버 간 트래픽이 균등하게 분산되면서 특정 서버에 과부하가 집중되는 현상이 사라졌고, 병목 구간에서 발생하던 응답 지연도 안정적으로 해소되었습니다.
 
-- **EFK 로그 수집 파이프라인 구축 및 자동화**  
-  - Filebeat → Elasticsearch → Kibana 로그 중앙화 구성  
-  - Grok, Date 기반 Ingest Pipeline으로 timestamp, traceId 정규화  
-  - PowerShell 스크립트(start-efk.ps1)로 EFK 스택 원클릭 자동 기동  
-  - 결과 : 실시간 로그 시각화 및 운영 비용 절감, ILM Hot/Warm/Delete 정책으로 저장 효율화  
+rate-limit 기능을 통해 인증 요청 폭주 시에도 서비스 전체가 멈추지 않고 일정 수준의 응답 품질을 유지할 수 있었으며, keep-alive와 요청 큐잉으로 백엔드 연결 재사용률이 높아져 CPU 사용량과 네트워크 부하가 감소했습니다. 그러나 응답 지연이 대폭 감소한 반면, 분산 환경에서의 세션 처리 불일치와 일시적 연결 실패로 인해 에러율이 일시적으로 약 40%까지 증가했습니다.
 
-- **GPT API 연동 및 사용자별 요청·응답 영속화**  
-  - Apache HttpClient5로 OpenAI API 직접 호출 및 응답 파싱  
-  - 사용자별 요청과 응답 데이터를 DB에 영속화(Gpt 엔티티)  
-  - GptRequestException, InvalidGptRequestException으로 예외 세분화  
-  - 결과 : 외부 AI 서비스 안정적 연동 및 대화형 Q&A 시스템 완성  
-
-- **도메인 주도 설계(DDD) 기반 구조화**  
-  - User, Playlist, Video, GPT 등 도메인별 패키지 구조와 책임 명확히 분리  
-  - 서비스 레벨에서 비즈니스 규칙(예 : 수정과 삭제 동시 불가) 검증  
-  - 결과 : 응집도 높은 구조로 유지보수성, 확장성, 가독성 강화  
-
-- **요약**  
-  - JWT + Redis 인증, QueryDSL 최적화, 캐싱·DBCP 튜닝, Swagger 협업 자동화, EFK 로깅, JMeter 부하 검증까지 구현  
-  - 기능 구현을 넘어 API 스펙 협의(API Specification Alignment)와 시스템 안정성, 성능, 확장성을 모두 고려한 실무형 설계 역량 보유  
+Nginx가 생성한 상세 로그와 EFK 스택의 시각화 분석을 통해 원인을 추적한 결과, 데이터베이스 커넥션 풀 고갈 및 세션 동기화 문제로 인한 오류임을 확인했습니다. 이후 커넥션 풀 용량 조정과 세션 관리 개선을 통해 에러율은 안정적으로 회복되었으며, 트래픽 분산 효과와 함께 전체 서비스의 응답 성능이 크게 향상되었습니다.
 
 ---
 
-### **인증 및 사용자 정보 관리 기능 구현**
+## 3. 로그 수집 및 분석 체계
 
-- MySQL 초기 세팅 및 DB 스키마 정의 및 관계 설정
-- Spring Boot로 RESTful API 설계 및 구현하여 클라이언트 ↔ 서버 간 통신 구축
-- Spring Security를 이용하여 로그인 기능 구현
-    - JWT Token과 Refresh Token을 활용하여 짧은 인증 토큰 만료를 보완하고 자동 재발급 구조를 통해 보안성과 사용자 편의성 확보
+### 3.1 대용량 로그 검색 및 집계
 
-### **플레이리스트 관리 기능 구현 및 설계**
+부하 테스트 과정에서 로그인 병목 현상의 원인을 추적하기 위해 로그를 분석했으나 스택트레이스가 출력되지 않아 오류를 집중적으로 파악하기 어려웠습니다. 로드밸런서 환경에서 서버별 로그가 분리되어 있어 직접 탐색하는 방식은 시간이 많이 걸리고 누락 위험이 높아 매우 비효율적이었습니다.
 
-- QueryDSL로 N+1 문제를 제거한 플레이리스트 ↔ 영상 일괄 조회 및 YouTube API 연동, 중복 검증, 트랜잭션 처리로 안정적인 CRUD 구현
-- 성능 최적화(QueryDSL), 무결성 검증, 권한 검증, 페이징 및 DTO 분리 등 플레이리스트 전반 백엔드 로직 구축
+이를 해결하기 위해 여러 로그 분석 도구(Loki, Graylog, OpenSearch 등)를 검토했지만, Elasticsearch만이 역색인 구조를 통해 대규모 로그 본문 전체를 신속하게 검색하면서도 필드 단위 집계와 필터링을 동시에 수행할 수 있었습니다.
 
-### **OpenAI ChatGPT API 연동**
+Loki는 라벨 인덱싱 특성상 스택트레이스 탐색에 한계가 있었고, OpenSearch와 Graylog는 안정성과 운영 지원 측면에서 완성도가 낮았습니다. 반면 Elasticsearch는 즉시 적용 가능한 인덱스 정책과 집계 기능을 갖추고 있어 로그 탐색 정확도, 속도, 운영 효율성 면에서 모든 요구 조건을 충족했습니다. 결국 로그인 병목 구간의 원인을 빠르고 정확하게 규명하고, 다중 서버 환경에서도 오류 추적의 신뢰성과 분석 효율성을 높이기 위해 반드시 필요한 선택이었습니다.
 
-- 보안 컨텍스트 기반의 보호된 GPT Q&A API 설계
-- OpenAI 호출, JSON 파싱, 예외 처리 흐름 표준화
-- 유저별 이력 영속화로 운영 안정성 확보
+### 3.2 경량 수집기와 신뢰성 전송
 
-### **부하 테스트 시나리오 설계 및 실행**
+Elasticsearch를 통해 로그 분석 효율을 확보했지만, 다중 서버 환경에서는 각 인스턴스의 로그를 중앙 저장소로 안정적으로 전달할 수 있는 수집기가 필요했습니다. 단순 스크립트 전송 방식은 누락과 중복이 잦고, 전송 실패 시 복구가 어려워 실시간 분석에 적합하지 않았습니다.
 
-- Apache JMeter로 Thread Group, CSV Data Set, HTTP Sampler 구성 및 Aggregate/Graph 리스너 시각화
-- TPS, P95/99, 에러율 중심으로 병목 구간 분석
-- 로그인 요청 튜닝 후 에러율 **37.97% → 15.75%**, TPS **398,305ms → 7,988ms** 개선
+이를 해결하기 위해 여러 수집기 후보(Fluent Bit, Vector, rsyslog, Logstash Forwarder 등)를 검토했으나, Filebeat이 가장 안정적이면서 Elasticsearch와의 호환성이 뛰어났습니다. Fluent Bit과 Vector는 설정이 복잡해 운영 리스크가 높았고, rsyslog는 시스템 로그 중심이라 애플리케이션 로그 처리에 한계가 있었습니다.
 
-### **로드 밸런싱 구축**
+반면 Filebeat은 경량 에이전트로 CPU·메모리 점유율이 낮고, 로그 파일 변화를 실시간 감지하여 전송 중 장애가 발생해도 자동으로 재시도해 데이터 손실을 방지합니다. 또한 Elasticsearch로 직접 전송되어 인덱싱이 자동화되며, 서버별 로그 경로와 포맷 관리도 간단히 구성할 수 있었습니다. 이를 통해 다중 서버 로그를 실시간으로 중앙화하고, 안정적이고 신뢰성 높은 분석 체계를 완성했습니다.
 
-- Nginx 로드밸런서로 8개 인스턴스 트래픽 분산
-- upstream 기반 재시도·타임아웃 설정으로 장애 전파 최소화
+### 3.3 실시간 시각화 및 알림
 
-### **로그 수집 파이프라인 구축**
+Elasticsearch로 로그 중앙화와 검색 체계를 구축한 뒤, 수집된 데이터를 시각적으로 분석하기 위해 Kibana를 도입했습니다. 다양한 시각화 도구 중에서 Kibana는 Elasticsearch와의 연동이 가장 자연스럽고, 로그 본문을 그대로 검색하며 실시간 필터링까지 지원해 분석 효율이 뛰어났습니다. Grafana는 시각적 표현력은 우수했지만 로그 세부 탐색에는 제약이 있었고, OpenSearch Dashboards는 버전 안정성과 기능 완성도 측면에서 한계가 있었습니다.
 
-- Filebeat → Elasticsearch → Kibana 구성으로 애플리케이션/액세스 로그 중앙화
-- JSON 파싱 + Ingest Pipeline(grok/date)으로 `timestamp`, `level`, `traceId` 정규화 및 서비스 단위 대시보드 구축
+Graylog는 단순 조회 위주라 대규모 로그 시각화에 적합하지 않았으며, Datadog은 데이터 사용량 증가에 따라 비용이 크게 상승했습니다. Kibana는 시간, 서버, API별 필터링과 에러율·응답 시간의 시각적 집계를 지원해 로그인 실패율, JWT 갱신 지연, 서버별 부하 같은 주요 지표를 실시간으로 파악할 수 있었습니다. 또한 알림 기능을 통해 오류 발생 시점을 자동 감지하여 대응 속도를 높였으며, 결과적으로 Kibana는 로그 데이터에서 병목 원인을 빠르게 식별하고, 실시간 운영 안정성을 확보하는 핵심 도구로 기능했습니다.
 
-### **Database Connection Pool 튜닝**
+## 3.4 EFK 통합: 수집 → 색인 → 시각화
 
-- HikariCP의 `maximumPoolSize`, `connectionTimeout`, `idleTimeout`, `minimumIdle` 조정으로 풀 고갈·대기 시간 완화
-- `leakDetectionThreshold` 활성화 및 `try-with-resources` 패턴 정착으로 커넥션 누수 제거
+Elasticsearch, Filebeat, Kibana를 연동한 EFK 스택을 구축하여 로그의 수집부터 분석까지 하나의 흐름으로 통합했습니다. Filebeat이 각 서버의 로그를 안정적으로 수집하고, Elasticsearch가 대용량 로그 본문을 빠르게 색인 및 검색하며, Kibana가 그 결과를 시각화해 오류 패턴을 직관적으로 보여주는 구조입니다.
 
-### **캐싱 도입**
-
-- Redis 기반 읽기 캐시로 빈번 조회 엔드포인트 응답 속도 향상 및 DB 부하 감소
-- TTL 전략(핵심 키 단기 TTL, 변경 시 캐시 무효화)으로 정합성 유지
-- RedisTemplate 수동 캐시로 `UserDetailsServiceCustom#loadUserByUsername`의 `findByEmail` 결과를 `User::<email>`(TTL 120분)에 캐싱하여 인증 경로 변경 없이 조회 성능 향상
-
+이를 통해 로그를 개별적으로 확인하던 비효율적인 과정을 제거하고, 다중 서버 환경에서도 로그 손실 없이 실시간 분석이 가능했습니다. 특히 EFK 스택을 활용해 클라이언트 단에서부터 계층적으로 하위 레이어로 추적하며 분석함으로써, Nginx 단에서 로그인 병목 현상의 원인이 되는 유의미한 스택트레이스를 빠르게 발견하고 식별할 수 있었습니다. 결과적으로 EFK 스택은 문제 진단 시간을 단축하고, 서비스의 안정성과 관측 체계를 한층 강화하는 핵심 인프라로 자리 잡았습니다.
 
 ---
 
-1. 부하테스트 툴
-    - Jmeter
-        - java 기반 언어로 스크립트를 짜는 툴
-        - GUI, CLI 모두 지원
-        - 메모리를 크게 잡아먹는 단점
-    - k6
-        - javascript 기반 테스트 스크립트 작성
-        - CI/CD 통합으로 자동화된 성능 테스팅 파이프라인 지원
-        - 테스트 엔진 : Go
-        - 낮은 메모리 사용량과 높은 처리량
-        - 
+## 4. HikariCP 커넥션 튜닝
+
+로그 수집 결과, DB 연결 풀 고갈과 누수 의심 로그가 발견되어 병목의 원인이 애플리케이션이 아닌 DB 단임이 확인되었습니다. 로그인 요청이 순간적으로 몰릴 때도 연결을 빠르게 빌려주고, 누수를 감지하며, 장애 시 복구 지연을 최소화할 수 있는 커넥션 풀 관리가 필요했습니다.
+
+이 요구를 충족하기 위해 HikariCP, Apache DBCP2, Tomcat JDBC Pool, c3p0 등을 비교 분석했습니다. HikariCP는 내부 락 경합이 적어 연결 획득 지연이 매우 짧고, connectionTimeout과 leakDetectionThreshold를 통해 누수나 장애를 신속히 감지할 수 있습니다.
+
+또한 idleTimeout과 maxLifetime으로 불필요한 연결을 자동 정리해 풀 고갈을 방지하고, 실시간 지표를 통해 운영 중에도 안정적으로 튜닝이 가능합니다. Apache DBCP2는 검증 쿼리로 인한 추가 지연이 존재하고, Tomcat Pool은 관측 기능이 단순하며, c3p0는 구조적 오버헤드가 높았습니다. HikariCP는 이러한 제약을 최소화하면서도 고부하 로그인 환경에서 빠르고 안정적인 연결 관리가 가능했기에 선택했습니다.
+
+HikariCP 도입 이후 응답 지연 시간과 에러율이 모두 감소하며 전반적인 성능이 개선되었습니다. 다만 여전히 사용자 체감 속도 측면에서는 만족스러운 수준에 이르지 못해, 이후 캐싱과 쿼리 최적화를 포함한 추가 개선 방안을 모색했습니다.
+
+---
+
+## 5. Redis 캐싱 도입(세션, 토큰, TTL)
+
+응답 지연과 에러율은 줄었지만 사용자 체감 속도는 여전히 부족했습니다. 로그인과 반복 조회 요청이 집중되는 구조였기에, 동일한 데이터를 매번 DB에서 불러오는 방식으로는 한계가 있었습니다.
+
+이를 개선하기 위해 다중 서버 간에도 빠르고 일관된 데이터 접근이 가능한 인메모리 캐시를 도입했습니다. 검토 과정에서 Redis는 단순 캐싱을 넘어 TTL 관리, 세션 유지, 토큰 블랙리스트와 같은 전역 상태 제어까지 지원해 로그인 서비스 구조에 적합했습니다.
+
+Memcached는 속도는 빠르지만 단순 키-값 저장만 가능했고, Caffeine은 각 서버 내부에서만 작동해 분산 환경에서는 캐시 불일치가 발생할 수 있었습니다. Hazelcast는 기능은 풍부했으나 운영 부담이 컸습니다. Redis는 다양한 데이터 구조를 지원하며 클러스터 구성과 장애 복구가 용이해, 사용자 인증 및 조회 요청 처리의 응답 지연 시간과 에러율이 대폭 감소했습니다.
+
+---
+
+## 6. 사용자 정보 관리 및 사용자 인증 및 인가
+  
+- springsecurity
+- JWT
+  
+---
+
+## 7. 플레이리스트
+
+- ChatGPT Open API
+
+- 설계 및 구현 그리고 시나리오 작성
+
+---
+
+부하 테스트 도구 후보
+JMeter, k6, Locust, nGrinder
+
+로그 수집기 후보
+Elasticsearch, OpenSearch, Loki, Graylog, ClickHouse, Splunk, Datadog, New Relic
+
+로그 수집 에이전트(수집기)
+Filebeat, Fluent Bit, Vector, rsyslog, Logstash Forwarder
+
+시각화·모니터링 도구
+Kibana, Grafana, OpenSearch Dashboards, Graylog Web UI, Datadog Dashboard
+
+로드밸런서
+HAProxy, AWS ALB, Traefik
+
+커넥션 풀 관리
+Apache DBCP2, Tomcat JDBC Pool, c3p0
+
+캐싱
+Memcached, Caffeine, Hazelcast
+
