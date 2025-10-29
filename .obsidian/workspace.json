@@ -114,6 +114,7 @@
           {
             "id": "8c8bf19ecede2136",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -131,12 +132,12 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "employ_my_resume"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -355,9 +356,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8c8bf19ecede2136",
+  "active": "31d1430224422479",
   "lastOpenFiles": [
-    "에이티씨아이.md",
+    "7. employ/company info/에스티엔인포텍.md",
+    "무제.md",
+    "7. employ/company info/리드넘버.md",
+    "7. employ/company info/솔텍시스템.md",
+    "7. employ/company info/에이티씨아이.md",
+    "7. employ/company info/위즈코리아.md",
+    "유비벨록스.md",
     "7. employ/employ_my_resume.md",
     "3. programing/computer science/Process & Thread.md",
     "3. programing/computer science/Java Error & Exception.md",
@@ -367,7 +374,6 @@
     "3. programing/computer science/InputStreamReader.md",
     "3. programing/computer science/public static void main.md",
     "7. employ/company info/에이펙인텔리전스.md",
-    "유비벨록스.md",
     "7. employ/company info/스톤인테그리티.md",
     "7. employ/company info/지지옥션.md",
     "7. employ/company info/낭만상회.md",
@@ -379,11 +385,6 @@
     "99. organize/Prompt.md",
     "99. organize/Nginx Prompt.md",
     "99. organize/GPT 질문 공략.md",
-    "IPC(Inter-Process Communication).md",
-    "LPC(Local inter-Process Communication).md",
-    "String.split().md",
-    "StringTokenizer.md",
-    "multi thread.md",
     "list/Images/Pasted image 20251014144434.png",
     "list/Images/Pasted image 20251014133237.png",
     "list/Images/Pasted image 20251014133233.png",
