@@ -137,7 +137,8 @@
               "title": "employ_my_resume"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -197,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -356,18 +356,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "31d1430224422479",
+  "active": "8c8bf19ecede2136",
   "lastOpenFiles": [
+    "7. employ/company info/디더블유아이.md",
+    "7. employ/company info/알엠에쓰플랫폼.md",
+    "7. employ/company info/블루비즈넷.md",
+    "7. employ/employ_my_resume.md",
+    "7. employ/company info/유영인인포테크.md",
+    "7. employ/company info/디오에프.md",
+    "3. programing/computer science/Process & Thread.md",
     "list/Images/Pasted image 20251029094735.png",
     "7. employ/company info/에스티엔인포텍.md",
-    "무제.md",
     "7. employ/company info/리드넘버.md",
     "7. employ/company info/솔텍시스템.md",
     "7. employ/company info/에이티씨아이.md",
     "7. employ/company info/위즈코리아.md",
     "유비벨록스.md",
-    "7. employ/employ_my_resume.md",
-    "3. programing/computer science/Process & Thread.md",
     "3. programing/computer science/Java Error & Exception.md",
     "list/Images/Pasted image 20251021182251.png",
     "8. templates/template_cs.md",
@@ -382,9 +386,6 @@
     "7. employ/company info/링커리어.md",
     "7. employ/company info/건강누리.md",
     "7. employ/company info/월비소프트.md",
-    "7. employ/company info/아이다이나믹스.md",
-    "99. organize/Prompt.md",
-    "99. organize/Nginx Prompt.md",
     "list/Images/Pasted image 20251014144434.png",
     "list/Images/Pasted image 20251014133237.png",
     "list/Images/Pasted image 20251014133233.png",
@@ -404,7 +405,6 @@
     "12. Images/filebeat.gif",
     "12. Images/Pasted image 20250720191306.png",
     "12. Images/Pasted image 20250720191057.png",
-    "12. Images/Pasted image 20250719161126.png",
-    "12. Images/Pasted image 20250719160223.png"
+    "12. Images/Pasted image 20250719161126.png"
   ]
 }
