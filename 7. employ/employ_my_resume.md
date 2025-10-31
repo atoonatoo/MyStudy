@@ -95,12 +95,22 @@ Memcached는 속도는 빠르지만 단순 키-값 저장만 가능했고, Caffe
   
 프로젝트의 로그인 구조는 JWT 기반 API 인증과 세션 기반 관리 화면이 병행되는 형태였기에, 인증·인가를 통합 관리할 수 있는 Spring Security를 도입했습니다. SecurityFilterChain을 다중 구성하여 URL 단위로 세밀한 보안 정책을 분리하고, AuthenticationEntryPoint 및 AccessDeniedHandler를 통해 예외 처리와 로깅을 표준화했습니다. JWT 리소스 서버를 구성하여 키 회전(JWK), 권한 매핑, 리프레시 토큰 롤링 정책을 안정적으로 적용했으며, Redis를 통한 세션 TTL·토큰 블랙리스트 관리에도 자연스럽게 결합되었습니다.
 
-JWT를 사용한 이유는 서비스 구조가 REST API 중심의 **무상태(Stateless)** 환경이었기 때문입니다. 세션이나 쿠키 기반 인증은 서버에 상태 정보를 저장해야 하므로, 다중 서버·로드밸런싱 환경에서는 세션 동기화 비용이 커지고 확장성이 떨어집니다. 반면 JWT는 인증 정보를 자체적으로 포함해 별도의 세션 저장소 없이 인증이 가능하며, 토큰 만료·갱신 시점을 명확히 제어할 수 있습니다. 또한 Redis와 함께 사용하면 블랙리스트 관리나 즉시 무효화 같은 보완 정책도 유연하게 적용할 수 있습니다.  
+JWT를 사용한 이유는 서비스 구조가 REST API 중심의 무상태(Stateless) 환경이었기 때문입니다. 세션이나 쿠키 기반 인증은 서버에 상태 정보를 저장해야 하므로, 다중 서버·로드밸런싱 환경에서는 세션 동기화 비용이 커지고 확장성이 떨어집니다. 반면 JWT는 인증 정보를 자체적으로 포함해 별도의 세션 저장소 없이 인증이 가능하며, 토큰 만료·갱신 시점을 명확히 제어할 수 있습니다. 또한 Redis와 함께 사용하면 블랙리스트 관리나 즉시 무효화 같은 보완 정책도 유연하게 적용할 수 있습니다.  
 Apache Shiro는 경량하지만 세션 중심 구조로 JWT 확장이 어렵고, pac4j는 설정 복잡도가 높았습니다. Keycloak은 강력한 IdP 기능을 제공하지만 외부 서버 운영과 유지보수 비용이 과도했습니다. Spring Security는 스프링 부트와 완전하게 통합되어, 무상태/상태 혼용, 메서드 보안, 테스트 자동화까지 하나의 체계 안에서 구현할 수 있었습니다. 그 결과 인증 흐름의 일관성과 확장성, 그리고 유지보수 효율성을 모두 달성하며, 향후 사용자 증가 및 정책 변경에도 안정적으로 대응할 수 있었습니다.
-  
+
 ---
 
-## 7. 플레이리스트
+## 7. 플레이리스트 관리 모듈 설계 및 구현
+
+플레이리스트 관리 모듈 설계 및 구현
+
+사용자별 재생목록 관리 기능을 JPA, QueryDSL 기반으로 설계했습니다. Playlist 엔티티를 Aggregate Root로 두고, PlaylistVideo 조인 엔티티를 통해 다대다 관계를 풀어내어 생명주기를 일원화했습니다. Cascade와 orphanRemoval을 적용해 재생목록 삭제 시 연관 영상 링크가 자동 정리되도록 했으며, DTO 계층은 요청과 응답을 명확히 분리해 API 명세와 직렬화 구조를 단순화했습니다.
+
+데이터 접근 계층에서는 Spring Data JPA와 QueryDSL을 결합했습니다. 기본 CRUD는 JpaRepository로 처리하고, 사용자 ID와 플레이리스트 ID를 함께 사용하는 복합 조건 조회나 그룹핑 쿼리는 QueryDSL 기반 커스텀 리포지토리로 구현했습니다. QueryDSL은 JPQL이나 Criteria API보다 코드 가독성이 높고, 타입 안정성과 IDE 자동 완성 기능을 제공해 복잡한 조인 쿼리에서도 유지보수가 용이했습니다. MyBatis나 JDBC Template과 달리 객체 지향 도메인 모델을 그대로 활용할 수 있어 트랜잭션 관리와 데이터 일관성을 보장했습니다.
+
+비즈니스 로직은 PlaylistService에서 담당했습니다. JWT 인증 정보(UserDetailsCustom)를 기반으로 사용자 식별 후, 외부 VideoService에서 YouTube 메타데이터를 조회해 Video 엔티티를 upsert하는 구조로 구현했습니다. 생성, 수정, 삭제 트랜잭션을 명확히 분리하고, 예외는 PlaylistNotFoundException과 VideoNotFoundException 등 도메인 단위로 표준화했습니다. REST 컨트롤러는 /api/playlists 이하에 CRUD 엔드포인트를 배치하고, Swagger 문서화와 CORS 정책을 병행 설정해 프론트엔드 협업 환경을 고려했습니다.
+
+이 모듈은 QueryDSL 기반 정형 쿼리, 트랜잭션 분리, 도메인 예외 구조를 통해 서비스 안정성과 확장성을 확보했습니다. 결과적으로 재생목록 조회 속도는 개선되었고, 코드 구조는 유지보수가 용이한 계층형 아키텍처로 정리되었습니다.
 
 ---
 
@@ -113,24 +123,34 @@ Apache Shiro는 경량하지만 세션 중심 구조로 JWT 확장이 어렵고,
 
 ---
 
-부하 테스트 도구 후보
+### 기술 후보군 정리
+
+**부하 테스트 도구**  
 JMeter, k6, Locust, nGrinder
 
-로그 수집기 후보
+**로그 수집기(저장소)**  
 Elasticsearch, OpenSearch, Loki, Graylog, ClickHouse, Splunk, Datadog, New Relic
 
-로그 수집 에이전트(수집기)
+**로그 수집 에이전트(수집기)**  
 Filebeat, Fluent Bit, Vector, rsyslog, Logstash Forwarder
 
-시각화·모니터링 도구
+**시각화 및 모니터링 도구**  
 Kibana, Grafana, OpenSearch Dashboards, Graylog Web UI, Datadog Dashboard
 
-로드밸런서
-HAProxy, AWS ALB, Traefik
+**로드밸런서**  
+Nginx, HAProxy, AWS ALB, Traefik
 
-커넥션 풀 관리
-Apache DBCP2, Tomcat JDBC Pool, c3p0
+**데이터 접근 계층**  
+Spring Data JPA, MyBatis, JDBC Template, JOOQ
 
-캐싱
-Memcached, Caffeine, Hazelcast
+**쿼리 빌더**  
+QueryDSL, JPQL, Criteria API, JOOQ
 
+**커넥션 풀 관리**  
+HikariCP, Apache DBCP2, Tomcat JDBC Pool, c3p0
+
+**캐싱 및 세션 관리**  
+Redis, Memcached, Caffeine, Hazelcast
+
+**인증 및 인가**  
+Spring Security, Apache Shiro, Keycloak, pac4j
