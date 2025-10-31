@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. employ/employ_my_resume.md",
+                "file": "7. employ/employ_resume_portfolio version 1.0.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -108,11 +108,59 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "employ_my_resume"
+              "title": "employ_resume_portfolio version 1.0"
+            }
+          },
+          {
+            "id": "d486c9353785b7c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. employ/employ_resume_portfolio version 1.0.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "employ_resume_portfolio version 1.0"
+            }
+          },
+          {
+            "id": "1054d9353894ce07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. employ/employ_resume_portfolio version 1.1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "employ_resume_portfolio version 1.1"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -330,8 +378,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8c8bf19ecede2136",
+  "active": "d486c9353785b7c0",
   "lastOpenFiles": [
+    "7. employ/employ_resume_portfolio version 1.1.md",
+    "7. employ/employ_resume_portfolio version 1.0.md",
+    "7. employ/네이버클라우드 비트캠프의 이력서 정리.md",
     "3. programing/computer science/public static void main.md",
     "3. programing/computer science/Java Error & Exception.md",
     "3. programing/computer science/throws & Chained Exception.md",
@@ -341,7 +392,6 @@
     "list/Images/Pasted image 20251031152736.png",
     "list/Images/Pasted image 20251031150724.png",
     "list/Images/Pasted image 20251031150231.png",
-    "7. employ/employ_my_resume.md",
     "2. dataview/link_gpt chat bax.md",
     "8. templates/template_cs.md",
     "3. programing/computer science/Process & Thread.md",
@@ -366,7 +416,6 @@
     "list/Images/Pasted image 20251029094735.png",
     "7. employ/company info/에스티엔인포텍.md",
     "7. employ/company info/리드넘버.md",
-    "7. employ/company info/솔텍시스템.md",
     "list/Images/Pasted image 20251021182251.png",
     "list/Images",
     "list",

@@ -1,7 +1,7 @@
 ---
-title: undefined
-type: Resume
-director: My
+title: portpolio version 1.0
+type: resume
+director: employ
 date: 2025-10-20
 tags:
   - programing
@@ -116,10 +116,9 @@ Apache Shiro는 경량하지만 세션 중심 구조로 JWT 확장이 어렵고,
 
 ## 8. ChatGPT Open API
 
+ChatGPT OpenAI API, Claude API, Gemini API를 비교 검토한 결과, 안정성과 응답 품질이 가장 우수한 ChatGPT OpenAI API를 도입했습니다. LangChain, LlamaIndex, 직접 구현 방식을 비교한 프롬프트 오케스트레이션에서는 초기 유지보수 부담을 고려해 직접 구현을 채택했습니다. 검색과 태깅 기능에는 OpenAI Embedding API, Cohere Embed, Sentence-Transformers를 검토했으며, 통합성과 운영 편의성 면에서 OpenAI Embedding API를 선택했습니다. 음성 입력은 Whisper API, Cloud STT, Vosk 중 Whisper API를 적용했습니다. 호출 클라이언트는 Apache HttpClient, Spring WebClient, 공식 Java SDK를 비교하여 현재는 HttpClient를 사용하되, 향후 SDK 또는 WebClient 전환을 계획하고 있습니다.
 
----
-
-## 9. 설계 및 구현 그리고 시나리오 작성
+서비스 계층에서는 요청 생성, 인증 헤더 설정, 응답 파싱, 예외 처리 과정을 하나의 트랜잭션으로 통합하여 안정적인 API 통신 구조를 구축했습니다. HTTP 상태 코드별 예외를 구분해 네트워크 장애, 요청 오류, 모델 내부 오류를 명확히 처리하고, Jackson을 활용해 메시지를 직렬화하여 유지보수성과 확장성을 확보했습니다. 또한 JPA를 통해 사용자별 프롬프트와 응답을 Gpt 엔티티에 저장하고 QueryDSL로 조회 효율을 높여, 단순 API 호출 단계를 넘어 사용자 대화 데이터의 지속적 관리와 맞춤형 서비스 확장을 위한 기반을 마련했습니다.
 
 ---
 
@@ -154,3 +153,6 @@ Redis, Memcached, Caffeine, Hazelcast
 
 **인증 및 인가**  
 Spring Security, Apache Shiro, Keycloak, pac4j
+
+**생성형 AI 모델 API (LLM 서비스)**
+ChatGPT OpenAI API, Claude API, Gemini API
