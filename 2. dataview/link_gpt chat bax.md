@@ -1,8 +1,8 @@
 ---
-title: <% tp.file.title.split("_") [1] %>
-type: <% tp.file.title.split("_") [0] %>
+title: gpt chat bax
+type: link
 director: dataview
-created: <% tp.date.now("YYYY-MM-DD") %>
+created: 2025-10-31
 tags:
   - dataview
   - link
@@ -13,6 +13,5 @@ TABLE without id
     dateformat(file.cday, "yy/MM/dd") as "작성일", 
     tags as "태그", 
     coment as "설명"
-FROM "5. link/youtube"
-WHERE contains(tags, "channel")
+FROM "5. link/gpt"
 ```

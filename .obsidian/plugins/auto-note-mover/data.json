@@ -92,6 +92,11 @@
       "folder": "3. programing/computer science",
       "tag": "#cs_desine_pattern",
       "pattern": ""
+    },
+    {
+      "folder": "5. link/gpt",
+      "tag": "#gpt_chat_box",
+      "pattern": ""
     }
   ],
   "use_regex_to_check_for_excluded_folder": false,

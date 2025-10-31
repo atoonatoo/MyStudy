@@ -1,11 +1,10 @@
 ---
-title: programing info
-type: link
+title: undefined
+type: channel
 director: dataview
-created: 2025-10-14
+created: 2025-10-31
 tags:
-  - programing
-  - programing_info
+  - dataview
   - link
 ---
 ```dataview
@@ -14,8 +13,6 @@ TABLE without id
     dateformat(file.cday, "yy/MM/dd") as "작성일", 
     tags as "태그", 
     coment as "설명"
-FROM "5. link/programing info"
+FROM "5. link/youtube"
+WHERE contains(tags, "channel")
 ```
-
-
-

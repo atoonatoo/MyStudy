@@ -136,9 +136,57 @@
               "icon": "lucide-file",
               "title": "employ_my_resume"
             }
+          },
+          {
+            "id": "cab9059ec695c47d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. dataview/link_gpt chat bax.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "link_gpt chat bax"
+            }
+          },
+          {
+            "id": "39b54e1d65da6896",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. dataview/link_gpt chat bax.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "link_gpt chat bax"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,7 +246,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -356,36 +405,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8c8bf19ecede2136",
+  "active": "d289ba2247bdf7eb",
   "lastOpenFiles": [
+    "3. programing/computer science/Process & Thread.md",
+    "list/Images/Pasted image 20251031134429.png",
+    "list/Images/Pasted image 20251031133923.png",
+    "2. dataview/link_gpt chat bax.md",
+    "5. link/gpt/코딩테스트 독학 과제.md",
+    "7. employ/employ_my_resume.md",
+    "8. templates/template_employ.md",
+    "8. templates/template_gpt.md",
+    "2. dataview/youtube info.md",
+    "2. dataview/programing info.md",
+    "2. dataview/link_channel.md",
+    "2. dataview/employ_company info.md",
+    "3. programing/computer science/public static void main.md",
+    "5. link/gpt",
+    "8. templates/template_blog.md",
+    "8. templates/template_cs.md",
+    "8. templates/template_daily.md",
+    "8. templates/template_dataview.md",
     "7. employ/company info/디더블유아이.md",
     "7. employ/company info/알엠에쓰플랫폼.md",
     "7. employ/company info/블루비즈넷.md",
-    "7. employ/employ_my_resume.md",
     "7. employ/company info/유영인인포테크.md",
     "7. employ/company info/디오에프.md",
-    "3. programing/computer science/Process & Thread.md",
     "list/Images/Pasted image 20251029094735.png",
     "7. employ/company info/에스티엔인포텍.md",
     "7. employ/company info/리드넘버.md",
     "7. employ/company info/솔텍시스템.md",
     "7. employ/company info/에이티씨아이.md",
     "7. employ/company info/위즈코리아.md",
-    "유비벨록스.md",
-    "3. programing/computer science/Java Error & Exception.md",
     "list/Images/Pasted image 20251021182251.png",
-    "8. templates/template_cs.md",
-    "7. employ/employment_resume_menual.md",
-    "3. programing/computer science/InputStreamReader.md",
-    "3. programing/computer science/public static void main.md",
-    "7. employ/company info/에이펙인텔리전스.md",
-    "7. employ/company info/스톤인테그리티.md",
-    "7. employ/company info/지지옥션.md",
-    "7. employ/company info/낭만상회.md",
-    "7. employ/company info/아랑소프트.md",
-    "7. employ/company info/링커리어.md",
-    "7. employ/company info/건강누리.md",
-    "7. employ/company info/월비소프트.md",
     "list/Images/Pasted image 20251014144434.png",
     "list/Images/Pasted image 20251014133237.png",
     "list/Images/Pasted image 20251014133233.png",
@@ -399,12 +450,9 @@
     "1. planner/4. yearly",
     "1. planner/3. monthly",
     "6. learning/morning study",
-    "6. learning/mentoring",
     "Media/Canvas/캔버스.canvas",
     "무제.canvas",
     "12. Images/filebeat.gif",
-    "12. Images/Pasted image 20250720191306.png",
-    "12. Images/Pasted image 20250720191057.png",
-    "12. Images/Pasted image 20250719161126.png"
+    "12. Images/Pasted image 20250720191306.png"
   ]
 }
