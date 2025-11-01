@@ -134,30 +134,6 @@
               "icon": "lucide-file",
               "title": "employ_resume_portfolio version 1.0"
             }
-          },
-          {
-            "id": "1054d9353894ce07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/employ_resume_portfolio version 1.1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "employ_resume_portfolio version 1.1"
-            }
           }
         ],
         "currentTab": 4
@@ -381,8 +357,15 @@
   "active": "d486c9353785b7c0",
   "lastOpenFiles": [
     "7. employ/employ_resume_portfolio version 1.1.md",
+    "7. employ/employment_resume_menual.md",
     "7. employ/employ_resume_portfolio version 1.0.md",
     "7. employ/네이버클라우드 비트캠프의 이력서 정리.md",
+    "7. employ/company info/크리니티.md",
+    "7. employ/company info/밀버스.md",
+    "7. employ/company info/반프.md",
+    "7. employ/company info/이에스지에이치.md",
+    "7. employ/company info/에이티씨아이.md",
+    "5. link/programing info/옵시디언 쌩 기초는 탄탄하게, 이 한 영상으로 완벽하게 익히세요..md",
     "3. programing/computer science/public static void main.md",
     "3. programing/computer science/Java Error & Exception.md",
     "3. programing/computer science/throws & Chained Exception.md",
@@ -408,14 +391,7 @@
     "8. templates/template_blog.md",
     "8. templates/template_daily.md",
     "8. templates/template_dataview.md",
-    "7. employ/company info/디더블유아이.md",
-    "7. employ/company info/알엠에쓰플랫폼.md",
-    "7. employ/company info/블루비즈넷.md",
-    "7. employ/company info/유영인인포테크.md",
-    "7. employ/company info/디오에프.md",
     "list/Images/Pasted image 20251029094735.png",
-    "7. employ/company info/에스티엔인포텍.md",
-    "7. employ/company info/리드넘버.md",
     "list/Images/Pasted image 20251021182251.png",
     "list/Images",
     "list",
