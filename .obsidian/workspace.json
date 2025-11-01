@@ -112,13 +112,27 @@
             }
           },
           {
-            "id": "b42cb1116996b0c5",
+            "id": "386f839110a3a17e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3. programing/computer science/K6.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "K6"
             }
           }
         ],
@@ -340,8 +354,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b42cb1116996b0c5",
+  "active": "386f839110a3a17e",
   "lastOpenFiles": [
+    "7. employ/employ_resume_portfolio version 1.0.md",
+    "3. programing/computer science/K6.md",
     "3. programing/computer science/Apache Jmeter.md",
     "8. templates/templete_resume.md",
     "8. templates/template_youtube.md",
@@ -354,7 +370,6 @@
     "8. templates/template_basic.md",
     "8. templates/template_blog.md",
     "8. templates/template_cs.md",
-    "7. employ/employ_resume_portfolio version 1.0.md",
     "7. employ/employ_resume_portfolio version 1.1.md",
     "7. employ/employment_resume_menual.md",
     "7. employ/네이버클라우드 비트캠프의 이력서 정리.md",
@@ -373,7 +388,6 @@
     "list/Images/Pasted image 20251031152736.png",
     "list/Images/Pasted image 20251031150724.png",
     "list/Images/Pasted image 20251031150231.png",
-    "2. dataview/link_gpt chat bax.md",
     "list/Images/Pasted image 20251031134429.png",
     "list/Images/Pasted image 20251031133923.png",
     "5. link/gpt",
