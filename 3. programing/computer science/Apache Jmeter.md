@@ -6,7 +6,8 @@ date: 2025-11-01
 tags:
   - programing
   - cs
-  - devops
+  - cs_devops
+info: https://chatgpt.com/c/6905b25f-0a54-8323-a960-bf95473c4905
 ---
 
 # 1. Apache Jmeter

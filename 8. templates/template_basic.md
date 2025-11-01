@@ -5,6 +5,7 @@ director: <% tp.file.title.split("_") [0] %>
 date: <% tp.date.now("YYYY-MM-DD") %>
 tags:
   - programing
+info:
 ---
 
 
