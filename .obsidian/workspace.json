@@ -196,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -356,8 +357,9 @@
   },
   "active": "4c0b8a3e78eb3d3c",
   "lastOpenFiles": [
-    "3. programing/computer science/nGrinder.md",
+    "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "3. programing/computer science/Locust.md",
+    "3. programing/computer science/nGrinder.md",
     "7. employ/employ_resume_portfolio version 1.0.md",
     "6 Employment.md",
     "3. programing/computer science/K6.md",
@@ -381,7 +383,6 @@
     "7. employ/네이버클라우드 비트캠프의 이력서 정리.md",
     "7. employ/company info/크리니티.md",
     "7. employ/company info/밀버스.md",
-    "7. employ/company info/반프.md",
     "list/Images/Pasted image 20251031154342.png",
     "list/Images/Pasted image 20251031154304.png",
     "list/Images/Pasted image 20251031153827.png",

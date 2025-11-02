@@ -7,7 +7,7 @@ tags:
   - programing
   - cs
   - cs_devops
-info:
+info: https://chatgpt.com/c/690768ab-2f2c-8324-af65-dc9865436fe5
 ---
 # 
 
