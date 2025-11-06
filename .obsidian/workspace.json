@@ -141,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "employ_resume_portfolio version 1.0.md",
+                "file": "9. life/life_couple_우리 응애.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -156,7 +156,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "employ_resume_portfolio version 1.0"
+              "title": "life_couple_우리 응애"
             }
           }
         ],
@@ -220,8 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -375,13 +374,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "b0f42e2a0a49b039",
   "lastOpenFiles": [
-    "7. employ/employ_resume_portfolio version 1.0.md",
     "employ_resume_portfolio version 1.0.md",
+    "7. employ/employ_resume_portfolio version 1.0.md",
     "3. programing/computer science/Locust.md",
     "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "3. programing/computer science/nGrinder.md",
