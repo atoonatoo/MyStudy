@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. employ/employ_resume_portfolio version 1.0.md",
+                "file": "7. employ/resume_portfolio ver 1.0.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -108,7 +108,7 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "employ_resume_portfolio version 1.0"
+              "title": "resume_portfolio ver 1.0"
             }
           },
           {
@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. employ/employ_resume_portfolio version 1.1.md",
+                "file": "7. employ/resume_portfolio ver 1.0.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -132,11 +132,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "employ_resume_portfolio version 1.1"
+              "title": "resume_portfolio ver 1.0"
+            }
+          },
+          {
+            "id": "02e1d918e9e089e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. employ/resume_menual.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "resume_menual"
+            }
+          },
+          {
+            "id": "435245cd939deeeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. employ/resume_portfolio ver 1.1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "resume_portfolio ver 1.1"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -354,13 +402,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4c0b8a3e78eb3d3c",
+  "active": "02e1d918e9e089e2",
   "lastOpenFiles": [
-    "7. employ/employment_resume_menual.md",
-    "7. employ/employ_resume_portfolio version 1.1.md",
-    "7. employ/employ_resume_portfolio version 1.0.md",
-    "9. life/life_couple_우리 응애.md",
+    "7. employ/resume_portfolio ver 1.1.md",
+    "7. employ/resume_menual.md",
+    "7. employ/resume_portfolio ver 1.0.md",
     "employ_resume_portfolio version 1.0.md",
+    "3. programing/computer science/public static void main.md",
+    "9. life/life_couple_우리 응애.md",
     "3. programing/computer science/Locust.md",
     "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "3. programing/computer science/nGrinder.md",
@@ -381,7 +430,6 @@
     "8. templates/template_monthly.md",
     "8. templates/template_gpt.md",
     "8. templates/template_employ.md",
-    "7. employ/네이버클라우드 비트캠프의 이력서 정리.md",
     "list/Images/Pasted image 20251031154342.png",
     "list/Images/Pasted image 20251031154304.png",
     "list/Images/Pasted image 20251031153827.png",
