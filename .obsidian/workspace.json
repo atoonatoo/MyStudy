@@ -160,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -374,13 +374,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "355bb081179a62e7",
+  "active": "3b278ced43951b7c",
   "lastOpenFiles": [
-    "7. employ/resume_my status.md",
     "6 Employment.md",
+    "7. employ/resume_my status.md",
     "주석 공부법.md",
     "5. link/programing info/개발자 종류 총 정리, 2024년 최신 트렌드.md",
     "8. templates/template_basic.md",
