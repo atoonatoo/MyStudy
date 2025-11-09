@@ -158,9 +158,81 @@
               "icon": "lucide-file",
               "title": "6 Employment"
             }
+          },
+          {
+            "id": "8e4a4477a7e1cf95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. employ/company info/앤디소프트.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "앤디소프트"
+            }
+          },
+          {
+            "id": "d3558fb42f484dec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
+          },
+          {
+            "id": "65058a67759afcc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. employ/company info/클레이디스코리아.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "클레이디스코리아"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -378,9 +450,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3b278ced43951b7c",
+  "active": "d3558fb42f484dec",
   "lastOpenFiles": [
+    "7. employ/company info/앤디소프트.md",
+    "무제.md",
+    "7. employ/company info/클레이디스코리아.md",
     "6 Employment.md",
+    "7. employ/company info/버터소프트.md",
     "7. employ/resume_my status.md",
     "주석 공부법.md",
     "5. link/programing info/개발자 종류 총 정리, 2024년 최신 트렌드.md",
@@ -402,10 +478,6 @@
     "7. employ/company info/로워드.md",
     "employ_resume_portfolio version 1.0.md",
     "7. employ/company info/이데아텍.md",
-    "7. employ/company info/뉴라인컨설팅.md",
-    "3. programing/computer science/Process & Thread.md",
-    "세마포어(semaphore).md",
-    "뮤텍스(mutual-exclusion).md",
     "list/Images/Pasted image 20251031154342.png",
     "list/Images/Pasted image 20251031154304.png",
     "list/Images/Pasted image 20251031153827.png",
