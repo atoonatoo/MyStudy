@@ -24,31 +24,6 @@
       "pattern": ""
     },
     {
-      "folder": "15. guide/obsidian",
-      "tag": "#guide_obsidian",
-      "pattern": ""
-    },
-    {
-      "folder": "7. employ/company info",
-      "tag": "#company_info",
-      "pattern": ""
-    },
-    {
-      "folder": "5. link/programing info",
-      "tag": "#programing_youtube",
-      "pattern": ""
-    },
-    {
-      "folder": "5. link/programing info",
-      "tag": "#programing_blog",
-      "pattern": ""
-    },
-    {
-      "folder": "5. link/programing info",
-      "tag": "#programing_git_repository",
-      "pattern": ""
-    },
-    {
       "folder": "3. programing/truoble shooting",
       "tag": "#troble_shooting",
       "pattern": ""
@@ -56,6 +31,11 @@
     {
       "folder": "3. programing/coding test",
       "tag": "#coding_test",
+      "pattern": ""
+    },
+    {
+      "folder": "3. programing/computer science",
+      "tag": "#programing_info",
       "pattern": ""
     },
     {
@@ -101,6 +81,26 @@
     {
       "folder": "5. link/gpt",
       "tag": "#gpt_chat_box",
+      "pattern": ""
+    },
+    {
+      "folder": "5. link/programing info",
+      "tag": "#programing_youtube",
+      "pattern": ""
+    },
+    {
+      "folder": "5. link/programing info",
+      "tag": "#programing_git_repository",
+      "pattern": ""
+    },
+    {
+      "folder": "5. link/programing info",
+      "tag": "#programing_blog",
+      "pattern": ""
+    },
+    {
+      "folder": "7. employ/company info",
+      "tag": "#company_info",
       "pattern": ""
     }
   ],
