@@ -1,5 +1,5 @@
 ---
-title: <% tp.file.title.split("_") [0] %>
+title: <% tp.file.title.split("_")[0].slice(0, 30) %>
 type: info
 director: employ
 site: <% tp.system.suggester(["사람인", "원티드", "로켓펀치"], ["사람인", "원티드", "로켓펀치"]) %>

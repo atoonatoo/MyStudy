@@ -8,6 +8,7 @@ tags:
   - programing_info
   - link
 ---
+
 ```dataview
 TABLE without id
     ("[" + file.name + "](" + url + ")") as "제목",

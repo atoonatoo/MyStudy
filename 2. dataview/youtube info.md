@@ -13,6 +13,7 @@ TABLE without id
     dateformat(file.cday, "yy/MM/dd") as "작성일", 
     tags as "태그", 
     coment as "설명"
-FROM "5. link/youtube"
-
+FROM "5. link/programing info"
+WHERE contains(string(tags), "programing_youtube")
 ```
+

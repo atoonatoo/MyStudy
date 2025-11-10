@@ -1,11 +1,12 @@
 ---
-title: <% tp.file.title.split("_") [0] %>
+title: 지금. Flutter 를 배워야하는 이유.
 type: youtube
 director: link
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2025-11-10
 tags:
   - link
-  - youtube
+  - programing_youtube
+  - Flutter
 url: https://www.youtube.com/watch?v=l05wkkCCe2Y
 coment: 플러터는 생초보가 6개월만에 어플출시 가능한 환상적인 프레임워크
 ---
