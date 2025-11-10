@@ -27,7 +27,7 @@ info:
 
 # 2. AI Engine 종류
 
-## 2.1 ChatGPT
+## 2.1 [[3. programing/computer science/Chat GPT]]
 
 ## 2.2 Perplexity
 

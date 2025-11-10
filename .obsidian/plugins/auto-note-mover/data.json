@@ -79,6 +79,11 @@
       "pattern": ""
     },
     {
+      "folder": "4. prompt",
+      "tag": "#programing_prompt",
+      "pattern": ""
+    },
+    {
       "folder": "5. link/gpt",
       "tag": "#gpt_chat_box",
       "pattern": ""
@@ -96,6 +101,11 @@
     {
       "folder": "5. link/programing info",
       "tag": "#programing_blog",
+      "pattern": ""
+    },
+    {
+      "folder": "6. learning",
+      "tag": "#programing_learning",
       "pattern": ""
     },
     {

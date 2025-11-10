@@ -1,13 +1,13 @@
 ---
-title: <% tp.file.title.split("_")[0].slice(0, 30) %>
-type: gpt
-director: link
-date: <% tp.date.now("YYYY-MM-DD") %>
+title: linux
+type: computer science
+director: programing
+date: 2025-11-10
 tags:
   - programing
-  - link
-url:
-coment:
+  - cs
+  - programing_prompt
+info:
 ---
 
 ---
@@ -38,6 +38,6 @@ coment:
 ## 3.3 
 
 ---
-
-
-
+# 참고 문헌
+- [#]()
+- [#]()

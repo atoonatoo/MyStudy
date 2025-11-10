@@ -63,7 +63,7 @@
 - [[GitHub]]
 - [[Postman]]
 - [[VSCode]]
-- [[Linux]]
+- [[linux]]
 - [[Ubuntu]]
 - [[bash]]
 - [[Putty]]
