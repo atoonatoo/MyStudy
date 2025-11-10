@@ -110,8 +110,33 @@
               "icon": "lucide-file",
               "title": "public static void main"
             }
+          },
+          {
+            "id": "428a8df4d24314f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. programing/computer science/Chat GPT.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Chat GPT"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -251,8 +276,8 @@
             "state": {
               "type": "juggl_nodes",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화돼있지 않음"
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
             }
           },
           {
@@ -261,8 +286,8 @@
             "state": {
               "type": "juggl_style",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화돼있지 않음"
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
             }
           },
           {
@@ -271,8 +296,8 @@
             "state": {
               "type": "juggl_nodes",
               "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
             }
           },
           {
@@ -281,8 +306,8 @@
             "state": {
               "type": "juggl_style",
               "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
             }
           }
         ],
@@ -299,8 +324,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ]
@@ -319,19 +344,15 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4c0b8a3e78eb3d3c",
+  "active": "428a8df4d24314f1",
   "lastOpenFiles": [
-    "7. employ/resume_my status.md",
     "3. programing/computer science/public static void main.md",
+    "3. programing/computer science/Chat GPT.md",
+    "7. employ/resume_portfolio ver 1.0.md",
+    "7. employ/resume_my status.md",
     "2. dataview/learning.md",
     "1. planner/Redis, EFK, Jmeter 학습 로드맵.md",
     "2. dataview/channel.md",
@@ -355,8 +376,6 @@
     "8. templates/template_obsidian.md",
     "8. templates/template_monthly.md",
     "8. templates/template_gpt.md",
-    "8. templates/template_daily.md",
-    "8. templates/template_cs.md",
     "12. Images/Images/Pasted image 20251031154342.png",
     "12. Images/Images/Pasted image 20251031154304.png",
     "12. Images/Images/Pasted image 20251031153827.png",
