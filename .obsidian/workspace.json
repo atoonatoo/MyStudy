@@ -112,12 +112,12 @@
             }
           },
           {
-            "id": "428a8df4d24314f1",
+            "id": "722ce8f3e028edbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. programing/computer science/Chat GPT.md",
+                "file": "6 Employment.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -132,7 +132,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Chat GPT"
+              "title": "6 Employment"
             }
           }
         ],
@@ -309,6 +309,26 @@
               "icon": "lucide-ghost",
               "title": "juggl_style"
             }
+          },
+          {
+            "id": "096bdd7df9471625",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "fd02d34a0ca31002",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
           }
         ],
         "currentTab": 3
@@ -344,13 +364,29 @@
       "markdown-importer:마크다운 형식 불러오기 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false,
+      "vscode-editor:Create Code File": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "juggl:Juggl global graph": false,
+      "templater-obsidian:Templater": false,
+      "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "428a8df4d24314f1",
+  "active": "722ce8f3e028edbb",
   "lastOpenFiles": [
     "3. programing/computer science/public static void main.md",
     "3. programing/computer science/Chat GPT.md",
+    "2. dataview/utility.md",
+    "5. link/programing info/TOC(Table Of Content).md",
+    "2. dataview/youtube.md",
+    "2. dataview/prompt.md",
+    "8. templates/template_info.md",
+    "에이펙인텔리전스.md",
+    "8. templates/template_employ.md",
+    "8. templates/template_dataview.md",
+    "8. templates/template_daily.md",
+    "8. templates/template_repository.md",
     "7. employ/resume_portfolio ver 1.0.md",
     "7. employ/resume_my status.md",
     "2. dataview/learning.md",
@@ -358,24 +394,14 @@
     "2. dataview/channel.md",
     "2. dataview/chat gpt.md",
     "2. dataview/company.md",
-    "2. dataview/prompt.md",
-    "2. dataview/youtube.md",
     "4. prompt/markdown.md",
     "4. prompt/linux.md",
-    "8. templates/template_dataview.md",
     "3. programing/computer science/programing.md",
     "3. programing/project/project_lostark ingame info site_로아.md",
     "4. prompt",
-    "8. templates/template_employ.md",
     "8. templates/templete_resume.md",
-    "8. templates/template_repository.md",
-    "8. templates/template_blog.md",
     "8. templates/template_youtube.md",
     "8. templates/template_yearly.md",
-    "8. templates/template_weekly.md",
-    "8. templates/template_obsidian.md",
-    "8. templates/template_monthly.md",
-    "8. templates/template_gpt.md",
     "12. Images/Images/Pasted image 20251031154342.png",
     "12. Images/Images/Pasted image 20251031154304.png",
     "12. Images/Images/Pasted image 20251031153827.png",
