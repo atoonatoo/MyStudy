@@ -112,12 +112,12 @@
             }
           },
           {
-            "id": "3b278ced43951b7c",
+            "id": "eeec99010d7130cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. employ/resume_my status.md",
+                "file": "Chat GPT.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -132,107 +132,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "resume_my status"
-            }
-          },
-          {
-            "id": "355bb081179a62e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 Employment.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "6 Employment"
-            }
-          },
-          {
-            "id": "8e4a4477a7e1cf95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/company info/앤디소프트.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "앤디소프트"
-            }
-          },
-          {
-            "id": "d3558fb42f484dec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "무제"
-            }
-          },
-          {
-            "id": "65058a67759afcc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/company info/클레이디스코리아.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "클레이디스코리아"
+              "title": "Chat GPT"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -450,20 +354,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d3558fb42f484dec",
+  "active": "eeec99010d7130cb",
   "lastOpenFiles": [
+    "7. employ/resume_my status.md",
+    "Chat GPT.md",
+    "3. programing/computer science/public static void main.md",
     "7. employ/company info/앤디소프트.md",
-    "무제.md",
+    "7. employ/company info/이스트시큐리티.md",
     "7. employ/company info/클레이디스코리아.md",
     "6 Employment.md",
     "7. employ/company info/버터소프트.md",
-    "7. employ/resume_my status.md",
     "주석 공부법.md",
     "5. link/programing info/개발자 종류 총 정리, 2024년 최신 트렌드.md",
     "8. templates/template_basic.md",
     "8. templates/template_blog.md",
     "8. templates/template_cs.md",
-    "3. programing/computer science/public static void main.md",
     "7. employ/네이버클라우드 비트캠프의 이력서 정리.md",
     "99. organize/7 - CS/4 wait/CS.md",
     "7. employ/resume_portfolio ver 1.1.md",
@@ -477,7 +382,6 @@
     "메모리 구조(memory structure).md",
     "7. employ/company info/로워드.md",
     "employ_resume_portfolio version 1.0.md",
-    "7. employ/company info/이데아텍.md",
     "list/Images/Pasted image 20251031154342.png",
     "list/Images/Pasted image 20251031154304.png",
     "list/Images/Pasted image 20251031153827.png",
