@@ -110,32 +110,9 @@
               "icon": "lucide-file",
               "title": "public static void main"
             }
-          },
-          {
-            "id": "722ce8f3e028edbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 Employment.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "6 Employment"
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -373,10 +350,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4c0b8a3e78eb3d3c",
+  "active": "957fe2da05866977",
   "lastOpenFiles": [
-    "7. employ/resume_my status.md",
     "6 Employment.md",
+    "StringTokenizer.md",
+    "String.split().md",
+    "Multi Tasking.md",
+    "뮤텍스(mutual-exclusion).md",
+    "Multi Process와 Multi Thread.md",
+    "LPC(Local inter-Process Communication).md",
+    "IPC(Inter-Process Communication).md",
+    "현직 신입 개발자 기준 현실적인 성장 플랜.md",
+    "하이퍼스레딩(Hyper-Threading).md",
+    "주석 공부법.md",
+    "세마포어(semaphore).md",
+    "메모리 구조(memory structure).md",
+    "7. employ/resume_portfolio ver 1.0.md",
+    "7. employ/resume_my status.md",
     "3. programing/computer science/public static void main.md",
     "3. programing/computer science/Chat GPT.md",
     "2. dataview/utility.md",
@@ -388,20 +378,7 @@
     "8. templates/template_employ.md",
     "8. templates/template_dataview.md",
     "8. templates/template_daily.md",
-    "8. templates/template_repository.md",
-    "7. employ/resume_portfolio ver 1.0.md",
-    "2. dataview/learning.md",
-    "1. planner/Redis, EFK, Jmeter 학습 로드맵.md",
-    "2. dataview/channel.md",
-    "2. dataview/chat gpt.md",
-    "2. dataview/company.md",
-    "4. prompt/markdown.md",
-    "4. prompt/linux.md",
-    "3. programing/computer science/programing.md",
-    "3. programing/project/project_lostark ingame info site_로아.md",
     "4. prompt",
-    "8. templates/templete_resume.md",
-    "8. templates/template_youtube.md",
     "12. Images/Images/Pasted image 20251031154342.png",
     "12. Images/Images/Pasted image 20251031154304.png",
     "12. Images/Images/Pasted image 20251031153827.png",
