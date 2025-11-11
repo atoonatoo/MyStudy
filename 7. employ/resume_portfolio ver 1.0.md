@@ -9,9 +9,99 @@ tags:
   - resume
 ---
 
+---
+
+[[#1. 부하 테스트 설계와 도구 선정]]
+[[#2. 트래픽 부하 분산을 위한 로드 밸런서 구축]]
+[[#3. 중앙 집중형 로그 수집기 설계 및 시각화 환경 구축]]
+[[#4. DB 커넥션 풀 튜닝 및 성능 최적화]]
+[[#5. 캐싱 시스템 설계 및 응답 속도 개선]]
+[[#6. 사용자 정보 관리 및 인증, 인가 보안 설계]]
+[[#7. 플레이리스트 관리 모듈 설계 및 구현]]
+[[#8. ChatGPT Open API 연동 및 서비스 적용]]
+[[#9. 기술 후보군 정리]]
+[[#10. 도구 별 키워드 정리]]
+    [[#10.1 부하 테스트 도구]]
+
+---
 ## 1. 부하 테스트 설계와 도구 선정
 
 프로젝트에서 제가 담당한 서비스의 안정적 동작을 검증하기 위해 부하 테스트의 필요성을 인식했습니다. 이를 위해 `k6`, `Apache Jmeter`, `nGrinder`,  `Locust`등 대표적인 부하 테스트 도구를 후보로 선정하고 각 도구의 특징을 비교 및 분석 하였습니다.
+
+위와 같은 부하 테스트 도구들을 비교 및 분석한 끝에, 저는 최종적으로 `Apache JMeter`를 선택했습니다. 가장 큰 이유는 JMeter가 GUI에 특화된 구조를 갖추고 있으며, 풍부한 플러그인과 다양한 프로토콜을 지원하여 복잡한 시나리오도 시각적으로 쉽게 구성할 수 있기 때문입니다.
+
+실제 테스트 과정에서 제가 필요하다고 판단한 기능들(`정규식 추출기`, `CSV Data Set Config`, `95% Line Report` 등)을 손쉽게 찾을 수 있었고, 설정 절차 또한 직관적이었습니다. JMeter는 Java 기반 특성상 메모리 소비량이 높은 편이었는데, 이에 대한 해결책으로 공식 문서에서도 권장하는 방식인 GUI로 시나리오를 설계하고 CLI 모드로 테스트를 실행하는 방법을 적용하여 성능 문제를 완화할 수 있었습니다.
+
+---
+
+## 2. 트래픽 부하 분산을 위한 로드 밸런서 구축
+
+---
+
+## 3. 중앙 집중형 로그 수집기 설계 및 시각화 환경 구축
+
+---
+
+## 4. DB 커넥션 풀 튜닝 및 성능 최적화
+
+---
+
+## 5. 캐싱 시스템 설계 및 응답 속도 개선
+
+---
+
+## 6. 사용자 정보 관리 및 인증, 인가 보안 설계
+
+---
+
+## 7. 플레이리스트 관리 모듈 설계 및 구현
+
+---
+
+## 8. ChatGPT Open API 연동 및 서비스 적용
+
+---
+
+## 9. 기술 후보군 정리
+
+**부하 테스트 도구**  
+JMeter, k6, Locust, nGrinder
+
+**로그 수집기(저장소)**  
+Elasticsearch, OpenSearch, Loki, Graylog, ClickHouse, Splunk, Datadog, New Relic
+
+**로그 수집 에이전트(수집기)**  
+Filebeat, Fluent Bit, Vector, rsyslog, Logstash Forwarder
+
+**시각화 및 모니터링 도구**  
+Kibana, Grafana, OpenSearch Dashboards, Graylog Web UI, Datadog Dashboard
+
+**로드밸런서**  
+Nginx, HAProxy, AWS ALB, Traefik
+
+**데이터 접근 계층**  
+Spring Data JPA, MyBatis, JDBC Template, JOOQ
+
+**쿼리 빌더**  
+QueryDSL, JPQL, Criteria API, JOOQ
+
+**커넥션 풀 관리**  
+HikariCP, Apache DBCP2, Tomcat JDBC Pool, c3p0
+
+**캐싱 및 세션 관리**  
+Redis, Memcached, Caffeine, Hazelcast
+
+**인증 및 인가**  
+Spring Security, Apache Shiro, Keycloak, pac4j
+
+**생성형 AI 모델 API (LLM 서비스)**
+ChatGPT OpenAI API, Claude API, Gemini API
+
+---
+
+## 10. 도구 별 키워드 정리
+
+### 10.1 부하 테스트 도구
 
 - **Jmeter**
     - `GUI에 특화된 초심자 친화적 테스트 도구`
@@ -51,135 +141,3 @@ tags:
     - `on_start, wait_time 등으로 현실적 사용자 패턴 구현`
     - `Python 생태계와 확장성 높은 통합 지원`
     - `단순하면서도 대규모 테스트에 적합한 경량 아키텍처`
-
-위와 같은 부하 테스트 도구들을 비교 및 분석한 끝에, 저는 최종적으로 `Apache JMeter`를 선택했습니다. 가장 큰 이유는 JMeter가 GUI에 특화된 구조를 갖추고 있으며, 풍부한 플러그인과 다양한 프로토콜을 지원하여 복잡한 시나리오도 시각적으로 쉽게 구성할 수 있기 때문입니다.
-
-실제 테스트 과정에서 제가 필요하다고 판단한 기능들(`정규식 추출기`, `CSV Data Set Config`, `95% Line Report` 등)을 손쉽게 찾을 수 있었고, 설정 절차 또한 직관적이었습니다. JMeter는 Java 기반 특성상 메모리 소비량이 높은 편이었는데, 이에 대한 해결책으로 공식 문서에서도 권장하는 방식인 GUI로 시나리오를 설계하고 CLI 모드로 테스트를 실행하는 방법을 적용하여 성능 문제를 완화할 수 있었습니다.
-
----
-
-## 2. Nginx 기반 로드 밸런싱 및 트래픽 제어
-
-
-
----
-
-## 3. 로그 수집 및 분석 체계
-
-### 3.1 대용량 로그 검색 및 집계
-
-부하 테스트 과정에서 로그인 병목 현상의 원인을 추적하기 위해 로그를 분석했으나 스택트레이스가 출력되지 않아 오류를 집중적으로 파악하기 어려웠습니다. 로드밸런서 환경에서 서버별 로그가 분리되어 있어 직접 탐색하는 방식은 시간이 많이 걸리고 누락 위험이 높아 매우 비효율적이었습니다.
-
-이를 해결하기 위해 여러 로그 분석 도구(Loki, Graylog, OpenSearch 등)를 검토했지만, Elasticsearch만이 역색인 구조를 통해 대규모 로그 본문 전체를 신속하게 검색하면서도 필드 단위 집계와 필터링을 동시에 수행할 수 있었습니다.
-
-Loki는 라벨 인덱싱 특성상 스택트레이스 탐색에 한계가 있었고, OpenSearch와 Graylog는 안정성과 운영 지원 측면에서 완성도가 낮았습니다. 반면 Elasticsearch는 즉시 적용 가능한 인덱스 정책과 집계 기능을 갖추고 있어 로그 탐색 정확도, 속도, 운영 효율성 면에서 모든 요구 조건을 충족했습니다. 결국 로그인 병목 구간의 원인을 빠르고 정확하게 규명하고, 다중 서버 환경에서도 오류 추적의 신뢰성과 분석 효율성을 높이기 위해 반드시 필요한 선택이었습니다.
-
-### 3.2 경량 수집기와 신뢰성 전송
-
-Elasticsearch를 통해 로그 분석 효율을 확보했지만, 다중 서버 환경에서는 각 인스턴스의 로그를 중앙 저장소로 안정적으로 전달할 수 있는 수집기가 필요했습니다. 단순 스크립트 전송 방식은 누락과 중복이 잦고, 전송 실패 시 복구가 어려워 실시간 분석에 적합하지 않았습니다.
-
-이를 해결하기 위해 여러 수집기 후보(Fluent Bit, Vector, rsyslog, Logstash Forwarder 등)를 검토했으나, Filebeat이 가장 안정적이면서 Elasticsearch와의 호환성이 뛰어났습니다. Fluent Bit과 Vector는 설정이 복잡해 운영 리스크가 높았고, rsyslog는 시스템 로그 중심이라 애플리케이션 로그 처리에 한계가 있었습니다.
-
-반면 Filebeat은 경량 에이전트로 CPU·메모리 점유율이 낮고, 로그 파일 변화를 실시간 감지하여 전송 중 장애가 발생해도 자동으로 재시도해 데이터 손실을 방지합니다. 또한 Elasticsearch로 직접 전송되어 인덱싱이 자동화되며, 서버별 로그 경로와 포맷 관리도 간단히 구성할 수 있었습니다. 이를 통해 다중 서버 로그를 실시간으로 중앙화하고, 안정적이고 신뢰성 높은 분석 체계를 완성했습니다.
-
-### 3.3 실시간 시각화 및 알림
-
-Elasticsearch로 로그 중앙화와 검색 체계를 구축한 뒤, 수집된 데이터를 시각적으로 분석하기 위해 Kibana를 도입했습니다. 다양한 시각화 도구 중에서 Kibana는 Elasticsearch와의 연동이 가장 자연스럽고, 로그 본문을 그대로 검색하며 실시간 필터링까지 지원해 분석 효율이 뛰어났습니다. Grafana는 시각적 표현력은 우수했지만 로그 세부 탐색에는 제약이 있었고, OpenSearch Dashboards는 버전 안정성과 기능 완성도 측면에서 한계가 있었습니다.
-
-Graylog는 단순 조회 위주라 대규모 로그 시각화에 적합하지 않았으며, Datadog은 데이터 사용량 증가에 따라 비용이 크게 상승했습니다. Kibana는 시간, 서버, API별 필터링과 에러율·응답 시간의 시각적 집계를 지원해 로그인 실패율, JWT 갱신 지연, 서버별 부하 같은 주요 지표를 실시간으로 파악할 수 있었습니다. 또한 알림 기능을 통해 오류 발생 시점을 자동 감지하여 대응 속도를 높였으며, 결과적으로 Kibana는 로그 데이터에서 병목 원인을 빠르게 식별하고, 실시간 운영 안정성을 확보하는 핵심 도구로 기능했습니다.
-
-## 3.4 EFK 통합: 수집 → 색인 → 시각화
-
-Elasticsearch, Filebeat, Kibana를 연동한 EFK 스택을 구축하여 로그의 수집부터 분석까지 하나의 흐름으로 통합했습니다. Filebeat이 각 서버의 로그를 안정적으로 수집하고, Elasticsearch가 대용량 로그 본문을 빠르게 색인 및 검색하며, Kibana가 그 결과를 시각화해 오류 패턴을 직관적으로 보여주는 구조입니다.
-
-이를 통해 로그를 개별적으로 확인하던 비효율적인 과정을 제거하고, 다중 서버 환경에서도 로그 손실 없이 실시간 분석이 가능했습니다. 특히 EFK 스택을 활용해 클라이언트 단에서부터 계층적으로 하위 레이어로 추적하며 분석함으로써, Nginx 단에서 로그인 병목 현상의 원인이 되는 유의미한 스택트레이스를 빠르게 발견하고 식별할 수 있었습니다. 결과적으로 EFK 스택은 문제 진단 시간을 단축하고, 서비스의 안정성과 관측 체계를 한층 강화하는 핵심 인프라로 자리 잡았습니다.
-
----
-
-## 4. HikariCP 커넥션 튜닝
-
-로그 수집 결과, DB 연결 풀 고갈과 누수 의심 로그가 발견되어 병목의 원인이 애플리케이션이 아닌 DB 단임이 확인되었습니다. 로그인 요청이 순간적으로 몰릴 때도 연결을 빠르게 빌려주고, 누수를 감지하며, 장애 시 복구 지연을 최소화할 수 있는 커넥션 풀 관리가 필요했습니다.
-
-이 요구를 충족하기 위해 HikariCP, Apache DBCP2, Tomcat JDBC Pool, c3p0 등을 비교 분석했습니다. HikariCP는 내부 락 경합이 적어 연결 획득 지연이 매우 짧고, connectionTimeout과 leakDetectionThreshold를 통해 누수나 장애를 신속히 감지할 수 있습니다.
-
-또한 idleTimeout과 maxLifetime으로 불필요한 연결을 자동 정리해 풀 고갈을 방지하고, 실시간 지표를 통해 운영 중에도 안정적으로 튜닝이 가능합니다. Apache DBCP2는 검증 쿼리로 인한 추가 지연이 존재하고, Tomcat Pool은 관측 기능이 단순하며, c3p0는 구조적 오버헤드가 높았습니다. HikariCP는 이러한 제약을 최소화하면서도 고부하 로그인 환경에서 빠르고 안정적인 연결 관리가 가능했기에 선택했습니다.
-
-HikariCP 도입 이후 응답 지연 시간과 에러율이 모두 감소하며 전반적인 성능이 개선되었습니다. 다만 여전히 사용자 체감 속도 측면에서는 만족스러운 수준에 이르지 못해, 이후 캐싱과 쿼리 최적화를 포함한 추가 개선 방안을 모색했습니다.
-
----
-
-## 5. Redis 캐싱 도입(세션, 토큰, TTL)
-
-응답 지연과 에러율은 줄었지만 사용자 체감 속도는 여전히 부족했습니다. 로그인과 반복 조회 요청이 집중되는 구조였기에, 동일한 데이터를 매번 DB에서 불러오는 방식으로는 한계가 있었습니다.
-
-이를 개선하기 위해 다중 서버 간에도 빠르고 일관된 데이터 접근이 가능한 인메모리 캐시를 도입했습니다. 검토 과정에서 Redis는 단순 캐싱을 넘어 TTL 관리, 세션 유지, 토큰 블랙리스트와 같은 전역 상태 제어까지 지원해 로그인 서비스 구조에 적합했습니다.
-
-Memcached는 속도는 빠르지만 단순 키-값 저장만 가능했고, Caffeine은 각 서버 내부에서만 작동해 분산 환경에서는 캐시 불일치가 발생할 수 있었습니다. Hazelcast는 기능은 풍부했으나 운영 부담이 컸습니다. Redis는 다양한 데이터 구조를 지원하며 클러스터 구성과 장애 복구가 용이해, 사용자 인증 및 조회 요청 처리의 응답 지연 시간과 에러율이 대폭 감소했습니다.
-
----
-
-## 6. 사용자 정보 관리 및 사용자 인증 및 인가
-  
-프로젝트의 로그인 구조는 JWT 기반 API 인증과 세션 기반 관리 화면이 병행되는 형태였기에, 인증·인가를 통합 관리할 수 있는 Spring Security를 도입했습니다. SecurityFilterChain을 다중 구성하여 URL 단위로 세밀한 보안 정책을 분리하고, AuthenticationEntryPoint 및 AccessDeniedHandler를 통해 예외 처리와 로깅을 표준화했습니다. JWT 리소스 서버를 구성하여 키 회전(JWK), 권한 매핑, 리프레시 토큰 롤링 정책을 안정적으로 적용했으며, Redis를 통한 세션 TTL·토큰 블랙리스트 관리에도 자연스럽게 결합되었습니다.
-
-JWT를 사용한 이유는 서비스 구조가 REST API 중심의 무상태(Stateless) 환경이었기 때문입니다. 세션이나 쿠키 기반 인증은 서버에 상태 정보를 저장해야 하므로, 다중 서버·로드밸런싱 환경에서는 세션 동기화 비용이 커지고 확장성이 떨어집니다. 반면 JWT는 인증 정보를 자체적으로 포함해 별도의 세션 저장소 없이 인증이 가능하며, 토큰 만료·갱신 시점을 명확히 제어할 수 있습니다. 또한 Redis와 함께 사용하면 블랙리스트 관리나 즉시 무효화 같은 보완 정책도 유연하게 적용할 수 있습니다.  
-Apache Shiro는 경량하지만 세션 중심 구조로 JWT 확장이 어렵고, pac4j는 설정 복잡도가 높았습니다. Keycloak은 강력한 IdP 기능을 제공하지만 외부 서버 운영과 유지보수 비용이 과도했습니다. Spring Security는 스프링 부트와 완전하게 통합되어, 무상태/상태 혼용, 메서드 보안, 테스트 자동화까지 하나의 체계 안에서 구현할 수 있었습니다. 그 결과 인증 흐름의 일관성과 확장성, 그리고 유지보수 효율성을 모두 달성하며, 향후 사용자 증가 및 정책 변경에도 안정적으로 대응할 수 있었습니다.
-
----
-
-## 7. 플레이리스트 관리 모듈 설계 및 구현
-
-플레이리스트 관리 모듈 설계 및 구현
-
-사용자별 재생목록 관리 기능을 JPA, QueryDSL 기반으로 설계했습니다. Playlist 엔티티를 Aggregate Root로 두고, PlaylistVideo 조인 엔티티를 통해 다대다 관계를 풀어내어 생명주기를 일원화했습니다. Cascade와 orphanRemoval을 적용해 재생목록 삭제 시 연관 영상 링크가 자동 정리되도록 했으며, DTO 계층은 요청과 응답을 명확히 분리해 API 명세와 직렬화 구조를 단순화했습니다.
-
-데이터 접근 계층에서는 Spring Data JPA와 QueryDSL을 결합했습니다. 기본 CRUD는 JpaRepository로 처리하고, 사용자 ID와 플레이리스트 ID를 함께 사용하는 복합 조건 조회나 그룹핑 쿼리는 QueryDSL 기반 커스텀 리포지토리로 구현했습니다. QueryDSL은 JPQL이나 Criteria API보다 코드 가독성이 높고, 타입 안정성과 IDE 자동 완성 기능을 제공해 복잡한 조인 쿼리에서도 유지보수가 용이했습니다. MyBatis나 JDBC Template과 달리 객체 지향 도메인 모델을 그대로 활용할 수 있어 트랜잭션 관리와 데이터 일관성을 보장했습니다.
-
-비즈니스 로직은 PlaylistService에서 담당했습니다. JWT 인증 정보(UserDetailsCustom)를 기반으로 사용자 식별 후, 외부 VideoService에서 YouTube 메타데이터를 조회해 Video 엔티티를 upsert하는 구조로 구현했습니다. 생성, 수정, 삭제 트랜잭션을 명확히 분리하고, 예외는 PlaylistNotFoundException과 VideoNotFoundException 등 도메인 단위로 표준화했습니다. REST 컨트롤러는 /api/playlists 이하에 CRUD 엔드포인트를 배치하고, Swagger 문서화와 CORS 정책을 병행 설정해 프론트엔드 협업 환경을 고려했습니다.
-
-이 모듈은 QueryDSL 기반 정형 쿼리, 트랜잭션 분리, 도메인 예외 구조를 통해 서비스 안정성과 확장성을 확보했습니다. 결과적으로 재생목록 조회 속도는 개선되었고, 코드 구조는 유지보수가 용이한 계층형 아키텍처로 정리되었습니다.
-
----
-
-## 8. ChatGPT Open API
-
-ChatGPT OpenAI API, Claude API, Gemini API를 비교 검토한 결과, 안정성과 응답 품질이 가장 우수한 ChatGPT OpenAI API를 도입했습니다. LangChain, LlamaIndex, 직접 구현 방식을 비교한 프롬프트 오케스트레이션에서는 초기 유지보수 부담을 고려해 직접 구현을 채택했습니다. 검색과 태깅 기능에는 OpenAI Embedding API, Cohere Embed, Sentence-Transformers를 검토했으며, 통합성과 운영 편의성 면에서 OpenAI Embedding API를 선택했습니다. 음성 입력은 Whisper API, Cloud STT, Vosk 중 Whisper API를 적용했습니다. 호출 클라이언트는 Apache HttpClient, Spring WebClient, 공식 Java SDK를 비교하여 현재는 HttpClient를 사용하되, 향후 SDK 또는 WebClient 전환을 계획하고 있습니다.
-
-서비스 계층에서는 요청 생성, 인증 헤더 설정, 응답 파싱, 예외 처리 과정을 하나의 트랜잭션으로 통합하여 안정적인 API 통신 구조를 구축했습니다. HTTP 상태 코드별 예외를 구분해 네트워크 장애, 요청 오류, 모델 내부 오류를 명확히 처리하고, Jackson을 활용해 메시지를 직렬화하여 유지보수성과 확장성을 확보했습니다. 또한 JPA를 통해 사용자별 프롬프트와 응답을 Gpt 엔티티에 저장하고 QueryDSL로 조회 효율을 높여, 단순 API 호출 단계를 넘어 사용자 대화 데이터의 지속적 관리와 맞춤형 서비스 확장을 위한 기반을 마련했습니다.
-
----
-
-### 기술 후보군 정리
-
-**부하 테스트 도구**  
-JMeter, k6, Locust, nGrinder
-
-**로그 수집기(저장소)**  
-Elasticsearch, OpenSearch, Loki, Graylog, ClickHouse, Splunk, Datadog, New Relic
-
-**로그 수집 에이전트(수집기)**  
-Filebeat, Fluent Bit, Vector, rsyslog, Logstash Forwarder
-
-**시각화 및 모니터링 도구**  
-Kibana, Grafana, OpenSearch Dashboards, Graylog Web UI, Datadog Dashboard
-
-**로드밸런서**  
-Nginx, HAProxy, AWS ALB, Traefik
-
-**데이터 접근 계층**  
-Spring Data JPA, MyBatis, JDBC Template, JOOQ
-
-**쿼리 빌더**  
-QueryDSL, JPQL, Criteria API, JOOQ
-
-**커넥션 풀 관리**  
-HikariCP, Apache DBCP2, Tomcat JDBC Pool, c3p0
-
-**캐싱 및 세션 관리**  
-Redis, Memcached, Caffeine, Hazelcast
-
-**인증 및 인가**  
-Spring Security, Apache Shiro, Keycloak, pac4j
-
-**생성형 AI 모델 API (LLM 서비스)**
-ChatGPT OpenAI API, Claude API, Gemini API

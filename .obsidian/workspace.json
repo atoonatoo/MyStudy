@@ -135,8 +135,7 @@
               "title": "6 Employment"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -374,8 +373,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "722ce8f3e028edbb",
+  "active": "4c0b8a3e78eb3d3c",
   "lastOpenFiles": [
+    "7. employ/resume_my status.md",
+    "6 Employment.md",
     "3. programing/computer science/public static void main.md",
     "3. programing/computer science/Chat GPT.md",
     "2. dataview/utility.md",
@@ -389,7 +390,6 @@
     "8. templates/template_daily.md",
     "8. templates/template_repository.md",
     "7. employ/resume_portfolio ver 1.0.md",
-    "7. employ/resume_my status.md",
     "2. dataview/learning.md",
     "1. planner/Redis, EFK, Jmeter 학습 로드맵.md",
     "2. dataview/channel.md",
@@ -402,7 +402,6 @@
     "4. prompt",
     "8. templates/templete_resume.md",
     "8. templates/template_youtube.md",
-    "8. templates/template_yearly.md",
     "12. Images/Images/Pasted image 20251031154342.png",
     "12. Images/Images/Pasted image 20251031154304.png",
     "12. Images/Images/Pasted image 20251031153827.png",
