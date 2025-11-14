@@ -34,18 +34,6 @@
             }
           },
           {
-            "id": "656fc3c9dd720090",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.10.3"
-            }
-          },
-          {
             "id": "d1c958f83246d7fe",
             "type": "leaf",
             "pinned": true,
@@ -122,9 +110,33 @@
               "icon": "lucide-file",
               "title": "public static void main"
             }
+          },
+          {
+            "id": "4493cca29736d208",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6. learning/mentoring.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "mentoring"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -362,8 +374,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "656fc3c9dd720090",
+  "active": "4493cca29736d208",
   "lastOpenFiles": [
+    "6. learning/interview_backend.md",
+    "6. learning/정보처리기사.md",
+    "6. learning/mentoring.md",
     "7. employ/resume_my status.md",
     "3. programing/computer science/public static void main.md",
     "7. employ/company info/기웅정보통신.md",
@@ -389,8 +404,6 @@
     "7. employ/resume_portfolio ver 1.0.md",
     "3. programing/computer science/Chat GPT.md",
     "2. dataview/utility.md",
-    "5. link/programing info/TOC(Table Of Content).md",
-    "2. dataview/youtube.md",
     "4. prompt",
     "12. Images/Images/Pasted image 20251031154342.png",
     "12. Images/Images/Pasted image 20251031154304.png",

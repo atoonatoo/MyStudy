@@ -22,7 +22,7 @@
 # Bookmark
 
 - [[Book Study]]
-- [[Mentoring]]
+- [[99. organize/Mentoring]]
 - [[Mentoring Link]]
 - [[Nginx Prompt]]
 - [[BackUp Code]]

@@ -5,7 +5,7 @@ created:
 ---
 - [[Home]]
 - [[99. organize/Link]]
-- [[Mentoring]]
+- [[99. organize/Mentoring]]
 ---
 
 - 타임라인

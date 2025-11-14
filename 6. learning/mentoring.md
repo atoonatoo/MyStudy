@@ -24,5 +24,8 @@ tags:
 
 
 
+## 2. 멘토링 타임라인
 
+
+- [64주차](https://applicationspring.notion.site/64-2a75823552638054a212f1e7f4011d9e)
 

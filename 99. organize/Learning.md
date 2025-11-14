@@ -6,7 +6,7 @@ created:
 ---
 - **A. Study & Research**
     1. **Study**
-        - [[Mentoring]]
+        - [[99. organize/Mentoring]]
         - [[Morning Study]]
         - [[Book Study]]
         - [[BlackList]]
@@ -36,7 +36,7 @@ created:
 - [DBCP(DB connection pool)의 개념부터 설정 방법 | 쉬운코드](https://www.youtube.com/watch?v=zowzVqx3MQ4)
     - DBCP의 개념 및 설정 그리고 적절한 connection 설정 값 찾는 방법을 매우 이해하기 좋게 설명한 좋은 유튜브 가이드 영상이다.
 - [[Jmeter 세팅 가이드]]
-- [[정보처리기사]]
+- [[99. organize/정보처리기사]]
 - [[Conding Test]]
 - [[Nginx 로드밸런싱 문제 해결 보고서]]
 - [[JMeter 경량 부하 테스트 응답 지연 이슈 분석 및 대응 보고서]]
