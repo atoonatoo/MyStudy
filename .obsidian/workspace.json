@@ -34,6 +34,18 @@
             }
           },
           {
+            "id": "656fc3c9dd720090",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.10.3"
+            }
+          },
+          {
             "id": "d1c958f83246d7fe",
             "type": "leaf",
             "pinned": true,
@@ -111,7 +123,8 @@
               "title": "public static void main"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -349,7 +362,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4c0b8a3e78eb3d3c",
+  "active": "656fc3c9dd720090",
   "lastOpenFiles": [
     "7. employ/resume_my status.md",
     "3. programing/computer science/public static void main.md",
