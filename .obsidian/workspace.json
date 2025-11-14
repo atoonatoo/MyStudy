@@ -110,9 +110,33 @@
               "icon": "lucide-file",
               "title": "public static void main"
             }
+          },
+          {
+            "id": "ec3364af9b6b72d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. planner/무제.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -346,11 +370,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "957fe2da05866977",
+  "active": "ec3364af9b6b72d2",
   "lastOpenFiles": [
+    "3. programing/computer science/public static void main.md",
+    "1. planner/무제.md",
     "6 Employment.md",
     "StringTokenizer.md",
     "String.split().md",
@@ -366,7 +393,6 @@
     "메모리 구조(memory structure).md",
     "7. employ/resume_portfolio ver 1.0.md",
     "7. employ/resume_my status.md",
-    "3. programing/computer science/public static void main.md",
     "3. programing/computer science/Chat GPT.md",
     "2. dataview/utility.md",
     "5. link/programing info/TOC(Table Of Content).md",
@@ -376,7 +402,6 @@
     "에이펙인텔리전스.md",
     "8. templates/template_employ.md",
     "8. templates/template_dataview.md",
-    "8. templates/template_daily.md",
     "4. prompt",
     "12. Images/Images/Pasted image 20251031154342.png",
     "12. Images/Images/Pasted image 20251031154304.png",
