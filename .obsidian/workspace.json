@@ -112,12 +112,12 @@
             }
           },
           {
-            "id": "ec3364af9b6b72d2",
+            "id": "f33e9119c2d165ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. planner/무제.md",
+                "file": "무제.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -133,6 +133,78 @@
               },
               "icon": "lucide-file",
               "title": "무제"
+            }
+          },
+          {
+            "id": "3f4a882c76a9cfa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "무제 1"
+            }
+          },
+          {
+            "id": "66c4a993204bac9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "무제 2"
+            }
+          },
+          {
+            "id": "7ede531b1922629d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "무제 3"
             }
           }
         ],
@@ -196,7 +268,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -374,10 +447,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ec3364af9b6b72d2",
+  "active": "f33e9119c2d165ca",
   "lastOpenFiles": [
+    "무제 3.md",
+    "무제 2.md",
+    "무제 1.md",
+    "무제.md",
     "3. programing/computer science/public static void main.md",
-    "1. planner/무제.md",
+    "1. planner/Time Boxing.md",
     "6 Employment.md",
     "StringTokenizer.md",
     "String.split().md",
@@ -398,10 +475,6 @@
     "5. link/programing info/TOC(Table Of Content).md",
     "2. dataview/youtube.md",
     "2. dataview/prompt.md",
-    "8. templates/template_info.md",
-    "에이펙인텔리전스.md",
-    "8. templates/template_employ.md",
-    "8. templates/template_dataview.md",
     "4. prompt",
     "12. Images/Images/Pasted image 20251031154342.png",
     "12. Images/Images/Pasted image 20251031154304.png",
