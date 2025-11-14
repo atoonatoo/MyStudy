@@ -110,105 +110,8 @@
               "icon": "lucide-file",
               "title": "public static void main"
             }
-          },
-          {
-            "id": "f33e9119c2d165ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "무제"
-            }
-          },
-          {
-            "id": "3f4a882c76a9cfa5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "무제 1"
-            }
-          },
-          {
-            "id": "66c4a993204bac9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "무제 2"
-            }
-          },
-          {
-            "id": "7ede531b1922629d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "무제 3"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -268,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -447,15 +349,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f33e9119c2d165ca",
+  "active": "4c0b8a3e78eb3d3c",
   "lastOpenFiles": [
+    "7. employ/resume_my status.md",
+    "3. programing/computer science/public static void main.md",
+    "7. employ/company info/기웅정보통신.md",
+    "7. employ/company info/더즌.md",
     "12. Images/Pasted image 20251114170636.png",
     "12. Images/Pasted image 20251114170517.png",
     "무제 3.md",
     "무제 2.md",
-    "무제 1.md",
-    "무제.md",
-    "3. programing/computer science/public static void main.md",
     "1. planner/Time Boxing.md",
     "6 Employment.md",
     "StringTokenizer.md",
@@ -471,7 +374,6 @@
     "세마포어(semaphore).md",
     "메모리 구조(memory structure).md",
     "7. employ/resume_portfolio ver 1.0.md",
-    "7. employ/resume_my status.md",
     "3. programing/computer science/Chat GPT.md",
     "2. dataview/utility.md",
     "5. link/programing info/TOC(Table Of Content).md",
@@ -486,7 +388,6 @@
     "12. Images/Images/Pasted image 20251031134429.png",
     "12. Images/Images/Pasted image 20251031133923.png",
     "5. link/gpt",
-    "12. Images/Images/Pasted image 20251029094735.png",
     "12. Images/Images",
     "list",
     "3. programing/computer sience/무제",
