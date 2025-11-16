@@ -110,33 +110,9 @@
               "icon": "lucide-file",
               "title": "public static void main"
             }
-          },
-          {
-            "id": "4493cca29736d208",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6. learning/mentoring.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "mentoring"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -374,10 +350,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4493cca29736d208",
+  "active": "957fe2da05866977",
   "lastOpenFiles": [
-    "Nogle 알고리즘.md",
+    "1. planner/Time Boxing.md",
     "6. learning/mentoring.md",
+    "Nogle 알고리즘.md",
     "6. learning/interview_backend.md",
     "6. learning/정보처리기사.md",
     "7. employ/resume_my status.md",
@@ -388,7 +365,6 @@
     "12. Images/Pasted image 20251114170517.png",
     "무제 3.md",
     "무제 2.md",
-    "1. planner/Time Boxing.md",
     "6 Employment.md",
     "StringTokenizer.md",
     "String.split().md",
