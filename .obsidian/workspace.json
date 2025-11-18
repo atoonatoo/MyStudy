@@ -370,8 +370,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false,
-      "periodic-notes:Open today": false
+      "kr-book-info-plugin:Add Book Info": false
     }
   },
   "active": "4fc9b802a4b59150",
