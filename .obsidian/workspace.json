@@ -4,139 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8248a4dff32a55e9",
+        "id": "ecb7b0ea1165b898",
         "type": "tabs",
         "children": [
           {
-            "id": "4c0b8a3e78eb3d3c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/resume_portfolio ver 1.0.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "resume_portfolio ver 1.0"
-            }
-          },
-          {
-            "id": "d1c958f83246d7fe",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/resume_my status.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "resume_my status"
-            }
-          },
-          {
-            "id": "d289ba2247bdf7eb",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. programing/computer science/Java Error & Exception.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Java Error & Exception"
-            }
-          },
-          {
-            "id": "957fe2da05866977",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. programing/computer science/public static void main.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "public static void main"
-            }
-          },
-          {
-            "id": "4fc9b802a4b59150",
+            "id": "08ea8a6e59393b08",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/resume_portfolio ver 1.0.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "resume_portfolio ver 1.0"
+              "title": "새 탭"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -370,13 +251,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "4fc9b802a4b59150",
+  "active": "9b4610631fd59679",
   "lastOpenFiles": [
-    "7. employ/company info/아이알큐더스.md",
     "7. employ/resume_portfolio ver 1.0.md",
+    "7. employ/company info/아이엔아이소프트.md",
+    "무제.md",
+    "7. employ/company info/인젠트.md",
+    "크림하우스.md",
+    "뉴제스트.md",
+    "7. employ/company info/티오더스테이.md",
+    "7. employ/company info/아이알큐더스.md",
     "7. employ/resume_portfolio ver 1.1.md",
     "3. programing/computer science/public static void main.md",
     "Nogle Algorithem.md",
@@ -397,12 +285,6 @@
     "StringTokenizer.md",
     "String.split().md",
     "Multi Tasking.md",
-    "뮤텍스(mutual-exclusion).md",
-    "Multi Process와 Multi Thread.md",
-    "LPC(Local inter-Process Communication).md",
-    "IPC(Inter-Process Communication).md",
-    "현직 신입 개발자 기준 현실적인 성장 플랜.md",
-    "하이퍼스레딩(Hyper-Threading).md",
     "4. prompt",
     "12. Images/Images/Pasted image 20251031154342.png",
     "12. Images/Images/Pasted image 20251031154304.png",
