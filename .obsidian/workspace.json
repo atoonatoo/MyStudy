@@ -10,11 +10,27 @@
           {
             "id": "08ea8a6e59393b08",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1. planner/Time Boxing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Time Boxing"
             }
           }
         ]
@@ -251,8 +267,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false,
-      "periodic-notes:Open today": false
+      "kr-book-info-plugin:Add Book Info": false
     }
   },
   "active": "9b4610631fd59679",
