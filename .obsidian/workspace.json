@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "Time Boxing"
             }
-          },
-          {
-            "id": "4e9403f853d5c1f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/working/First Employee Guide.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "First Employee Guide"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -296,10 +272,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4e9403f853d5c1f9",
+  "active": "08ea8a6e59393b08",
   "lastOpenFiles": [
-    "7. employ/resume/portfolio ver 1.1.md",
+    "String.split().md",
+    "StringTokenizer.md",
+    "Multi Tasking.md",
+    "Multi Process와 Multi Thread.md",
+    "IPC(Inter-Process Communication).md",
+    "하이퍼스레딩(Hyper-Threading).md",
+    "뮤텍스(mutual-exclusion).md",
+    "1. planner/Time Boxing.md",
     "7. employ/working/First Employee Guide.md",
+    "7. employ/resume/portfolio ver 1.1.md",
     "7. employ/resume/portfolio ver 1.0.md",
     "7. employ/resume/my status.md",
     "7. employ/resume/menual.md",
@@ -307,7 +291,6 @@
     "7. employ/organizational structure.md",
     "7. employ/working",
     "7. employ/resume",
-    "1. planner/Time Boxing.md",
     "7. employ/company info/아이엔아이소프트.md",
     "무제.md",
     "7. employ/company info/인젠트.md",
@@ -319,15 +302,8 @@
     "Nogle Algorithem.md",
     "Weighted Round‑Robin(WRR).md",
     "2. dataview/company.md",
-    "6. learning/mentoring.md",
-    "6. learning/interview_backend.md",
-    "6. learning/정보처리기사.md",
-    "7. employ/company info/기웅정보통신.md",
-    "7. employ/company info/더즌.md",
     "12. Images/Pasted image 20251114170636.png",
     "12. Images/Pasted image 20251114170517.png",
-    "무제 3.md",
-    "무제 2.md",
     "4. prompt",
     "12. Images/Images/Pasted image 20251031154342.png",
     "12. Images/Images/Pasted image 20251031154304.png",
