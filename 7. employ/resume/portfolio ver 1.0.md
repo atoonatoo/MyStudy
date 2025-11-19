@@ -153,3 +153,5 @@ ChatGPT OpenAI API, Claude API, Gemini API
     - `on_start, wait_time 등으로 현실적 사용자 패턴 구현`
     - `Python 생태계와 확장성 높은 통합 지원`
     - `단순하면서도 대규모 테스트에 적합한 경량 아키텍처`
+
+### 10.2 
