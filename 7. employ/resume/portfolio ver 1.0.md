@@ -163,7 +163,7 @@ ChatGPT OpenAI API, Claude API, Gemini API
     - `Module Architecture`
 - **HAProxy**
     - `L4 및 L7 로드밸런싱 지원`
-    - `상태 점검 및 고가용성(HA) 구성 가능`
+    - `Health check 및 고가용성(HA) 구성 가능`
     - `유연한 라우팅 및 제어 기능 (ACL, 콘텐츠 기반 분기 등)`
     - `SSL/TLS 종료 및 오프로딩, 보안 기능`
     - `운영 및 모니터링 지원`
