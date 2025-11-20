@@ -141,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -319,7 +320,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3bed8b912269764a",
+  "active": "54b2fcdbbd940292",
   "lastOpenFiles": [
     "7. employ/resume/portfolio ver 1.1.md",
     "7. employ/resume/portfolio ver 1.0.md",
