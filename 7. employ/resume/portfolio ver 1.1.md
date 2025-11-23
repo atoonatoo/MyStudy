@@ -139,7 +139,45 @@ ChatGPT OpenAI API, Claude API, Gemini API
     - `미들웨어 지원 및 관측 기능 내장`
     - `TLS/HTTP2/HTTP3 및 지원 강화`
 
-## 2.3
+## 2.3 중앙 집중형 로그 수집기 설계 및 시각화 환경 구축
+
+### 2.3.1 로그 수집기 저장소
+- **Elasticsearch**
+    - `분산 수평 확장(Distributed & Scalable)`
+    - `실시간 색인 및 검색(Real-time ingestion & search)`
+    - `다양한 데이터 타입 지원(Heterogeneous data support)`
+    - `RESTful API 및 풍부한 쿼리 DSL (RESTful API && Query DSL)`
+    - `보안 및 고가용성(Security & High Availability)`
+      
+- **OpenSearch**
+    - 
+      
+- **Loki**
+- **Graylog**
+- **ClickHouse**
+- **Splunk**
+- **Datadog**
+- **New Relic**
+
+### 2.3.2 로그 수집 에이전트(수집기)
+Filebeat, Fluent Bit, Vector, rsyslog, Logstash Forwarder
+
+### 2.3.3 시각화 모니터링 도구
+Kibana, Grafana, OpenSearch Dashboards, Graylog Web UI, Datadog Dashboard
+
+## 2.4 DB 커넥션 풀 튜닝 및 성능 최적화
+HikariCP, Apache DBCP2, Tomcat JDBC Pool, c3p0
+
+## 2.5 캐싱 시스템 설계 및 응답 속도 개선
+Redis, Memcached, Caffeine, Hazelcast
+
+## 2.6 사용자 정보 관리 및 인증, 인가 보안 설계
+Spring Security, Apache Shiro, Keycloak, pac4j
+
+## 2.7 플레이리스트 관리 모듈 설계 및 구현
+
+## 2.8 ChatGPT Open API 연동 및 서비스 적용
+ChatGPT OpenAI API, Claude API, Gemini API
 
 ---
 
