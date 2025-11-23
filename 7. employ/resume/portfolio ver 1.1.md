@@ -330,23 +330,85 @@ ChatGPT OpenAI API, Claude API, Gemini API
     - `플랫폼 비종속(Platform-agnostic security engine)`
 
 ## 2.7 플레이리스트 관리 모듈 설계 및 구현
+### 2.7.1 도메인 설계 방식 비교
+-  **도메인 모델 패턴 (Domain Model Pattern, 리치 도메인)**
+    - `객체 중심 비즈니스 로직(Business logic in entities)`
+    - `고응집·저결합(High cohesion, low coupling)`
+    - `표현 계층 독립성(Domain independent of UI/persistence)`
+    - `복잡한 도메인 처리 적합(Suitable for rich domains)`
+    - `유지보수성 향상(Improved maintainability)`
+    
+- **트랜잭션 스크립트 (Transaction Script)**
+    - `절차 중심 로직(Procedure-based logic)`
+    - `요청 단위 메서드 구성(One script per transaction)`
+    - `빠른 개발 및 단순 구조(Fast and simple design)`
+    - `빈약한 도메인 행위(Little behavior in domain objects)`
+    - `확장성 증가 시 유지 난이도(Hard to maintain in complex domains)`
+    
+-  **액티브 레코드 (Active Record)**
+    - `CRUD 포함 엔티티(Entity with CRUD methods)`
+    - `직관적 테이블 매핑(Direct table–object mapping)`
+    - `단순 애플리케이션 적합(Suitable for small apps)`
+    - `비즈니스·영속성 혼재(Mixed business and persistence logic)`
+    - `복잡 도메인 비권장(Not ideal for complex domains)`
 
-### 2.7.1 도메인 설계 방식 비교 및 적용 패턴 선정
-- **도메인 모델 패턴(Domain Model Pattern, 리치 도메인)**
-- **트랜잭션 스크립트(Transaction Script)**
-- **액티브 레코드(Active Record)**
-  
-### 2.7.2 영속성 계층 아키텍처 비교 및 구현 전략
-- **리포지토리 + QueryDSL 기반 영속성 계층 구조**
+### 2.7.2 영속성 계층 아키텍처 비교
+- **리포지토리 + QueryDSL 기반 구조**
+    - `도메인 친화 추상화(Domain-oriented abstraction)`
+    - `타입 안전 쿼리(Type-safe queries)`
+    - `복잡 조회에 유리(Strong for complex querying)`
+    - `영속성·도메인 분리(Separation of concerns)`
+    - `리팩토링 용이(Easy to refactor)`
+    
 - **DAO 패턴 + MyBatis**
-- **순수 Spring Data JPA 메서드 네이밍 / @Query 기반 설계**
+    - `높은 SQL 제어권(Full SQL control)`
+    - `XML·어노테이션 매핑(XML/Annotation mapping)`
+    - `DB 특화 쿼리 강점(Strong for DB-specific logic)`
+    - `매핑 수동 관리(Manual object mapping)`
+    - `낮은 자동화(less automation compared to ORM)`
+    
+- **Spring Data JPA / @Query 기반 설계**
+    - `메서드 네이밍 쿼리(Method naming query generation)`
+    - `표준 CRUD 제공(Standard CRUD and paging)`
+    - `단순 구조 적합(Suitable for simple domains)`
+    - `복잡 쿼리 제한(Limited for dynamic queries)`
+    - `빠른 개발 속도(Fast development cycle)`
+    
 - **EntityManager 직접 사용**
-  
-### 2.7.3 API 표현 계층 설계 방식 비교 및 적용 전략
-- **DTO 기반 API 계층 분리 설계**
-- **엔티티 직접 노출(Entity Exposure)**
-- **QRS 스타일(Query/Command 분리)**
+    - `JPA 직접 제어(Direct JPA control)`
+    - `최대 유연성(Maximum flexibility)`
+    - `고숙련 필요(High expertise required)`
+    - `보일러플레이트 증가(More boilerplate)`
+    - `유지보수 난이도(Maintenance complexity)`
+
+### 2.7.3 API 표현 계층 설계 방식 비교
+- **DTO 기반 API 계층 분리**
+    - `엔티티·표현 분리(Entity–DTO separation)`
+    - `결합도 최소화(Low coupling)`
+    - `클라이언트 최적화 데이터(Tailored response model)`
+    - `보안 강화(Safer boundary)`
+    - `대규모 서비스 적합(Good for large systems)`
+    
+- **엔티티 직접 노출 (Entity Exposure)**
+    - `빠른 개발(Rapid API development)`
+    - `도메인·API 모델 동일(Same model for API and DB)`
+    - `보안 위험 증가(Security exposure risk)`
+    - `변경 영향도 높음(High impact on domain model)`
+    - `소규모 서비스 적합(Fits small/simple apps)`
+    
+- **CQRS 스타일 (Query/Command 분리)**
+    - `읽기·쓰기 모델 분리(Separate read/write models)`
+    - `성능 최적화(Performance optimization)`
+    - `구조 복잡도 증가(Higher architectural complexity)`
+    - `이벤트 기반과 연동 가능(Event-sourcing friendly)`
+    - `유지보수성 향상(Maintainability improvement)`
+    
 - **GraphQL 기반 뷰 모델 설계**
+    - `요청 기반 데이터 구성(Client-defined schema)`
+    - `오버·언더패치 감소(Eliminates over/under-fetching)`
+    - `강력한 타입 시스템(Strong schema & types)`
+    - `단일 엔드포인트(Single endpoint API)`
+    - `캐싱·보안 복잡성(Cache/security complexity)`
 
 ## 2.8 ChatGPT Open API 연동 및 서비스 적용
 - **OpenAI API**
