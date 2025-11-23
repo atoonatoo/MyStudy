@@ -331,6 +331,23 @@ ChatGPT OpenAI API, Claude API, Gemini API
 
 ## 2.7 플레이리스트 관리 모듈 설계 및 구현
 
+### 2.7.1 도메인 설계 방식 비교 및 적용 패턴 선정
+- **도메인 모델 패턴(Domain Model Pattern, 리치 도메인)**
+- **트랜잭션 스크립트(Transaction Script)**
+- **액티브 레코드(Active Record)**
+  
+### 2.7.2 영속성 계층 아키텍처 비교 및 구현 전략
+- **리포지토리 + QueryDSL 기반 영속성 계층 구조**
+- **DAO 패턴 + MyBatis**
+- **순수 Spring Data JPA 메서드 네이밍 / @Query 기반 설계**
+- **EntityManager 직접 사용**
+  
+### 2.7.3 API 표현 계층 설계 방식 비교 및 적용 전략
+- **DTO 기반 API 계층 분리 설계**
+- **엔티티 직접 노출(Entity Exposure)**
+- **QRS 스타일(Query/Command 분리)**
+- **GraphQL 기반 뷰 모델 설계**
+
 ## 2.8 ChatGPT Open API 연동 및 서비스 적용
 - **OpenAI API**
     - `스케일러블 엔터프라이즈 지원(Enterprise-scale features)`
