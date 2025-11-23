@@ -150,34 +150,208 @@ ChatGPT OpenAI API, Claude API, Gemini API
     - `보안 및 고가용성(Security & High Availability)`
       
 - **OpenSearch**
-    - 
+    - `분산 수평 확장(Distributed & Scalable)`
+    - `벡터 검색 지원(Vector search)`
+    - `다양한 쿼리 언어 지원(SQL/PPL/DSL)`
+    - `보안 및 다중 테넌시 지원(Security & Mutil-tenant)`
+    - `시각화 대시보드 통합(Visualization & Dashboards)`
       
-- **Loki**
+- **Grafana Loki**
+    - `수평확장·고가용성(Horizontally scalable & Highly available)`
+    - `메타데이터 중심 인덱싱(Metadata-only indexing)`
+    - `라벨 기반 인덱싱(Label-based indexing)`
+    - `효율적 저장소·비용효율성(Efficient storage & Cost-effective)`
+    - `전용 쿼리언어(LogQL query language)`
+      
 - **Graylog**
-- **ClickHouse**
-- **Splunk**
-- **Datadog**
-- **New Relic**
+    - `중앙화 로그 수집·분석(Centralized log collection & analysis)`
+    - `실시간 검색·탐색(Real-time search & exploration)`
+    - `알림·상관 분석(Alerts & correlation analysis)`
+    - `시각화 대시보드·컴플라이언스 대시(Visualization dashboards & compliance reporting)`
+    - `확장 아키텍처·비용 통제(Scalable architecture & cost control)`
 
 ### 2.3.2 로그 수집 에이전트(수집기)
-Filebeat, Fluent Bit, Vector, rsyslog, Logstash Forwarder
+- **Filebeat**
+    - `경량 에이전트(Lightweight agent)`
+    - `파일 모니터링(Log-file monitoring)`
+    - `모듈 지원(Modules support)`
+    - `백프레셔 대응(Back-pressure handling)`
+    - `클라우드·컨테이너 친화(Cloud & container ready)`  
+      
+- **Fluent Bit**
+    - `초경량·고성능(Ultra-lightweight & high-performance)`
+    - `다수 플러그인 지원(Multi-plugin ecosystem)`
+    - `SQL유사 스트림 처리(SQL-style stream processing)`
+    - `쿠버네티스·컨테이너 최적화(Kubernetes & container optimized)`
+    - `내결함성·버퍼링(Error handling & buffering)`  
+        
+- **Vector**
+    - `초고속·메모리효율(Blistering fast & memory efficient)`
+    - `로그·메트릭 통합(Logs & metrics unified)`
+    - `공급업체 중립(Vendor-neutral)`
+    - `프로그래머블 변환(Programmable transforms)`
+    - `에이전트·집계기 역할(Agent & aggregator roles)`  
+        
+- **rsyslog**
+    - `표준 syslog 기반(Standard syslog support)`
+    - `고성능 처리(High-performance processing)`
+    - `모듈화 구조(Modular architecture)`
+    - `유연한 필터링(Flexible filtering & routing)`
+    - `TLS 및 신뢰성 확보(TLS & reliable transport)`  
+        
+- **Logstash Forwarder**
+    - `경량 로그 포워더(Lightweight log forwarder)`
+    - `SSL/TLS 지원(SSL/TLS secure transmission)`
+    - `구성 파일 기반 설정(Config-file based configuration)`
+    - `Logstash 연계(In tegration with Logstash)`
+    - `커스텀 필드 지원(Custom fields per path)`  
 
 ### 2.3.3 시각화 모니터링 도구
-Kibana, Grafana, OpenSearch Dashboards, Graylog Web UI, Datadog Dashboard
+- **Kibana**
+    - `다양한 시각화(Visualization)`
+    - `대시보드 구성(Dashboard creation)`
+    - `지리공간 분석(Geo-spatial analysis)`
+    - `데이터 탐색(Discover & Explore)`
+    - `플러그인 및 앱 확장(Plugins & App extensions)`  
+    
+- **Grafana**
+    - `다중데이터소스 통합(Multi-data-source integration)`
+    - `인터랙티브 대시보드(Interactive dashboards)`
+    - `알림 및 역할기반 접근(Alerting & RBAC)`
+    - `플러그인 생태계(Plugin ecosystem)`
+    - `실시간 시각화 및 탐색(Real-time visualization & exploration)`  
+    
+- **OpenSearch Dashboards**
+    - `시각화 및 대시보드(Visualization & Dashboards)`
+    - `보안·관찰 통합(Security & Observability)`
+    - `오픈·확장 아키텍처(Open & Extensible architecture)`
+    - `실시간 분석 및 탐색(Real-time analytics & exploration)`
+    - `플러그인 및 워크스페이스 개발(Plugin & Workspace support)`  
+    
+- **Graylog Web UI**
+    - `중앙화 로그 관리(Centralized log management)`
+    - `실시간 검색(Real-time search)`
+    - `대시보드·알림(Dashboards & Alerts)`
+    - `확장 가능한 아키텍처(Scalable architecture)`
+    - `플러그인 및 API 확장(Plugin & API extensibility)`  
+    
+- **Datadog Dashboard**
+    - `실시간 모니터링(Real-time monitoring)`
+    - `맞춤형 대시보드(Custom dashboards)`
+    - `고해상도 메트릭 및 이벤트(High-resolution metrics & events)`
+    - `위젯 기반 시각화(Widget-based visualizations)`
+    - `다양한 데이터 연결(Integrations across data sources)`  
 
 ## 2.4 DB 커넥션 풀 튜닝 및 성능 최적화
-HikariCP, Apache DBCP2, Tomcat JDBC Pool, c3p0
+- **HikariCP**
+    - `경량·최소오버헤드(Lightweight & minimal overhead)`
+    - `고성능(High throughput & low latency)`
+    - `자동 유휴/유출 연결 정리(Idle/leak detection & cleanup)`
+    - `스프링부트 기본풀(Default in Spring Boot)`
+    - `모니터링·메트릭 지원(Monitoring & metrics support)`
+    
+- **Apache Commons DBCP2**
+    - `풍부한 기능(Feature-rich pooling)`
+    - `성능 향상 및 JMX 모니터링(Improved performance & JMX support)`
+    - `Commons Pool2 기반(Underlying Commons Pool2 integration)`
+    - `다양한 JDBC 버전 지원(Multi-JDBC version support)`
+    - `구성 및 튜닝 유연성(Configurable & tunable)`
+    
+- **Tomcat JDBC Pool**
+    - `고동시성 환경 최적화(Optimized for high concurrency)`
+    - `비동기 연결 취득(Asynchronous connection retrieval)`
+    - `인터셉터 및 사용자정의 훅(Custom interceptors & extension hooks)`
+    - `유휴/연령 기반 연결 정리(Idle/age-based connection cleanup)`
+    - `표준 DataSource/JNDI 구성(Standard DataSource/JNDI support)`
+    
+- **c3p0**
+    - `전통적 JDBC 드라이버 지원(Legacy JDBC driver support)`
+    - `커넥션 및 PreparedStatement 풀링(Connection & PreparedStatement pooling)`
+    - `JNDI 바인딩 및 직렬화 가능(Referenceable & Serializable DataSource)`
+    - `자원 정리에 집중(Resource cleanup vigilance)`
+    - `성숙한 라이브러리(Mature library with long history)`
 
 ## 2.5 캐싱 시스템 설계 및 응답 속도 개선
-Redis, Memcached, Caffeine, Hazelcast
+- **Redis**
+    - `인메모리 키-값 저장소(In-memory key-value store)`
+    - `다양한 데이터 타입 지원(Versatile data structures)`
+    - `고성능·저지연(High-performance & low-latency)`
+    - `스냅샷·AOF 영속성(Persistence options – RDB & AOF)`
+    - `클러스터링·복제 지원(Clustering & replication)`
+    
+- **Memcached**
+    - `분산 메모리 캐시(Distributed memory cache)`
+    - `단순 키-값 저장(Simple key-value store)`
+    - `대규모 스케일아웃(Scalable usage across nodes)`
+    - `LRU 기반 자동 만료(LRU eviction)`
+    - `웹 애플리케이션 용도에 최적화(Optimised for web-app caching)`
+    
+- **Caffeine**
+    - `자바 기반 인메모리 캐시(Java-based in-memory cache)`
+    - `고성능 읽기/쓰기 최적화(High throughput reads & writes)`
+    - `크기 기반 제거(Size-based eviction)`
+    - `시간 기반 만료(Time-based expiration)`
+    - `간편한 API 사용(Simple and fluent API)`
+    
+- **Hazelcast**
+    - `분산 인메모리 데이터 그리드(Distributed in-memory data grid)`
+    - `캐싱 + 스트림 처리 통합(Cache + stream processing)`
+    - `클러스터 수평 확장(Cluster horizontal scalability)`
+    - `Geo/WAN 복제 및 고가용성(Geo/WAN replication & high availability)`
+    - `클라우드/쿠버네티스 네이티브(Cloud-native / Kubernetes ready)`
 
 ## 2.6 사용자 정보 관리 및 인증, 인가 보안 설계
-Spring Security, Apache Shiro, Keycloak, pac4j
+- **Spring Security**
+    - `인증·인가(Authentication & Authorization)`
+    - `공격 방어(Protection against common exploits)`
+    - `Spring 생태계 통합(Seamless Spring integration)`
+    - `메서드 수준 보안(Method-level security)`
+    - `JWT·OAuth2·LDAP 등 표준지원(Standards support: JWT, OAuth2, LDAP)` 
+    
+- **Apache Shiro**
+    - `인증·인가(Authentication & Authorization)`
+    - `세션 관리(Session management)`
+    - `암호화·해시(Cryptography & hashing)`
+    - `플러거블·유연 구조(Pluggable & flexible architecture)`
+    - `POJO 기반 사용성(Easy-to-use POJO API)`
+    
+- **Keycloak**
+    - `싱글사인온(SSO: Single-Sign On & Sign-Out)`
+    - `OIDC·OAuth2·SAML 지원(OpenID Connect, OAuth2, SAML)`
+    - `사용자 연합·LDAP 통합(User federation & LDAP/AD integration)`
+    - `소셜 로그인·아이덴티티 브로커링(Social login & identity brokering)`
+    - `관리 콘솔 및 역할-정책 기반 권한(Administration console & fine-grained roles/policies)`
+    
+- **pac4j**
+    - `웹 컴포넌트 보안(Web filters & callback/logout endpoints)`
+    - `프로파일 관리(Profile management)`
+    - `인가 로직(Authorization logic)`
+    - `다양한 환경 지원(Multi-environment / web frameworks)`
+    - `플랫폼 비종속(Platform-agnostic security engine)`
 
 ## 2.7 플레이리스트 관리 모듈 설계 및 구현
 
 ## 2.8 ChatGPT Open API 연동 및 서비스 적용
-ChatGPT OpenAI API, Claude API, Gemini API
+- **OpenAI API**
+    - `스케일러블 엔터프라이즈 지원(Enterprise-scale features)`
+    - `데이터 훈련 제외 및 보존 정책(No train on customer data & retention controls)`
+    - `REST·스트리밍 API 지원(REST & streaming APIs)`
+    - `다양한 활용 가능(Task-agnostic: generation, summarization, code)`
+    - `보안·컴플라이언스(Security & compliance: SOC2, encryption)`
+    
+- **Claude API**
+    - `외부 시스템과 도구 인터페이스 연동(Tool use for external systems)`
+    - `코드 실행 및 분석 지원(Code execution & data analysis)`
+    - `API 기반 권한/파일 관리(Admin API & Files API)`
+    - `프롬프트 개선 및 자동화 지원(Prompt improvement & automation)`
+    - `고도로 자율적 에이전트 구축 가능(Agent-like workflows)`
+    
+- **Gemini API**
+    - `멀티모달 입력·출력(Text, image, audio, video support)`
+    - `표준 및 스트리밍 REST API(Standard & streaming endpoints)`
+    - `배치 처리 및 대용량 파일 지원(Batch mode & file/document handling)`
+    - `임베딩 및 검색 벡터 연산(Embeddings & vector operations)`
+    - `웹·SDK 통합 및 개발자 친화(Web/SDK integration)`
 
 ---
 
