@@ -32,57 +32,8 @@
               "icon": "lucide-file",
               "title": "Time Boxing"
             }
-          },
-          {
-            "id": "54b2fcdbbd940292",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/resume/portfolio ver 1.0.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "portfolio ver 1.0"
-            }
-          },
-          {
-            "id": "f244052e5a30424c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/resume/portfolio ver 1.1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "portfolio ver 1.1"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "이력서",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,12 +88,12 @@
               "title": "북마크"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -320,12 +271,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f244052e5a30424c",
+  "active": "08ea8a6e59393b08",
   "lastOpenFiles": [
     "7. employ/resume/portfolio ver 1.0.md",
+    "99. organize/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
+    "1. planner/Time Boxing.md",
     "7. employ/resume/portfolio ver 1.1.md",
     "무제.md",
-    "1. planner/Time Boxing.md",
     "String.split().md",
     "StringTokenizer.md",
     "Multi Tasking.md",
@@ -349,7 +301,6 @@
     "3. programing/computer science/public static void main.md",
     "Nogle Algorithem.md",
     "Weighted Round‑Robin(WRR).md",
-    "2. dataview/company.md",
     "12. Images/Pasted image 20251114170636.png",
     "12. Images/Pasted image 20251114170517.png",
     "4. prompt",
