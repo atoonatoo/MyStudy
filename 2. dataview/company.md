@@ -28,5 +28,5 @@ WHERE applyDate >= date(2025-12-01)
 
 ```
 
-
 ---
+

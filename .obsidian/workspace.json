@@ -56,33 +56,9 @@
               "icon": "lucide-file",
               "title": "company"
             }
-          },
-          {
-            "id": "7df691879d0040cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. employ/현직 신입 개발자 기준 현실적인 성장 플랜.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "현직 신입 개발자 기준 현실적인 성장 플랜"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -321,16 +296,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7df691879d0040cd",
+  "active": "d3992407f18c23b7",
   "lastOpenFiles": [
-    "이력서 기술 포트폴리오 빠른 습득.md",
+    "7. employ/company info/데일리페이 2.md",
+    "2. dataview/company.md",
     "7. employ/현직 신입 개발자 기준 현실적인 성장 플랜.md",
+    "1. planner/Time Boxing.md",
+    "이력서 기술 포트폴리오 빠른 습득.md",
     "7. employ/organizational structure.md",
     "5. link/programing info/지원동기와 공고의 아키텍처를 매핑하자..md",
-    "2. dataview/company.md",
     "7. employ/company info/프로토마.md",
     "8. templates/template_employ.md",
-    "1. planner/Time Boxing.md",
     "7. employ/company info/오엠티아이코리아.md",
     "7. employ/company info/오픈갤러리.md",
     "7. employ/company info/엑스리움.md",
@@ -348,7 +324,6 @@
     "7. employ/company info/스데반정보.md",
     "7. employ/company info/뉴클.md",
     "7. employ/company info/브이씨.md",
-    "7. employ/company info/폴리큐브 2.md",
     "7. employ/working",
     "7. employ/resume",
     "12. Images/Pasted image 20251114170636.png",
