@@ -80,33 +80,9 @@
               "icon": "lucide-file",
               "title": "현직 신입 개발자 기준 현실적인 성장 플랜"
             }
-          },
-          {
-            "id": "7073ff9494ca6baf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "이력서 기술 포트폴리오 빠른 습득.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "이력서 기술 포트폴리오 빠른 습득"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -345,7 +321,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7073ff9494ca6baf",
+  "active": "7df691879d0040cd",
   "lastOpenFiles": [
     "이력서 기술 포트폴리오 빠른 습득.md",
     "7. employ/현직 신입 개발자 기준 현실적인 성장 플랜.md",
