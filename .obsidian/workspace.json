@@ -61,14 +61,52 @@
             "id": "7df691879d0040cd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "7. employ/현직 신입 개발자 기준 현실적인 성장 플랜.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "현직 신입 개발자 기준 현실적인 성장 플랜"
+            }
+          },
+          {
+            "id": "7073ff9494ca6baf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "이력서 기술 포트폴리오 빠른 습득.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "이력서 기술 포트폴리오 빠른 습득"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -306,8 +345,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7df691879d0040cd",
+  "active": "7073ff9494ca6baf",
   "lastOpenFiles": [
+    "이력서 기술 포트폴리오 빠른 습득.md",
+    "7. employ/현직 신입 개발자 기준 현실적인 성장 플랜.md",
+    "7. employ/organizational structure.md",
     "5. link/programing info/지원동기와 공고의 아키텍처를 매핑하자..md",
     "2. dataview/company.md",
     "7. employ/company info/프로토마.md",
@@ -331,9 +373,6 @@
     "7. employ/company info/뉴클.md",
     "7. employ/company info/브이씨.md",
     "7. employ/company info/폴리큐브 2.md",
-    "7. employ/company info/이포즌.md",
-    "7. employ/company info/데일리페이 2.md",
-    "7. employ/company info/바이엇.md",
     "7. employ/working",
     "7. employ/resume",
     "12. Images/Pasted image 20251114170636.png",
