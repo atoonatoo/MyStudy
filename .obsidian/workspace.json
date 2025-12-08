@@ -56,9 +56,19 @@
               "icon": "lucide-file",
               "title": "company"
             }
+          },
+          {
+            "id": "7df691879d0040cd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -296,10 +306,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d3992407f18c23b7",
+  "active": "7df691879d0040cd",
   "lastOpenFiles": [
-    "7. employ/company info/프로토마.md",
+    "5. link/programing info/지원동기와 공고의 아키텍처를 매핑하자..md",
     "2. dataview/company.md",
+    "7. employ/company info/프로토마.md",
     "8. templates/template_employ.md",
     "1. planner/Time Boxing.md",
     "7. employ/company info/오엠티아이코리아.md",
@@ -323,7 +334,6 @@
     "7. employ/company info/이포즌.md",
     "7. employ/company info/데일리페이 2.md",
     "7. employ/company info/바이엇.md",
-    "7. employ/company info/엑심베이.md",
     "7. employ/working",
     "7. employ/resume",
     "12. Images/Pasted image 20251114170636.png",
