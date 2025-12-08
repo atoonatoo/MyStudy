@@ -15,6 +15,7 @@ tags:
 
 TABLE without id
     ("[" + file.name + "](" + url + ")") as "회사명",
+    link(file.path, "열람") as "노트",
     site as "공고 사이트",
     rate as "등급", 
     status as "지원 현황",
@@ -24,7 +25,6 @@ TABLE without id
 FROM "7. employ/company info"
 FLATTEN date(date) as applyDate
 WHERE applyDate >= date(2025-12-01)
-
 
 ```
 

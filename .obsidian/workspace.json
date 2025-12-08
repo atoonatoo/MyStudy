@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "b740c8640d60d89c",
+            "id": "d3992407f18c23b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. employ/resume/프로그래밍 분석 및 비교.md",
+                "file": "2. dataview/company.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "프로그래밍 분석 및 비교"
+              "title": "company"
             }
           }
         ],
@@ -296,9 +296,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b740c8640d60d89c",
+  "active": "d3992407f18c23b7",
   "lastOpenFiles": [
+    "7. employ/company info/프로토마.md",
+    "2. dataview/company.md",
+    "8. templates/template_employ.md",
+    "1. planner/Time Boxing.md",
     "7. employ/company info/오엠티아이코리아.md",
+    "7. employ/company info/오픈갤러리.md",
+    "7. employ/company info/엑스리움.md",
+    "7. employ/company info/이글로벌시스템.md",
+    "7. employ/company info/메이크스타.md",
+    "7. employ/company info/전능아이티.md",
+    "7. employ/company info/세포아소프트.md",
+    "7. employ/company info/채널코퍼레이션.md",
+    "7. employ/company info/루먼랩.md",
+    "7. employ/company info/엘리오컴퍼니.md",
+    "7. employ/resume/프로그래밍 분석 및 비교.md",
     "7. employ/company info/데이사이드.md",
     "7. employ/company info/반프 2.md",
     "7. employ/company info/포도소프트웨어 2.md",
@@ -308,22 +322,8 @@
     "7. employ/company info/폴리큐브 2.md",
     "7. employ/company info/이포즌.md",
     "7. employ/company info/데일리페이 2.md",
-    "7. employ/company info/프로토마.md",
     "7. employ/company info/바이엇.md",
     "7. employ/company info/엑심베이.md",
-    "7. employ/company info/아랑소프트 2.md",
-    "7. employ/company info/제머나이소프트 2.md",
-    "7. employ/resume/프로그래밍 분석 및 비교.md",
-    "2. dataview/company.md",
-    "7. employ/company info/가이던스프로.md",
-    "7. employ/resume/my status.md",
-    "7. employ/organizational structure.md",
-    "1. planner/Time Boxing.md",
-    "7. employ/resume/portfolio ver 1.0.md",
-    "99. organize/로그 수집 시스템 구축 (Filebeat + Elasticsearch + Kibana).md",
-    "7. employ/resume/portfolio ver 1.1.md",
-    "String.split().md",
-    "StringTokenizer.md",
     "7. employ/working",
     "7. employ/resume",
     "12. Images/Pasted image 20251114170636.png",
