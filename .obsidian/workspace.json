@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -320,11 +320,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b0c5df2f59ebc1e4",
+  "active": "d3992407f18c23b7",
   "lastOpenFiles": [
+    "3.md",
     "무제.md",
     "무제 1.md",
-    "3.md",
     "2. dataview/company.md",
     "1. planner/Time Boxing.md",
     "12. Images/Pasted image 20251209153706.png",
