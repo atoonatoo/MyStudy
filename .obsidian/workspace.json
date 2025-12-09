@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -320,13 +320,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b0c5df2f59ebc1e4",
+  "active": "d3992407f18c23b7",
   "lastOpenFiles": [
-    "3.md",
+    "12. Images/Pasted image 20251209153706.png",
+    "1. planner/Time Boxing.md",
     "2. dataview/company.md",
+    "3.md",
     "7. employ/company info/데일리페이 2.md",
     "7. employ/현직 신입 개발자 기준 현실적인 성장 플랜.md",
-    "1. planner/Time Boxing.md",
     "이력서 기술 포트폴리오 빠른 습득.md",
     "7. employ/organizational structure.md",
     "5. link/programing info/지원동기와 공고의 아키텍처를 매핑하자..md",
@@ -347,7 +348,6 @@
     "7. employ/company info/반프 2.md",
     "7. employ/company info/포도소프트웨어 2.md",
     "7. employ/company info/스데반정보.md",
-    "7. employ/company info/뉴클.md",
     "7. employ/working",
     "7. employ/resume",
     "12. Images/Pasted image 20251114170636.png",
