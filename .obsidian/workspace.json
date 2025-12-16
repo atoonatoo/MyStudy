@@ -80,9 +80,33 @@
               "icon": "lucide-file",
               "title": "3"
             }
+          },
+          {
+            "id": "55a9b374e714c4c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "velog post template.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "velog post template"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -101,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "졸업",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -320,11 +344,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b0c5df2f59ebc1e4",
+  "active": "55a9b374e714c4c5",
   "lastOpenFiles": [
-    "2. dataview/company.md",
+    "velog post template.md",
     "3.md",
-    "무제.md",
+    "2. dataview/company.md",
     "무제 1.md",
     "1. planner/Time Boxing.md",
     "12. Images/Pasted image 20251209153706.png",
