@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -344,10 +344,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b0c5df2f59ebc1e4",
+  "active": "55a9b374e714c4c5",
   "lastOpenFiles": [
-    "velog post template.md",
     "3.md",
+    "velog post template.md",
     "2. dataview/company.md",
     "무제 1.md",
     "1. planner/Time Boxing.md",
