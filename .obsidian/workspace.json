@@ -128,9 +128,33 @@
               "icon": "lucide-file",
               "title": "이력서에 적힌 기술 동작 원리"
             }
+          },
+          {
+            "id": "b4924682fd052294",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -369,10 +393,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "102a36a16c8f89fe",
+  "active": "b4924682fd052294",
   "lastOpenFiles": [
-    "3.md",
     "이력서에 적힌 기술 동작 원리.md",
+    "무제.md",
+    "3.md",
     "velog post template.md",
     "2. dataview/company.md",
     "무제 1.md",
@@ -397,7 +422,6 @@
     "7. employ/company info/엘리오컴퍼니.md",
     "7. employ/resume/프로그래밍 분석 및 비교.md",
     "7. employ/company info/데이사이드.md",
-    "7. employ/company info/반프 2.md",
     "7. employ/working",
     "7. employ/resume",
     "12. Images/Pasted image 20251114170636.png",
