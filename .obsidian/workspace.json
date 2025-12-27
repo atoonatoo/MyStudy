@@ -214,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -395,10 +394,10 @@
   },
   "active": "b4924682fd052294",
   "lastOpenFiles": [
-    "이력서에 적힌 기술 동작 원리.md",
-    "무제.md",
-    "3.md",
     "velog post template.md",
+    "무제.md",
+    "이력서에 적힌 기술 동작 원리.md",
+    "3.md",
     "2. dataview/company.md",
     "무제 1.md",
     "1. planner/Time Boxing.md",
