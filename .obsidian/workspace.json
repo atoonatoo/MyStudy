@@ -152,9 +152,33 @@
               "icon": "lucide-file",
               "title": "무제"
             }
+          },
+          {
+            "id": "eee1641e7697a0ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS 노트.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CS 노트"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -393,15 +417,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b4924682fd052294",
+  "active": "eee1641e7697a0ef",
   "lastOpenFiles": [
+    "CS 노트.md",
+    "무제.md",
     "1. planner/Time Boxing.md",
     "2. dataview/company.md",
     "3.md",
     "이력서에 적힌 기술 동작 원리.md",
     "velog post template.md",
-    "무제.md",
-    "무제 1.md",
     "12. Images/Pasted image 20251209153706.png",
     "7. employ/company info/데일리페이 2.md",
     "7. employ/현직 신입 개발자 기준 현실적인 성장 플랜.md",
