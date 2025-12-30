@@ -4,42 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ecb7b0ea1165b898",
+        "id": "9959b620f6da96bd",
         "type": "tabs",
         "children": [
           {
-            "id": "08ea8a6e59393b08",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. planner/Time Boxing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Time Boxing"
-            }
-          },
-          {
-            "id": "d3992407f18c23b7",
+            "id": "e0cd1aa43a193e20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. dataview/company.md",
+                "file": "CS Knowledge Base.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,131 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "company"
-            }
-          },
-          {
-            "id": "b0c5df2f59ebc1e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3"
-            }
-          },
-          {
-            "id": "55a9b374e714c4c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "velog post template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "velog post template"
-            }
-          },
-          {
-            "id": "102a36a16c8f89fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "이력서에 적힌 기술 동작 원리.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "이력서에 적힌 기술 동작 원리"
-            }
-          },
-          {
-            "id": "b4924682fd052294",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "무제"
-            }
-          },
-          {
-            "id": "eee1641e7697a0ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS 노트.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CS 노트"
+              "title": "CS Knowledge Base"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -417,19 +269,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eee1641e7697a0ef",
+  "active": "e0cd1aa43a193e20",
   "lastOpenFiles": [
-    "CS 노트.md",
-    "무제.md",
+    "이력서 기술 포트폴리오 빠른 습득.md",
+    "6 Employment.md",
+    "프로그래밍 노하우.md",
+    "3.md",
+    "CS Knowledge Base.md",
+    "6. learning/mentoring.md",
+    "이력서 기술스택.md",
     "1. planner/Time Boxing.md",
     "2. dataview/company.md",
-    "3.md",
     "이력서에 적힌 기술 동작 원리.md",
     "velog post template.md",
     "12. Images/Pasted image 20251209153706.png",
     "7. employ/company info/데일리페이 2.md",
     "7. employ/현직 신입 개발자 기준 현실적인 성장 플랜.md",
-    "이력서 기술 포트폴리오 빠른 습득.md",
     "7. employ/organizational structure.md",
     "5. link/programing info/지원동기와 공고의 아키텍처를 매핑하자..md",
     "7. employ/company info/프로토마.md",
@@ -443,9 +298,6 @@
     "7. employ/company info/세포아소프트.md",
     "7. employ/company info/채널코퍼레이션.md",
     "7. employ/company info/루먼랩.md",
-    "7. employ/company info/엘리오컴퍼니.md",
-    "7. employ/resume/프로그래밍 분석 및 비교.md",
-    "7. employ/company info/데이사이드.md",
     "7. employ/working",
     "7. employ/resume",
     "12. Images/Pasted image 20251114170636.png",
