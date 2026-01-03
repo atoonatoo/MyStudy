@@ -8,6 +8,11 @@ gemini: https://gemini.google.com/u/3/app/ae1197ef7380eb06
 ---
 ### 메모장
 
+### CS로 옮겨질 내용들
+
+
+
+
 ---
 ### CS 
 #### 1. 네트워크 통신 기초
