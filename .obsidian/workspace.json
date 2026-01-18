@@ -32,8 +32,21 @@
               "icon": "lucide-file",
               "title": "Full-Stack Engineering Handbook"
             }
+          },
+          {
+            "id": "b577963209eada39",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -268,10 +280,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "019942605a90db3f",
+  "active": "b577963209eada39",
   "lastOpenFiles": [
     "menual.md",
     "Full-Stack Engineering Handbook.md",
