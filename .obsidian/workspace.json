@@ -34,19 +34,55 @@
             }
           },
           {
-            "id": "b577963209eada39",
+            "id": "01f429e347779eaf",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.4"
+                "file": "4. reference/templates/template_youtube.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.11.4"
+              "icon": "lucide-file",
+              "title": "template_youtube"
+            }
+          },
+          {
+            "id": "5ab544526bbafc6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "개발감각 있는지 확인하는 법.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "개발감각 있는지 확인하는 법"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -284,10 +320,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b577963209eada39",
+  "active": "5ab544526bbafc6c",
   "lastOpenFiles": [
-    "menual.md",
+    "4. reference/templates/template_youtube.md",
+    "개발감각 있는지 확인하는 법.md",
+    "무제.md",
     "Full-Stack Engineering Handbook.md",
+    "menual.md",
     "IT Career Success Summary.md",
     "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "First Employee Guide.md",
@@ -311,9 +350,6 @@
     "4. reference",
     "이력서 기술스택.md",
     "이력서에 적힌 기술 동작 원리.md",
-    "이력서 기술 포트폴리오 빠른 습득.md",
-    "CS & Backend Interview Study Guide.md",
-    "프로그래밍 노하우.md",
     "4. reference/Images/Pasted image 20251209153706.png",
     "3. life/employ/working",
     "3. life/employ/resume",
