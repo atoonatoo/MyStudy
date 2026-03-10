@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "3b180f7fc6438912",
+        "id": "81c17239d2c2f776",
         "type": "tabs",
         "children": [
           {
-            "id": "8ae7f6526f5ac62f",
+            "id": "d04b6b9b37162141",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "객체지향 프로그래밍.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "객체지향 프로그래밍"
             }
           }
         ]
@@ -255,15 +269,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9b4610631fd59679",
+  "active": "d04b6b9b37162141",
   "lastOpenFiles": [
+    "개발감각 있는지 확인하는 법.md",
     "99. organize/7 - CS/4 wait/Git 1.md",
     "Full-Stack Engineering Handbook.md",
     "99. organize/7 - CS/1 plan/Git 명령어.md",
     "기술면접 질문 리스트.md",
     "4. reference/templates/template_youtube.md",
-    "개발감각 있는지 확인하는 법.md",
-    "무제.md",
+    "객체지향 프로그래밍.md",
     "menual.md",
     "IT Career Success Summary.md",
     "현직 신입 개발자 기준 현실적인 성장 플랜.md",
