@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d04b6b9b37162141",
+            "id": "69e5ec1f93be46e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "객체지향 프로그래밍.md",
+                "file": "CS 공부.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "객체지향 프로그래밍"
+              "title": "CS 공부"
             }
           }
         ]
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -265,18 +266,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "d04b6b9b37162141",
+  "active": "69e5ec1f93be46e8",
   "lastOpenFiles": [
+    "객체지향 프로그래밍.md",
+    "CS 공부.md",
+    "가상화.md",
+    "가상메모리(Magic).md",
     "개발감각 있는지 확인하는 법.md",
     "99. organize/7 - CS/4 wait/Git 1.md",
     "Full-Stack Engineering Handbook.md",
     "99. organize/7 - CS/1 plan/Git 명령어.md",
     "기술면접 질문 리스트.md",
     "4. reference/templates/template_youtube.md",
-    "객체지향 프로그래밍.md",
     "menual.md",
     "IT Career Success Summary.md",
     "현직 신입 개발자 기준 현실적인 성장 플랜.md",
@@ -293,9 +298,6 @@
     "1. planner/dataview/company.md",
     "1. planner/dataview/utility.md",
     "1. planner/dataview/youtube.md",
-    "1. planner/dataview/prompt.md",
-    "4. reference/link/all links.md",
-    "4. reference/link/코딩테스트 독학 과제.md",
     "3. life/love",
     "4. reference",
     "4. reference/Images/Pasted image 20251209153706.png",
