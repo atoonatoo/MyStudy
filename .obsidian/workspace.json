@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99. organize/7 - CS/4 wait/Git 1.md",
+                "file": "CS 공부.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Git 1"
+              "title": "CS 공부"
             }
           }
         ]
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "push",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,8 @@
               "title": "북마크"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -271,19 +272,19 @@
   },
   "active": "69e5ec1f93be46e8",
   "lastOpenFiles": [
+    "현직 신입 개발자 기준 현실적인 성장 플랜.md",
+    "99. organize/7 - CS/4 wait/Git 1.md",
     "CS 공부.md",
     "객체지향 프로그래밍.md",
     "가상화.md",
     "가상메모리(Magic).md",
     "개발감각 있는지 확인하는 법.md",
-    "99. organize/7 - CS/4 wait/Git 1.md",
     "Full-Stack Engineering Handbook.md",
     "99. organize/7 - CS/1 plan/Git 명령어.md",
     "기술면접 질문 리스트.md",
     "4. reference/templates/template_youtube.md",
     "menual.md",
     "IT Career Success Summary.md",
-    "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "First Employee Guide.md",
     "프로그래밍 분석 및 비교.md",
     "네이버클라우드 비트캠프.md",
