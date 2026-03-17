@@ -20,6 +20,11 @@
 - 계층 구조
     - Domain, Repository, Service, Main
 - QueryDSL
+    - SQL 대신 자바 문법 작성
+    - 자바 컴파일 체크
+    - 동적 쿼리 제공
+    - QClass
+        - DB  설계도를 보면서 안전하게 쿼리를 작성할 수 있게 도와주는 메타 데이터 클래스
 - 
 ### CS
 
