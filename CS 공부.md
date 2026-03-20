@@ -64,7 +64,6 @@
     - 수정 시점에 내가 처음에 읽었던 버전이 db에 그대로 있는 확인.
     - 만약 그 사이 다른 사용자가 데이터를 수정해서 버전이 올라갔다면 `ObjectOptimisticLockingFailureException`이 발생해 수정에 실패.
       
-      
 - OptimisticStock 역할
 - OptimisticStockService 역할
 - OptimisticStockRepository 역할
