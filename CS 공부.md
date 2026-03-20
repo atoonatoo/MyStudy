@@ -15,17 +15,25 @@
 
 ###  프로젝트 : ConcurrencyDBLock
 
-- 목적
-    - 한정된 100개의 티켓을 1000명이 동시에 구매 버튼을 누를 때 초과 판매가되는 사고(Race Condition)를 방지하기 위해 비관적 락을 사용하여 데이터의 정확성을 보장하는 것이 목적.
-- 계층 구조
-    - Domain, Repository, Service, Main
-- QueryDSL
-    - SQL 대신 자바 문법 작성
-    - 자바 컴파일 체크
-    - 동적 쿼리 제공
-    - QClass
-        - DB  설계도를 보면서 안전하게 쿼리를 작성할 수 있게 도와주는 메타 데이터 클래스
+#### Optimistic Lock
+- 낙관적 락(Optimistic Lock)
+    - 데이터 충돌이 자주 발생하지 않을 것이라고 낙관적으로 가정하고 접근하는 방식.
+    - 데이터베이스 자체에 물리적 락을 거는 대신, 버전관리를 통해 에플ㄹ리케이션 레벨에서 데이터 정합성을 유지.
+      
+- 트랜잭션 내 self-invocation 문제
+- Facade 패턴
+- `@Version`을 활용한 낙관적 락
+    - 데이터를 읽을 때, 현재의 버전 정보를 함께 읽는다.
+    - 수정 시점에 내가 처음에 읽었던 버전이 db에 그대로 있는 확인.
+    - 만약 그 사이 다른 사용자가 데이터를 수정해서 버전이 올라갔다면 `ObjectOptimisticLockingFailureException`이 발생해 수정에 실패.
 - 
+  
+---
+
+#### Pessimistic Lock
+
+---
+
 ### CS
 
 - 비즈니스 로직
