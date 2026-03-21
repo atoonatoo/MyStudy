@@ -55,8 +55,7 @@
               "title": "멘토링"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,8 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -295,10 +293,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bc04d4104927394f",
+  "active": "69e5ec1f93be46e8",
   "lastOpenFiles": [
-    "CS 공부.md",
     "멘토링.md",
+    "CS 공부.md",
     "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "99. organize/7 - CS/4 wait/Git 1.md",
     "객체지향 프로그래밍.md",
