@@ -115,7 +115,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -289,7 +290,8 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "69e5ec1f93be46e8",
