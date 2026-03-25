@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제.md",
+                "file": "가상 메모리 (Virtual Memory System).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "가상 메모리 (Virtual Memory System)"
             }
           },
           {
@@ -321,9 +321,9 @@
   },
   "active": "df2d9ec145c3e153",
   "lastOpenFiles": [
-    "CS 공부.md",
-    "무제.md",
     "멘토링.md",
+    "가상 메모리 (Virtual Memory System).md",
+    "CS 공부.md",
     "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "99. organize/7 - CS/4 wait/Git 1.md",
     "객체지향 프로그래밍.md",
