@@ -1,4 +1,44 @@
 
+---
+###### 목차
+- [[#정의|정의]]
+- [[#메모리의 한계|메모리의 한계]]
+- [[#그렇다면 메모리를 늘리면 성능이 좋아지는가?|그렇다면 메모리를 늘리면 성능이 좋아지는가?]]
+- [[#폰노이만 구조 (컴퓨터 구조)|폰노이만 구조 (컴퓨터 구조)]]
+- [[#코드는 반드시 메모리에 있어야 한다.|코드는 반드시 메모리에 있어야 한다.]]
+	- [[#코드는 반드시 메모리에 있어야 한다.#동작 원리|동작 원리]]
+- [[#가상 메모리가 필요한 이유|가상 메모리가 필요한 이유]]
+- [[#가상 메모리 (Virtual Memory System)|가상 메모리 (Virtual Memory System)]]
+- [[#가상 메모리 기본 아이디어|가상 메모리 기본 아이디어]]
+- [[#MMU(Memory Management Unit)|MMU(Memory Management Unit)]]
+- [[#가상 메모리와 MMU|가상 메모리와 MMU]]
+- [[#페이징 시스템 (Paging system)|페이징 시스템 (Paging system)]]
+- [[#페이지 테이블(Page table)|페이지 테이블(Page table)]]
+- [[#페이징 시스템과 MMU(컴퓨터 구조)|페이징 시스템과 MMU(컴퓨터 구조)]]
+- [[#TLB(Translation Lookaside Buffer)|TLB(Translation Lookaside Buffer)]]
+- [[#MMU와 TLB (컴퓨터 구조)|MMU와 TLB (컴퓨터 구조)]]
+- [[#CR3(Control Register 3)|CR3(Control Register 3)]]
+- [[#페이징 시스템과 공유 메모리(IPC)|페이징 시스템과 공유 메모리(IPC)]]
+- [[#요구 페이징(Demand paging 또는 Demanded paging)|요구 페이징(Demand paging 또는 Demanded paging)]]
+- [[#스왑 영역(Swap Area)|스왑 영역(Swap Area)]]
+- [[#페이지 폴트(Page fault)|페이지 폴트(Page fault)]]
+- [[#페이지 폴트와 인터럽트|페이지 폴트와 인터럽트]]
+- [[#사용자/커널 모드와 프로세스, 인터럽트|사용자/커널 모드와 프로세스, 인터럽트]]
+- [[#인터럽트와 IDT|인터럽트와 IDT]]
+- [[#생각해보기|생각해보기]]
+- [[#페이지 교체 정책(Page Replacement policy)|페이지 교체 정책(Page Replacement policy)]]
+- [[#페이지 교체 알고리즘(FIFO)|페이지 교체 알고리즘(FIFO)]]
+- [[#페이지 교체 알고리즘(OPT)|페이지 교체 알고리즘(OPT)]]
+- [[#페이지 교체 알고리즘(LRU)|페이지 교체 알고리즘(LRU)]]
+- [[#메모리 지역성|메모리 지역성]]
+- [[#페이지 스왑 알고리즘(LFU | Least Frequently Used)|페이지 스왑 알고리즘(LFU | Least Frequently Used)]]
+- [[#페이지 스왑 알고리즘(NUR | Not Used Recently, 최근 미사용)|페이지 스왑 알고리즘(NUR | Not Used Recently, 최근 미사용)]]
+- [[#스레싱(Thrashing)|스레싱(Thrashing)]]
+
+---
+
+
+
 ## 정의
 `가상 메모리란 컴퓨터가 실제 물리적 메모리(RAM)보다 더 큰 메모리 공간을 가진 것처럼 속여서 사용하는 메모리 관리 기법이다.`
 
