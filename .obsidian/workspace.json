@@ -78,9 +78,57 @@
               "icon": "lucide-file",
               "title": "멘토링"
             }
+          },
+          {
+            "id": "e21a8b84054ca2ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Velog_Import.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Velog_Import"
+            }
+          },
+          {
+            "id": "d3e695a4941660ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "동시성(Concurrency)이란.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "동시성(Concurrency)이란"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -140,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -318,10 +367,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "df2d9ec145c3e153",
+  "active": "d3e695a4941660ef",
   "lastOpenFiles": [
-    "멘토링.md",
+    "Velog_Import.md",
     "가상 메모리 (Virtual Memory System).md",
+    "멘토링.md",
+    "동시성(Concurrency)이란.md",
     "CS 공부.md",
     "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "99. organize/7 - CS/4 wait/Git 1.md",
@@ -344,8 +395,6 @@
     "2. programing/computer science/AI Engine.md",
     "1. planner/time boxing.md",
     "1. planner/channel.md",
-    "1. planner/dataview/chat gpt.md",
-    "1. planner/dataview/company.md",
     "3. life/love",
     "4. reference",
     "4. reference/Images/Pasted image 20251209153706.png",
