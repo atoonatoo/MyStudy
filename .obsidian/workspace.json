@@ -126,9 +126,33 @@
               "icon": "lucide-file",
               "title": "동시성(Concurrency)이란"
             }
+          },
+          {
+            "id": "e5ffd624ad00d4a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Redis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Redis"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -367,12 +391,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d3e695a4941660ef",
+  "active": "e5ffd624ad00d4a6",
   "lastOpenFiles": [
+    "동시성(Concurrency)이란.md",
+    "Redis.md",
     "Velog_Import.md",
     "가상 메모리 (Virtual Memory System).md",
     "멘토링.md",
-    "동시성(Concurrency)이란.md",
     "CS 공부.md",
     "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "99. organize/7 - CS/4 wait/Git 1.md",
@@ -394,7 +419,6 @@
     "2. programing/computer science/K6.md",
     "2. programing/computer science/AI Engine.md",
     "1. planner/time boxing.md",
-    "1. planner/channel.md",
     "3. life/love",
     "4. reference",
     "4. reference/Images/Pasted image 20251209153706.png",
