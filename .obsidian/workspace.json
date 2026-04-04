@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Velog_Import.md",
+                "file": "CS 공부.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Velog_Import"
+              "title": "CS 공부"
             }
           },
           {
@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -390,15 +389,15 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "e5ffd624ad00d4a6",
+  "active": "e21a8b84054ca2ed",
   "lastOpenFiles": [
-    "동시성(Concurrency)이란.md",
-    "Redis.md",
+    "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "Velog_Import.md",
+    "CS 공부.md",
+    "Redis.md",
+    "동시성(Concurrency)이란.md",
     "가상 메모리 (Virtual Memory System).md",
     "멘토링.md",
-    "CS 공부.md",
-    "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "99. organize/7 - CS/4 wait/Git 1.md",
     "객체지향 프로그래밍.md",
     "가상화.md",
