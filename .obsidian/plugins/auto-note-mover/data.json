@@ -4,67 +4,47 @@
   "statusBar_trigger_indicator": true,
   "folder_tag_pattern": [
     {
-      "folder": "1. planner/1. daily",
-      "tag": "#daily",
-      "pattern": ""
-    },
-    {
-      "folder": "1. planner/2. weekly",
-      "tag": "#weekly",
-      "pattern": ""
-    },
-    {
-      "folder": "1. planner/3. monthly",
-      "tag": "#monthly",
-      "pattern": ""
-    },
-    {
-      "folder": "1. planner/4. yearly",
-      "tag": "#yearly",
-      "pattern": ""
-    },
-    {
-      "folder": "3. programing/truoble shooting",
+      "folder": "2. programing/truoble shooting",
       "tag": "#troble_shooting",
       "pattern": ""
     },
     {
-      "folder": "3. programing/coding test",
+      "folder": "2. programing/coding test",
       "tag": "#coding_test",
       "pattern": ""
     },
     {
-      "folder": "3. programing/computer science",
+      "folder": "2. programing/computer science",
       "tag": "#programing_info",
       "pattern": ""
     },
     {
-      "folder": "4. prompt",
+      "folder": "2. programing/prompt",
       "tag": "#programing_prompt",
       "pattern": ""
     },
     {
-      "folder": "5. link/gpt",
+      "folder": "2. programing/prompt",
       "tag": "#gpt_chat_box",
       "pattern": ""
     },
     {
-      "folder": "5. link/programing info",
+      "folder": "4. reference/link",
       "tag": "#programing_youtube",
       "pattern": ""
     },
     {
-      "folder": "5. link/programing info",
+      "folder": "4. reference/link",
       "tag": "#programing_link",
       "pattern": ""
     },
     {
-      "folder": "6. learning",
+      "folder": "2. programing/learning",
       "tag": "#programing_learning",
       "pattern": ""
     },
     {
-      "folder": "7. employ/company info",
+      "folder": "3. life/employ/company info",
       "tag": "#company_info",
       "pattern": ""
     }
