@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis.md",
+                "file": "2. programing/computer science/Redis(Remote Dictionary Server).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Redis"
+              "title": "Redis(Remote Dictionary Server)"
             }
           }
         ],
@@ -305,7 +305,7 @@
     "객체지향 프로그래밍.md",
     "CS 공부.md",
     "4. reference/link/개발감각 있는지 확인하는 법.md",
-    "Redis.md",
+    "2. programing/computer science/Redis(Remote Dictionary Server).md",
     "동시성(Concurrency)이란.md",
     "멘토링.md",
     "2. programing/computer science/BufferedReader & BufferedWriter.md",
