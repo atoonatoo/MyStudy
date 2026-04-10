@@ -56,9 +56,33 @@
               "icon": "lucide-file",
               "title": "Chapter 01"
             }
+          },
+          {
+            "id": "440fa52cd7a31c9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. programing/vive coding/Vive Coding.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Vive Coding"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -296,12 +320,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1ce38a92d31f8f6e",
+  "active": "440fa52cd7a31c9d",
   "lastOpenFiles": [
+    "CS 공부.md",
+    "2. programing/vive coding/Chapter 01.md",
     "2. programing/vive coding/Brain Stoming.md",
     "2. programing/computer science/Operation System Cache.md",
     "2. programing/vive coding/Vive Coding.md",
-    "2. programing/vive coding/Chapter 01.md",
     "2. programing/vive coding",
     "2. programing/computer science/Redis(Remote Dictionary Server).md",
     "velog post template.md",
@@ -309,7 +334,6 @@
     "현직 신입 개발자 기준 현실적인 성장 플랜.md",
     "가상화.md",
     "객체지향 프로그래밍.md",
-    "CS 공부.md",
     "4. reference/link/개발감각 있는지 확인하는 법.md",
     "동시성(Concurrency)이란.md",
     "멘토링.md",
