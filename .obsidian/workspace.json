@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. programing/vive coding/Vive Coding.md",
+                "file": "2. programing/vive coding/Trouble Shooting 01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,7 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vive Coding"
+              "title": "Trouble Shooting 01"
             }
           }
         ],
@@ -322,11 +322,12 @@
   },
   "active": "440fa52cd7a31c9d",
   "lastOpenFiles": [
-    "CS 공부.md",
     "2. programing/vive coding/Chapter 01.md",
+    "2. programing/vive coding/Trouble Shooting 01.md",
+    "2. programing/vive coding/Vive Coding.md",
+    "CS 공부.md",
     "2. programing/vive coding/Brain Stoming.md",
     "2. programing/computer science/Operation System Cache.md",
-    "2. programing/vive coding/Vive Coding.md",
     "2. programing/vive coding",
     "2. programing/computer science/Redis(Remote Dictionary Server).md",
     "velog post template.md",
@@ -348,7 +349,6 @@
     "2. programing/computer science/가상 메모리 (Virtual Memory System).md",
     "가상메모리(Magic).md",
     "99. organize/7 - CS/4 wait/Git 1.md",
-    "Full-Stack Engineering Handbook.md",
     "3. life/love",
     "4. reference",
     "4. reference/Images/Pasted image 20251209153706.png",
