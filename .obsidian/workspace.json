@@ -80,6 +80,30 @@
               "icon": "lucide-file",
               "title": "Trouble Shooting 01"
             }
+          },
+          {
+            "id": "45d90309f029ec25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기본 상식 모음.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "기본 상식 모음"
+            }
           }
         ]
       }
@@ -321,10 +345,11 @@
   },
   "active": "e21a8b84054ca2ed",
   "lastOpenFiles": [
-    "2. programing/vive coding/Chapter 01.md",
+    "기본 상식 모음.md",
     "2. programing/vive coding/Trouble Shooting 01.md",
-    "2. programing/vive coding/Vive Coding.md",
     "CS 공부.md",
+    "2. programing/vive coding/Chapter 01.md",
+    "2. programing/vive coding/Vive Coding.md",
     "2. programing/vive coding/Brain Stoming.md",
     "2. programing/computer science/Operation System Cache.md",
     "2. programing/vive coding",
@@ -347,7 +372,6 @@
     "2. programing/computer science/AI Engine.md",
     "2. programing/computer science/가상 메모리 (Virtual Memory System).md",
     "가상메모리(Magic).md",
-    "99. organize/7 - CS/4 wait/Git 1.md",
     "3. life/love",
     "4. reference",
     "4. reference/Images/Pasted image 20251209153706.png",
