@@ -105,7 +105,8 @@
               "title": "기본 상식 모음"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -343,11 +344,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e21a8b84054ca2ed",
+  "active": "45d90309f029ec25",
   "lastOpenFiles": [
+    "CS 공부.md",
     "기본 상식 모음.md",
     "2. programing/vive coding/Trouble Shooting 01.md",
-    "CS 공부.md",
     "2. programing/vive coding/Chapter 01.md",
     "2. programing/vive coding/Vive Coding.md",
     "2. programing/vive coding/Brain Stoming.md",
