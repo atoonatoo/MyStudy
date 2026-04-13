@@ -81,8 +81,7 @@
               "title": "Trouble Shooting 01"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -320,7 +319,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "440fa52cd7a31c9d",
+  "active": "e21a8b84054ca2ed",
   "lastOpenFiles": [
     "2. programing/vive coding/Chapter 01.md",
     "2. programing/vive coding/Trouble Shooting 01.md",
