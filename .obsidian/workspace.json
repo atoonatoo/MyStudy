@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -344,12 +344,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "45d90309f029ec25",
+  "active": "1ce38a92d31f8f6e",
   "lastOpenFiles": [
     "CS 공부.md",
+    "2. programing/vive coding/Chapter 01.md",
     "기본 상식 모음.md",
     "2. programing/vive coding/Trouble Shooting 01.md",
-    "2. programing/vive coding/Chapter 01.md",
     "2. programing/vive coding/Vive Coding.md",
     "2. programing/vive coding/Brain Stoming.md",
     "2. programing/computer science/Operation System Cache.md",
