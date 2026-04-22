@@ -149,7 +149,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "옵시디언 ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,8 +185,7 @@
               "title": "북마크"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -368,7 +367,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0d0c8700df0ce29f",
+  "active": "3bed8b912269764a",
   "lastOpenFiles": [
     "기본 상식 모음.md",
     "무제.md",
