@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "CS 공부"
             }
+          },
+          {
+            "id": "53cf5fda3a812612",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "외주 - 구인구직 몽골 앱 개발.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "외주 - 구인구직 몽골 앱 개발"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -271,8 +296,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e21a8b84054ca2ed",
+  "active": "53cf5fda3a812612",
   "lastOpenFiles": [
+    "CS 공부.md",
+    "외주 - 구인구직 몽골 앱 개발.md",
     "2. programing/vive coding/Chapter 01.md",
     "2. programing/vive coding/Trouble Shooting 01.md",
     "무제.md",
@@ -284,7 +311,6 @@
     "JPA (Java Persistence API).md",
     "MySQL.md",
     "Redis (Remote Dictionary Server).md",
-    "CS 공부.md",
     "2. programing/vive coding/Vive Coding.md",
     "2. programing/vive coding/Brain Stoming.md",
     "2. programing/computer science/Operation System Cache.md",
@@ -299,7 +325,6 @@
     "동시성(Concurrency)이란.md",
     "멘토링.md",
     "2. programing/computer science/BufferedReader & BufferedWriter.md",
-    "2. programing/computer science/Apache Jmeter.md",
     "3. life/love",
     "4. reference",
     "4. reference/Images/Pasted image 20251209153706.png",
