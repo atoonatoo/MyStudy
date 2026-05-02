@@ -172,6 +172,7 @@
     - [Flutter](https://docs.flutter.dev/install)
     - [Firebase](https://firebase.google.com/?hl=ko)
     - [Cursor](https://cursor.com/agents)
+    - [Manus](https://manus.im/app?utm_source=google&utm_medium=&utm_campaign=23693331105&utm_content=195503342635&utm_term=%EB%A7%88%EB%88%84%EC%8A%A4&cid=6316255711&adgroupid=195503342635&matchtype=p&placement=&device=c&devicemodel=&network=g&gclid=CjwKCAjwwdbPBhBgEiwAxBRA4dVLcGTEx0dkGBRh5km3NeW31PjLDJl4ArCoSrBzvU_cQUQ5LnSBUBoCso8QAvD_BwE&gclid=CjwKCAjwwdbPBhBgEiwAxBRA4dVLcGTEx0dkGBRh5km3NeW31PjLDJl4ArCoSrBzvU_cQUQ5LnSBUBoCso8QAvD_BwE&gbraid=0AAAABDOZEVKerFkrXieRvFuUiUw-sK9uC&gbraid=0AAAABDOZEVKerFkrXieRvFuUiUw-sK9uC&wbraid=CkEKCQjwntHPBhDyARIwAAE5VhSA3ieKfljBB9qHDuEoRw59-yUAuIg9fqwFUrHI2txyQfUkzsSBcA1hekO4GgI6QA&creative=802572970790&adid=&gad_source=1&gad_campaignid=23693331105)
     
 - **Gemini**
     - [Gemini](https://gemini.google.com/app/5962f673de62ab1d)
