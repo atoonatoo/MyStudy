@@ -57,8 +57,7 @@
               "title": "linux"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -296,8 +295,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "53cf5fda3a812612",
+  "active": "e21a8b84054ca2ed",
   "lastOpenFiles": [
+    "2. programing/prompt/linux.md",
     "외주 - 몽골인 근로자 지원용 MVP 앱 개발 프로젝트 기획 및 실행 전략 보고서.md",
     "CS 공부.md",
     "2. programing/vive coding/Chapter 01.md",
@@ -324,7 +324,6 @@
     "4. reference/link/개발감각 있는지 확인하는 법.md",
     "동시성(Concurrency)이란.md",
     "멘토링.md",
-    "2. programing/computer science/BufferedReader & BufferedWriter.md",
     "3. life/love",
     "4. reference",
     "4. reference/Images/Pasted image 20251209153706.png",
