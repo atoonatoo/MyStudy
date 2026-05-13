@@ -9,7 +9,6 @@ tags:
   - programing_info
 info:
 ---
-
 ---
 [[#1. AI Engine]]
 [[#2. AI Engine 종류]]
@@ -27,7 +26,7 @@ info:
 
 # 2. AI Engine 종류
 
-## 2.1 [[2. programing/computer science/Chat GPT]]
+## 2.1 ChatGPT
 
 ## 2.2 Perplexity
 

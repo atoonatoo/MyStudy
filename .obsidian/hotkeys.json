@@ -57,5 +57,13 @@
       ],
       "key": "Z"
     }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "`"
+    }
   ]
 }
