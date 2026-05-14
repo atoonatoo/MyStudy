@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "01 CS 공부"
             }
-          },
-          {
-            "id": "b63ed66c9aa39b36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-1 computer science/my status.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "my status"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -296,8 +271,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9b4610631fd59679",
+  "active": "e21a8b84054ca2ed",
   "lastOpenFiles": [
+    "01 cs/Redis (Remote Dictionary Server).md",
+    "01 cs/MySQL.md",
+    "00 planner/01 CS 공부.md",
+    "01 cs/JPA (Java Persistence API).md",
+    "01 cs/객체지향 프로그래밍 (OOP).md",
+    "01-1 computer science/my status.md",
+    "organizational structure.md",
     "01-1 computer science/menual.md",
     "01-1 computer science/IT Career Success Summary.md",
     "01-1 computer science/Full-Stack Engineering Handbook.md",
@@ -311,16 +293,9 @@
     "00 planner/04 channel.md",
     "00 planner/02 time boxing.md",
     "00 planner/00 포스팅.md",
-    "00 planner/01 CS 공부.md",
     "00 planner/03 생활 지식.md",
-    "01-1 computer science/my status.md",
-    "organizational structure.md",
     "4. reference/03 templates/velog post template.md",
-    "01 cs/Redis (Remote Dictionary Server).md",
     "4. reference/04 script",
-    "01 cs/JPA (Java Persistence API).md",
-    "01 cs/MySQL.md",
-    "01 cs/객체지향 프로그래밍 (OOP).md",
     "01 cs",
     "무제.md",
     "02 project/Chapter 01.md",
