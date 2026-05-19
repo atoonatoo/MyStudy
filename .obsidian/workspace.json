@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "01 CS 공부"
             }
-          },
-          {
-            "id": "5b971b7e9567374b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "무제"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -296,11 +271,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5b971b7e9567374b",
+  "active": "e21a8b84054ca2ed",
   "lastOpenFiles": [
+    "외주 - 청소 인력 채용 중계 서비스 (2026-05-19).md",
     "01 cs/JPA (Java Persistence API).md",
     "01-1 computer science/my status.md",
-    "무제.md",
     "01 cs/Redis (Remote Dictionary Server).md",
     "12. Images/Pasted image 20260519125831.png",
     "12. Images",
