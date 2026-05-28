@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 planner/외주 - 청소 인력 채용 중계 서비스 (2026-05-19).md",
+                "file": "00 planner/00 메모장.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "외주 - 청소 인력 채용 중계 서비스 (2026-05-19)"
+              "title": "00 메모장"
             }
           }
         ],
@@ -299,6 +299,8 @@
   "active": "5f7264f01e91a249",
   "lastOpenFiles": [
     "00 planner/01 CS 공부.md",
+    "00 planner/00 메모장.md",
+    "00 planner/00 포스팅.md",
     "00 planner/외주 - 청소 인력 채용 중계 서비스 (2026-05-19).md",
     "00 planner/외주 - 몽골인 근로자 지원용 MVP 앱 개발 프로젝트 기획 및 실행 전략 보고서.md",
     "01 cs/JPA (Java Persistence API).md",
@@ -320,7 +322,6 @@
     "01-1 computer science/네이버클라우드 비트캠프.md",
     "00 planner/04 channel.md",
     "00 planner/02 time boxing.md",
-    "00 planner/00 포스팅.md",
     "00 planner/03 생활 지식.md",
     "4. reference/03 templates/velog post template.md",
     "4. reference/04 script",
