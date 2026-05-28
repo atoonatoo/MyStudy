@@ -57,8 +57,7 @@
               "title": "00 포스팅"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -297,12 +296,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5f7264f01e91a249",
+  "active": "e21a8b84054ca2ed",
   "lastOpenFiles": [
+    "00 planner/00 포스팅.md",
     "00 planner/00 메모장.md",
     "01-1 computer science/가상 메모리 (Virtual Memory System).md",
     "00 planner/01 CS 공부.md",
-    "00 planner/00 포스팅.md",
     "00 planner/외주 - 청소 인력 채용 중계 서비스 (2026-05-19).md",
     "00 planner/외주 - 몽골인 근로자 지원용 MVP 앱 개발 프로젝트 기획 및 실행 전략 보고서.md",
     "01 cs/JPA (Java Persistence API).md",
