@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 planner/00 메모장.md",
+                "file": "00 planner/00 포스팅.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00 메모장"
+              "title": "00 포스팅"
             }
           }
         ],
@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "5d3e98aaf25c5120",
@@ -298,8 +299,9 @@
   },
   "active": "5f7264f01e91a249",
   "lastOpenFiles": [
-    "00 planner/01 CS 공부.md",
     "00 planner/00 메모장.md",
+    "01-1 computer science/가상 메모리 (Virtual Memory System).md",
+    "00 planner/01 CS 공부.md",
     "00 planner/00 포스팅.md",
     "00 planner/외주 - 청소 인력 채용 중계 서비스 (2026-05-19).md",
     "00 planner/외주 - 몽골인 근로자 지원용 MVP 앱 개발 프로젝트 기획 및 실행 전략 보고서.md",
@@ -327,7 +329,6 @@
     "4. reference/04 script",
     "01 cs",
     "02 project/Chapter 01.md",
-    "02 project/Brain Stoming.md",
     "02 project/testCode.js.ts",
     "02 project/vive coding",
     "03 life/love",
